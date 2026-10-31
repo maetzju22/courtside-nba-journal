@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=ba0bbe03">
+<link rel="stylesheet" href="style.css?v=73d69996">
 <script>
 try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
 </script>
@@ -27,9 +27,18 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
 <div class="wrap">
   <div class="topbar">
     <nav>
-      <a href="#ergebnisse">Ergebnisse</a><a href="#europa">Europa-Ecke</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="archiv/">Archiv</a>
+      <a href="" class="home" aria-label="Startseite"><svg class="mark-s" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:22px;height:22px;vertical-align:-6px">
+  <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
+  <g fill="none" stroke="#1c1a16" stroke-width="3.5">
+    <path d="M50 4v92M4 50h92"/>
+    <path d="M19 15c19 17 19 53 0 70M81 15c-19 17-19 53 0 70"/>
+  </g>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#1c1a16" stroke-width="20"/>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#f5efe3" stroke-width="13"/>
+</svg></a><a href="#ergebnisse">Ergebnisse</a><a href="#europa">Europa-Ecke</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="archiv/">Archiv</a>
     </nav>
     <div style="display:flex;gap:8px">
+      <button class="tbtn tbtn-min" data-minute>⏱ 1 Minute</button>
       <button class="tbtn" id="spoilerBtn" aria-pressed="false" title="Ergebnisse verdecken, um Spiele erst im League Pass zu schauen">Spoiler-Schutz</button>
       <button class="tbtn" id="themeBtn" title="Hell/Dunkel">◐</button>
     </div>
@@ -38,7 +47,15 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   <div class="hardwood"></div>
   <header class="masthead">
     <div class="kicker">Das deutschsprachige NBA-Journal</div>
-    <h1><a href="">C<span class="ball" aria-hidden="true" style="display:inline-block;width:.74em;height:.74em"><svg viewBox="0 0 100 100" width="100%" height="100%" style="display:block"><circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="5"/><path d="M50 4v92M4 50h92M20 15c20 16 20 54 0 70M80 15c-20 16-20 54 0 70" fill="none" stroke="#1c1a16" stroke-width="5"/></svg></span>URTSIDE</a></h1>
+    <h1><a href="" class="brand"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:.86em;height:.86em;vertical-align:-.06em">
+  <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
+  <g fill="none" stroke="#1c1a16" stroke-width="3.5">
+    <path d="M50 4v92M4 50h92"/>
+    <path d="M19 15c19 17 19 53 0 70M81 15c-19 17-19 53 0 70"/>
+  </g>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#1c1a16" stroke-width="20"/>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#f5efe3" stroke-width="13"/>
+</svg><span>COURTSIDE</span></a></h1>
     <div class="sub">Was letzte Nacht in Amerika passiert ist – eingeordnet zum ersten Kaffee.</div>
   </header>
   <div class="dateline">
@@ -46,6 +63,74 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
     <span>Wochenend-Ausgabe · NBA-Cup-Auftakt</span>
     <span>Ausgabe Nr. 1 · Lesezeit ca. 9 Min.</span>
   </div>
+
+  
+  <button class="minute-cta" data-minute>
+    <span class="clock" aria-hidden="true">⏱</span>
+    <span><strong>Keine Zeit? Alles in 1 Minute</strong><small>Die Nacht kompakt: Ergebnisse, Storys, News &amp; Spiel des Tages</small></span>
+    <span class="arr" aria-hidden="true">→</span>
+  </button>
+  <dialog id="minute" class="minute" aria-labelledby="minute-t">
+  <div class="minute-head">
+    <span class="mh-brand"><svg class="mark-s" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:22px;height:22px;vertical-align:-6px">
+  <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
+  <g fill="none" stroke="#1c1a16" stroke-width="3.5">
+    <path d="M50 4v92M4 50h92"/>
+    <path d="M19 15c19 17 19 53 0 70M81 15c-19 17-19 53 0 70"/>
+  </g>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#1c1a16" stroke-width="20"/>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#f5efe3" stroke-width="13"/>
+</svg> COURTSIDE</span>
+    <button class="minute-x" data-close aria-label="Schließen">×</button>
+  </div>
+  <h2 id="minute-t">Alles in 1 Minute</h2>
+  <div class="minute-date">Samstag, 31. Oktober 2026 · Nacht auf Samstag</div>
+  <ol class="minute-list spoil">
+    <li><strong>NBA Cup gestartet:</strong> 10 Spiele zum Auftakt des Turniers – alle zählen auch für die normale Tabelle.</li><li><strong>LeBron schlägt den Meister erneut:</strong> Philly gewinnt 98:93 gegen die Knicks (Maxey 27, LeBron 20/9/8). New York steht nur bei 2-4.</li><li><strong>Houstons Serie reißt:</strong> erste Saisonniederlage, 111:116 in Dallas – Irving 35, Flagg 33.</li><li><strong>Dreierregen in Phoenix:</strong> Murray (39) und Braun (31) treffen je 7 Dreier, Denver gewinnt 127:120. Dillon Brooks fliegt raus.</li><li><strong>Curry-Meilenstein:</strong> 31 Punkte, Warriors drehen einen 25-Punkte-Rückstand gegen die Lakers – Steph ist jetzt Nr. 18 der ewigen Scorerliste.</li><li><strong>Europa:</strong> Franz Wagner mit Saisonbestwerten (26 Pkt, 11 Ast), Pöltl mit Double-Double (12/11), Giannis mit Triple-Double für Miami.</li><li><strong>Verletzt:</strong> Anthony Edwards fehlt bis zu zwei Monate, Ja Morant mindestens vier Wochen.</li><li><strong>Ungeschlagen:</strong> nur noch Memphis (5-0) – dank Rookie Cameron Boozer.</li>
+  </ol>
+  
+  <h3>Alle Ergebnisse</h3>
+  <div class="minute-scores">
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="" width="20" height="20"><span class="">NYK</span><span class="pts">93:98</span><span class="w">PHI</span><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="" width="20" height="20"><span class="">LAL</span><span class="pts">95:112</span><span class="w">GSW</span><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="" width="20" height="20"><span class="w">DEN</span><span class="pts">127:120</span><span class="">PHX</span><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="" width="20" height="20"><span class="">HOU</span><span class="pts">111:116</span><span class="w">DAL</span><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="" width="20" height="20"><span class="">IND</span><span class="pts">125:145</span><span class="w">MIA</span><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="" width="20" height="20"><span class="w">ORL</span><span class="pts">121:114</span><span class="">TOR</span><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="" width="20" height="20"><span class="">CHI</span><span class="pts">111:125</span><span class="w">BOS</span><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="" width="20" height="20"><span class="">LAC</span><span class="pts">101:127</span><span class="w">MIN</span><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="" width="20" height="20"><span class="w">DET</span><span class="pts">110:94</span><span class="">BKN</span><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="" width="20" height="20"><span class="">CHA</span><span class="pts">79:95</span><span class="w">WAS</span><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+  </div>
+  
+  
+  <div class="minute-next"><span>Spiel des Tages · 01:30 Uhr</span><strong><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="" width="22" height="22"> Thunder @ Rockets <img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="" width="22" height="22"></strong></div>
+  
+  <button class="minute-more" data-close>Ganze Ausgabe lesen ↓</button>
+</dialog>
+<script>
+(function(){
+  var d=document.getElementById('minute'); if(!d) return;
+  function open(){ if(d.showModal){d.showModal()} else {d.setAttribute('open','')} }
+  function close(){ if(d.close){d.close()} else {d.removeAttribute('open')} }
+  document.querySelectorAll('[data-minute]').forEach(function(b){b.addEventListener('click',open)});
+  d.querySelectorAll('[data-close]').forEach(function(b){b.addEventListener('click',close)});
+  d.addEventListener('click',function(e){ if(e.target===d) close(); });
+  if(location.hash==='#1minute') open();
+})();
+</script>
+  
 
   
   <section class="rewatch" aria-label="Re-Watch-Tipp">

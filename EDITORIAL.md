@@ -37,6 +37,9 @@ Sie wollen wissen: Was ist passiert, wer ist Favorit, wer hat geliefert, warum i
 
 ## Rubriken (Reihenfolge = Seitenaufbau)
 
+0. **Alles in 1 Minute** (`minute`): 6–8 Stichpunkte, die die ganze Ausgabe auf das Wichtigste verdichten
+   (je ein Satz, beginnend mit fettem Schlagwort). Lesbar in unter einer Minute. Die Ergebnisliste und das
+   Spiel des Tages erzeugt die Seite automatisch aus `games` und `upcoming` – nicht in die Stichpunkte kopieren.
 1. **Spoilerfreier Re-Watch-Tipp** (`rewatch`): das sehenswerteste Spiel der Nacht für den League Pass.
    Text darf NICHT verraten, wer gewonnen hat oder wie es ausging.
 2. **Aufmacher** (`lead`): die wichtigste Geschichte der Nacht, 4–5 Absätze, mit Hintergrund.
@@ -64,6 +67,7 @@ Montag: „Montagsausgabe mit Power Ranking“.
 
 ```
 date, issue_no, weekday, date_long ("31. Oktober 2026"), edition_label, tagline, period ("Nacht auf Samstag")
+minute: [html-Stichpunkte, 6–8]
 rewatch: {away, home, why}
 lead: {kicker, title, teams:[ABK], teaser, body:[html-Absätze]}
 sidebar: [{title, items:[html]}]
