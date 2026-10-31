@@ -7,7 +7,7 @@ Reads every data/issues/YYYY-MM-DD.json, renders
   public/archiv/index.html          -> archive list
 Usage: python3 build.py
 """
-import json, pathlib, shutil, datetime
+import json, pathlib, shutil, datetime, hashlib
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = pathlib.Path(__file__).parent
@@ -78,7 +78,8 @@ def words(issue):
 def main():
     env = Environment(loader=FileSystemLoader(ROOT / "templates"),
                       autoescape=select_autoescape(["html"]))
-    env.globals.update(logo=logo, tname=tname)
+    css_v = hashlib.md5((ROOT / 'templates' / 'style.css').read_bytes()).hexdigest()[:8]
+    env.globals.update(logo=logo, tname=tname, css_v=css_v)
     issues = []
     for f in sorted(DATA.glob("*.json")):
         d = json.loads(f.read_text(encoding="utf-8"))
