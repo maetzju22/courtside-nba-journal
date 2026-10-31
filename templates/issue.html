@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Courtside · {{ i.weekday }}, {{ i.date_long }}</title>
+<meta name="description" content="{{ i.lead.title }} – das deutschsprachige NBA-Journal für den Morgen.">
+<meta property="og:title" content="COURTSIDE · {{ i.lead.title }}">
+<meta property="og:description" content="{{ i.lead.teaser }}">
+<link rel="icon" href="https://cdn.nba.com/logos/leagues/logo-nba.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ base }}style.css">
+<script>
+try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <nav>
+      <a href="#ergebnisse">Ergebnisse</a><a href="#europa">Europa-Ecke</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="{{ base }}archiv/">Archiv</a>
+    </nav>
+    <div style="display:flex;gap:8px">
+      <button class="tbtn" id="spoilerBtn" aria-pressed="false" title="Ergebnisse verdecken, um Spiele erst im League Pass zu schauen">Spoiler-Schutz</button>
+      <button class="tbtn" id="themeBtn" title="Hell/Dunkel">◐</button>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="kicker">Das deutschsprachige NBA-Journal</div>
+    <h1><a href="{{ base }}">COURTSIDE</a></h1>
+    <div class="sub">{{ i.tagline }}</div>
+  </header>
+  <div class="dateline">
+    <span>{{ i.weekday }}, {{ i.date_long }}</span>
+    <span>{{ i.edition_label }}</span>
+    <span>Ausgabe Nr. {{ i.issue_no }} · Lesezeit ca. {{ i._minutes }} Min.</span>
+  </div>
+
+  {% if i.rewatch %}
+  <section class="rewatch" aria-label="Re-Watch-Tipp">
+    <div class="logos"><img src="{{ logo(i.rewatch.away) }}" alt="{{ tname(i.rewatch.away) }}"> @ <img src="{{ logo(i.rewatch.home) }}" alt="{{ tname(i.rewatch.home) }}"></div>
+    <div>
+      <span class="badge">Spoilerfreier Re-Watch-Tipp</span>
+      <h3>{{ tname(i.rewatch.away) }} @ {{ tname(i.rewatch.home) }}</h3>
+      <p>{{ i.rewatch.why }} <em>Tipp: Oben „Spoiler-Schutz“ aktivieren, dann bleiben alle Ergebnisse verdeckt.</em></p>
+    </div>
+  </section>
+  {% endif %}
+
+  <div class="lead-grid">
+    <article class="lead spoil">
+      <div class="kick">{{ i.lead.kicker }}</div>
+      <h2>{{ i.lead.title }}</h2>
+      {% if i.lead.teams %}<div class="lead-logos">{% for t in i.lead.teams %}<img src="{{ logo(t) }}" alt="{{ tname(t) }}">{% endfor %}</div>{% endif %}
+      <p class="teaser">{{ i.lead.teaser }}</p>
+      <div class="body">{% for p in i.lead.body %}<p>{{ p|safe }}</p>{% endfor %}</div>
+    </article>
+    <aside class="side">
+      {% for b in i.sidebar %}
+      <div class="box">
+        <h4>{{ b.title }}</h4>
+        <ul>{% for li in b['items'] %}<li>{{ li|safe }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </aside>
+  </div>
+
+  {% if i.games %}
+  <section class="sec" id="ergebnisse">
+    <h2 class="sec-h">Ergebnisse · {{ i.period }}</h2>
+    <div class="spoil-note">Spoiler-Schutz aktiv – Ergebnisse und Spielberichte sind verdeckt.</div>
+    <div class="scores">
+      {% for g in i.games %}
+      {% set aw = g.away_score > g.home_score %}
+      <div class="game">
+        <div class="tag">{{ g.tag }}</div>
+        <div class="row {{ '' if aw else 'l' }}"><img src="{{ logo(g.away) }}" alt=""><span>{{ tname(g.away, true) }}<span class="rec spoil">{{ g.away_record }}</span></span><span class="pts">{{ g.away_score }}</span></div>
+        <div class="row {{ 'l' if aw else '' }}"><img src="{{ logo(g.home) }}" alt=""><span>{{ tname(g.home, true) }}<span class="rec spoil">{{ g.home_record }}</span></span><span class="pts">{{ g.home_score }}</span></div>
+        <div class="star spoil">{{ g.line|safe }}</div>
+        <div class="glinks">{% for l in g.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if i.stories %}
+  <section class="sec spoil">
+    <h2 class="sec-h">Die Geschichten der Nacht</h2>
+    <div class="stories">
+      {% for s in i.stories %}
+      <article class="story">
+        {% if s.team %}<img class="logo-s" src="{{ logo(s.team) }}" alt="{{ tname(s.team) }}">{% endif %}
+        <div class="kick">{{ s.kicker }}</div>
+        <h3>{{ s.title }}</h3>
+        {% for p in s.body %}<p>{{ p|safe }}</p>{% endfor %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if i.europe %}
+  <section class="sec spoil" id="europa">
+    <h2 class="sec-h">Europa-Ecke</h2>
+    <div class="europe">
+      {% for e in i.europe %}
+      <div class="eu">
+        <div class="who"><span>{{ e.flag }}</span><span>{{ e.player }}</span><img src="{{ logo(e.team) }}" alt="{{ tname(e.team) }}"></div>
+        <div class="stat">{{ e.stat }}</div>
+        <p>{{ e.text|safe }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if i.power_ranking %}
+  <section class="sec">
+    <h2 class="sec-h">Power Ranking der Woche</h2>
+    <ol class="pr">
+      {% for r in i.power_ranking %}
+      <li><span class="rk">{{ loop.index }}</span><img src="{{ logo(r.team) }}" alt=""><span><b>{{ tname(r.team) }}</b> {% if r.move %}<span style="font-family:var(--cond);color:var(--muted)">({{ r.move }})</span>{% endif %}<br>{{ r.text }}</span></li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
+  <section class="sec cols">
+    <div class="explain">
+      <h2 class="sec-h">Einordnung</h2>
+      <h3>{{ i.explainer.title }}</h3>
+      {% for p in i.explainer.body %}<p>{{ p|safe }}</p>{% endfor %}
+    </div>
+    <div>
+      <h2 class="sec-h">News-Ticker</h2>
+      <ul class="news">
+        {% for n in i.news %}<li><img src="{{ logo(n.team) }}" alt="{{ tname(n.team) }}"><span>{{ n.text|safe }}</span></li>{% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="tabelle">
+    <h2 class="sec-h">Tabellen · {{ i.standings_note }}</h2>
+    <div class="standings spoil">
+      {% for conf, rows in [("Eastern Conference", i.standings.east), ("Western Conference", i.standings.west)] %}
+      <table class="st">
+        <caption>{{ conf }}</caption>
+        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
+        <tbody>
+        {% for r in rows %}
+          <tr class="{{ 'cut6' if loop.index==6 else ('cut10' if loop.index==10 else '') }}"><td class="n">{{ loop.index }}</td><td class="t"><img src="{{ logo(r[0]) }}" alt="">{{ tname(r[0], true) }}</td><td>{{ r[1] }}</td><td>{{ r[2] }}</td><td>{{ '%.3f'|format(r[1]/(r[1]+r[2]) if (r[1]+r[2]) else 0) }}</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      {% endfor %}
+    </div>
+    <div class="legend">Durchgezogene Linie: Platz 1–6 = fix in den Playoffs · gestrichelt: Platz 7–10 = Play-In-Turnier</div>
+  </section>
+
+  <section class="sec" id="vorschau">
+    <h2 class="sec-h">Vorschau · alle Zeiten Wiener Zeit</h2>
+    <div class="updays">
+      {% for d in i.upcoming %}
+      <div class="upday">
+        <h4>{{ d.label }}</h4>
+        {% for g in d.games %}
+        <div class="up {{ 'feat' if g.featured else '' }}">
+          <span class="time">{{ g.time }}</span>
+          <span class="m"><img src="{{ logo(g.away) }}" alt="">{{ tname(g.away, true) }} @ <img src="{{ logo(g.home) }}" alt="">{{ tname(g.home, true) }}</span>
+          {% if g.note %}<span class="note">{{ g.note|safe }}</span>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="gtk">
+      <div class="gtk-grid">
+        {% for g in i.goodtoknow %}
+        <div class="gtk-item"><div class="n">{{ g.big }}</div><h5>{{ g.title }}</h5><p>{{ g.text|safe }}</p></div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec cols">
+    <div>
+      <h2 class="sec-h">Highlights &amp; Material</h2>
+      <ul class="links">
+        {% for l in i.links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a><span class="src">{{ l.src }}</span>{% if l.note %}<br><span style="color:var(--ink-2)">{{ l.note }}</span>{% endif %}</li>{% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h2 class="sec-h">Kleines NBA-Glossar</h2>
+      <dl class="gloss">
+        {% for g in i.glossary %}<dt>{{ g.term }}</dt><dd>{{ g.text|safe }}</dd>{% endfor %}
+      </dl>
+    </div>
+  </section>
+
+  <footer>
+    <div class="pager">
+      <span>{% if prev %}<a href="{{ base }}ausgabe/{{ prev }}/">← Vorherige Ausgabe</a>{% endif %}</span>
+      <a href="{{ base }}archiv/">Archiv</a>
+      <span>{% if next %}<a href="{{ base }}ausgabe/{{ next }}/">Nächste Ausgabe →</a>{% endif %}</span>
+    </div>
+    <p>COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Recherchiert und geschrieben von Claude für eine Runde basketballverrückter Freunde. Team-Logos: offizielle Logos der NBA-Teams (cdn.nba.com), Marken der jeweiligen Inhaber. Kein offizielles NBA-Produkt.</p>
+    <div class="srcs"><strong>Quellen dieser Ausgabe:</strong> {% for s in i.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{{ ' · ' if not loop.last }}{% endfor %}</div>
+  </footer>
+</div>
+<script>
+(function(){
+  var b=document.body, sb=document.getElementById('spoilerBtn'), tb=document.getElementById('themeBtn');
+  function setS(on){b.classList.toggle('spoilerfree',on);sb.setAttribute('aria-pressed',on?'true':'false');try{localStorage.setItem('cs-spoiler',on?'1':'0')}catch(e){}}
+  try{setS(localStorage.getItem('cs-spoiler')==='1')}catch(e){}
+  sb.addEventListener('click',function(){setS(!b.classList.contains('spoilerfree'))});
+  tb.addEventListener('click',function(){
+    var r=document.documentElement, cur=r.getAttribute('data-theme');
+    if(!cur){cur=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}
+    var n=cur==='dark'?'light':'dark'; r.setAttribute('data-theme',n); try{localStorage.setItem('cs-theme',n)}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,749 @@
+{
+  "date": "2026-10-31",
+  "issue_no": 1,
+  "weekday": "Samstag",
+  "date_long": "31. Oktober 2026",
+  "edition_label": "Wochenend-Ausgabe · NBA-Cup-Auftakt",
+  "tagline": "Was letzte Nacht in Amerika passiert ist – eingeordnet zum ersten Kaffee.",
+  "period": "Nacht auf Samstag",
+  "rewatch": {
+    "away": "LAL",
+    "home": "GSW",
+    "why": "Luka Dončić gegen Stephen Curry im Prime-Doppelpack, das erste Cup-Duell der beiden Kalifornier in dieser Saison. Ein Spiel mit gewaltigen Läufen in beide Richtungen und einem kleinen Stück Geschichte im Schlussviertel. Wer nur ein Spiel nachholen will: dieses."
+  },
+  "lead": {
+    "kicker": "NBA Cup · Ost-Gruppe B",
+    "title": "LeBron (41) stürzt den Meister schon wieder",
+    "teams": [
+      "PHI",
+      "NYK"
+    ],
+    "teaser": "Philadelphia schlägt die New York Knicks auch im zweiten Duell binnen zehn Tagen – und ein 41-jähriger Neuzugang spielt dabei sein bestes Spiel im neuen Trikot.",
+    "body": [
+      "Man muss sich die Ausgangslage kurz vor Augen führen: Die <strong>New York Knicks</strong> sind amtierender NBA-Champion – im Juni schlugen sie San Antonio in der Finalserie 4:1 und holten den ersten Titel seit 1973. Davor hatten sie im Dezember auch den NBA Cup gewonnen. Und genau dieser Meister steht nach sechs Spielen bei 2 Siegen und 4 Niederlagen.",
+      "Zwei dieser Niederlagen gehen auf das Konto der <strong>Philadelphia 76ers</strong>, die im Sommer den spektakulärsten Umbau der Liga hingelegt haben: Jaylen Brown kam per Trade aus Boston (im Tausch gegen Paul George), dazu unterschrieb <strong>LeBron James</strong> als Free Agent. Schon zum Saisonauftakt im Madison Square Garden gewann Philly – in der Nacht auf heute folgte das 98:93 zum Cup-Start.",
+      "Der Mann des Abends war zunächst <strong>Tyrese Maxey</strong> mit 27 Punkten, davon 18 schon vor der Pause. Die Entscheidung aber gehörte LeBron: Gut eine Minute vor Schluss traf er per Fadeaway zur Führung, kurz darauf staubte er einen Fehlwurf Maxeys per Tip-in ab. Dazwischen eine Chase-down-Block-Szene gegen OG Anunoby, wie man sie aus seinen MVP-Jahren kennt. Am Ende: 20 Punkte, 9 Rebounds, 8 Assists – knapp am Triple-Double vorbei.",
+      "Bemerkenswert ist, <em>wie</em> Philly gewann: ohne Jaylen Brown (Knieprobleme), dafür mit 21 Punkten von Bankspieler Anfernee Simons und einer Defense, die so wenige Punkte zuließ wie noch nie in dieser Saison. New York holte mehr Rebounds, Philadelphia nahm die besseren Würfe.",
+      "Für die Knicks wird es früh ungemütlich. Ihre Cup-Gruppe – Knicks, Sixers, Cleveland, Miami, Indiana – gilt als die stärkste des ganzen Turniers, und in der Geschichte des Cups hat es noch niemand mit mehr als einer Gruppenniederlage ins Viertelfinale geschafft. Ein Fehlstart ist es noch nicht. Ein Warnsignal schon."
+    ]
+  },
+  "sidebar": [
+    {
+      "title": "Die Nacht in 30 Sekunden",
+      "items": [
+        "<strong>10 Spiele</strong> zum Start des NBA Cups – alle zählen auch für die normale Tabelle.",
+        "<strong>Houston</strong> kassiert in Dallas die erste Saisonniederlage.",
+        "<strong>Jamal Murray (39) &amp; Christian Braun (31)</strong> schießen Denver mit 20 Dreiern zum Sieg in Phoenix.",
+        "<strong>Steph Curry</strong> überholt Dominique Wilkins in der ewigen Scorerliste.",
+        "<strong>Giannis</strong> mit Triple-Double im Heat-Trikot.",
+        "<strong>Franz Wagner</strong> mit Saisonbestwerten bei Orlandos Revanche in Toronto."
+      ]
+    },
+    {
+      "title": "Spieler der Nacht",
+      "items": [
+        "<strong>Jamal Murray</strong> (DEN): 39 Punkte, 8 Rebounds, 7 Dreier – 28 Punkte allein nach der Pause.",
+        "<strong>Scottie Barnes</strong> (TOR): 41 Punkte – trotzdem verloren.",
+        "<strong>Luka Dončić</strong> (LAL): 37 Punkte – ebenfalls verloren."
+      ]
+    }
+  ],
+  "games": [
+    {
+      "tag": "Cup · Ost B",
+      "away": "NYK",
+      "home": "PHI",
+      "away_score": 93,
+      "home_score": 98,
+      "away_record": "2-4",
+      "home_record": "5-1",
+      "line": "<b>Maxey 27</b>, LeBron 20/9/8, Simons 21 von der Bank · Brunson 24 für NY.",
+      "links": [
+        {
+          "label": "Video-Recap",
+          "url": "https://www.nba.com/watch/video/game-recap-76ers-98-knicks-93"
+        },
+        {
+          "label": "Bericht",
+          "url": "https://www.espn.com/nba/recap?gameId=401909280"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · West C",
+      "away": "LAL",
+      "home": "GSW",
+      "away_score": 95,
+      "home_score": 112,
+      "away_record": "4-2",
+      "home_record": "3-3",
+      "line": "<b>Curry 31</b>, Podziemski 21 · Dončić 37 – Warriors drehen einen 25-Punkte-Rückstand.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://www.espn.com/nba/recap?gameId=401909285"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · West A",
+      "away": "DEN",
+      "home": "PHX",
+      "away_score": 127,
+      "home_score": 120,
+      "away_record": "3-2",
+      "home_record": "1-3",
+      "line": "<b>Murray 39</b>, Braun 31 (Karrierebestwert), Jokić 18 Pkt/10 Ast · Bridges 24/10, Brooks fliegt raus.",
+      "links": [
+        {
+          "label": "Video-Recap",
+          "url": "https://www.nba.com/watch/video/game-recap-nuggets-127-suns-120-2?plsrc=nba&collection=2026-27-game-recaps"
+        },
+        {
+          "label": "Bericht",
+          "url": "https://www.espn.com/nba/recap/_/gameId/401909286"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · West A",
+      "away": "HOU",
+      "home": "DAL",
+      "away_score": 111,
+      "home_score": 116,
+      "away_record": "5-1",
+      "home_record": "4-2",
+      "line": "<b>Irving 35</b>, Flagg 33 · Durant 28, Eason 13 Rebounds – erste Rockets-Pleite.",
+      "links": [
+        {
+          "label": "Spiel",
+          "url": "https://www.espn.com/nba/game?gameId=401909283"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · Ost B",
+      "away": "IND",
+      "home": "MIA",
+      "away_score": 125,
+      "home_score": 145,
+      "away_record": "2-4",
+      "home_record": "2-4",
+      "line": "<b>Giannis 31/17/10</b>, Adebayo 27, Thompson 25 (7 Dreier) · Q. Jackson 24 für Indy.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://www.espn.com/nba/recap?gameId=401909282"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · Ost A",
+      "away": "ORL",
+      "home": "TOR",
+      "away_score": 121,
+      "home_score": 114,
+      "away_record": "2-3",
+      "home_record": "3-2",
+      "line": "<b>Bane 28</b>, F. Wagner 26/11 Ast · Barnes 41, Pöltl 12/11.",
+      "links": [
+        {
+          "label": "Bericht (dt.)",
+          "url": "https://www.basketball-world.news/spiel/toronto-gegen-orlando-2026-nba-5258837/bericht"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · Ost C",
+      "away": "CHI",
+      "home": "BOS",
+      "away_score": 111,
+      "home_score": 125,
+      "away_record": "1-5",
+      "home_record": "4-1",
+      "line": "<b>Pritchard 30</b> von der Bank, Tatum 26, George 18/8 Ast · Boston führte zur Pause mit 29.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://www.celticsblog.com/celtics-scores-results/148917/pritchard-celtics-cruise-to-125-111-nba-cup-win-over-bulls"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · West B",
+      "away": "LAC",
+      "home": "MIN",
+      "away_score": 101,
+      "home_score": 127,
+      "away_record": "1-4",
+      "home_record": "4-2",
+      "line": "<b>LaMelo Ball 24</b>, McDaniels 23, Hyland 19 · Garland 24 – erster Sieg ohne Anthony Edwards.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://www.mprnews.org/story/2026/10/31/timberwolves-blow-out-clippers-127101-behind-balls-24-points"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · Ost A",
+      "away": "DET",
+      "home": "BKN",
+      "away_score": 110,
+      "home_score": 94,
+      "away_record": "5-1",
+      "home_record": "0-5",
+      "line": "<b>Cunningham 20</b>, D. Robinson 17 · Moritz Wagner 16 für die sieglosen Nets.",
+      "links": [
+        {
+          "label": "Spiel",
+          "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261030_DET@BKN/"
+        }
+      ]
+    },
+    {
+      "tag": "Cup · Ost C",
+      "away": "CHA",
+      "home": "WAS",
+      "away_score": 79,
+      "home_score": 95,
+      "away_record": "3-3",
+      "home_record": "3-3",
+      "line": "<b>A. Davis 25/13</b>, Trae Young 21/9 Ast, Dybantsa 17 im Heimdebüt · Miller 19.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://www.espn.com/nba/recap?gameId=401909277"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "team": "DEN",
+      "kicker": "Nuggets · Rekord-Abend",
+      "title": "Zwei Guards, vierzehn Dreier – und ein Tritt",
+      "body": [
+        "Denver gewann in Phoenix 127:120, aber die Zahl des Abends ist 14 von 18: So oft trafen <strong>Jamal Murray</strong> (39 Punkte) und <strong>Christian Braun</strong> (31, Karrierebestwert) gemeinsam von der Dreierlinie. Jeder versenkte sieben – das hatten zwei Nuggets-Spieler im selben Spiel noch nie geschafft.",
+        "Nikola Jokić, der dreifache MVP, durfte sich mit 18 Punkten und 10 Assists als Vorbereiter begnügen. Für Aufregung sorgte Suns-Forward <strong>Dillon Brooks</strong>: Er traf Murray bei dessen Wurf mit dem Fuß im Unterleib, die Schiedsrichter werteten das als <em>Flagrant 2</em> – automatischer Ausschluss im dritten Viertel."
+      ]
+    },
+    {
+      "team": "GSW",
+      "kicker": "Warriors · Meilenstein",
+      "title": "Steph klettert, Luka verliert",
+      "body": [
+        "Golden State lag gegen die Lakers zwischenzeitlich mit 25 Punkten hinten – und gewann am Ende 112:95. <strong>Stephen Curry</strong> erzielte 31 Punkte und überholte im Schlussviertel <strong>Dominique Wilkins</strong> (26.668 Punkte): Curry ist jetzt die Nr. 18 der ewigen NBA-Scorerliste.",
+        "Auf der anderen Seite zeigt sich, was der Sommer verändert hat: Seit LeBron nach Philadelphia gegangen ist, sind die Lakers ganz das Team von <strong>Luka Dončić</strong>. Der Slowene lieferte 37 Punkte – doch nach dem furiosen ersten Viertel kam von seinen Mitspielern zu wenig."
+      ]
+    },
+    {
+      "team": "DAL",
+      "kicker": "Mavericks · Generationenwechsel",
+      "title": "Flagg und Kyrie beenden Houstons Lauf",
+      "body": [
+        "Die <strong>Houston Rockets</strong> waren mit 5:0 Siegen als eines der letzten ungeschlagenen Teams angereist. In Dallas war Schluss: 116:111 für die Mavericks, die das Spiel mit einem 40-Punkte-Schlussviertel drehten.",
+        "<strong>Kyrie Irving</strong> (35) und der zweitjährige <strong>Cooper Flagg</strong> (33) trugen die Offensive – 34 Jahre und 19 Jahre, ein ungewöhnliches, aber offenbar funktionierendes Duo. Bei Houston kam Kevin Durant auf 28 Punkte."
+      ]
+    }
+  ],
+  "europe": [
+    {
+      "flag": "🇦🇹",
+      "player": "Jakob Pöltl",
+      "team": "TOR",
+      "stat": "12 Pkt · 11 Reb · Double-Double",
+      "text": "Der Wiener holte ein Double-Double, kämpfte aber mit Foulproblemen. Toronto verlor trotz 41 Punkten von Scottie Barnes das zweite Duell mit Orlando binnen 48 Stunden."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Franz Wagner",
+      "team": "ORL",
+      "stat": "26 Pkt · 11 Ast · beides Saisonbestwert",
+      "text": "Zwei Tage nach einer 30-Punkte-Klatsche in Toronto die Antwort: Wagner verteilte im Schlussviertel erst, dann punktete er selbst beim entscheidenden Lauf. Auch <strong>Tristan da Silva</strong> traf in der Crunchtime wichtige Würfe."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Moritz Wagner",
+      "team": "BKN",
+      "stat": "16 Pkt · Topscorer seines Teams",
+      "text": "Franz' älterer Bruder war bester Werfer der Nets – die aber stehen nach fünf Spielen immer noch ohne Sieg da."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Dennis Schröder",
+      "team": "CHA",
+      "stat": "Niederlage in Washington",
+      "text": "Der Kapitän der deutschen Weltmeister von 2023 spielt jetzt für Charlotte. Die Hornets trafen nur 12 von 56 Dreiern – die beiden punkteärmsten Team-Auftritte dieser Saison gehen auf ihr Konto."
+    },
+    {
+      "flag": "🇬🇷",
+      "player": "Giannis Antetokounmpo",
+      "team": "MIA",
+      "stat": "31 Pkt · 17 Reb · 10 Ast",
+      "text": "Im Sommer von Milwaukee nach Miami getradet, lieferte der Grieche sein zweites Triple-Double im Heat-Trikot – das 58. seiner Karriere."
+    },
+    {
+      "flag": "🇸🇮",
+      "player": "Luka Dončić",
+      "team": "LAL",
+      "stat": "37 Pkt · 7 Reb · 5 Ast",
+      "text": "Bester Scorer des Abends in San Francisco, am Ende aber Verlierer. Siehe „Geschichten der Nacht“."
+    },
+    {
+      "flag": "🇷🇸",
+      "player": "Nikola Jokić",
+      "team": "DEN",
+      "stat": "18 Pkt · 10 Ast · 7 Reb",
+      "text": "Ein ruhiger Abend für den Serben – er ließ diesmal die Guards glänzen."
+    },
+    {
+      "flag": "🇸🇪",
+      "player": "Pelle Larsson",
+      "team": "MIA",
+      "stat": "18 Pkt · 5/5 aus dem Feld",
+      "text": "Perfekte Wurfquote von der Bank für den Schweden beim Heat-Kantersieg."
+    }
+  ],
+  "explainer": {
+    "title": "Was ist eigentlich dieser NBA Cup?",
+    "body": [
+      "Seit 2023 spielt die NBA mitten in der Saison ein eigenes Turnier – Commissioner Adam Silver hat sich die Idee bei den Pokalwettbewerben im europäischen Fußball abgeschaut. Der Trick: Die Gruppenspiele sind ganz normale Saisonspiele, sie zählen voll für die Tabelle. Niemand kann es sich also leisten, die Stars zu schonen.",
+      "<strong>So funktioniert's:</strong> Die 30 Teams sind in sechs Fünfergruppen gelost, je drei pro Conference. Jedes Team spielt viermal – an sogenannten „Cup Nights“, meist freitags, bis 27. November. Die sechs Gruppensieger plus je ein bester Zweiter pro Conference (Wildcard) erreichen das Viertelfinale am 4./5. Dezember. Halbfinale am 8./9. Dezember, Finale am <strong>11. Dezember in der Hinkle Fieldhouse in Indianapolis</strong>. Nur das Finale zählt nicht für die Tabelle.",
+      "<strong>Die bisherigen Sieger:</strong> 2023 die Lakers (LeBron wurde Turnier-MVP), 2024 die Bucks, 2025 die Knicks – die dann sogar den Titel holten. Eine Faustregel aus drei Jahren: Weiter kam bisher nur, wer die Gruppe mit 4:0 oder 3:1 abschloss.",
+      "<strong>Wer ist Favorit auf den großen Titel?</strong> Bei den Buchmachern liegen <strong>Oklahoma City</strong> (Meister 2025) und <strong>San Antonio</strong> (mit Victor Wembanyama, Finalist 2026) praktisch gleichauf vorne, mit deutlichem Abstand vor Philadelphia, den Knicks und Boston. Der Westen gilt als klar stärkere Conference."
+    ]
+  },
+  "news": [
+    {
+      "team": "POR",
+      "text": "<strong>Ja Morant</strong> fällt mindestens vier Wochen aus (Oberschenkelzerrung). Der Ex-Grizzly verletzte sich ausgerechnet im ersten Spiel gegen sein altes Team."
+    },
+    {
+      "team": "MEM",
+      "text": "<strong>Grizzlies 5:0!</strong> Rookie <strong>Cameron Boozer</strong> (Nr. 3 im Draft) gelang beim Sieg in Portland ein Triple-Double (18/12/12) – mit 19 Jahren und 103 Tagen ist er der zweitjüngste Spieler der Geschichte, dem das gelang."
+    },
+    {
+      "team": "MIN",
+      "text": "<strong>Anthony Edwards</strong> wurde arthroskopisch am rechten Knie operiert und fehlt bis zu zwei Monate. Neuzugang LaMelo Ball muss Minnesota nun tragen."
+    },
+    {
+      "team": "IND",
+      "text": "<strong>Tyrese Haliburton</strong> (Oberschenkel) fehlt Indiana wohl noch mindestens zwei Wochen. Die Pacers hatten gegen Miami nur elf Spieler zur Verfügung."
+    },
+    {
+      "team": "PHI",
+      "text": "<strong>Jaylen Brown</strong> verpasste wegen Kniebeschwerden sein erstes Spiel für Philly. Eine Prognose gibt es noch nicht."
+    },
+    {
+      "team": "WAS",
+      "text": "<strong>AJ Dybantsa</strong>, Nr.-1-Pick 2026, gab nach einer Knöchelverletzung sein Heimdebüt: 17 Punkte und erste „MVP“-Sprechchöre."
+    },
+    {
+      "team": "PHX",
+      "text": "<strong>Dillon Brooks</strong> nach Flagrant-2-Foul gegen Jamal Murray ausgeschlossen – eine Sperre durch die Liga ist möglich."
+    }
+  ],
+  "standings_note": "Stand nach der Nacht auf Samstag",
+  "standings": {
+    "east": [
+      [
+        "DET",
+        5,
+        1
+      ],
+      [
+        "PHI",
+        5,
+        1
+      ],
+      [
+        "BOS",
+        4,
+        1
+      ],
+      [
+        "TOR",
+        3,
+        2
+      ],
+      [
+        "CLE",
+        3,
+        2
+      ],
+      [
+        "ATL",
+        3,
+        3
+      ],
+      [
+        "CHA",
+        3,
+        3
+      ],
+      [
+        "WAS",
+        3,
+        3
+      ],
+      [
+        "ORL",
+        2,
+        3
+      ],
+      [
+        "MIA",
+        2,
+        4
+      ],
+      [
+        "IND",
+        2,
+        4
+      ],
+      [
+        "NYK",
+        2,
+        4
+      ],
+      [
+        "MIL",
+        1,
+        4
+      ],
+      [
+        "CHI",
+        1,
+        5
+      ],
+      [
+        "BKN",
+        0,
+        5
+      ]
+    ],
+    "west": [
+      [
+        "MEM",
+        5,
+        0
+      ],
+      [
+        "HOU",
+        5,
+        1
+      ],
+      [
+        "OKC",
+        4,
+        1
+      ],
+      [
+        "POR",
+        3,
+        1
+      ],
+      [
+        "LAL",
+        4,
+        2
+      ],
+      [
+        "DAL",
+        4,
+        2
+      ],
+      [
+        "MIN",
+        4,
+        2
+      ],
+      [
+        "SAS",
+        3,
+        2
+      ],
+      [
+        "DEN",
+        3,
+        2
+      ],
+      [
+        "GSW",
+        3,
+        3
+      ],
+      [
+        "PHX",
+        1,
+        3
+      ],
+      [
+        "UTA",
+        1,
+        4
+      ],
+      [
+        "NOP",
+        1,
+        4
+      ],
+      [
+        "LAC",
+        1,
+        4
+      ],
+      [
+        "SAC",
+        0,
+        5
+      ]
+    ]
+  },
+  "upcoming": [
+    {
+      "label": "Heute Abend & Nacht auf Sonntag (Halloween)",
+      "games": [
+        {
+          "time": "20:00",
+          "away": "POR",
+          "home": "UTA",
+          "note": "Früher Anwurf – live zum Abendessen. Portland ohne Morant."
+        },
+        {
+          "time": "23:00",
+          "away": "PHI",
+          "home": "CHA",
+          "note": "Back-to-back für die Sixers nach dem Knicks-Krimi."
+        },
+        {
+          "time": "00:00",
+          "away": "ATL",
+          "home": "NOP"
+        },
+        {
+          "time": "01:00",
+          "away": "CLE",
+          "home": "MIL"
+        },
+        {
+          "time": "01:00",
+          "away": "SAC",
+          "home": "MEM",
+          "note": "Bleiben die Grizzlies ungeschlagen? Gegen die sieglosen Kings sind sie klarer Favorit."
+        },
+        {
+          "time": "01:00",
+          "away": "MIN",
+          "home": "SAS",
+          "note": "Wembanyamas Spurs gegen Minnesota ohne Edwards."
+        },
+        {
+          "time": "01:30",
+          "away": "OKC",
+          "home": "HOU",
+          "featured": true,
+          "note": "<strong>Spiel des Tages:</strong> Titelfavorit OKC (4-1) bei Houston (5-1), das nach der ersten Niederlage etwas gutzumachen hat."
+        }
+      ]
+    },
+    {
+      "label": "Sonntag & Nacht auf Montag (Auswahl)",
+      "games": [
+        {
+          "time": "21:30",
+          "away": "BOS",
+          "home": "ORL",
+          "note": "Nachmittagsspiel in Florida – ideal für Wagner-Fans."
+        },
+        {
+          "time": "23:00",
+          "away": "BKN",
+          "home": "IND"
+        },
+        {
+          "time": "02:30",
+          "away": "LAC",
+          "home": "GSW"
+        },
+        {
+          "time": "03:00",
+          "away": "TOR",
+          "home": "LAL",
+          "featured": true,
+          "note": "Pöltl &amp; Co. bei Luka Dončić."
+        }
+      ]
+    }
+  ],
+  "goodtoknow": [
+    {
+      "big": "1973",
+      "title": "So lange mussten die Knicks warten",
+      "text": "Der Titel 2026 war New Yorks erster seit 53 Jahren. Kurios: Ihr Cup-Banner von 2025 wollten sie nicht aufhängen – sie hatten auf den „richtigen“ gewartet."
+    },
+    {
+      "big": "#18",
+      "title": "Curry vorbei an „The Human Highlight Film“",
+      "text": "Dominique Wilkins, der wohl spektakulärste Dunker der 80er, ist nun hinter Steph. Ein Guard, der vor allem über den Dreier kommt, überholt einen der großen Flieger der Liga."
+    },
+    {
+      "big": "55",
+      "title": "Dreier fehlen Klay Thompson …",
+      "text": "… um Ray Allen (2.973) einzuholen – Platz 3 der ewigen Dreierliste. Allen spielte übrigens ebenfalls für Miami, Klays heutigen Klub."
+    },
+    {
+      "big": "19",
+      "title": "Jahre jung: Cameron Boozer",
+      "text": "Nur Josh Giddey war bei seinem ersten Triple-Double noch jünger. Boozers Vater Carlos war zweimal All-Star."
+    },
+    {
+      "big": "1954",
+      "title": "Hinkle Fieldhouse",
+      "text": "Der Cup-Finalort in Indianapolis ist eine Basketball-Kathedrale: Hier fand 1954 das legendäre Highschool-Finale statt, das den Film „Freiwurf“ (Hoosiers, 1986) inspirierte – gedreht wurde ebenfalls in der Halle."
+    },
+    {
+      "big": "41",
+      "title": "LeBrons Alter – und sein Rekord",
+      "text": "James spielt seine 24. NBA-Saison, so viele wie niemand vor ihm. Philadelphia ist nach Cleveland, Miami und den Lakers sein viertes Team."
+    }
+  ],
+  "links": [
+    {
+      "title": "Video-Recap: 76ers – Knicks 98:93",
+      "src": "NBA.com",
+      "url": "https://www.nba.com/watch/video/game-recap-76ers-98-knicks-93",
+      "note": "LeBrons Fadeaway und der Chase-down-Block."
+    },
+    {
+      "title": "Video-Recap: Nuggets – Suns 127:120",
+      "src": "NBA.com",
+      "url": "https://www.nba.com/watch/video/game-recap-nuggets-127-suns-120-2?plsrc=nba&collection=2026-27-game-recaps",
+      "note": "Murrays und Brauns Dreierregen."
+    },
+    {
+      "title": "Alle Highlights der Nacht",
+      "src": "YouTube · NBA",
+      "url": "https://www.youtube.com/@NBA/videos",
+      "note": "Offizieller NBA-Kanal, die Game-Recaps erscheinen meist am frühen Morgen."
+    },
+    {
+      "title": "Franz Wagners Saisonbestwert (Spielbericht auf Deutsch)",
+      "src": "basketball-world.news",
+      "url": "https://www.basketball-world.news/spiel/toronto-gegen-orlando-2026-nba-5258837/bericht"
+    },
+    {
+      "title": "Cameron Boozers Triple-Double",
+      "src": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/mega-stud-class-nba-world-084118074.html"
+    },
+    {
+      "title": "NBA Cup: Gruppen, Termine, Regeln",
+      "src": "NBA.com",
+      "url": "https://www.nba.com/news/nba-cup-101?os=jva"
+    },
+    {
+      "title": "Ganze Spiele im Replay",
+      "src": "NBA League Pass",
+      "url": "https://www.nba.com/watch/league-pass-stream",
+      "note": "Euer League Pass Premium: alle Spiele der Nacht auf Abruf."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Triple-Double",
+      "text": "Zweistellige Werte in drei Statistik-Kategorien, meist Punkte, Rebounds und Assists – wie Giannis' 31/17/10."
+    },
+    {
+      "term": "Flagrant 2",
+      "text": "Die härteste Foulstufe für unnötig harte oder gefährliche Aktionen. Folge: sofortiger Ausschluss, oft eine nachträgliche Sperre."
+    },
+    {
+      "term": "Back-to-back",
+      "text": "Zwei Spiele an zwei aufeinanderfolgenden Tagen – Philly spielt heute schon wieder, mit müden Beinen."
+    },
+    {
+      "term": "Chase-down Block",
+      "text": "Ein Block von hinten bei einem Schnellangriff: Der Verteidiger holt den Angreifer ein und wischt den Korbleger weg. LeBrons Markenzeichen."
+    },
+    {
+      "term": "Wildcard",
+      "text": "Im Cup das Ticket für den besten Gruppenzweiten jeder Conference – entschieden über Bilanz, dann Punktedifferenz."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ESPN Scoreboard & Recaps",
+      "url": "https://www.espn.com/nba/scoreboard"
+    },
+    {
+      "title": "AP via Yahoo: 76ers–Knicks",
+      "url": "https://sports.yahoo.com/articles/james-maxey-lead-76ers-past-032636160.html"
+    },
+    {
+      "title": "NBC Sports Philadelphia",
+      "url": "https://www.nbcsportsphiladelphia.com/nba/philadelphia-76ers/sixers-knicks-nba-cup-lebron-james-joel-embiid-tyrese-maxey-live-updates/762913/"
+    },
+    {
+      "title": "Al Jazeera: LeBron/Maxey",
+      "url": "https://www.aljazeera.com/sports/2026/10/31/lebron-james-tyrese-maxey-philadelphia-76ers-win-new-york-knicks-nba-cup"
+    },
+    {
+      "title": "DenverSports: Murray & Braun",
+      "url": "https://denversports.com/nba/denver-nuggets/teammates-make-history-suns"
+    },
+    {
+      "title": "ESPN: Warriors–Lakers",
+      "url": "https://www.espn.com/nba/recap?gameId=401909285"
+    },
+    {
+      "title": "ESPN: Rockets–Mavericks",
+      "url": "https://www.espn.com/nba/game?gameId=401909283"
+    },
+    {
+      "title": "Hot Hot Hoops: Heat–Pacers",
+      "url": "https://hothothoops.com/2026/10/30/giannis-antetokounmpo-miami-heat-dominate-nba-cup-opener-pacers/"
+    },
+    {
+      "title": "TalkBasket: Heat–Pacers",
+      "url": "https://www.talkbasket.net/225844-giannis-triple-double-lift-heat-beat-pacers-145-125"
+    },
+    {
+      "title": "basketball-world.news: Toronto–Orlando",
+      "url": "https://www.basketball-world.news/spiel/toronto-gegen-orlando-2026-nba-5258837/bericht"
+    },
+    {
+      "title": "t-online: Wagner/Schröder",
+      "url": "https://www.t-online.de/sport/mehr-sport/id_101506238/franz-wagner-stark-orlando-gewinnt-auftakt-zum-nba-cup.html"
+    },
+    {
+      "title": "AP/WHDH: Celtics–Bulls",
+      "url": "https://whdh.com/sports/pritchard-nets-30-celtics-ease-past-turnover-prone-bulls-125-111-in-nba-cup-action/"
+    },
+    {
+      "title": "DAZN: Wolves–Clippers",
+      "url": "https://www.dazn.com/en-CA/news/basketball/timberwolves-clippers-lamelo-ball-mcdaniels-nba-cup/1ngykdtxihy7c1otdbs8pho837"
+    },
+    {
+      "title": "TalkBasket: Wizards–Hornets",
+      "url": "https://www.talkbasket.net/225841-wizards-dethrone-hornets-to-a-95-79-home-win"
+    },
+    {
+      "title": "CBS Sports: Schedule",
+      "url": "https://www.cbssports.com/nba/schedule/"
+    },
+    {
+      "title": "Roundtable: Boozer",
+      "url": "https://roundtable.io/sports/nba/grizzlies/news/cameron-boozer-records-triple-double-as-grizzlies-beat-trail-blazers-124-103-to-move-to-5-0"
+    },
+    {
+      "title": "FOX Sports: NBA Cup 2026",
+      "url": "https://www.foxnews.com/sports/2026-nba-cup-schedule-group-play-knockout-rounds-championship"
+    },
+    {
+      "title": "Covers: Title Odds",
+      "url": "https://www.covers.com/nba/finals/odds"
+    }
+  ]
+}
