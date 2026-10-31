@@ -1,7 +1,7 @@
 # COURTSIDE – Redaktionsbriefing
 
 Tägliches, deutschsprachiges NBA-Journal als Onepager im Zeitungsstil.
-Erscheint jeden Morgen um 8:00 Uhr Wiener Zeit unter https://courtside-nba-journal.netlify.app
+Erscheint jeden Morgen um 8:00 Uhr Wiener Zeit unter https://courtside.hobiger.cc
 Zielgruppe: Maz und seine Freunde – basketballverrückt, aber nicht jeden Tag nah an der NBA dran.
 Sie wollen wissen: Was ist passiert, wer ist Favorit, wer hat geliefert, warum ist das wichtig?
 
