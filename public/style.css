@@ -219,3 +219,20 @@ footer .srcs a{color:var(--ink-2)}
 .gtk{background:var(--box) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' fill='none' stroke='%23d4571f' stroke-opacity='.12' stroke-width='3'%3E%3Crect x='130' y='0' width='140' height='190'/%3E%3Ccircle cx='200' cy='190' r='60'/%3E%3Cpath d='M20 0v90a180 180 0 0 0 360 0V0'/%3E%3Cpath d='M175 30h50M200 30v-10'/%3E%3C/svg%3E") no-repeat right -40px bottom -60px/420px auto}
 .gtk::before{content:"● GOOD TO KNOW"}
 footer{position:relative}
+
+/* Homescreen-Popup */
+.a2hs{position:fixed;left:12px;right:12px;bottom:12px;z-index:50;max-width:440px;margin:0 auto;display:flex;gap:12px;align-items:flex-start;
+  background:var(--box);color:var(--ink);border:2px solid var(--ink);border-top:6px solid var(--red);padding:14px 14px 12px;
+  box-shadow:0 10px 30px rgba(0,0,0,.25);transform:translateY(140%);transition:transform .3s ease}
+.a2hs.on{transform:none}
+.a2hs[hidden]{display:none}
+.a2hs img{border-radius:12px;flex:0 0 auto}
+.a2hs-txt strong{font-family:var(--display);font-size:19px;display:block;line-height:1.2;padding-right:18px}
+.a2hs-txt p{margin:4px 0 10px;font-size:14.5px;line-height:1.4;color:var(--ink-2)}
+.a2hs-btns{display:flex;gap:8px}
+.a2hs-btns button{font-family:var(--cond);text-transform:uppercase;letter-spacing:.08em;font-size:14px;padding:7px 12px;border:1px solid var(--ink);cursor:pointer}
+.a2hs-go{background:var(--ink);color:var(--paper)}
+.a2hs-later{background:none;color:var(--ink)}
+.a2hs-x{position:absolute;top:4px;right:8px;background:none;border:0;font-size:24px;line-height:1;color:var(--muted);cursor:pointer}
+@media print{.a2hs{display:none}}
+@media (max-width:640px){.topbar{flex-wrap:nowrap}.topbar nav{flex-wrap:nowrap;overflow-x:auto;gap:12px;scrollbar-width:none}.topbar nav::-webkit-scrollbar{display:none}.topbar nav a{white-space:nowrap}}

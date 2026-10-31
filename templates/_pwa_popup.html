@@ -1,0 +1,46 @@
+<div id="a2hs" class="a2hs" role="dialog" aria-labelledby="a2hs-t" hidden>
+  <button class="a2hs-x" id="a2hs-close" aria-label="Schließen">×</button>
+  <img src="/icons/apple-touch-icon.png" alt="" width="56" height="56">
+  <div class="a2hs-txt">
+    <strong id="a2hs-t">COURTSIDE aufs Handy holen</strong>
+    <p id="a2hs-android">Als App auf den Homescreen – jeden Morgen mit einem Tipp bei der neuen Ausgabe.</p>
+    <p id="a2hs-ios" hidden>Tippe unten auf <b>Teilen</b> <svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-3px" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15V3M7 8l5-5 5 5M5 12v8h14v-8"/></svg> und dann auf <b>„Zum Home-Bildschirm“</b>.</p>
+    <div class="a2hs-btns">
+      <button class="a2hs-go" id="a2hs-install">Zum Homescreen</button>
+      <button class="a2hs-later" id="a2hs-later">Später</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){})})}
+  var box=document.getElementById('a2hs'); if(!box) return;
+  var standalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+  if(standalone) return;
+  function get(k){try{return localStorage.getItem(k)}catch(e){return null}}
+  function set(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+  var until=+(get('cs-a2hs-until')||0); if(Date.now()<until) return;
+  var ua=navigator.userAgent, isIOS=/iphone|ipad|ipod/i.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  var isMobile=isIOS||/android/i.test(ua);
+  var deferred=null;
+  function show(){box.hidden=false;requestAnimationFrame(function(){box.classList.add('on')})}
+  function hide(days){box.classList.remove('on');setTimeout(function(){box.hidden=true},300);set('cs-a2hs-until',String(Date.now()+days*864e5))}
+  window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferred=e;setTimeout(show,3000)});
+  if(isIOS){
+    document.getElementById('a2hs-android').hidden=true;
+    document.getElementById('a2hs-ios').hidden=false;
+    document.getElementById('a2hs-install').textContent='Verstanden';
+    setTimeout(show,3000);
+  } else if(isMobile){
+    // Android ohne Install-Event (z. B. Firefox): Hinweis aufs Browser-Menü
+    setTimeout(function(){ if(!deferred){document.getElementById('a2hs-android').innerHTML='Im Browser-Menü <b>⋮</b> auf <b>„Zum Startbildschirm hinzufügen“</b> tippen.';document.getElementById('a2hs-install').textContent='Verstanden';show();} },4000);
+  }
+  document.getElementById('a2hs-install').addEventListener('click',function(){
+    if(deferred){deferred.prompt();deferred.userChoice.finally(function(){deferred=null;hide(365)})}
+    else hide(30);
+  });
+  document.getElementById('a2hs-later').addEventListener('click',function(){hide(7)});
+  document.getElementById('a2hs-close').addEventListener('click',function(){hide(7)});
+  window.addEventListener('appinstalled',function(){hide(365)});
+})();
+</script>

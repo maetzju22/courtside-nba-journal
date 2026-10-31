@@ -108,6 +108,7 @@ def main():
     (OUT / "archiv" / "index.html").write_text(
         env.get_template("archive.html").render(issues=list(reversed(issues)), base="../"), encoding="utf-8")
     shutil.copy(ROOT / "templates" / "style.css", OUT / "style.css")
+    shutil.copytree(ROOT / "templates" / "static", OUT, dirs_exist_ok=True)
     print(f"OK: {len(issues)} Ausgabe(n), neueste {latest['date']} (~{latest['_words']} Wörter, ~{latest['_minutes']} Min.)")
 
 
