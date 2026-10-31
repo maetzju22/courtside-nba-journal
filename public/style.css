@@ -1,6 +1,6 @@
 :root{
   --paper:#f5efe3; --paper-2:#ece4d3; --ink:#1c1a16; --ink-2:#4a453b; --muted:#7a7263;
-  --rule:#1c1a16; --hair:#cfc4ae; --red:#c8102e; --blue:#1d428a; --win:#1c1a16; --loss:#8b8475;
+  --rule:#1c1a16; --hair:#cfc4ae; --red:#d4571f; --blue:#1d428a; --wood:#d6a26a; --wood-2:#c48e55; --wood-3:#b77e46; --board:#1a1a1a; --led:#ffb03b; --win:#1c1a16; --loss:#8b8475;
   --box:#fffaf0; --spoiler:#d9cfbb;
   --serif:"Source Serif 4",Georgia,serif; --display:"Playfair Display",Georgia,serif;
   --cond:"Barlow Condensed","Arial Narrow",sans-serif;
@@ -8,13 +8,13 @@
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --paper:#16150f; --paper-2:#211f17; --ink:#ece5d6; --ink-2:#c4bba8; --muted:#958c79;
-    --rule:#ece5d6; --hair:#3d392e; --red:#ff5a6e; --blue:#8fb0ff; --win:#ece5d6; --loss:#8a8270;
+    --rule:#ece5d6; --hair:#3d392e; --red:#ff8a4c; --blue:#8fb0ff; --wood:#6b4a2b; --wood-2:#5e4026; --wood-3:#523720; --board:#0b0b0b; --led:#ffb03b; --win:#ece5d6; --loss:#8a8270;
     --box:#1d1b14; --spoiler:#3a362b;
   }
 }
 :root[data-theme="dark"]{
   --paper:#16150f; --paper-2:#211f17; --ink:#ece5d6; --ink-2:#c4bba8; --muted:#958c79;
-  --rule:#ece5d6; --hair:#3d392e; --red:#ff5a6e; --blue:#8fb0ff; --win:#ece5d6; --loss:#8a8270;
+  --rule:#ece5d6; --hair:#3d392e; --red:#ff8a4c; --blue:#8fb0ff; --wood:#6b4a2b; --wood-2:#5e4026; --wood-3:#523720; --board:#0b0b0b; --led:#ffb03b; --win:#ece5d6; --loss:#8a8270;
   --box:#1d1b14; --spoiler:#3a362b;
 }
 *{box-sizing:border-box}
@@ -195,3 +195,31 @@ footer .srcs a{color:var(--ink-2)}
   .dateline{justify-content:center}
 }
 @media print{.topbar,.tbtn{display:none}body{background:#fff}}
+
+/* ===== Basketball-Layer ===== */
+.hardwood{height:14px;margin:0 -16px;background:
+  repeating-linear-gradient(90deg,transparent 0 118px,rgba(0,0,0,.18) 118px 120px),
+  repeating-linear-gradient(90deg,var(--wood) 0 40px,var(--wood-2) 40px 80px,var(--wood-3) 80px 120px);
+  border-top:2px solid var(--red);border-bottom:1px solid rgba(0,0,0,.25)}
+.masthead{position:relative;overflow:hidden}
+.masthead .court{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.13;color:var(--ink)}
+.masthead > *:not(.court){position:relative}
+.ball{display:inline-block;width:.74em;height:.74em;vertical-align:-.02em;margin:0 .02em;animation:spin 14s linear infinite}
+.ball svg{width:100%;height:100%;display:block}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.ball{animation:none}}
+.sec-h::before{content:"";flex:0 0 14px;max-width:none;height:14px;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,#f08a4b,#c9501c);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.rewatch{position:relative;border:2px dashed var(--ink);background:
+  linear-gradient(90deg,var(--red) 0 8px,var(--box) 8px)}
+.rewatch::before,.rewatch::after{content:"";position:absolute;top:50%;width:22px;height:22px;margin-top:-11px;border-radius:50%;background:var(--paper);border:2px dashed var(--ink)}
+.rewatch::before{left:-13px;border-left-color:transparent;border-bottom-color:transparent;transform:rotate(45deg)}
+.rewatch::after{right:-13px;border-right-color:transparent;border-top-color:transparent;transform:rotate(45deg)}
+.rewatch{padding-left:26px}
+.row .pts{background:var(--board);color:var(--led);font-family:"Barlow Condensed",monospace;min-width:54px;text-align:center;padding:1px 8px;border-radius:3px;letter-spacing:.04em;box-shadow:inset 0 0 0 1px #333}
+.row.l .pts{color:#8a8a8a;font-weight:600}
+.game{position:relative}
+.game::after{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:linear-gradient(90deg,var(--red),transparent)}
+.gtk{background:var(--box) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' fill='none' stroke='%23d4571f' stroke-opacity='.12' stroke-width='3'%3E%3Crect x='130' y='0' width='140' height='190'/%3E%3Ccircle cx='200' cy='190' r='60'/%3E%3Cpath d='M20 0v90a180 180 0 0 0 360 0V0'/%3E%3Cpath d='M175 30h50M200 30v-10'/%3E%3C/svg%3E") no-repeat right -40px bottom -60px/420px auto}
+.gtk::before{content:"● GOOD TO KNOW"}
+footer{position:relative}
