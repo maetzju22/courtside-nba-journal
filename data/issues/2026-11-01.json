@@ -1,0 +1,685 @@
+{
+  "date": "2026-11-01",
+  "issue_no": 2,
+  "weekday": "Sonntag",
+  "date_long": "1. November 2026",
+  "edition_label": "Wochenend-Ausgabe",
+  "tagline": "Was letzte Nacht in Amerika passiert ist – eingeordnet zum ersten Kaffee.",
+  "period": "Nacht auf Sonntag",
+  "minute": [
+    "<strong>Thunder im Sinkflug:</strong> OKC verliert 98:119 in Houston, das zweite Minus in Folge – und Chet Holmgren fällt mindestens zwei Monate aus.",
+    "<strong>Wemby-Gala:</strong> 43 Punkte und 6 Blocks gegen Minnesota, Spurs-Sieg Nummer vier in Serie.",
+    "<strong>Memphis bleibt makellos:</strong> 136:105 gegen Sacramento, 6-0 – so gut wie nie zuvor in der Klubgeschichte gestartet.",
+    "<strong>Maxey ohne LeBron:</strong> 38 Punkte, Philly gewinnt in Charlotte 109:104 und führt den Osten mit 6-1 an.",
+    "<strong>Cavs-Gala in Milwaukee:</strong> Mobley 27, Allen 25/11 – 136:111, die Bucks stehen bei 1-5.",
+    "<strong>Europa:</strong> Wembanyama überragt, Şengün (16/9/10) und Sabonis (11/14/8) knapp am Triple-Double vorbei. Pöltl spielt heute Nacht bei den Lakers.",
+    "<strong>Zeitumstellung:</strong> Seit heute gilt auch in den USA Winterzeit – Ostküste wieder 6 Stunden hinter Wien.",
+    "<strong>Nur noch einer ungeschlagen:</strong> Memphis – die Kings sind mit 0-6 das Gegenstück."
+  ],
+  "rewatch": {
+    "away": "PHI",
+    "home": "CHA",
+    "why": "Ein Spiel mit zwei Gesichtern: ersatzgeschwächte Gäste nach einem Kraftakt am Vorabend, Gastgeber am zweiten Abend eines Back-to-backs. Ein Bankspieler, der von draußen kaum danebenwirft, ein Star-Guard im Dauerlauf – und ein Schlussviertel, in dem bis in die letzten Sekunden alles offen ist. Ideal, wenn man nur 2,5 Stunden hat."
+  },
+  "lead": {
+    "kicker": "Rockets – Thunder · Western Conference",
+    "title": "Der Champion von 2025 wankt",
+    "teams": [
+      "HOU",
+      "OKC"
+    ],
+    "teaser": "Houston fertigt Oklahoma City mit 119:98 ab – und die Thunder müssen wochenlang ohne ihren zweitbesten Spieler auskommen.",
+    "body": [
+      "Vier Siege zum Start, alles schien in der gewohnten Ordnung. Dann zwei Niederlagen binnen weniger Tage, beide deutlich: erst 96:120 in Dallas, jetzt 98:119 in Houston. Für ein Team, das vor anderthalb Jahren den Titel holte und bei den Buchmachern wieder ganz oben stand, ist das mehr als eine Delle.",
+      "Der Grund für die Sorgenfalten heißt <strong>Chet Holmgren</strong>. Der Big Man fällt mit einer Verletzung am rechten Knie mindestens zwei Monate aus. Dazu fehlten Alex Caruso (Knöchel) und Nikola Topić (Rücken). Ohne den Rim-Protector und Stretch-Big ist OKC plötzlich verwundbar – vor allem gegen ein Team, das so gnadenlos von außen schießt wie diese Rockets.",
+      "Die trafen 18 ihrer 41 Dreier. <strong>Jabari Smith Jr.</strong> erzielte 30 Punkte (6 von 12 von draußen) und 9 Rebounds, <strong>Marcus Smart</strong> versenkte sieben seiner zehn Dreier und kam auf 24. Alperen Şengün meldete sich nach zwei Spielen Rückenpause mit 16 Punkten, 9 Rebounds und 10 Assists zurück – ein Rebound fehlte zum Triple-Double, Kevin Durant reichten 14 Punkte. Und das alles ohne Fred VanVleet, der geschont wurde.",
+      "Houston legte gleich los: Mit einem 18:4-Lauf zog man im zweiten Viertel auf 55:34 davon. OKC kam vor der Pause noch auf elf heran, doch ein 8:0-Start in die zweite Halbzeit beendete die Hoffnung, unter zwölf Punkte fiel der Rückstand danach nicht mehr. <strong>Shai Gilgeous-Alexander</strong> traf zehn von 20 Würfen für 26 Punkte, bekam aber kaum Hilfe: Kein Mitspieler kam über elf.",
+      "Die Einordnung: Houston (6-1) hat die Dallas-Pleite vom Vorabend sofort abgehakt und ist im Westen die Nummer zwei hinter Memphis. OKC (4-2) muss nun beweisen, dass die Tiefe des Kaders auch ohne Holmgren trägt. Montagnacht wartet gleich die nächste Prüfung in Cleveland."
+    ]
+  },
+  "sidebar": [
+    {
+      "title": "Die Nacht in 30 Sekunden",
+      "items": [
+        "<strong>7 Spiele</strong> am Halloween-Abend, keines davon im NBA Cup.",
+        "<strong>Houston</strong> zerlegt OKC – Holmgren lange verletzt.",
+        "<strong>Wembanyama</strong> mit 43 Punkten und 6 Blocks.",
+        "<strong>Memphis</strong> 6-0, Klubrekord egalisiert.",
+        "<strong>Maxey (38)</strong> trägt Philly ohne LeBron und Embiid.",
+        "<strong>Portland</strong> siegt in Utah mit 22 Punkten Vorsprung."
+      ]
+    },
+    {
+      "title": "Spieler der Nacht",
+      "items": [
+        "<strong>Victor Wembanyama</strong> (SAS): 43 Punkte, 7 Rebounds, 6 Blocks, 4 Assists.",
+        "<strong>Tyrese Maxey</strong> (PHI): 38 Punkte, Siegfreiwürfe in der Schlussphase.",
+        "<strong>Darus Acuff Jr.</strong> (SAC): 38 Punkte als Rookie – trotzdem chancenlos."
+      ]
+    }
+  ],
+  "games": [
+    {
+      "tag": "West",
+      "away": "OKC",
+      "home": "HOU",
+      "away_score": 98,
+      "home_score": 119,
+      "away_record": "4-2",
+      "home_record": "6-1",
+      "line": "<b>J. Smith Jr. 30/9</b>, Smart 24 (7 Dreier), Şengün 16/9/10 · Gilgeous-Alexander 26.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://www.espn.com/nba/recap?gameId=401909902"
+        }
+      ]
+    },
+    {
+      "tag": "West",
+      "away": "MIN",
+      "home": "SAS",
+      "away_score": 111,
+      "home_score": 121,
+      "away_record": "4-3",
+      "home_record": "4-2",
+      "line": "<b>Wembanyama 43/7, 6 Blocks</b>, Harper 25, Fox 20 · Dosunmu 27/9, LaMelo Ball mit 6 Fouls raus.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://www.espn.com/nba/recap/_/gameId/401909901"
+        }
+      ]
+    },
+    {
+      "tag": "West",
+      "away": "SAC",
+      "home": "MEM",
+      "away_score": 105,
+      "home_score": 136,
+      "away_record": "0-6",
+      "home_record": "6-0",
+      "line": "<b>Boozer 27/9</b>, Stewart 24, GG Jackson 21 (5/5 Dreier), Spencer 13 Ast · Rookie Acuff 38.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://sports.yahoo.com/articles/boozer-stewart-lead-memphis-136-025651383.html"
+        }
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "PHI",
+      "home": "CHA",
+      "away_score": 109,
+      "home_score": 104,
+      "away_record": "6-1",
+      "home_record": "3-4",
+      "line": "<b>Maxey 38</b>, Simons 19, Brown 16 · Allen 27 (7 Dreier), Miller 24 – Philly ohne LeBron &amp; Embiid.",
+      "links": [
+        {
+          "label": "Video-Recap",
+          "url": "https://www.nba.com/watch/video/game-recap-76ers-109-hornets-104"
+        },
+        {
+          "label": "Bericht",
+          "url": "https://www.tsn.ca/nba/article/maxey-scores-38-as-76ers-beat-hornets-without-james-embiid/"
+        }
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "CLE",
+      "home": "MIL",
+      "away_score": 136,
+      "home_score": 111,
+      "away_record": "4-2",
+      "home_record": "1-5",
+      "line": "<b>Mobley 27</b>, Allen 25/11, Mitchell 15, Harden 13/7 Ast · Ware 19, Herro 15.",
+      "links": [
+        {
+          "label": "Boxscore",
+          "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261031_CLE@MIL/"
+        }
+      ]
+    },
+    {
+      "tag": "Interconf.",
+      "away": "ATL",
+      "home": "NOP",
+      "away_score": 99,
+      "home_score": 121,
+      "away_record": "3-4",
+      "home_record": "2-4",
+      "line": "<b>Bey 25</b> von der Bank, Fears 20/7 Ast, Zion 15 – 52 Bankpunkte für New Orleans.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://crescentcitysports.com/pelicans-start-fast-to-dominate-hawks-121-99/"
+        }
+      ]
+    },
+    {
+      "tag": "West",
+      "away": "POR",
+      "home": "UTA",
+      "away_score": 112,
+      "home_score": 90,
+      "away_record": "4-1",
+      "home_record": "1-5",
+      "line": "Portland führt nach drei Vierteln 88:64 – dritter Auswärtssieg im dritten Versuch, Utah verliert zum vierten Mal in Folge.",
+      "links": [
+        {
+          "label": "Video-Recap",
+          "url": "https://www.nba.com/watch/video/game-recap-trail-blazers-112-utah-jazz-90"
+        },
+        {
+          "label": "Bericht",
+          "url": "https://www.espn.com/nba/recap/_/gameId/401909896"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "team": "SAS",
+      "kicker": "Spurs · Einzelshow",
+      "title": "Wemby wirft, Wemby blockt, Wemby gewinnt",
+      "body": [
+        "Minnesota hatte im zweiten Viertel mit einem 16:0-Lauf sogar die Führung übernommen. Dann kam <strong>Victor Wembanyama</strong> aus der Kabine – und die Spurs starteten mit 13:4 in die zweite Hälfte. Am Ende standen für den Franzosen 43 Punkte, 7 Rebounds und 6 Blocks auf dem Bogen, Saisonbestwert.",
+        "Es war das elfte 40-Punkte-Spiel seiner Karriere. Hilfe kam von Dylan Harper (25) und De'Aaron Fox (20). Die Wolves – ohne Anthony Edwards und Rudy Gobert – verloren zudem LaMelo Ball nach dem sechsten Foul 3:43 Minuten vor Schluss. San Antonio hat jetzt vier Spiele in Serie gewonnen."
+      ]
+    },
+    {
+      "team": "MEM",
+      "kicker": "Grizzlies · Rekordjagd",
+      "title": "6-0 und kein Ende in Sicht",
+      "body": [
+        "Die <strong>Memphis Grizzlies</strong> sind das letzte ungeschlagene Team der Liga. Das 136:105 gegen Sacramento bedeutet den sechsten Sieg im sechsten Spiel – das gab es in Memphis bisher nur 2014/15.",
+        "Rookie <strong>Cameron Boozer</strong> (27 Punkte, 9 Rebounds) war wieder der Beste, dahinter Isaiah Stewart (24) und GG Jackson, der alle fünf Dreier traf. Bemerkenswert: Mit Ty Jerome und Scotty Pippen Jr. fehlten beide Point Guards, Cam Spencer sprang ein und verteilte 13 Assists. Ein 42:25 im dritten Viertel entschied das Spiel. Bei den Kings (0-6) glänzte nur Rookie Darus Acuff Jr. mit 38 Punkten."
+      ]
+    },
+    {
+      "team": "PHI",
+      "kicker": "76ers · Ohne die Stars",
+      "title": "Maxey macht's allein",
+      "body": [
+        "Am Abend nach dem Cup-Sieg gegen die Knicks schonten die Sixers <strong>LeBron James</strong> und <strong>Joel Embiid</strong>. In Charlotte sah es lange danach aus, als würde sich das rächen: Die Hornets führten fünf Minuten vor Schluss 97:90, angetrieben von Grayson Allen, der sieben von zehn Dreiern versenkte (27 Punkte).",
+        "Dann übernahm <strong>Tyrese Maxey</strong>. Seine Freiwürfe brachten 1:22 Minuten vor Ende die Führung, ein Dreier von VJ Edgecombe und zwei Freiwürfe von Jaylen Brown (16 Punkte, nach Kniebeschwerden wieder dabei) machten das 109:104 perfekt. 38 Punkte für Maxey – Philadelphia steht mit 6-1 an der Spitze des Ostens."
+      ]
+    }
+  ],
+  "europe": [
+    {
+      "flag": "🇦🇹",
+      "player": "Jakob Pöltl",
+      "team": "TOR",
+      "stat": "Spielfrei · heute Nacht in LA",
+      "text": "Toronto hatte am Samstag keinen Einsatz. In der Nacht auf Montag (03:00 Uhr) gastieren Pöltl und die Raptors bei den Lakers und Luka Dončić, Montagnacht folgt gleich das Spiel bei den Clippers."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Isaiah Hartenstein",
+      "team": "OKC",
+      "stat": "10 Pkt · Niederlage in Houston",
+      "text": "Der deutsche Center muss in den kommenden Wochen noch mehr Verantwortung unter dem Korb übernehmen – Frontcourt-Partner Chet Holmgren fällt mindestens zwei Monate aus."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Dennis Schröder",
+      "team": "CHA",
+      "stat": "Niederlage gegen Philly",
+      "text": "Der Hornets-Guard verteidigte über weite Strecken gegen Tyrese Maxey und bereitete in der ersten Hälfte mehrere Körbe vor – am Ende reichte es am zweiten Abend des Back-to-backs knapp nicht."
+    },
+    {
+      "flag": "🇫🇷",
+      "player": "Victor Wembanyama",
+      "team": "SAS",
+      "stat": "43 Pkt · 7 Reb · 6 Blk",
+      "text": "Saisonbestwert und das elfte 40-Punkte-Spiel der Karriere. Siehe „Geschichten der Nacht“."
+    },
+    {
+      "flag": "🇹🇷",
+      "player": "Alperen Şengün",
+      "team": "HOU",
+      "stat": "16 Pkt · 9 Reb · 10 Ast",
+      "text": "Nach zwei Spielen Pause wegen Rückenproblemen zurück – und gleich der Ballverteiler beim Kantersieg gegen OKC."
+    },
+    {
+      "flag": "🇱🇹",
+      "player": "Domantas Sabonis",
+      "team": "SAC",
+      "stat": "11 Pkt · 14 Reb · 8 Ast",
+      "text": "Fleißig wie immer, doch die Kings bleiben das einzige sieglose Team im Westen."
+    },
+    {
+      "flag": "🇭🇷",
+      "player": "Karlo Matković",
+      "team": "NOP",
+      "stat": "8 Pkt · 10 Reb in 18 Min.",
+      "text": "Effizienter Kurzeinsatz des Kroaten beim klaren Pelicans-Sieg über Atlanta."
+    },
+    {
+      "flag": "🇭🇷",
+      "player": "Mario Hezonja",
+      "team": "CLE",
+      "stat": "11 Reb",
+      "text": "Der Routinier sammelte beim Cavs-Kantersieg in Milwaukee fleißig Rebounds."
+    }
+  ],
+  "explainer": {
+    "title": "Warum Portland mit weniger Siegen vor OKC steht",
+    "body": [
+      "Wer in die Tabelle schaut, wundert sich vielleicht: Portland hat vier Siege, Oklahoma City auch – und trotzdem steht Portland vorne. Der Grund: In der NBA gibt es keine Punkte wie im Fußball. Entscheidend ist die <strong>Siegquote</strong> (Winning Percentage), also Siege geteilt durch Spiele.",
+      "<strong>Rechenbeispiel:</strong> Portland 4-1 ergibt 0,800, OKC 4-2 nur 0,667. Weil die Teams zu Saisonbeginn unterschiedlich viele Spiele absolviert haben, ist die Quote der fairere Vergleich. Gerade im Oktober und November springt die Tabelle deshalb oft wild hin und her.",
+      "Die zweite wichtige Größe ist <strong>Games Behind</strong> (GB): der Rückstand auf den Tabellenführer, berechnet als (Siegdifferenz + Niederlagendifferenz) geteilt durch zwei. Ein halbes Spiel Rückstand heißt also: einer hat ein Spiel mehr oder weniger absolviert.",
+      "<strong>Was am Ende zählt:</strong> Platz 1–6 jeder Conference sind direkt für die Playoffs qualifiziert, Platz 7–10 spielen das Play-In-Turnier um die letzten zwei Plätze. Bei Gleichstand entscheidet zuerst der direkte Vergleich. Und: Bei 82 Spielen sind sechs Partien gerade einmal sieben Prozent der Saison – Memphis' 6-0 ist schön, aber noch keine Prophezeiung."
+    ]
+  },
+  "news": [
+    {
+      "team": "OKC",
+      "text": "<strong>Chet Holmgren</strong> fällt mit einer Verletzung am rechten Knie mindestens zwei Monate aus – der härteste Schlag für den Meister von 2025 in diesem Herbst."
+    },
+    {
+      "team": "MIN",
+      "text": "<strong>Rudy Gobert</strong> (Rückenkrämpfe) fehlte in San Antonio zusätzlich zum operierten Anthony Edwards. Montag kommen die Bucks."
+    },
+    {
+      "team": "MEM",
+      "text": "<strong>Ty Jerome</strong> und <strong>Scotty Pippen Jr.</strong> plagen Rückenprobleme – Cam Spencer ersetzt sie mit 13 Assists."
+    },
+    {
+      "team": "HOU",
+      "text": "<strong>Fred VanVleet</strong> pausierte zur Schonung seines rechten Knies, <strong>Reed Sheppard</strong> (Rücken) fehlte im zweiten Spiel in Folge."
+    },
+    {
+      "team": "CHA",
+      "text": "Die Hornets mussten ohne <strong>Coby White</strong> (Wade) und <strong>Kon Knueppel</strong> (Oberschenkel) auskommen."
+    },
+    {
+      "team": "SAC",
+      "text": "<strong>Darus Acuff Jr.</strong>, Rookie aus Arkansas, legt nach 34 Punkten am Donnerstag nun 38 nach – ein Lichtblick im Kings-Fehlstart."
+    },
+    {
+      "team": "NOP",
+      "text": "<strong>Saddiq Bey</strong> trifft ausgerechnet gegen Atlanta groß auf – gegen die Pelicans hatte er sich 2024 im Hawks-Trikot das Kreuzband gerissen."
+    }
+  ],
+  "standings_note": "Stand nach der Nacht auf Sonntag (sortiert nach Siegquote)",
+  "standings": {
+    "east": [
+      [
+        "PHI",
+        6,
+        1
+      ],
+      [
+        "DET",
+        5,
+        1
+      ],
+      [
+        "BOS",
+        4,
+        1
+      ],
+      [
+        "CLE",
+        4,
+        2
+      ],
+      [
+        "TOR",
+        3,
+        2
+      ],
+      [
+        "WAS",
+        3,
+        3
+      ],
+      [
+        "ATL",
+        3,
+        4
+      ],
+      [
+        "CHA",
+        3,
+        4
+      ],
+      [
+        "ORL",
+        2,
+        3
+      ],
+      [
+        "IND",
+        2,
+        4
+      ],
+      [
+        "MIA",
+        2,
+        4
+      ],
+      [
+        "NYK",
+        2,
+        4
+      ],
+      [
+        "MIL",
+        1,
+        5
+      ],
+      [
+        "CHI",
+        1,
+        5
+      ],
+      [
+        "BKN",
+        0,
+        5
+      ]
+    ],
+    "west": [
+      [
+        "MEM",
+        6,
+        0
+      ],
+      [
+        "HOU",
+        6,
+        1
+      ],
+      [
+        "POR",
+        4,
+        1
+      ],
+      [
+        "OKC",
+        4,
+        2
+      ],
+      [
+        "SAS",
+        4,
+        2
+      ],
+      [
+        "DAL",
+        4,
+        2
+      ],
+      [
+        "LAL",
+        4,
+        2
+      ],
+      [
+        "DEN",
+        3,
+        2
+      ],
+      [
+        "MIN",
+        4,
+        3
+      ],
+      [
+        "GSW",
+        3,
+        3
+      ],
+      [
+        "NOP",
+        2,
+        4
+      ],
+      [
+        "PHX",
+        1,
+        3
+      ],
+      [
+        "LAC",
+        1,
+        4
+      ],
+      [
+        "UTA",
+        1,
+        5
+      ],
+      [
+        "SAC",
+        0,
+        6
+      ]
+    ]
+  },
+  "upcoming": [
+    {
+      "label": "Heute Abend & Nacht auf Montag",
+      "games": [
+        {
+          "time": "21:30",
+          "away": "BOS",
+          "home": "ORL",
+          "note": "Früher Anwurf – Franz Wagner und Tristan da Silva zur besten Sendezeit."
+        },
+        {
+          "time": "23:00",
+          "away": "BKN",
+          "home": "IND",
+          "note": "Die sieglosen Nets mit Moritz Wagner suchen den ersten Erfolg."
+        },
+        {
+          "time": "02:30",
+          "away": "LAC",
+          "home": "GSW"
+        },
+        {
+          "time": "03:00",
+          "away": "TOR",
+          "home": "LAL",
+          "featured": true,
+          "note": "<strong>Spiel des Tages:</strong> Pöltl und Barnes gegen Luka Dončić."
+        }
+      ]
+    },
+    {
+      "label": "Montag & Nacht auf Dienstag (Auswahl)",
+      "games": [
+        {
+          "time": "01:00",
+          "away": "OKC",
+          "home": "CLE",
+          "note": "Wie reagiert OKC auf die Holmgren-Nachricht?"
+        },
+        {
+          "time": "01:30",
+          "away": "CHI",
+          "home": "PHI"
+        },
+        {
+          "time": "01:30",
+          "away": "BKN",
+          "home": "NYK",
+          "note": "Back-to-back für Brooklyn."
+        },
+        {
+          "time": "02:00",
+          "away": "NOP",
+          "home": "MEM",
+          "note": "Memphis peilt das 7-0 und damit den Klubrekord an."
+        },
+        {
+          "time": "02:30",
+          "away": "BOS",
+          "home": "HOU"
+        },
+        {
+          "time": "02:30",
+          "away": "UTA",
+          "home": "SAS"
+        },
+        {
+          "time": "04:00",
+          "away": "TOR",
+          "home": "LAC",
+          "note": "Zweiter LA-Abend für Pöltl."
+        }
+      ]
+    }
+  ],
+  "goodtoknow": [
+    {
+      "big": "6-0",
+      "title": "Memphis-Bestmarke eingestellt",
+      "text": "So stark waren die Grizzlies zuletzt 2014/15 gestartet. Ein Sieg gegen New Orleans in der Nacht auf Dienstag – und es ist ihr bester Saisonstart überhaupt."
+    },
+    {
+      "big": "11",
+      "title": "40-Punkte-Spiele für Wembanyama",
+      "text": "Zehn davon in der regulären Saison. Der Franzose ist erst in seiner vierten NBA-Saison."
+    },
+    {
+      "big": "7/10",
+      "title": "Zweimal sieben Dreier",
+      "text": "Marcus Smart (Houston) und Grayson Allen (Charlotte) trafen in der gleichen Nacht je sieben ihrer zehn Versuche – Allen kam dabei von der Bank."
+    },
+    {
+      "big": "5/5",
+      "title": "Perfekter GG Jackson",
+      "text": "Der Grizzlies-Forward verwarf keinen einzigen Dreier und kam so auf 21 Punkte."
+    },
+    {
+      "big": "52",
+      "title": "Bankpunkte für New Orleans",
+      "text": "Angeführt von Saddiq Bey (25) – mehr als die Hälfte der Hawks-Gesamtpunktzahl (99)."
+    },
+    {
+      "big": "6 h",
+      "title": "Neue Zeitverschiebung",
+      "text": "Die USA haben in der Nacht auf heute die Uhren zurückgestellt. Bis Mitte März liegt New York wieder sechs Stunden hinter Wien, Los Angeles neun."
+    }
+  ],
+  "links": [
+    {
+      "title": "Video-Recap: 76ers – Hornets 109:104",
+      "src": "NBA.com",
+      "url": "https://www.nba.com/watch/video/game-recap-76ers-109-hornets-104",
+      "note": "Maxeys Schlussphase."
+    },
+    {
+      "title": "Video-Recap: Trail Blazers – Jazz 112:90",
+      "src": "NBA.com",
+      "url": "https://www.nba.com/watch/video/game-recap-trail-blazers-112-utah-jazz-90"
+    },
+    {
+      "title": "Wembanyamas 43-Punkte-Abend",
+      "src": "ESPN",
+      "url": "https://www.espn.com/nba/story/_/id/50344505/spurs-victor-wembanyama-notches-43-points-career-best-43-shots-win"
+    },
+    {
+      "title": "Rockets – Thunder: Spielbericht",
+      "src": "ESPN",
+      "url": "https://www.espn.com/nba/recap?gameId=401909902"
+    },
+    {
+      "title": "Grizzlies bleiben ungeschlagen",
+      "src": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/boozer-stewart-lead-memphis-136-025651383.html"
+    },
+    {
+      "title": "Alle Highlights der Nacht",
+      "src": "YouTube · NBA",
+      "url": "https://www.youtube.com/@NBA/videos",
+      "note": "Offizieller NBA-Kanal."
+    },
+    {
+      "title": "Ganze Spiele im Replay",
+      "src": "NBA League Pass",
+      "url": "https://www.nba.com/watch/league-pass-stream",
+      "note": "Euer League Pass Premium: alle Spiele der Nacht auf Abruf."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Siegquote",
+      "text": "Siege geteilt durch absolvierte Spiele – die Grundlage der NBA-Tabelle (z. B. 4-1 = 0,800)."
+    },
+    {
+      "term": "Rim Protector",
+      "text": "Ein Big Man, der den Korb verteidigt, Würfe blockt oder Gegner abschreckt – wie Holmgren oder Wembanyama."
+    },
+    {
+      "term": "Rest Day / Schonung",
+      "text": "Ein Star sitzt bewusst aus, meist am zweiten Abend eines Back-to-backs – wie LeBron und Embiid in Charlotte."
+    },
+    {
+      "term": "Run (Lauf)",
+      "text": "Eine Serie von Punkten eines Teams ohne Gegenpunkte, etwa Minnesotas 16:0 im zweiten Viertel."
+    },
+    {
+      "term": "Play-In",
+      "text": "Mini-Turnier der Plätze 7 bis 10 jeder Conference um die letzten beiden Playoff-Tickets."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ESPN: Rockets–Thunder",
+      "url": "https://www.espn.com/nba/recap?gameId=401909902"
+    },
+    {
+      "title": "Yahoo: Thunder–Rockets Spielseite",
+      "url": "https://sports.yahoo.com/nba/oklahoma-city-thunder-houston-rockets-2026103110/"
+    },
+    {
+      "title": "AP/ABC News: Spurs–Timberwolves",
+      "url": "https://abcnews.com/Sports/wireStory/wembanyama-43-points-6-blocks-lead-spurs-past-137743398"
+    },
+    {
+      "title": "AP/Yahoo: Grizzlies–Kings",
+      "url": "https://sports.yahoo.com/articles/boozer-stewart-lead-memphis-136-025651383.html"
+    },
+    {
+      "title": "AP/TSN: 76ers–Hornets",
+      "url": "https://www.tsn.ca/nba/article/maxey-scores-38-as-76ers-beat-hornets-without-james-embiid/"
+    },
+    {
+      "title": "CBS Sports: 76ers–Hornets",
+      "url": "https://www.cbssports.com/nba/gametracker/recap/NBA_20261031_PHI@CHA/"
+    },
+    {
+      "title": "CBS Sports: Cavaliers–Bucks",
+      "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261031_CLE@MIL/"
+    },
+    {
+      "title": "Crescent City Sports: Pelicans–Hawks",
+      "url": "https://crescentcitysports.com/pelicans-start-fast-to-dominate-hawks-121-99/"
+    },
+    {
+      "title": "Covers: Hawks–Pelicans",
+      "url": "https://www.covers.com/sport/basketball/nba/matchup/388635"
+    },
+    {
+      "title": "ESPN: Trail Blazers–Jazz",
+      "url": "https://www.espn.com/nba/recap/_/gameId/401909896"
+    },
+    {
+      "title": "Basketball Reference: Standings",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2027_standings.html"
+    },
+    {
+      "title": "FOX Sports: Schedule",
+      "url": "https://www.foxsports.com/nba/schedule"
+    }
+  ]
+}
