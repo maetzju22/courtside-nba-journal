@@ -238,7 +238,8 @@ footer{position:relative}
 @media (max-width:640px){.topbar{flex-wrap:nowrap}.topbar nav{flex-wrap:nowrap;overflow-x:auto;gap:12px;scrollbar-width:none}.topbar nav::-webkit-scrollbar{display:none}.topbar nav a{white-space:nowrap}}
 
 /* Logo / CI */
-.brand{display:inline-flex;align-items:center;gap:.12em;text-decoration:none}
+.brand{display:inline-block;white-space:nowrap;text-decoration:none}
+.brand .mark{margin-right:0}
 .masthead h1 .mark{filter:drop-shadow(0 2px 0 rgba(0,0,0,.15))}
 .topbar .home{display:inline-flex;align-items:center}
 .mh-brand{font-family:var(--display);font-weight:900;font-size:18px;letter-spacing:.02em;display:inline-flex;align-items:center;gap:6px}
