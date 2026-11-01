@@ -35,7 +35,7 @@ img{max-width:100%}
 /* Masthead */
 .masthead{text-align:center;padding:22px 0 10px;border-bottom:4px double var(--rule)}
 .masthead .kicker{font-family:var(--cond);letter-spacing:.3em;text-transform:uppercase;font-size:13px;color:var(--red);font-weight:600}
-.masthead h1{font-family:var(--display);font-weight:900;font-size:clamp(46px,9vw,104px);line-height:.95;margin:6px 0 4px;letter-spacing:-.01em}
+.masthead h1{font-family:var(--display);font-weight:900;font-size:clamp(42px,8.4vw,96px);line-height:.95;margin:6px 0 4px;letter-spacing:-.01em}
 .masthead h1 a{text-decoration:none}
 .masthead .sub{font-style:italic;color:var(--ink-2);font-size:16px}
 .dateline{display:flex;justify-content:space-between;gap:10px;font-family:var(--cond);text-transform:uppercase;letter-spacing:.08em;font-size:14px;padding:7px 0;border-bottom:1px solid var(--rule);flex-wrap:wrap}
@@ -239,7 +239,7 @@ footer{position:relative}
 
 /* Logo / CI */
 .brand{display:inline-block;white-space:nowrap;text-decoration:none}
-.brand .mark{margin-right:0}
+.brand .mark{margin-right:.02em}
 .masthead h1 .mark{filter:drop-shadow(0 2px 0 rgba(0,0,0,.15))}
 .topbar .home{display:inline-flex;align-items:center}
 .mh-brand{font-family:var(--display);font-weight:900;font-size:18px;letter-spacing:.02em;display:inline-flex;align-items:center;gap:6px}
