@@ -221,8 +221,9 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
       <a href="{{ base }}archiv/">Archiv</a>
       <span>{% if next %}<a href="{{ base }}ausgabe/{{ next }}/">Nächste Ausgabe →</a>{% endif %}</span>
     </div>
-    <p>COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Recherchiert und geschrieben von Claude für eine Runde basketballverrückter Freunde. Team-Logos: offizielle Logos der NBA-Teams (cdn.nba.com), Marken der jeweiligen Inhaber. Kein offizielles NBA-Produkt.</p>
+    <p>COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Recherchiert und geschrieben von Claude für eine Runde basketballverrückter Freunde.</p>
     <div class="srcs"><strong>Quellen dieser Ausgabe:</strong> {% for s in i.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{{ ' · ' if not loop.last }}{% endfor %}</div>
+    {% include "_legal.html" %}
   </footer>
 </div>
 <script>

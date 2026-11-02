@@ -274,3 +274,8 @@ dialog.minute h3{font-family:var(--cond);text-transform:uppercase;letter-spacing
 .minute-next strong{font-family:var(--cond);font-size:18px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .minute-more{margin-top:14px;width:100%;padding:10px;background:none;border:1px solid var(--ink);color:var(--ink);font-family:var(--cond);text-transform:uppercase;letter-spacing:.1em;font-size:15px;cursor:pointer}
 @media (max-width:640px){.minute-scores{grid-template-columns:1fr}.tbtn-min{display:none}dialog.minute h2{font-size:28px}}
+
+/* Rechtlicher Hinweis */
+footer .legal{margin-top:18px;padding-top:12px;border-top:1px solid var(--hair);font-size:12.5px;line-height:1.55;color:var(--muted)}
+footer .legal p{margin:0 0 8px}
+footer .legal strong{color:var(--ink-2)}
