@@ -1,0 +1,810 @@
+{
+  "date": "2026-11-02",
+  "issue_no": 3,
+  "weekday": "Montag",
+  "date_long": "2. November 2026",
+  "edition_label": "Montagsausgabe mit Power Ranking",
+  "tagline": "Was letzte Nacht in Amerika passiert ist – eingeordnet zum ersten Kaffee.",
+  "period": "Nacht auf Montag",
+  "minute": [
+    "<strong>Luka schreibt Geschichte:</strong> 45 Punkte, 15 Rebounds, 6 Assists, 5 Steals beim 131:125 gegen Toronto – diese Kombination gab es in der NBA noch nie.",
+    "<strong>Pöltl fehlt kurzfristig:</strong> Der Österreicher wurde vor dem Lakers-Spiel wegen Schulterproblemen gestrichen, heute Nacht geht es zu den Clippers.",
+    "<strong>Rookie-Feuerwerk in San Francisco:</strong> Yaxel Lendeborg erzielt 37 Punkte, Golden State schlägt die Clippers ohne Curry und Green 124:112.",
+    "<strong>Boston rollt:</strong> Tatum (32) führt die Celtics zum 108:97 in Orlando – fünfter Sieg in Serie, Franz Wagner mit 12 Assists, aber schwacher Quote.",
+    "<strong>Endlich:</strong> Die Nets gewinnen 98:90 in Indiana und sind nicht mehr sieglos – Moritz Wagner startet mit 4 von 4 Würfen.",
+    "<strong>Nur noch Sacramento</strong> wartet auf den ersten Saisonsieg (0-6), Memphis ist weiter als einziges Team makellos.",
+    "<strong>Power Ranking:</strong> Unser erstes Ranking aller 30 Teams – Memphis vorne, die Kings ganz hinten.",
+    "<strong>Volle Nacht:</strong> 15 Spiele ab 01:00 Uhr, darunter OKC in Cleveland und Memphis' Griff nach dem 7-0."
+  ],
+  "rewatch": {
+    "away": "TOR",
+    "home": "LAL",
+    "why": "Ein Superstar, der von der ersten Minute an heiß läuft und Zahlen sammelt, die man so selten sieht. Ein Gegner mit ausgedünntem Frontcourt, der sich nicht abschütteln lässt. Und eine Schlussphase, die man nach dem Spielverlauf nicht erwarten würde – unbedingt bis zur letzten Sekunde dranbleiben, auch wenn der Spielstand zwischendurch nach Feierabend aussieht."
+  },
+  "lead": {
+    "kicker": "Raptors – Lakers · Interconference",
+    "title": "45, 15, 6, 5 – Luka erfindet eine neue Statistik",
+    "teams": [
+      "LAL",
+      "TOR"
+    ],
+    "teaser": "Luka Dončić führt die Lakers mit einer historischen Vorstellung zum 131:125 über Toronto – und muss am Ende trotzdem noch einmal zittern.",
+    "body": [
+      "Manche Abende sind schon nach zwölf Minuten erzählt. <strong>Luka Dončić</strong> versenkte im ersten Viertel vier Dreier, hatte 16 Punkte auf dem Konto und die Lakers lagen 36:23 vorne. Zur Pause standen 24 Punkte und 8 Rebounds neben seinem Namen – und das war erst die halbe Wahrheit.",
+      "Am Ende waren es <strong>45 Punkte, 15 Rebounds (Saisonbestwert), 6 Assists und 5 Steals</strong>, bei 12 von 23 aus dem Feld und 8 von 12 von der Dreierlinie. Laut Recherchen von ClutchPoints hat noch nie ein NBA-Spieler genau diese Kombination aufgelegt. Und es war Dončićs viertes Spiel in Serie mit mindestens 37 Punkten, sein 20. 40-Punkte-Abend in nur 98 Regular-Season-Spielen für die Lakers.",
+      "Toronto fehlte einiges: <strong>Kawhi Leonard</strong> verpasste wegen Knieproblemen das vierte Spiel in Folge, und <strong>Jakob Pöltl</strong> wurde kurz vor dem Anpfiff wegen einer Schulterverletzung gestrichen – Trayce Jackson-Davis rückte in die Startformation. Ohne den Wiener unter dem Korb kassierten die Raptors gegen Walker Kessler (16 Punkte, 15 Rebounds) viel zu viel.",
+      "Kurz vor Ende des dritten Viertels führten die Lakers 102:76, das Spiel schien entschieden. Doch Toronto kämpfte sich unter zehn Punkte heran, ehe ein 9:1-Lauf von Dončić und Austin Reaves (19) wieder Luft verschaffte. Als die Lakers-Starter 1:43 Minuten vor Schluss auf die Bank gingen, legten die Raptors-Reservisten binnen 40 Sekunden elf Punkte nach – 125:120. Dončić, Reaves und Kessler mussten zurück aufs Feld. Jamison Battle kam allein im Schlussviertel auf 15 Punkte, Scottie Barnes (29) und RJ Barrett (22) waren die besten Werfer der Kanadier.",
+      "Die Einordnung: Die Lakers (5-2) haben die bittere Niederlage in Golden State vom Freitag – dort verspielten sie eine 25-Punkte-Führung – sofort beantwortet und stehen im Westen auf Rang vier. Toronto (3-3) hat drei der letzten vier Spiele verloren und startet gerade in einen vierteiligen Roadtrip. Schon heute Nacht geht es weiter: Lakers gegen Miami, Raptors bei den Clippers."
+    ]
+  },
+  "sidebar": [
+    {
+      "title": "Die Nacht in 30 Sekunden",
+      "items": [
+        "<strong>4 Spiele</strong> am Sonntag, zwei Auswärtssiege durch Boston und Brooklyn.",
+        "<strong>Dončić</strong> mit einer Stat-Line, die es noch nie gab.",
+        "<strong>Lendeborg (37)</strong> ersetzt Curry eindrucksvoll.",
+        "<strong>Boston</strong> gewinnt zum fünften Mal in Folge.",
+        "<strong>Brooklyn</strong> feiert den ersten Saisonsieg.",
+        "<strong>Pöltl</strong> fehlt mit Schulterproblemen."
+      ]
+    },
+    {
+      "title": "Spieler der Nacht",
+      "items": [
+        "<strong>Luka Dončić</strong> (LAL): 45 Punkte, 15 Rebounds, 6 Assists, 5 Steals, 8 Dreier.",
+        "<strong>Yaxel Lendeborg</strong> (GSW): 37 Punkte, Karrierebestwert als Rookie.",
+        "<strong>Jayson Tatum</strong> (BOS): 32 Punkte, 7 Assists in Orlando."
+      ]
+    }
+  ],
+  "games": [
+    {
+      "tag": "Interconf.",
+      "away": "TOR",
+      "home": "LAL",
+      "away_score": 125,
+      "home_score": 131,
+      "away_record": "3-3",
+      "home_record": "5-2",
+      "line": "<b>Dončić 45/15/6, 5 Steals</b>, Reaves 19, Kessler 16/15 · Barnes 29, Barrett 22, Battle 15 im 4. Viertel – ohne Pöltl &amp; Leonard.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://www.tsn.ca/nba/article/doncic-has-45-points-15-rebounds-while-leading-lakers-to-victory-over-raptors/"
+        },
+        {
+          "label": "Spielseite",
+          "url": "https://www.espn.com/nba/recap/_/gameId/401909906"
+        }
+      ]
+    },
+    {
+      "tag": "West",
+      "away": "LAC",
+      "home": "GSW",
+      "away_score": 112,
+      "home_score": 124,
+      "away_record": "1-5",
+      "home_record": "4-3",
+      "line": "<b>Lendeborg 37</b> (Karrierebestwert) – Golden State ohne Curry und Green · Clippers verlieren zum fünften Mal in Folge.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://sports.yahoo.com/articles/remarkable-rookie-lendeborg-scores-37-050436504.html"
+        },
+        {
+          "label": "Analyse",
+          "url": "https://www.si.com/nba/warriors/onsi/takeaways-from-warriors-win-over-clippers-yaxel-s-shooting-is-for-real-01m6d6t4m7xc"
+        }
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "BOS",
+      "home": "ORL",
+      "away_score": 108,
+      "home_score": 97,
+      "away_record": "5-1",
+      "home_record": "2-4",
+      "line": "<b>Tatum 32/7 Ast</b>, George 17/8 Ast/6 Reb · Black 23/8, F. Wagner 14/12 Ast (5/20 FG).",
+      "links": [
+        {
+          "label": "Boxscore",
+          "url": "https://www.foxsports.com/nba/boston-celtics-vs-orlando-magic-nov-01-2026-game-boxscore-106620"
+        },
+        {
+          "label": "Spielseite",
+          "url": "https://www.espn.com/nba/recap/_/gameId/401909903"
+        }
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "BKN",
+      "home": "IND",
+      "away_score": 98,
+      "home_score": 90,
+      "away_record": "1-5",
+      "home_record": "2-5",
+      "line": "<b>Porter Jr. 23/9</b>, Randle 20/6 Ast, Traoré 16/6 Ast, Sharpe 15/13 · Indiana ohne Haliburton, Zubac, Toppin, McConnell.",
+      "links": [
+        {
+          "label": "Bericht",
+          "url": "https://sports.yahoo.com/articles/nets-first-win-season-strong-005628327.html"
+        },
+        {
+          "label": "Boxscore",
+          "url": "https://www.espn.com/nba/boxscore/_/gameId/401909904"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "team": "GSW",
+      "kicker": "Warriors · Rookie-Show",
+      "title": "Lendeborg macht den Curry",
+      "body": [
+        "Stephen Curry saß zur Schonung seines rechten Knies draußen, Draymond Green fehlte ebenfalls, dazu Kristaps Porziņģis (krank), Jimmy Butler und Moses Moody. Die Clippers führten nach dem ersten Viertel 37:29. Und dann? Übernahm ein Rookie.",
+        "<strong>Yaxel Lendeborg</strong>, im Juni an Nummer elf aus Michigan gedraftet, erzielte 37 Punkte – so viele hatte ein Warriors-Neuling zuletzt 2010, als ein gewisser Stephen Curry 42 auflegte. Steve Kerr lobte, wie schnell sich der Forward an die NBA gewöhnt hat. Nach dem 0-3-Start hat Golden State nun vier Spiele in Serie gewonnen, die Clippers (ohne Ingram und Beal) verloren zum fünften Mal hintereinander."
+      ]
+    },
+    {
+      "team": "BKN",
+      "kicker": "Nets · Erlösung",
+      "title": "Sieg Nummer eins – endlich",
+      "body": [
+        "Fünf Spiele, fünf Niederlagen – in Indianapolis war damit Schluss. Die <strong>Brooklyn Nets</strong> gewannen 98:90, getragen von einer starken Defensive: Indiana traf zu Beginn nur zwei seiner ersten 15 Dreier. Michael Porter Jr. (23 Punkte, 9 Rebounds) und Julius Randle (20) führten die Offensive an, Nolan Traoré traf vier Dreier.",
+        "Day'Ron Sharpe holte mit 15 Punkten und 13 Rebounds sein erstes Double-Double der Saison, Moritz Wagner stand zur Pause bereits bei zehn Punkten. Die Pacers waren freilich schwer ersatzgeschwächt. Heute Nacht wartet für Brooklyn der Härtetest Knicks – gegen den Stadtrivalen haben die Nets seit Jänner 2023 14-mal in Folge verloren."
+      ]
+    },
+    {
+      "team": "BOS",
+      "kicker": "Celtics · Serie",
+      "title": "Tatum und George, das funktioniert",
+      "body": [
+        "Wer nach dem Sommer an Boston gezweifelt hat, muss umdenken: Das 108:97 in Orlando war der <strong>fünfte Sieg in Serie</strong>, die Celtics stehen bei 5-1. <strong>Jayson Tatum</strong> erzielte 32 Punkte und 7 Assists, Paul George steuerte 17 Punkte, 8 Assists, 2 Steals und 2 Blocks bei.",
+        "Den Unterschied machte die Defensive: 18 Ballverluste erzwang Boston. Bei Orlando war Anthony Black mit 23 Punkten Bester, <strong>Franz Wagner</strong> verteilte zwar 12 Assists, traf aber nur fünf seiner 20 Würfe. Die Magic stehen bei 2-4 – zu wenig für ein Team mit Ambitionen im Osten."
+      ]
+    }
+  ],
+  "europe": [
+    {
+      "flag": "🇦🇹",
+      "player": "Jakob Pöltl",
+      "team": "TOR",
+      "stat": "Kurzfristig gestrichen · Schulter",
+      "text": "Pöltl war als Starter gemeldet, fiel dann aber wegen Schulterproblemen kurzfristig aus. Ob er heute Nacht (04:00 Uhr) bei den Clippers spielen kann, ist offen – ohne ihn fehlte Toronto gegen Kessler die Präsenz am Brett."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Franz Wagner",
+      "team": "ORL",
+      "stat": "14 Pkt · 12 Ast",
+      "text": "Als Spielmacher stark, als Werfer glücklos: 5 von 20 aus dem Feld. Heute Nacht (01:30 Uhr) gegen Washington wartet die schnelle Chance zur Wiedergutmachung."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Moritz Wagner",
+      "team": "BKN",
+      "stat": "10 Pkt zur Pause · Sieg",
+      "text": "Perfekter Start mit vier Treffern in vier Versuchen – und am Ende der erste Saisonsieg der Nets."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Tristan da Silva",
+      "team": "ORL",
+      "stat": "Niederlage gegen Boston",
+      "text": "Der Frankfurter stand gegen die Celtics im Kader von Orlando, eine Statistik lag uns bei Redaktionsschluss nicht vor."
+    },
+    {
+      "flag": "🇸🇮",
+      "player": "Luka Dončić",
+      "team": "LAL",
+      "stat": "45 Pkt · 15 Reb · 6 Ast · 5 Stl",
+      "text": "Die erste Stat-Line dieser Art in der NBA-Geschichte. Siehe Aufmacher."
+    },
+    {
+      "flag": "🇫🇷",
+      "player": "Nolan Traoré",
+      "team": "BKN",
+      "stat": "16 Pkt · 6 Ast · 4 Dreier",
+      "text": "Der französische Aufbauspieler leistete sich bei sechs Assists nur einen Ballverlust – starke Vorstellung beim ersten Nets-Sieg."
+    },
+    {
+      "flag": "🇱🇻",
+      "player": "Kristaps Porziņģis",
+      "team": "GSW",
+      "stat": "Krank · ausgefallen",
+      "text": "Der Lette fehlte den Warriors beim Sieg über die Clippers wegen einer Erkrankung."
+    },
+    {
+      "flag": "🇨🇭",
+      "player": "Yanic Konan Niederhäuser",
+      "team": "LAC",
+      "stat": "Verletzt · Lisfranc",
+      "text": "Der Schweizer Center fällt bei den Clippers mit einer Lisfranc-Verletzung im Fuß weiterhin aus."
+    }
+  ],
+  "power_ranking": [
+    {
+      "team": "MEM",
+      "move": "neu",
+      "text": "6-0, einziges ungeschlagenes Team – Rookie Boozer liefert, die Tiefe trägt auch ohne beide Point Guards."
+    },
+    {
+      "team": "HOU",
+      "move": "neu",
+      "text": "6-1 und das Statement gegen OKC: Diese Rockets schießen und verteidigen auf Titelniveau."
+    },
+    {
+      "team": "PHI",
+      "move": "neu",
+      "text": "6-1, Platz eins im Osten – und Maxey gewinnt Spiele notfalls auch ohne LeBron und Embiid."
+    },
+    {
+      "team": "BOS",
+      "move": "neu",
+      "text": "Fünf Siege in Serie, Tatum in Topform, George als perfekter Nebenmann."
+    },
+    {
+      "team": "LAL",
+      "move": "neu",
+      "text": "Dončić spielt auf MVP-Niveau, die Pleite in Golden State ist abgehakt – 5-2."
+    },
+    {
+      "team": "DET",
+      "move": "neu",
+      "text": "5-1 und still erfolgreich – heute Nacht in Charlotte gefordert."
+    },
+    {
+      "team": "SAS",
+      "move": "neu",
+      "text": "Vier Siege in Serie und ein Wembanyama, der Abende wie den 43-Punkte-Auftritt zur Gewohnheit macht."
+    },
+    {
+      "team": "OKC",
+      "move": "neu",
+      "text": "Zwei klare Niederlagen und Holmgren monatelang weg: Der Meister von 2025 muss sich neu sortieren."
+    },
+    {
+      "team": "POR",
+      "move": "neu",
+      "text": "4-1 und auswärts makellos – die Überraschung des Herbstes im Westen."
+    },
+    {
+      "team": "CLE",
+      "move": "neu",
+      "text": "4-2, der Kantersieg in Milwaukee zeigte, was in Mobley, Allen und Co. steckt."
+    },
+    {
+      "team": "DAL",
+      "move": "neu",
+      "text": "4-2, das 120:96 gegen OKC bleibt die Visitenkarte – heute gegen die sieglosen Kings."
+    },
+    {
+      "team": "DEN",
+      "move": "neu",
+      "text": "3-2, solide, aber das 114:134 gegen Golden State war ein Warnsignal."
+    },
+    {
+      "team": "GSW",
+      "move": "neu",
+      "text": "Nach 0-3 nun vier Siege in Folge – und Rookie Lendeborg trägt das Team auch ohne Curry."
+    },
+    {
+      "team": "MIN",
+      "move": "neu",
+      "text": "4-3 ohne Edwards und zeitweise ohne Gobert – mehr ist im Moment kaum zu erwarten."
+    },
+    {
+      "team": "TOR",
+      "move": "neu",
+      "text": "3-3, ohne Leonard und zuletzt Pöltl fehlt die Substanz für einen Roadtrip im Westen."
+    },
+    {
+      "team": "WAS",
+      "move": "neu",
+      "text": "3-3 – mehr, als viele den Wizards zugetraut hätten."
+    },
+    {
+      "team": "CHA",
+      "move": "neu",
+      "text": "3-4, zuletzt knapp an Philly gescheitert; Verletzungen bremsen den Aufschwung."
+    },
+    {
+      "team": "ATL",
+      "move": "neu",
+      "text": "3-4, die 99:121-Pleite in New Orleans und die Sperre für Flemings tun weh."
+    },
+    {
+      "team": "ORL",
+      "move": "neu",
+      "text": "2-4 – für ein Team mit Playoff-Ansprüchen zu wenig, die Offensive stockt."
+    },
+    {
+      "team": "NYK",
+      "move": "neu",
+      "text": "2-4, aber mit dem Cup-Duell gegen Philly im Rückspiegel – heute kommt Brooklyn."
+    },
+    {
+      "team": "MIA",
+      "move": "neu",
+      "text": "2-4, die Heat suchen noch ihren Rhythmus – heute Nacht wartet Dončić."
+    },
+    {
+      "team": "IND",
+      "move": "neu",
+      "text": "2-5 und eine Lazarett-Liste mit Haliburton, Zubac, Toppin und McConnell."
+    },
+    {
+      "team": "NOP",
+      "move": "neu",
+      "text": "2-4, der Sieg gegen Atlanta mit 52 Bankpunkten macht Hoffnung."
+    },
+    {
+      "team": "PHX",
+      "move": "neu",
+      "text": "1-3, wenig gespielt und noch weniger gewonnen."
+    },
+    {
+      "team": "LAC",
+      "move": "neu",
+      "text": "Fünf Niederlagen in Folge, Ingram und Beal verletzt – düsterer Herbst in LA."
+    },
+    {
+      "team": "MIL",
+      "move": "neu",
+      "text": "1-5 und ein 111:136 gegen Cleveland: Die Bucks sind im Umbruch angekommen."
+    },
+    {
+      "team": "CHI",
+      "move": "neu",
+      "text": "1-5, heute Nacht in Philadelphia droht das nächste Minus."
+    },
+    {
+      "team": "UTA",
+      "move": "neu",
+      "text": "1-5, vier Niederlagen in Serie – der Rebuild dauert."
+    },
+    {
+      "team": "BKN",
+      "move": "neu",
+      "text": "Der erste Sieg ist da, mehr Mut macht die Defensive."
+    },
+    {
+      "team": "SAC",
+      "move": "neu",
+      "text": "0-6, einziges sieglose Team – Rookie Acuff ist der einzige Lichtblick."
+    }
+  ],
+  "explainer": {
+    "title": "Power Ranking vs. Tabelle – was ist der Unterschied?",
+    "body": [
+      "Ab heute gibt es in jeder Montagsausgabe ein <strong>Power Ranking</strong>: eine Rangliste aller 30 Teams. Die Tabelle sagt, wer bisher am meisten gewonnen hat. Das Power Ranking versucht eine andere Frage zu beantworten: <strong>Wer ist gerade wirklich am stärksten?</strong>",
+      "Dafür fließen neben der Bilanz weitere Faktoren ein: Gegen wen wurde gewonnen? Wie deutlich? Wer fehlt verletzt, wer kommt zurück? Ein Team mit 4-2 nach Siegen gegen starke Gegner kann so vor einem 4-1-Team stehen, das bisher nur Kellerkinder hatte. Und ein Ausfall wie jener von Chet Holmgren in Oklahoma City drückt ein Team nach unten, auch wenn die Bilanz noch ordentlich aussieht.",
+      "<strong>Wichtig:</strong> Ein Power Ranking ist Meinung, keine Mathematik. Große US-Medien veröffentlichen eigene Rankings, die sich oft deutlich unterscheiden. Für die Playoffs zählt am Ende nur die Tabelle.",
+      "Die Klammer hinter dem Teamnamen zeigt künftig, wie viele Plätze ein Team im Vergleich zur Vorwoche gestiegen oder gefallen ist. Weil dies unser erstes Ranking ist, steht diesmal überall „neu“. Nächsten Montag wird es spannend."
+    ]
+  },
+  "news": [
+    {
+      "team": "TOR",
+      "text": "<strong>Jakob Pöltl</strong> fiel kurzfristig mit einer Schulterverletzung aus, <strong>Kawhi Leonard</strong> (Knie) verpasste das vierte Spiel in Serie."
+    },
+    {
+      "team": "GSW",
+      "text": "<strong>Stephen Curry</strong> pausierte zur Schonung seines rechten Knies – zuvor hatte er in drei Spielen im Schnitt 33 Punkte erzielt."
+    },
+    {
+      "team": "ATL",
+      "text": "<strong>Kingston Flemings</strong> ist für ein Spiel ohne Bezahlung gesperrt – Ellbogen gegen den Kopf von Bryce McGowens am Samstag."
+    },
+    {
+      "team": "LAL",
+      "text": "Erstrunden-Pick <strong>Cameron Carr</strong> feierte nach einer Bauchmuskelverletzung in den letzten 1:43 Minuten sein NBA-Debüt."
+    },
+    {
+      "team": "LAC",
+      "text": "Die Clippers müssen weiter auf <strong>Brandon Ingram</strong> (Ferse) und <strong>Bradley Beal</strong> (Knie) verzichten."
+    },
+    {
+      "team": "IND",
+      "text": "Ohne <strong>Haliburton</strong>, <strong>Zubac</strong>, <strong>Toppin</strong> und <strong>McConnell</strong> fehlte Indiana gegen Brooklyn fast die halbe Rotation."
+    },
+    {
+      "team": "SAC",
+      "text": "Nach dem ersten Nets-Sieg sind die <strong>Kings</strong> (0-6) das letzte sieglose Team der Liga."
+    }
+  ],
+  "standings_note": "Stand nach der Nacht auf Montag (sortiert nach Siegquote)",
+  "standings": {
+    "east": [
+      [
+        "PHI",
+        6,
+        1
+      ],
+      [
+        "BOS",
+        5,
+        1
+      ],
+      [
+        "DET",
+        5,
+        1
+      ],
+      [
+        "CLE",
+        4,
+        2
+      ],
+      [
+        "TOR",
+        3,
+        3
+      ],
+      [
+        "WAS",
+        3,
+        3
+      ],
+      [
+        "ATL",
+        3,
+        4
+      ],
+      [
+        "CHA",
+        3,
+        4
+      ],
+      [
+        "ORL",
+        2,
+        4
+      ],
+      [
+        "MIA",
+        2,
+        4
+      ],
+      [
+        "NYK",
+        2,
+        4
+      ],
+      [
+        "IND",
+        2,
+        5
+      ],
+      [
+        "MIL",
+        1,
+        5
+      ],
+      [
+        "CHI",
+        1,
+        5
+      ],
+      [
+        "BKN",
+        1,
+        5
+      ]
+    ],
+    "west": [
+      [
+        "MEM",
+        6,
+        0
+      ],
+      [
+        "HOU",
+        6,
+        1
+      ],
+      [
+        "POR",
+        4,
+        1
+      ],
+      [
+        "LAL",
+        5,
+        2
+      ],
+      [
+        "OKC",
+        4,
+        2
+      ],
+      [
+        "SAS",
+        4,
+        2
+      ],
+      [
+        "DAL",
+        4,
+        2
+      ],
+      [
+        "DEN",
+        3,
+        2
+      ],
+      [
+        "GSW",
+        4,
+        3
+      ],
+      [
+        "MIN",
+        4,
+        3
+      ],
+      [
+        "NOP",
+        2,
+        4
+      ],
+      [
+        "PHX",
+        1,
+        3
+      ],
+      [
+        "LAC",
+        1,
+        5
+      ],
+      [
+        "UTA",
+        1,
+        5
+      ],
+      [
+        "SAC",
+        0,
+        6
+      ]
+    ]
+  },
+  "upcoming": [
+    {
+      "label": "Heute Nacht – Nacht auf Dienstag (15 Spiele; Nacht auf Mittwoch laut Spielplan spielfrei)",
+      "games": [
+        {
+          "time": "01:00",
+          "away": "OKC",
+          "home": "CLE",
+          "note": "Erstes Spiel der Thunder nach der Holmgren-Diagnose."
+        },
+        {
+          "time": "01:30",
+          "away": "DET",
+          "home": "CHA",
+          "note": "Dennis Schröder gegen das Ost-Spitzenteam."
+        },
+        {
+          "time": "01:30",
+          "away": "ATL",
+          "home": "IND"
+        },
+        {
+          "time": "01:30",
+          "away": "BKN",
+          "home": "NYK",
+          "note": "Back-to-back für die Nets, 14 Derby-Niederlagen in Folge."
+        },
+        {
+          "time": "01:30",
+          "away": "WAS",
+          "home": "ORL",
+          "note": "Franz Wagner und da Silva wollen Revanche für die Boston-Pleite."
+        },
+        {
+          "time": "01:30",
+          "away": "CHI",
+          "home": "PHI"
+        },
+        {
+          "time": "02:00",
+          "away": "SAC",
+          "home": "DAL",
+          "note": "Die sieglosen Kings in Dallas."
+        },
+        {
+          "time": "02:00",
+          "away": "NOP",
+          "home": "MEM",
+          "featured": true,
+          "note": "<strong>Spiel des Tages:</strong> Memphis peilt das 7-0 und den besten Start der Klubgeschichte an."
+        },
+        {
+          "time": "02:00",
+          "away": "MIL",
+          "home": "MIN"
+        },
+        {
+          "time": "02:30",
+          "away": "BOS",
+          "home": "HOU",
+          "note": "Fünf Siege in Serie gegen 6-1 – Topduell."
+        },
+        {
+          "time": "02:30",
+          "away": "UTA",
+          "home": "SAS"
+        },
+        {
+          "time": "03:00",
+          "away": "POR",
+          "home": "DEN"
+        },
+        {
+          "time": "04:00",
+          "away": "PHX",
+          "home": "GSW",
+          "note": "Spielt Curry wieder?"
+        },
+        {
+          "time": "04:00",
+          "away": "TOR",
+          "home": "LAC",
+          "note": "Pöltl fraglich (Schulter)."
+        },
+        {
+          "time": "04:00",
+          "away": "MIA",
+          "home": "LAL",
+          "note": "Dončić nach dem Rekordabend."
+        }
+      ]
+    }
+  ],
+  "goodtoknow": [
+    {
+      "big": "45/15/6/5",
+      "title": "Eine Premiere",
+      "text": "Punkte, Rebounds, Assists, Steals: Diese Kombination hatte vor Dončić noch kein NBA-Spieler in einem Spiel."
+    },
+    {
+      "big": "20",
+      "title": "40-Punkte-Spiele als Laker",
+      "text": "Dončić brauchte dafür nur 98 Regular-Season-Spiele in Gelb-Lila."
+    },
+    {
+      "big": "37",
+      "title": "Rookie-Rekordnähe",
+      "text": "Mehr Punkte als Lendeborg erzielte ein Warriors-Rookie zuletzt 2010 – Stephen Curry mit 42."
+    },
+    {
+      "big": "11 in 40 s",
+      "title": "Raptors-Blitz",
+      "text": "Torontos Reservisten verkürzten in den Schlussminuten binnen 40 Sekunden auf 125:120 – die Lakers-Starter mussten zurück."
+    },
+    {
+      "big": "14",
+      "title": "Derby-Niederlagen",
+      "text": "So oft in Folge haben die Nets gegen die Knicks verloren – seit Jänner 2023 kein Sieg. Heute Nacht der nächste Versuch."
+    },
+    {
+      "big": "18",
+      "title": "Erzwungene Ballverluste",
+      "text": "So viele Turnovers zwang Bostons Defense den Magic auf – der Schlüssel zum fünften Sieg in Serie."
+    }
+  ],
+  "links": [
+    {
+      "title": "Dončićs Rekordabend gegen Toronto",
+      "src": "TSN / AP",
+      "url": "https://www.tsn.ca/nba/article/doncic-has-45-points-15-rebounds-while-leading-lakers-to-victory-over-raptors/"
+    },
+    {
+      "title": "Die historische Stat-Line im Detail",
+      "src": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/lakers-luka-doncic-torches-raptors-055156927.html"
+    },
+    {
+      "title": "Lendeborgs 37 gegen die Clippers",
+      "src": "Yahoo Sports / AFP",
+      "url": "https://sports.yahoo.com/articles/remarkable-rookie-lendeborg-scores-37-050436504.html"
+    },
+    {
+      "title": "Takeaways: Warriors – Clippers",
+      "src": "SI / Inside the Warriors",
+      "url": "https://www.si.com/nba/warriors/onsi/takeaways-from-warriors-win-over-clippers-yaxel-s-shooting-is-for-real-01m6d6t4m7xc"
+    },
+    {
+      "title": "Nets holen den ersten Sieg",
+      "src": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/nets-first-win-season-strong-005628327.html"
+    },
+    {
+      "title": "Alle Highlights der Nacht",
+      "src": "YouTube · NBA",
+      "url": "https://www.youtube.com/@NBA/videos",
+      "note": "Offizieller NBA-Kanal."
+    },
+    {
+      "title": "Ganze Spiele im Replay",
+      "src": "NBA League Pass",
+      "url": "https://www.nba.com/watch/league-pass-stream",
+      "note": "Euer League Pass Premium: alle Spiele der Nacht auf Abruf."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Power Ranking",
+      "text": "Subjektive Rangliste der aktuell stärksten Teams – berücksichtigt neben der Bilanz auch Gegner, Form und Verletzungen."
+    },
+    {
+      "term": "Steal",
+      "text": "Ballgewinn durch Abfangen oder Wegspitzeln – Dončić kam gegen Toronto auf fünf."
+    },
+    {
+      "term": "Late Scratch",
+      "text": "Ein Spieler, der kurz vor Spielbeginn doch noch aus dem Aufgebot gestrichen wird – wie Pöltl."
+    },
+    {
+      "term": "Double-Double",
+      "text": "Zweistellige Werte in zwei Statistik-Kategorien, etwa Sharpes 15 Punkte und 13 Rebounds."
+    },
+    {
+      "term": "Roadtrip",
+      "text": "Eine Serie von Auswärtsspielen am Stück – Toronto ist gerade auf einer Viererreise durch den Westen."
+    }
+  ],
+  "sources": [
+    {
+      "title": "TSN/AP: Lakers–Raptors",
+      "url": "https://www.tsn.ca/nba/article/doncic-has-45-points-15-rebounds-while-leading-lakers-to-victory-over-raptors/"
+    },
+    {
+      "title": "Yahoo: Dončić-Stat-Line",
+      "url": "https://sports.yahoo.com/articles/lakers-luka-doncic-torches-raptors-055156927.html"
+    },
+    {
+      "title": "CBS Sports: Pöltl late scratch",
+      "url": "https://www.cbssports.com/fantasy/basketball/news/raptors-jakob-poeltl-late-scratch-sunday/"
+    },
+    {
+      "title": "Covers: Raptors–Lakers",
+      "url": "https://www.covers.com/sport/basketball/nba/matchup/388643"
+    },
+    {
+      "title": "Yahoo/AFP: Warriors–Clippers",
+      "url": "https://sports.yahoo.com/articles/remarkable-rookie-lendeborg-scores-37-050436504.html"
+    },
+    {
+      "title": "Yahoo: Clippers–Warriors Vorschau (Ausfälle)",
+      "url": "https://sports.yahoo.com/nba/la-clippers-golden-state-warriors-2026110109/"
+    },
+    {
+      "title": "VAVEL: Clippers–Warriors Liveticker",
+      "url": "https://www.vavel.com/en-us/nba/2026/11/01/1277624-clippers-vs-warriors-live-score-updates-and-stats-in-nba-game.html"
+    },
+    {
+      "title": "FOX Sports: Celtics–Magic",
+      "url": "https://www.foxsports.com/nba/boston-celtics-vs-orlando-magic-nov-01-2026-game-boxscore-106620"
+    },
+    {
+      "title": "Yahoo: Nets–Pacers",
+      "url": "https://sports.yahoo.com/articles/nets-first-win-season-strong-005628327.html"
+    },
+    {
+      "title": "lines.com: NBA-Spielplan",
+      "url": "https://www.lines.com/nba/schedule"
+    },
+    {
+      "title": "COURTSIDE Nr. 2: Tabelle Nacht auf Sonntag",
+      "url": "https://courtside.hobiger.cc"
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Courtside · Montag, 2. November 2026</title>
+<meta name="description" content="45, 15, 6, 5 – Luka erfindet eine neue Statistik – das deutschsprachige NBA-Journal für den Morgen.">
+<meta property="og:title" content="COURTSIDE · 45, 15, 6, 5 – Luka erfindet eine neue Statistik">
+<meta property="og:description" content="Luka Dončić führt die Lakers mit einer historischen Vorstellung zum 131:125 über Toronto – und muss am Ende trotzdem noch einmal zittern.">
+<link rel="icon" type="image/svg+xml" href="/icons/icon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#1c1a16">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Courtside">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../style.css?v=a7dc3b8f">
+<script>
+try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <nav>
+      <a href="../../" class="home" aria-label="Startseite"><svg class="mark-s" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:22px;height:22px;vertical-align:-6px">
+  <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
+  <g fill="none" stroke="#1c1a16" stroke-width="3.5">
+    <path d="M50 4v92M4 50h92"/>
+    <path d="M19 15c19 17 19 53 0 70M81 15c-19 17-19 53 0 70"/>
+  </g>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#1c1a16" stroke-width="20"/>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#f5efe3" stroke-width="13"/>
+</svg></a><a href="#ergebnisse">Ergebnisse</a><a href="#europa">Europa-Ecke</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="../../archiv/">Archiv</a>
+    </nav>
+    <div style="display:flex;gap:8px">
+      <button class="tbtn tbtn-min" data-minute>⏱ 1 Minute</button>
+      <button class="tbtn" id="spoilerBtn" aria-pressed="false" title="Ergebnisse verdecken, um Spiele erst im League Pass zu schauen">Spoiler-Schutz</button>
+      <button class="tbtn" id="themeBtn" title="Hell/Dunkel">◐</button>
+    </div>
+  </div>
+
+  <div class="hardwood"></div>
+  <header class="masthead">
+    <div class="kicker">Das deutschsprachige NBA-Journal</div>
+    <h1><a href="../../" class="brand" aria-label="COURTSIDE"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:.86em;height:.86em;vertical-align:-.075em">
+  <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
+  <g fill="none" stroke="#1c1a16" stroke-width="3.5">
+    <path d="M50 4v92M4 50h92"/>
+    <path d="M19 15c19 17 19 53 0 70M81 15c-19 17-19 53 0 70"/>
+  </g>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#1c1a16" stroke-width="20"/>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#f5efe3" stroke-width="13"/>
+</svg><span aria-hidden="true">OURTSIDE</span></a></h1>
+    <div class="sub">Was letzte Nacht in Amerika passiert ist – eingeordnet zum ersten Kaffee.</div>
+  </header>
+  <div class="dateline">
+    <span>Montag, 2. November 2026</span>
+    <span>Montagsausgabe mit Power Ranking</span>
+    <span>Ausgabe Nr. 3 · Lesezeit ca. 10 Min.</span>
+  </div>
+
+  
+  <button class="minute-cta" data-minute>
+    <span class="clock" aria-hidden="true">⏱</span>
+    <span><strong>Keine Zeit? Alles in 1 Minute</strong><small>Die Nacht kompakt: Ergebnisse, Storys, News &amp; Spiel des Tages</small></span>
+    <span class="arr" aria-hidden="true">→</span>
+  </button>
+  <dialog id="minute" class="minute" aria-labelledby="minute-t">
+  <div class="minute-head">
+    <span class="mh-brand"><svg class="mark-s" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:22px;height:22px;vertical-align:-6px">
+  <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
+  <g fill="none" stroke="#1c1a16" stroke-width="3.5">
+    <path d="M50 4v92M4 50h92"/>
+    <path d="M19 15c19 17 19 53 0 70M81 15c-19 17-19 53 0 70"/>
+  </g>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#1c1a16" stroke-width="20"/>
+  <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#f5efe3" stroke-width="13"/>
+</svg> COURTSIDE</span>
+    <button class="minute-x" data-close aria-label="Schließen">×</button>
+  </div>
+  <h2 id="minute-t">Alles in 1 Minute</h2>
+  <div class="minute-date">Montag, 2. November 2026 · Nacht auf Montag</div>
+  <ol class="minute-list spoil">
+    <li><strong>Luka schreibt Geschichte:</strong> 45 Punkte, 15 Rebounds, 6 Assists, 5 Steals beim 131:125 gegen Toronto – diese Kombination gab es in der NBA noch nie.</li><li><strong>Pöltl fehlt kurzfristig:</strong> Der Österreicher wurde vor dem Lakers-Spiel wegen Schulterproblemen gestrichen, heute Nacht geht es zu den Clippers.</li><li><strong>Rookie-Feuerwerk in San Francisco:</strong> Yaxel Lendeborg erzielt 37 Punkte, Golden State schlägt die Clippers ohne Curry und Green 124:112.</li><li><strong>Boston rollt:</strong> Tatum (32) führt die Celtics zum 108:97 in Orlando – fünfter Sieg in Serie, Franz Wagner mit 12 Assists, aber schwacher Quote.</li><li><strong>Endlich:</strong> Die Nets gewinnen 98:90 in Indiana und sind nicht mehr sieglos – Moritz Wagner startet mit 4 von 4 Würfen.</li><li><strong>Nur noch Sacramento</strong> wartet auf den ersten Saisonsieg (0-6), Memphis ist weiter als einziges Team makellos.</li><li><strong>Power Ranking:</strong> Unser erstes Ranking aller 30 Teams – Memphis vorne, die Kings ganz hinten.</li><li><strong>Volle Nacht:</strong> 15 Spiele ab 01:00 Uhr, darunter OKC in Cleveland und Memphis' Griff nach dem 7-0.</li>
+  </ol>
+  
+  <h3>Alle Ergebnisse</h3>
+  <div class="minute-scores">
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="" width="20" height="20"><span class="">TOR</span><span class="pts">125:131</span><span class="w">LAL</span><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="" width="20" height="20"><span class="">LAC</span><span class="pts">112:124</span><span class="w">GSW</span><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="" width="20" height="20"><span class="w">BOS</span><span class="pts">108:97</span><span class="">ORL</span><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+    <div class="ms"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="" width="20" height="20"><span class="w">BKN</span><span class="pts">98:90</span><span class="">IND</span><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="" width="20" height="20"></div>
+    
+  </div>
+  
+  
+  <div class="minute-next"><span>Spiel des Tages · 02:00 Uhr</span><strong><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="" width="22" height="22"> Pelicans @ Grizzlies <img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="" width="22" height="22"></strong></div>
+  
+  <button class="minute-more" data-close>Ganze Ausgabe lesen ↓</button>
+</dialog>
+<script>
+(function(){
+  var d=document.getElementById('minute'); if(!d) return;
+  function open(){ if(d.showModal){d.showModal()} else {d.setAttribute('open','')} }
+  function close(){ if(d.close){d.close()} else {d.removeAttribute('open')} }
+  document.querySelectorAll('[data-minute]').forEach(function(b){b.addEventListener('click',open)});
+  d.querySelectorAll('[data-close]').forEach(function(b){b.addEventListener('click',close)});
+  d.addEventListener('click',function(e){ if(e.target===d) close(); });
+  if(location.hash==='#1minute') open();
+})();
+</script>
+  
+
+  
+  <section class="rewatch" aria-label="Re-Watch-Tipp">
+    <div class="logos"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors"> @ <img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="Los Angeles Lakers"></div>
+    <div>
+      <span class="badge">Spoilerfreier Re-Watch-Tipp</span>
+      <h3>Toronto Raptors @ Los Angeles Lakers</h3>
+      <p>Ein Superstar, der von der ersten Minute an heiß läuft und Zahlen sammelt, die man so selten sieht. Ein Gegner mit ausgedünntem Frontcourt, der sich nicht abschütteln lässt. Und eine Schlussphase, die man nach dem Spielverlauf nicht erwarten würde – unbedingt bis zur letzten Sekunde dranbleiben, auch wenn der Spielstand zwischendurch nach Feierabend aussieht. <em>Tipp: Oben „Spoiler-Schutz“ aktivieren, dann bleiben alle Ergebnisse verdeckt.</em></p>
+    </div>
+  </section>
+  
+
+  <div class="lead-grid">
+    <article class="lead spoil">
+      <div class="kick">Raptors – Lakers · Interconference</div>
+      <h2>45, 15, 6, 5 – Luka erfindet eine neue Statistik</h2>
+      <div class="lead-logos"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="Los Angeles Lakers"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors"></div>
+      <p class="teaser">Luka Dončić führt die Lakers mit einer historischen Vorstellung zum 131:125 über Toronto – und muss am Ende trotzdem noch einmal zittern.</p>
+      <div class="body"><p>Manche Abende sind schon nach zwölf Minuten erzählt. <strong>Luka Dončić</strong> versenkte im ersten Viertel vier Dreier, hatte 16 Punkte auf dem Konto und die Lakers lagen 36:23 vorne. Zur Pause standen 24 Punkte und 8 Rebounds neben seinem Namen – und das war erst die halbe Wahrheit.</p><p>Am Ende waren es <strong>45 Punkte, 15 Rebounds (Saisonbestwert), 6 Assists und 5 Steals</strong>, bei 12 von 23 aus dem Feld und 8 von 12 von der Dreierlinie. Laut Recherchen von ClutchPoints hat noch nie ein NBA-Spieler genau diese Kombination aufgelegt. Und es war Dončićs viertes Spiel in Serie mit mindestens 37 Punkten, sein 20. 40-Punkte-Abend in nur 98 Regular-Season-Spielen für die Lakers.</p><p>Toronto fehlte einiges: <strong>Kawhi Leonard</strong> verpasste wegen Knieproblemen das vierte Spiel in Folge, und <strong>Jakob Pöltl</strong> wurde kurz vor dem Anpfiff wegen einer Schulterverletzung gestrichen – Trayce Jackson-Davis rückte in die Startformation. Ohne den Wiener unter dem Korb kassierten die Raptors gegen Walker Kessler (16 Punkte, 15 Rebounds) viel zu viel.</p><p>Kurz vor Ende des dritten Viertels führten die Lakers 102:76, das Spiel schien entschieden. Doch Toronto kämpfte sich unter zehn Punkte heran, ehe ein 9:1-Lauf von Dončić und Austin Reaves (19) wieder Luft verschaffte. Als die Lakers-Starter 1:43 Minuten vor Schluss auf die Bank gingen, legten die Raptors-Reservisten binnen 40 Sekunden elf Punkte nach – 125:120. Dončić, Reaves und Kessler mussten zurück aufs Feld. Jamison Battle kam allein im Schlussviertel auf 15 Punkte, Scottie Barnes (29) und RJ Barrett (22) waren die besten Werfer der Kanadier.</p><p>Die Einordnung: Die Lakers (5-2) haben die bittere Niederlage in Golden State vom Freitag – dort verspielten sie eine 25-Punkte-Führung – sofort beantwortet und stehen im Westen auf Rang vier. Toronto (3-3) hat drei der letzten vier Spiele verloren und startet gerade in einen vierteiligen Roadtrip. Schon heute Nacht geht es weiter: Lakers gegen Miami, Raptors bei den Clippers.</p></div>
+    </article>
+    <aside class="side">
+      
+      <div class="box">
+        <h4>Die Nacht in 30 Sekunden</h4>
+        <ul><li><strong>4 Spiele</strong> am Sonntag, zwei Auswärtssiege durch Boston und Brooklyn.</li><li><strong>Dončić</strong> mit einer Stat-Line, die es noch nie gab.</li><li><strong>Lendeborg (37)</strong> ersetzt Curry eindrucksvoll.</li><li><strong>Boston</strong> gewinnt zum fünften Mal in Folge.</li><li><strong>Brooklyn</strong> feiert den ersten Saisonsieg.</li><li><strong>Pöltl</strong> fehlt mit Schulterproblemen.</li></ul>
+      </div>
+      
+      <div class="box">
+        <h4>Spieler der Nacht</h4>
+        <ul><li><strong>Luka Dončić</strong> (LAL): 45 Punkte, 15 Rebounds, 6 Assists, 5 Steals, 8 Dreier.</li><li><strong>Yaxel Lendeborg</strong> (GSW): 37 Punkte, Karrierebestwert als Rookie.</li><li><strong>Jayson Tatum</strong> (BOS): 32 Punkte, 7 Assists in Orlando.</li></ul>
+      </div>
+      
+    </aside>
+  </div>
+
+  
+  <section class="sec" id="ergebnisse">
+    <h2 class="sec-h">Ergebnisse · Nacht auf Montag</h2>
+    <div class="spoil-note">Spoiler-Schutz aktiv – Ergebnisse und Spielberichte sind verdeckt.</div>
+    <div class="scores">
+      
+      
+      <div class="game">
+        <div class="tag">Interconf.</div>
+        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt=""><span>Raptors<span class="rec spoil">3-3</span></span><span class="pts">125</span></div>
+        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt=""><span>Lakers<span class="rec spoil">5-2</span></span><span class="pts">131</span></div>
+        <div class="star spoil"><b>Dončić 45/15/6, 5 Steals</b>, Reaves 19, Kessler 16/15 · Barnes 29, Barrett 22, Battle 15 im 4. Viertel – ohne Pöltl &amp; Leonard.</div>
+        <div class="glinks"><a href="https://www.tsn.ca/nba/article/doncic-has-45-points-15-rebounds-while-leading-lakers-to-victory-over-raptors/" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap/_/gameId/401909906" target="_blank" rel="noopener">Spielseite ↗</a></div>
+      </div>
+      
+      
+      <div class="game">
+        <div class="tag">West</div>
+        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt=""><span>Clippers<span class="rec spoil">1-5</span></span><span class="pts">112</span></div>
+        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt=""><span>Warriors<span class="rec spoil">4-3</span></span><span class="pts">124</span></div>
+        <div class="star spoil"><b>Lendeborg 37</b> (Karrierebestwert) – Golden State ohne Curry und Green · Clippers verlieren zum fünften Mal in Folge.</div>
+        <div class="glinks"><a href="https://sports.yahoo.com/articles/remarkable-rookie-lendeborg-scores-37-050436504.html" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.si.com/nba/warriors/onsi/takeaways-from-warriors-win-over-clippers-yaxel-s-shooting-is-for-real-01m6d6t4m7xc" target="_blank" rel="noopener">Analyse ↗</a></div>
+      </div>
+      
+      
+      <div class="game">
+        <div class="tag">Ost</div>
+        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt=""><span>Celtics<span class="rec spoil">5-1</span></span><span class="pts">108</span></div>
+        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt=""><span>Magic<span class="rec spoil">2-4</span></span><span class="pts">97</span></div>
+        <div class="star spoil"><b>Tatum 32/7 Ast</b>, George 17/8 Ast/6 Reb · Black 23/8, F. Wagner 14/12 Ast (5/20 FG).</div>
+        <div class="glinks"><a href="https://www.foxsports.com/nba/boston-celtics-vs-orlando-magic-nov-01-2026-game-boxscore-106620" target="_blank" rel="noopener">Boxscore ↗</a><a href="https://www.espn.com/nba/recap/_/gameId/401909903" target="_blank" rel="noopener">Spielseite ↗</a></div>
+      </div>
+      
+      
+      <div class="game">
+        <div class="tag">Ost</div>
+        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt=""><span>Nets<span class="rec spoil">1-5</span></span><span class="pts">98</span></div>
+        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt=""><span>Pacers<span class="rec spoil">2-5</span></span><span class="pts">90</span></div>
+        <div class="star spoil"><b>Porter Jr. 23/9</b>, Randle 20/6 Ast, Traoré 16/6 Ast, Sharpe 15/13 · Indiana ohne Haliburton, Zubac, Toppin, McConnell.</div>
+        <div class="glinks"><a href="https://sports.yahoo.com/articles/nets-first-win-season-strong-005628327.html" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/boxscore/_/gameId/401909904" target="_blank" rel="noopener">Boxscore ↗</a></div>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  
+  <section class="sec spoil">
+    <h2 class="sec-h">Die Geschichten der Nacht</h2>
+    <div class="stories">
+      
+      <article class="story">
+        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="Golden State Warriors">
+        <div class="kick">Warriors · Rookie-Show</div>
+        <h3>Lendeborg macht den Curry</h3>
+        <p>Stephen Curry saß zur Schonung seines rechten Knies draußen, Draymond Green fehlte ebenfalls, dazu Kristaps Porziņģis (krank), Jimmy Butler und Moses Moody. Die Clippers führten nach dem ersten Viertel 37:29. Und dann? Übernahm ein Rookie.</p><p><strong>Yaxel Lendeborg</strong>, im Juni an Nummer elf aus Michigan gedraftet, erzielte 37 Punkte – so viele hatte ein Warriors-Neuling zuletzt 2010, als ein gewisser Stephen Curry 42 auflegte. Steve Kerr lobte, wie schnell sich der Forward an die NBA gewöhnt hat. Nach dem 0-3-Start hat Golden State nun vier Spiele in Serie gewonnen, die Clippers (ohne Ingram und Beal) verloren zum fünften Mal hintereinander.</p>
+      </article>
+      
+      <article class="story">
+        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="Brooklyn Nets">
+        <div class="kick">Nets · Erlösung</div>
+        <h3>Sieg Nummer eins – endlich</h3>
+        <p>Fünf Spiele, fünf Niederlagen – in Indianapolis war damit Schluss. Die <strong>Brooklyn Nets</strong> gewannen 98:90, getragen von einer starken Defensive: Indiana traf zu Beginn nur zwei seiner ersten 15 Dreier. Michael Porter Jr. (23 Punkte, 9 Rebounds) und Julius Randle (20) führten die Offensive an, Nolan Traoré traf vier Dreier.</p><p>Day'Ron Sharpe holte mit 15 Punkten und 13 Rebounds sein erstes Double-Double der Saison, Moritz Wagner stand zur Pause bereits bei zehn Punkten. Die Pacers waren freilich schwer ersatzgeschwächt. Heute Nacht wartet für Brooklyn der Härtetest Knicks – gegen den Stadtrivalen haben die Nets seit Jänner 2023 14-mal in Folge verloren.</p>
+      </article>
+      
+      <article class="story">
+        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="Boston Celtics">
+        <div class="kick">Celtics · Serie</div>
+        <h3>Tatum und George, das funktioniert</h3>
+        <p>Wer nach dem Sommer an Boston gezweifelt hat, muss umdenken: Das 108:97 in Orlando war der <strong>fünfte Sieg in Serie</strong>, die Celtics stehen bei 5-1. <strong>Jayson Tatum</strong> erzielte 32 Punkte und 7 Assists, Paul George steuerte 17 Punkte, 8 Assists, 2 Steals und 2 Blocks bei.</p><p>Den Unterschied machte die Defensive: 18 Ballverluste erzwang Boston. Bei Orlando war Anthony Black mit 23 Punkten Bester, <strong>Franz Wagner</strong> verteilte zwar 12 Assists, traf aber nur fünf seiner 20 Würfe. Die Magic stehen bei 2-4 – zu wenig für ein Team mit Ambitionen im Osten.</p>
+      </article>
+      
+    </div>
+  </section>
+  
+
+  
+  <section class="sec spoil" id="europa">
+    <h2 class="sec-h">Europa-Ecke</h2>
+    <div class="europe">
+      
+      <div class="eu">
+        <div class="who"><span>🇦🇹</span><span>Jakob Pöltl</span><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors"></div>
+        <div class="stat">Kurzfristig gestrichen · Schulter</div>
+        <p>Pöltl war als Starter gemeldet, fiel dann aber wegen Schulterproblemen kurzfristig aus. Ob er heute Nacht (04:00 Uhr) bei den Clippers spielen kann, ist offen – ohne ihn fehlte Toronto gegen Kessler die Präsenz am Brett.</p>
+      </div>
+      
+      <div class="eu">
+        <div class="who"><span>🇩🇪</span><span>Franz Wagner</span><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="Orlando Magic"></div>
+        <div class="stat">14 Pkt · 12 Ast</div>
+        <p>Als Spielmacher stark, als Werfer glücklos: 5 von 20 aus dem Feld. Heute Nacht (01:30 Uhr) gegen Washington wartet die schnelle Chance zur Wiedergutmachung.</p>
+      </div>
+      
+      <div class="eu">
+        <div class="who"><span>🇩🇪</span><span>Moritz Wagner</span><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="Brooklyn Nets"></div>
+        <div class="stat">10 Pkt zur Pause · Sieg</div>
+        <p>Perfekter Start mit vier Treffern in vier Versuchen – und am Ende der erste Saisonsieg der Nets.</p>
+      </div>
+      
+      <div class="eu">
+        <div class="who"><span>🇩🇪</span><span>Tristan da Silva</span><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="Orlando Magic"></div>
+        <div class="stat">Niederlage gegen Boston</div>
+        <p>Der Frankfurter stand gegen die Celtics im Kader von Orlando, eine Statistik lag uns bei Redaktionsschluss nicht vor.</p>
+      </div>
+      
+      <div class="eu">
+        <div class="who"><span>🇸🇮</span><span>Luka Dončić</span><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="Los Angeles Lakers"></div>
+        <div class="stat">45 Pkt · 15 Reb · 6 Ast · 5 Stl</div>
+        <p>Die erste Stat-Line dieser Art in der NBA-Geschichte. Siehe Aufmacher.</p>
+      </div>
+      
+      <div class="eu">
+        <div class="who"><span>🇫🇷</span><span>Nolan Traoré</span><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="Brooklyn Nets"></div>
+        <div class="stat">16 Pkt · 6 Ast · 4 Dreier</div>
+        <p>Der französische Aufbauspieler leistete sich bei sechs Assists nur einen Ballverlust – starke Vorstellung beim ersten Nets-Sieg.</p>
+      </div>
+      
+      <div class="eu">
+        <div class="who"><span>🇱🇻</span><span>Kristaps Porziņģis</span><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="Golden State Warriors"></div>
+        <div class="stat">Krank · ausgefallen</div>
+        <p>Der Lette fehlte den Warriors beim Sieg über die Clippers wegen einer Erkrankung.</p>
+      </div>
+      
+      <div class="eu">
+        <div class="who"><span>🇨🇭</span><span>Yanic Konan Niederhäuser</span><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="LA Clippers"></div>
+        <div class="stat">Verletzt · Lisfranc</div>
+        <p>Der Schweizer Center fällt bei den Clippers mit einer Lisfranc-Verletzung im Fuß weiterhin aus.</p>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  
+  <section class="sec">
+    <h2 class="sec-h">Power Ranking der Woche</h2>
+    <ol class="pr">
+      
+      <li><span class="rk">1</span><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt=""><span><b>Memphis Grizzlies</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>6-0, einziges ungeschlagenes Team – Rookie Boozer liefert, die Tiefe trägt auch ohne beide Point Guards.</span></li>
+      
+      <li><span class="rk">2</span><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt=""><span><b>Houston Rockets</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>6-1 und das Statement gegen OKC: Diese Rockets schießen und verteidigen auf Titelniveau.</span></li>
+      
+      <li><span class="rk">3</span><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt=""><span><b>Philadelphia 76ers</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>6-1, Platz eins im Osten – und Maxey gewinnt Spiele notfalls auch ohne LeBron und Embiid.</span></li>
+      
+      <li><span class="rk">4</span><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt=""><span><b>Boston Celtics</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>Fünf Siege in Serie, Tatum in Topform, George als perfekter Nebenmann.</span></li>
+      
+      <li><span class="rk">5</span><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt=""><span><b>Los Angeles Lakers</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>Dončić spielt auf MVP-Niveau, die Pleite in Golden State ist abgehakt – 5-2.</span></li>
+      
+      <li><span class="rk">6</span><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt=""><span><b>Detroit Pistons</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>5-1 und still erfolgreich – heute Nacht in Charlotte gefordert.</span></li>
+      
+      <li><span class="rk">7</span><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt=""><span><b>San Antonio Spurs</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>Vier Siege in Serie und ein Wembanyama, der Abende wie den 43-Punkte-Auftritt zur Gewohnheit macht.</span></li>
+      
+      <li><span class="rk">8</span><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt=""><span><b>Oklahoma City Thunder</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>Zwei klare Niederlagen und Holmgren monatelang weg: Der Meister von 2025 muss sich neu sortieren.</span></li>
+      
+      <li><span class="rk">9</span><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt=""><span><b>Portland Trail Blazers</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>4-1 und auswärts makellos – die Überraschung des Herbstes im Westen.</span></li>
+      
+      <li><span class="rk">10</span><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt=""><span><b>Cleveland Cavaliers</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>4-2, der Kantersieg in Milwaukee zeigte, was in Mobley, Allen und Co. steckt.</span></li>
+      
+      <li><span class="rk">11</span><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt=""><span><b>Dallas Mavericks</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>4-2, das 120:96 gegen OKC bleibt die Visitenkarte – heute gegen die sieglosen Kings.</span></li>
+      
+      <li><span class="rk">12</span><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt=""><span><b>Denver Nuggets</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>3-2, solide, aber das 114:134 gegen Golden State war ein Warnsignal.</span></li>
+      
+      <li><span class="rk">13</span><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt=""><span><b>Golden State Warriors</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>Nach 0-3 nun vier Siege in Folge – und Rookie Lendeborg trägt das Team auch ohne Curry.</span></li>
+      
+      <li><span class="rk">14</span><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt=""><span><b>Minnesota Timberwolves</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>4-3 ohne Edwards und zeitweise ohne Gobert – mehr ist im Moment kaum zu erwarten.</span></li>
+      
+      <li><span class="rk">15</span><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt=""><span><b>Toronto Raptors</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>3-3, ohne Leonard und zuletzt Pöltl fehlt die Substanz für einen Roadtrip im Westen.</span></li>
+      
+      <li><span class="rk">16</span><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt=""><span><b>Washington Wizards</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>3-3 – mehr, als viele den Wizards zugetraut hätten.</span></li>
+      
+      <li><span class="rk">17</span><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt=""><span><b>Charlotte Hornets</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>3-4, zuletzt knapp an Philly gescheitert; Verletzungen bremsen den Aufschwung.</span></li>
+      
+      <li><span class="rk">18</span><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt=""><span><b>Atlanta Hawks</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>3-4, die 99:121-Pleite in New Orleans und die Sperre für Flemings tun weh.</span></li>
+      
+      <li><span class="rk">19</span><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt=""><span><b>Orlando Magic</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>2-4 – für ein Team mit Playoff-Ansprüchen zu wenig, die Offensive stockt.</span></li>
+      
+      <li><span class="rk">20</span><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt=""><span><b>New York Knicks</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>2-4, aber mit dem Cup-Duell gegen Philly im Rückspiegel – heute kommt Brooklyn.</span></li>
+      
+      <li><span class="rk">21</span><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt=""><span><b>Miami Heat</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>2-4, die Heat suchen noch ihren Rhythmus – heute Nacht wartet Dončić.</span></li>
+      
+      <li><span class="rk">22</span><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt=""><span><b>Indiana Pacers</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>2-5 und eine Lazarett-Liste mit Haliburton, Zubac, Toppin und McConnell.</span></li>
+      
+      <li><span class="rk">23</span><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt=""><span><b>New Orleans Pelicans</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>2-4, der Sieg gegen Atlanta mit 52 Bankpunkten macht Hoffnung.</span></li>
+      
+      <li><span class="rk">24</span><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt=""><span><b>Phoenix Suns</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>1-3, wenig gespielt und noch weniger gewonnen.</span></li>
+      
+      <li><span class="rk">25</span><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt=""><span><b>LA Clippers</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>Fünf Niederlagen in Folge, Ingram und Beal verletzt – düsterer Herbst in LA.</span></li>
+      
+      <li><span class="rk">26</span><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt=""><span><b>Milwaukee Bucks</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>1-5 und ein 111:136 gegen Cleveland: Die Bucks sind im Umbruch angekommen.</span></li>
+      
+      <li><span class="rk">27</span><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt=""><span><b>Chicago Bulls</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>1-5, heute Nacht in Philadelphia droht das nächste Minus.</span></li>
+      
+      <li><span class="rk">28</span><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt=""><span><b>Utah Jazz</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>1-5, vier Niederlagen in Serie – der Rebuild dauert.</span></li>
+      
+      <li><span class="rk">29</span><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt=""><span><b>Brooklyn Nets</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>Der erste Sieg ist da, mehr Mut macht die Defensive.</span></li>
+      
+      <li><span class="rk">30</span><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt=""><span><b>Sacramento Kings</b> <span style="font-family:var(--cond);color:var(--muted)">(neu)</span><br>0-6, einziges sieglose Team – Rookie Acuff ist der einzige Lichtblick.</span></li>
+      
+    </ol>
+  </section>
+  
+
+  <section class="sec cols">
+    <div class="explain">
+      <h2 class="sec-h">Einordnung</h2>
+      <h3>Power Ranking vs. Tabelle – was ist der Unterschied?</h3>
+      <p>Ab heute gibt es in jeder Montagsausgabe ein <strong>Power Ranking</strong>: eine Rangliste aller 30 Teams. Die Tabelle sagt, wer bisher am meisten gewonnen hat. Das Power Ranking versucht eine andere Frage zu beantworten: <strong>Wer ist gerade wirklich am stärksten?</strong></p><p>Dafür fließen neben der Bilanz weitere Faktoren ein: Gegen wen wurde gewonnen? Wie deutlich? Wer fehlt verletzt, wer kommt zurück? Ein Team mit 4-2 nach Siegen gegen starke Gegner kann so vor einem 4-1-Team stehen, das bisher nur Kellerkinder hatte. Und ein Ausfall wie jener von Chet Holmgren in Oklahoma City drückt ein Team nach unten, auch wenn die Bilanz noch ordentlich aussieht.</p><p><strong>Wichtig:</strong> Ein Power Ranking ist Meinung, keine Mathematik. Große US-Medien veröffentlichen eigene Rankings, die sich oft deutlich unterscheiden. Für die Playoffs zählt am Ende nur die Tabelle.</p><p>Die Klammer hinter dem Teamnamen zeigt künftig, wie viele Plätze ein Team im Vergleich zur Vorwoche gestiegen oder gefallen ist. Weil dies unser erstes Ranking ist, steht diesmal überall „neu“. Nächsten Montag wird es spannend.</p>
+    </div>
+    <div>
+      <h2 class="sec-h">News-Ticker</h2>
+      <ul class="news">
+        <li><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors"><span><strong>Jakob Pöltl</strong> fiel kurzfristig mit einer Schulterverletzung aus, <strong>Kawhi Leonard</strong> (Knie) verpasste das vierte Spiel in Serie.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="Golden State Warriors"><span><strong>Stephen Curry</strong> pausierte zur Schonung seines rechten Knies – zuvor hatte er in drei Spielen im Schnitt 33 Punkte erzielt.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="Atlanta Hawks"><span><strong>Kingston Flemings</strong> ist für ein Spiel ohne Bezahlung gesperrt – Ellbogen gegen den Kopf von Bryce McGowens am Samstag.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="Los Angeles Lakers"><span>Erstrunden-Pick <strong>Cameron Carr</strong> feierte nach einer Bauchmuskelverletzung in den letzten 1:43 Minuten sein NBA-Debüt.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="LA Clippers"><span>Die Clippers müssen weiter auf <strong>Brandon Ingram</strong> (Ferse) und <strong>Bradley Beal</strong> (Knie) verzichten.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="Indiana Pacers"><span>Ohne <strong>Haliburton</strong>, <strong>Zubac</strong>, <strong>Toppin</strong> und <strong>McConnell</strong> fehlte Indiana gegen Brooklyn fast die halbe Rotation.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="Sacramento Kings"><span>Nach dem ersten Nets-Sieg sind die <strong>Kings</strong> (0-6) das letzte sieglose Team der Liga.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="tabelle">
+    <h2 class="sec-h">Tabellen · Stand nach der Nacht auf Montag (sortiert nach Siegquote)</h2>
+    <div class="standings spoil">
+      
+      <table class="st">
+        <caption>Eastern Conference</caption>
+        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
+        <tbody>
+        
+          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers</td><td>6</td><td>1</td><td>0.857</td></tr>
+        
+          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</td><td>5</td><td>1</td><td>0.833</td></tr>
+        
+          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</td><td>5</td><td>1</td><td>0.833</td></tr>
+        
+          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers</td><td>4</td><td>2</td><td>0.667</td></tr>
+        
+          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors</td><td>3</td><td>3</td><td>0.500</td></tr>
+        
+          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</td><td>3</td><td>3</td><td>0.500</td></tr>
+        
+          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks</td><td>3</td><td>4</td><td>0.429</td></tr>
+        
+          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets</td><td>3</td><td>4</td><td>0.429</td></tr>
+        
+          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic</td><td>2</td><td>4</td><td>0.333</td></tr>
+        
+          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat</td><td>2</td><td>4</td><td>0.333</td></tr>
+        
+          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</td><td>2</td><td>4</td><td>0.333</td></tr>
+        
+          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers</td><td>2</td><td>5</td><td>0.286</td></tr>
+        
+          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks</td><td>1</td><td>5</td><td>0.167</td></tr>
+        
+          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls</td><td>1</td><td>5</td><td>0.167</td></tr>
+        
+          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</td><td>1</td><td>5</td><td>0.167</td></tr>
+        
+        </tbody>
+      </table>
+      
+      <table class="st">
+        <caption>Western Conference</caption>
+        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
+        <tbody>
+        
+          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</td><td>6</td><td>0</td><td>1.000</td></tr>
+        
+          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</td><td>6</td><td>1</td><td>0.857</td></tr>
+        
+          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers</td><td>4</td><td>1</td><td>0.800</td></tr>
+        
+          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers</td><td>5</td><td>2</td><td>0.714</td></tr>
+        
+          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</td><td>4</td><td>2</td><td>0.667</td></tr>
+        
+          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</td><td>4</td><td>2</td><td>0.667</td></tr>
+        
+          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks</td><td>4</td><td>2</td><td>0.667</td></tr>
+        
+          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</td><td>3</td><td>2</td><td>0.600</td></tr>
+        
+          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</td><td>4</td><td>3</td><td>0.571</td></tr>
+        
+          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves</td><td>4</td><td>3</td><td>0.571</td></tr>
+        
+          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</td><td>2</td><td>4</td><td>0.333</td></tr>
+        
+          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</td><td>1</td><td>3</td><td>0.250</td></tr>
+        
+          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</td><td>1</td><td>5</td><td>0.167</td></tr>
+        
+          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz</td><td>1</td><td>5</td><td>0.167</td></tr>
+        
+          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</td><td>0</td><td>6</td><td>0.000</td></tr>
+        
+        </tbody>
+      </table>
+      
+    </div>
+    <div class="legend">Durchgezogene Linie: Platz 1–6 = fix in den Playoffs · gestrichelt: Platz 7–10 = Play-In-Turnier</div>
+  </section>
+
+  <section class="sec" id="vorschau">
+    <h2 class="sec-h">Vorschau · alle Zeiten Wiener Zeit</h2>
+    <div class="updays">
+      
+      <div class="upday">
+        <h4>Heute Nacht – Nacht auf Dienstag (15 Spiele; Nacht auf Mittwoch laut Spielplan spielfrei)</h4>
+        
+        <div class="up ">
+          <span class="time">01:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder @ <img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers</span>
+          <span class="note">Erstes Spiel der Thunder nach der Holmgren-Diagnose.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons @ <img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets</span>
+          <span class="note">Dennis Schröder gegen das Ost-Spitzenteam.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks @ <img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets @ <img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</span>
+          <span class="note">Back-to-back für die Nets, 14 Derby-Niederlagen in Folge.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards @ <img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic</span>
+          <span class="note">Franz Wagner und da Silva wollen Revanche für die Boston-Pleite.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls @ <img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings @ <img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks</span>
+          <span class="note">Die sieglosen Kings in Dallas.</span>
+        </div>
+        
+        <div class="up feat">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans @ <img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</span>
+          <span class="note"><strong>Spiel des Tages:</strong> Memphis peilt das 7-0 und den besten Start der Klubgeschichte an.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks @ <img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics @ <img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</span>
+          <span class="note">Fünf Siege in Serie gegen 6-1 – Topduell.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz @ <img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">03:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers @ <img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns @ <img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</span>
+          <span class="note">Spielt Curry wieder?</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors @ <img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</span>
+          <span class="note">Pöltl fraglich (Schulter).</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat @ <img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers</span>
+          <span class="note">Dončić nach dem Rekordabend.</span>
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="gtk">
+      <div class="gtk-grid">
+        
+        <div class="gtk-item"><div class="n">45/15/6/5</div><h5>Eine Premiere</h5><p>Punkte, Rebounds, Assists, Steals: Diese Kombination hatte vor Dončić noch kein NBA-Spieler in einem Spiel.</p></div>
+        
+        <div class="gtk-item"><div class="n">20</div><h5>40-Punkte-Spiele als Laker</h5><p>Dončić brauchte dafür nur 98 Regular-Season-Spiele in Gelb-Lila.</p></div>
+        
+        <div class="gtk-item"><div class="n">37</div><h5>Rookie-Rekordnähe</h5><p>Mehr Punkte als Lendeborg erzielte ein Warriors-Rookie zuletzt 2010 – Stephen Curry mit 42.</p></div>
+        
+        <div class="gtk-item"><div class="n">11 in 40 s</div><h5>Raptors-Blitz</h5><p>Torontos Reservisten verkürzten in den Schlussminuten binnen 40 Sekunden auf 125:120 – die Lakers-Starter mussten zurück.</p></div>
+        
+        <div class="gtk-item"><div class="n">14</div><h5>Derby-Niederlagen</h5><p>So oft in Folge haben die Nets gegen die Knicks verloren – seit Jänner 2023 kein Sieg. Heute Nacht der nächste Versuch.</p></div>
+        
+        <div class="gtk-item"><div class="n">18</div><h5>Erzwungene Ballverluste</h5><p>So viele Turnovers zwang Bostons Defense den Magic auf – der Schlüssel zum fünften Sieg in Serie.</p></div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="sec cols">
+    <div>
+      <h2 class="sec-h">Highlights &amp; Material</h2>
+      <ul class="links">
+        <li><a href="https://www.tsn.ca/nba/article/doncic-has-45-points-15-rebounds-while-leading-lakers-to-victory-over-raptors/" target="_blank" rel="noopener">Dončićs Rekordabend gegen Toronto</a><span class="src">TSN / AP</span></li><li><a href="https://sports.yahoo.com/articles/lakers-luka-doncic-torches-raptors-055156927.html" target="_blank" rel="noopener">Die historische Stat-Line im Detail</a><span class="src">Yahoo Sports</span></li><li><a href="https://sports.yahoo.com/articles/remarkable-rookie-lendeborg-scores-37-050436504.html" target="_blank" rel="noopener">Lendeborgs 37 gegen die Clippers</a><span class="src">Yahoo Sports / AFP</span></li><li><a href="https://www.si.com/nba/warriors/onsi/takeaways-from-warriors-win-over-clippers-yaxel-s-shooting-is-for-real-01m6d6t4m7xc" target="_blank" rel="noopener">Takeaways: Warriors – Clippers</a><span class="src">SI / Inside the Warriors</span></li><li><a href="https://sports.yahoo.com/articles/nets-first-win-season-strong-005628327.html" target="_blank" rel="noopener">Nets holen den ersten Sieg</a><span class="src">Yahoo Sports</span></li><li><a href="https://www.youtube.com/@NBA/videos" target="_blank" rel="noopener">Alle Highlights der Nacht</a><span class="src">YouTube · NBA</span><br><span style="color:var(--ink-2)">Offizieller NBA-Kanal.</span></li><li><a href="https://www.nba.com/watch/league-pass-stream" target="_blank" rel="noopener">Ganze Spiele im Replay</a><span class="src">NBA League Pass</span><br><span style="color:var(--ink-2)">Euer League Pass Premium: alle Spiele der Nacht auf Abruf.</span></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="sec-h">Kleines NBA-Glossar</h2>
+      <dl class="gloss">
+        <dt>Power Ranking</dt><dd>Subjektive Rangliste der aktuell stärksten Teams – berücksichtigt neben der Bilanz auch Gegner, Form und Verletzungen.</dd><dt>Steal</dt><dd>Ballgewinn durch Abfangen oder Wegspitzeln – Dončić kam gegen Toronto auf fünf.</dd><dt>Late Scratch</dt><dd>Ein Spieler, der kurz vor Spielbeginn doch noch aus dem Aufgebot gestrichen wird – wie Pöltl.</dd><dt>Double-Double</dt><dd>Zweistellige Werte in zwei Statistik-Kategorien, etwa Sharpes 15 Punkte und 13 Rebounds.</dd><dt>Roadtrip</dt><dd>Eine Serie von Auswärtsspielen am Stück – Toronto ist gerade auf einer Viererreise durch den Westen.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <div class="hardwood"></div>
+  <footer>
+    <div class="pager">
+      <span><a href="../../ausgabe/2026-11-01/">← Vorherige Ausgabe</a></span>
+      <a href="../../archiv/">Archiv</a>
+      <span></span>
+    </div>
+    <p>COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Recherchiert und geschrieben von Claude für eine Runde basketballverrückter Freunde. Team-Logos: offizielle Logos der NBA-Teams (cdn.nba.com), Marken der jeweiligen Inhaber. Kein offizielles NBA-Produkt.</p>
+    <div class="srcs"><strong>Quellen dieser Ausgabe:</strong> <a href="https://www.tsn.ca/nba/article/doncic-has-45-points-15-rebounds-while-leading-lakers-to-victory-over-raptors/" target="_blank" rel="noopener">TSN/AP: Lakers–Raptors</a> · <a href="https://sports.yahoo.com/articles/lakers-luka-doncic-torches-raptors-055156927.html" target="_blank" rel="noopener">Yahoo: Dončić-Stat-Line</a> · <a href="https://www.cbssports.com/fantasy/basketball/news/raptors-jakob-poeltl-late-scratch-sunday/" target="_blank" rel="noopener">CBS Sports: Pöltl late scratch</a> · <a href="https://www.covers.com/sport/basketball/nba/matchup/388643" target="_blank" rel="noopener">Covers: Raptors–Lakers</a> · <a href="https://sports.yahoo.com/articles/remarkable-rookie-lendeborg-scores-37-050436504.html" target="_blank" rel="noopener">Yahoo/AFP: Warriors–Clippers</a> · <a href="https://sports.yahoo.com/nba/la-clippers-golden-state-warriors-2026110109/" target="_blank" rel="noopener">Yahoo: Clippers–Warriors Vorschau (Ausfälle)</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/01/1277624-clippers-vs-warriors-live-score-updates-and-stats-in-nba-game.html" target="_blank" rel="noopener">VAVEL: Clippers–Warriors Liveticker</a> · <a href="https://www.foxsports.com/nba/boston-celtics-vs-orlando-magic-nov-01-2026-game-boxscore-106620" target="_blank" rel="noopener">FOX Sports: Celtics–Magic</a> · <a href="https://sports.yahoo.com/articles/nets-first-win-season-strong-005628327.html" target="_blank" rel="noopener">Yahoo: Nets–Pacers</a> · <a href="https://www.lines.com/nba/schedule" target="_blank" rel="noopener">lines.com: NBA-Spielplan</a> · <a href="https://courtside.hobiger.cc" target="_blank" rel="noopener">COURTSIDE Nr. 2: Tabelle Nacht auf Sonntag</a></div>
+  </footer>
+</div>
+<script>
+(function(){
+  var b=document.body, sb=document.getElementById('spoilerBtn'), tb=document.getElementById('themeBtn');
+  function setS(on){b.classList.toggle('spoilerfree',on);sb.setAttribute('aria-pressed',on?'true':'false');try{localStorage.setItem('cs-spoiler',on?'1':'0')}catch(e){}}
+  try{setS(localStorage.getItem('cs-spoiler')==='1')}catch(e){}
+  sb.addEventListener('click',function(){setS(!b.classList.contains('spoilerfree'))});
+  tb.addEventListener('click',function(){
+    var r=document.documentElement, cur=r.getAttribute('data-theme');
+    if(!cur){cur=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}
+    var n=cur==='dark'?'light':'dark'; r.setAttribute('data-theme',n); try{localStorage.setItem('cs-theme',n)}catch(e){}
+  });
+})();
+</script>
+<div id="a2hs" class="a2hs" role="dialog" aria-labelledby="a2hs-t" hidden>
+  <button class="a2hs-x" id="a2hs-close" aria-label="Schließen">×</button>
+  <img src="/icons/apple-touch-icon.png" alt="" width="56" height="56">
+  <div class="a2hs-txt">
+    <strong id="a2hs-t">COURTSIDE aufs Handy holen</strong>
+    <p id="a2hs-android">Als App auf den Homescreen – jeden Morgen mit einem Tipp bei der neuen Ausgabe.</p>
+    <p id="a2hs-ios" hidden>Tippe unten auf <b>Teilen</b> <svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-3px" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15V3M7 8l5-5 5 5M5 12v8h14v-8"/></svg> und dann auf <b>„Zum Home-Bildschirm“</b>.</p>
+    <div class="a2hs-btns">
+      <button class="a2hs-go" id="a2hs-install">Zum Homescreen</button>
+      <button class="a2hs-later" id="a2hs-later">Später</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){})})}
+  var box=document.getElementById('a2hs'); if(!box) return;
+  var standalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+  if(standalone) return;
+  function get(k){try{return localStorage.getItem(k)}catch(e){return null}}
+  function set(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+  var until=+(get('cs-a2hs-until')||0); if(Date.now()<until) return;
+  var ua=navigator.userAgent, isIOS=/iphone|ipad|ipod/i.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  var isMobile=isIOS||/android/i.test(ua);
+  var deferred=null;
+  function show(){box.hidden=false;requestAnimationFrame(function(){box.classList.add('on')})}
+  function hide(days){box.classList.remove('on');setTimeout(function(){box.hidden=true},300);set('cs-a2hs-until',String(Date.now()+days*864e5))}
+  window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();deferred=e;setTimeout(show,3000)});
+  if(isIOS){
+    document.getElementById('a2hs-android').hidden=true;
+    document.getElementById('a2hs-ios').hidden=false;
+    document.getElementById('a2hs-install').textContent='Verstanden';
+    setTimeout(show,3000);
+  } else if(isMobile){
+    // Android ohne Install-Event (z. B. Firefox): Hinweis aufs Browser-Menü
+    setTimeout(function(){ if(!deferred){document.getElementById('a2hs-android').innerHTML='Im Browser-Menü <b>⋮</b> auf <b>„Zum Startbildschirm hinzufügen“</b> tippen.';document.getElementById('a2hs-install').textContent='Verstanden';show();} },4000);
+  }
+  document.getElementById('a2hs-install').addEventListener('click',function(){
+    if(deferred){deferred.prompt();deferred.userChoice.finally(function(){deferred=null;hide(365)})}
+    else hide(30);
+  });
+  document.getElementById('a2hs-later').addEventListener('click',function(){hide(7)});
+  document.getElementById('a2hs-close').addEventListener('click',function(){hide(7)});
+  window.addEventListener('appinstalled',function(){hide(365)});
+})();
+</script>
+</body>
+</html>
