@@ -49,14 +49,13 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   {% endif %}
 
   {% if i.rewatch %}
-  <section class="rewatch" aria-label="Re-Watch-Tipp">
-    <div class="logos"><img src="{{ logo(i.rewatch.away) }}" alt="{{ tname(i.rewatch.away) }}"> @ <img src="{{ logo(i.rewatch.home) }}" alt="{{ tname(i.rewatch.home) }}"></div>
-    <div>
-      <span class="badge">Spoilerfreier Re-Watch-Tipp</span>
-      <h3>{{ tname(i.rewatch.away) }} @ {{ tname(i.rewatch.home) }}</h3>
+  <details class="rewatch">
+    <summary><span class="badge">Re-Watch-Tipp</span><span class="rw-t">Spoilerfrei · {{ i.rewatch.away }} @ {{ i.rewatch.home }}</span><span class="rw-arr" aria-hidden="true">▾</span></summary>
+    <div class="rw-body">
+      <div class="logos"><img src="{{ logo(i.rewatch.away) }}" alt="{{ tname(i.rewatch.away) }}"> @ <img src="{{ logo(i.rewatch.home) }}" alt="{{ tname(i.rewatch.home) }}"></div>
       <p>{{ i.rewatch.why }} <em>Tipp: Oben „Spoiler-Schutz“ aktivieren, dann bleiben alle Ergebnisse verdeckt.</em></p>
     </div>
-  </section>
+  </details>
   {% endif %}
 
   <div class="lead-grid">
