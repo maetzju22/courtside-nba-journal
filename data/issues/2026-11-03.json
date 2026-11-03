@@ -1,0 +1,510 @@
+{
+  "date": "2026-11-03",
+  "issue_no": 4,
+  "weekday": "Dienstag",
+  "date_long": "3. November 2026",
+  "edition_label": "Dienstagsausgabe",
+  "tagline": "Was letzte Nacht in Amerika passiert ist – eingeordnet zum ersten Kaffee.",
+  "period": "Nacht auf Dienstag",
+  "minute": [
+    "<strong>Memphis ist nicht mehr makellos:</strong> New Orleans gewinnt 135:134 nach Verlängerung in Memphis – trotz 40 Punkten von Ty Jerome ist das 7-0 geplatzt.",
+    "<strong>Shai übernimmt:</strong> Gilgeous-Alexander trifft mit 43 Punkten und dem entscheidenden Dreier 33 Sekunden vor Schluss zum 117:112 in Cleveland – erster Thunder-Sieg nach der Verletzungsserie.",
+    "<strong>Kein siegloses Team mehr:</strong> Sacramento gewinnt 115:100 in Dallas, Rookie Darius Acuff Jr. erzielt 25 Punkte.",
+    "<strong>Pöltl fehlt erneut:</strong> Schleimbeutelentzündung in der linken Schulter – Toronto dreht trotzdem ein 16-Punkte-Minus bei den Clippers zum 125:118.",
+    "<strong>Houston stoppt Boston:</strong> 109:93 im Topduell, die Celtics-Serie endet bei fünf Siegen; Houston und Philadelphia (126:107 gegen Chicago) stehen jetzt bei 7-1.",
+    "<strong>Dončić bleibt heiß:</strong> 42 Punkte und 13 Assists beim 138:117 gegen Miami und Giannis – das vierte 40-Punkte-Spiel in fünf Partien.",
+    "<strong>Franz Wagner mit 24</strong>, aber Orlando verliert 94:103 gegen Washington und Anthony Davis.",
+    "<strong>Heute Nacht Pause:</strong> Wegen der US-Wahl ist der Dienstag spielfrei – in der Nacht auf Donnerstag geht es mit 14 Spielen weiter."
+  ],
+  "rewatch": {
+    "away": "OKC",
+    "home": "CLE",
+    "why": "Zwei Teams, die sich letzte Saison bis in die Conference Finals gespielt haben, und ein Spiel, das nie zur Ruhe kommt: über 20 Führungswechsel, ein Schlussviertel als Pingpong-Match. Dazu ein Superstar, der so viele Würfe nimmt wie selten zuvor in seiner Karriere, und ein Rookie, der bei seiner ersten Startaufstellung keine Scheu zeigt. Ideal, wenn ihr 48 Minuten Spannung bis zur letzten Minute wollt."
+  },
+  "lead": {
+    "kicker": "Pelicans – Grizzlies · West",
+    "title": "Die Serie reißt bei sechs – New Orleans stoppt Memphis",
+    "teams": ["NOP", "MEM"],
+    "teaser": "Der Rekordstart ist dahin: Die Grizzlies verlieren nach Verlängerung 134:135 gegen New Orleans, obwohl Ty Jerome mit 40 Punkten fast im Alleingang die Wende schafft.",
+    "body": [
+      "Sieben Siege zum Auftakt hätte es in der Geschichte der <strong>Memphis Grizzlies</strong> noch nie gegeben. Mit sechs hatte das Team den Klubrekord bereits egalisiert, gegen die bis dahin enttäuschenden Pelicans sollte am Montag der nächste Schritt folgen. Es kam anders: <strong>135:134 nach Verlängerung</strong> für New Orleans – und Memphis steht nach der ersten Saisonniederlage bei 6-1.",
+      "Die Pelicans führten das gesamte Schlussviertel lang, 2:36 Minuten vor dem Ende traf <strong>Karlo Matković</strong> per Dreier zum 124:115. Dann begann die <strong>Ty-Jerome-Show</strong>: Der Guard erzielte neun Punkte in Serie, ein 9:0-Lauf rettete Memphis in die Overtime. Auch dort war Jerome kaum zu halten, acht der zehn Grizzlies-Punkte gingen auf sein Konto. Am Ende standen <strong>40 Punkte</strong> neben seinem Namen – mehr als jeder andere Spieler auf dem Feld.",
+      "Entschieden wurde die Partie in der letzten Minute durch Hartnäckigkeit. Zion Williamson vergab beim Stand von minus eins einen Wurf, Saddiq Bey holte den Rebound, Rookie <strong>Jeremiah Fears</strong> spitzelte den Ball frei, sicherte ihn und wurde beim Wurf gefoult. Zwei Freiwürfe, Führung. Jeromes letzter Versuch prallte ab. Fears stand an diesem Abend übrigens 30-mal an der Linie und traf 25 – eine Quote, die bei so vielen Versuchen bemerkenswert ist.",
+      "Bei New Orleans teilten sich <strong>Williamson</strong> (25 Punkte, 11 Rebounds, davon neun Punkte in der Verlängerung) und der Kroate <strong>Matković</strong> (25) die Topscorer-Rolle, Derik Queen kam von der Bank auf 20 Punkte, 7 Rebounds und 5 Assists. Trey Murphy III und Bey steuerten je 18 bei. Bei Memphis lieferte Rookie Cameron Boozer 18 Punkte, 9 Rebounds und 5 Assists.",
+      "Die Einordnung: Für Memphis ist die Niederlage ein Schönheitsfehler, mehr nicht – das Team bleibt Zweiter im Westen, nur Houston (7-1) hat eine bessere Quote. Spannender ist die Kurve der Pelicans: Nach 0-4 haben sie nun dreimal in Folge gewonnen und stehen bei 3-4. In der Nacht auf Donnerstag empfängt New Orleans Utah, Memphis hat Indiana zu Gast."
+    ]
+  },
+  "sidebar": [
+    {
+      "title": "Die Nacht in 30 Sekunden",
+      "items": [
+        "<strong>15 Spiele</strong> – alle 30 Teams waren im Einsatz.",
+        "<strong>Memphis</strong> kassiert die erste Niederlage, nach Verlängerung.",
+        "<strong>Sacramento</strong> gewinnt endlich – kein Team ist mehr sieglos.",
+        "<strong>Gilgeous-Alexander</strong> mit Saisonbestwert 43.",
+        "<strong>Houston und Philadelphia</strong> jetzt 7-1.",
+        "<strong>Pöltl</strong> fehlt das zweite Spiel in Folge."
+      ]
+    },
+    {
+      "title": "Spieler der Nacht",
+      "items": [
+        "<strong>Shai Gilgeous-Alexander</strong> (OKC): 43 Punkte, Siegtreffer in Cleveland.",
+        "<strong>Luka Dončić</strong> (LAL): 42 Punkte, 13 Assists, 7 Rebounds.",
+        "<strong>Ty Jerome</strong> (MEM): 40 Punkte – trotz Niederlage.",
+        "<strong>LaMelo Ball</strong> (MIN): 34 Punkte, 6 Dreier gegen Milwaukee."
+      ]
+    }
+  ],
+  "games": [
+    {
+      "tag": "West",
+      "away": "NOP",
+      "home": "MEM",
+      "away_score": 135,
+      "home_score": 134,
+      "away_record": "3-4",
+      "home_record": "6-1",
+      "line": "<b>n. V.</b> · Williamson 25/11, Matković 25, Queen 20/7/5, Murphy III &amp; Bey je 18 · <b>Jerome 40</b>, Boozer 18/9/5.",
+      "links": [
+        {"label": "Bericht", "url": "https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/"},
+        {"label": "Boxscore", "url": "https://www.espn.com/nba/boxscore/_/gameId/401909914"}
+      ]
+    },
+    {
+      "tag": "Interconf.",
+      "away": "OKC",
+      "home": "CLE",
+      "away_score": 117,
+      "home_score": 112,
+      "away_record": "5-2",
+      "home_record": "4-3",
+      "line": "<b>Gilgeous-Alexander 43</b> (Saisonbestwert), A. Mitchell 20, Hartenstein 11 Reb · Thomas 17, D. Mitchell 17/11 Ast, Mobley 16.",
+      "links": [
+        {"label": "Bericht", "url": "https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/"},
+        {"label": "Spielseite", "url": "https://www.espn.com/nba/recap?gameId=401909907"}
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "DET",
+      "home": "CHA",
+      "away_score": 124,
+      "home_score": 91,
+      "away_record": "6-1",
+      "home_record": "3-5",
+      "line": "<b>Cunningham 33/7 Ast</b>, D. Robinson 24 (6 Dreier), A. Thompson 14 · Miller 17, Reid 13 – vierte Hornets-Pleite in Serie.",
+      "links": [
+        {"label": "Bericht", "url": "https://www.theticket.com/2026/11/02/sharp-shooting-pistons-overwhelm-hornets-in-easy-win/"}
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "ATL",
+      "home": "IND",
+      "away_score": 108,
+      "home_score": 104,
+      "away_record": "4-4",
+      "home_record": "2-6",
+      "line": "<b>Alexander-Walker 34</b>, 15 Hawks-Dreier in Hälfte eins (Klubrekord egalisiert) · Indiana mit nur sechs einsatzfähigen Spielern.",
+      "links": [
+        {"label": "Bericht", "url": "https://sports.yahoo.com/articles/hawks-escape-six-man-pacers-034921573.html"},
+        {"label": "Ticker", "url": "https://www.vavel.com/en-us/nba/2026/11/02/1277807-atlanta-hawks-vs-indiana-pacers-live-score-updates-nba.html"}
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "BKN",
+      "home": "NYK",
+      "away_score": 90,
+      "home_score": 103,
+      "away_record": "1-6",
+      "home_record": "3-4",
+      "line": "Knicks entscheiden das Derby im Schlussviertel, angetrieben von Hart und Anunoby · 15. Derbysieg in Folge gegen Brooklyn.",
+      "links": [
+        {"label": "Spielseite", "url": "https://www.espn.com/nba/recap/_/gameId/401909910"}
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "WAS",
+      "home": "ORL",
+      "away_score": 103,
+      "home_score": 94,
+      "away_record": "4-3",
+      "home_record": "2-5",
+      "line": "<b>A. Davis 27</b>, Young, Dybantsa · F. Wagner 24/6 Ast (10/18 FG), Bane – Orlando zu Hause weiter sieglos.",
+      "links": [
+        {"label": "Spielseite", "url": "https://www.espn.com/nba/recap/_/gameId/401909911"}
+      ]
+    },
+    {
+      "tag": "Ost",
+      "away": "CHI",
+      "home": "PHI",
+      "away_score": 107,
+      "home_score": 126,
+      "away_record": "1-6",
+      "home_record": "7-1",
+      "line": "<b>Maxey 26</b> (15 im 4. Viertel), J. Brown 25/11, Edgecombe 21 (Saisonbestwert) · Embiid nach 25 Minuten geschont.",
+      "links": [
+        {"label": "Bericht", "url": "https://metrophiladelphia.com/stories/sixers-bulls-defensive-switch-second-half,161573"},
+        {"label": "Spielseite", "url": "https://www.espn.com/nba/recap?gameId=401909912"}
+      ]
+    },
+    {
+      "tag": "West",
+      "away": "SAC",
+      "home": "DAL",
+      "away_score": 115,
+      "home_score": 100,
+      "away_record": "1-6",
+      "home_record": "4-3",
+      "line": "<b>Acuff Jr. 25/6 Ast</b>, Monk 24/7 Ast, LaVine 23 · 46 Kings-Bankpunkte – erster Saisonsieg.",
+      "links": [
+        {"label": "Analyse", "url": "https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke"},
+        {"label": "Spielseite", "url": "https://www.espn.com/nba/recap/_/gameId/401909913"}
+      ]
+    },
+    {
+      "tag": "Interconf.",
+      "away": "MIL",
+      "home": "MIN",
+      "away_score": 100,
+      "home_score": 112,
+      "away_record": "1-6",
+      "home_record": "5-3",
+      "line": "<b>Ball 34</b> (6 Dreier), Dosunmu 19/12/8 · Herro 21, Jaquez Jr. 19/8.",
+      "links": [
+        {"label": "Spielseite", "url": "https://www.espn.com/nba/recap/_/gameId/401909915"}
+      ]
+    },
+    {
+      "tag": "Interconf.",
+      "away": "BOS",
+      "home": "HOU",
+      "away_score": 93,
+      "home_score": 109,
+      "away_record": "5-2",
+      "home_record": "7-1",
+      "line": "<b>Şengün</b> führt Houston an · Boston im Back-to-back ohne Paul George, mit schwacher Quote – Serie endet bei fünf.",
+      "links": [
+        {"label": "Ticker", "url": "https://www.vavel.com/en-us/nba/2026/11/02/1277767-boston-celtics-vs-houston-rockets-live-score-nba.html"},
+        {"label": "Boxscore", "url": "https://www.espn.com/nba/boxscore/_/gameId/401909916"}
+      ]
+    },
+    {
+      "tag": "West",
+      "away": "UTA",
+      "home": "SAS",
+      "away_score": 97,
+      "home_score": 119,
+      "away_record": "1-6",
+      "home_record": "5-2",
+      "line": "<b>Harper 17</b>, Castle 16, K. Johnson 15, Wembanyama 12/11/3 Blk · Markkanen 22/8, Peterson 14.",
+      "links": [
+        {"label": "Bericht", "url": "https://www.ksat.com/sports/2026/11/03/harper-wembanyama-lead-spurs-past-jazz-119-97-extend-winning-streak-to-5-games/"}
+      ]
+    },
+    {
+      "tag": "West",
+      "away": "POR",
+      "home": "DEN",
+      "away_score": 118,
+      "home_score": 110,
+      "away_record": "5-1",
+      "home_record": "3-3",
+      "line": "<b>Avdija 28</b>, Lillard 20, Clingan 17/18, Holiday 17/10 Ast · Murray 35, Jokić 26/9/8.",
+      "links": [
+        {"label": "Bericht", "url": "https://www.thesportsleader.com/2026/11/02/blazers-storm-back-to-beat-nuggets-remain-perfect-on-the-road/"},
+        {"label": "Spielseite", "url": "https://www.espn.com/nba/recap/_/gameId/401909918"}
+      ]
+    },
+    {
+      "tag": "West",
+      "away": "PHX",
+      "home": "GSW",
+      "away_score": 113,
+      "home_score": 116,
+      "away_record": "1-4",
+      "home_record": "5-3",
+      "line": "<b>Curry 34/7 Ast</b>, Podziemski 20, Bassey 19 (Karrierebestwert) · Booker 26 (Foul-out), Bridges 21 – Green ausgeschlossen.",
+      "links": [
+        {"label": "Bericht", "url": "https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/"}
+      ]
+    },
+    {
+      "tag": "Interconf.",
+      "away": "TOR",
+      "home": "LAC",
+      "away_score": 125,
+      "home_score": 118,
+      "away_record": "4-3",
+      "home_record": "1-6",
+      "line": "Toronto dreht ein 16-Punkte-Minus, erst in den letzten zwei Minuten erstmals vorne · ohne Pöltl &amp; Leonard – Clippers sechste Pleite in Serie.",
+      "links": [
+        {"label": "Analyse", "url": "https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers"},
+        {"label": "Boxscore", "url": "https://www.espn.com/nba/boxscore/_/gameId/401909920"}
+      ]
+    },
+    {
+      "tag": "Interconf.",
+      "away": "MIA",
+      "home": "LAL",
+      "away_score": 117,
+      "home_score": 138,
+      "away_record": "2-5",
+      "home_record": "6-2",
+      "line": "<b>Dončić 42/7/13</b>, Reaves 27, Kessler 15/15, Mamukelashvili 15 · Lakers mit Saisonbestwert und 57 % aus dem Feld.",
+      "links": [
+        {"label": "Bericht", "url": "https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html"},
+        {"label": "Spielseite", "url": "https://www.espn.com/nba/recap?gameId=401909921"}
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "team": "OKC",
+      "kicker": "Thunder · Antwort",
+      "title": "35 Würfe, 43 Punkte, ein Sieg",
+      "body": [
+        "Drei Auswärtsspiele seit den schweren Verletzungen von Chet Holmgren, Jalen Williams und Cason Wallace – die ersten zwei gingen verloren. In Cleveland nahm <strong>Shai Gilgeous-Alexander</strong> die Sache selbst in die Hand: 43 Punkte, Saisonbestwert, und das bei 35 Wurfversuchen, so vielen wie nie zuvor in seiner Karriere.",
+        "Das Schlussviertel war ein Schlagabtausch mit acht Gleichständen und acht Führungswechseln, im ganzen Spiel wechselte die Führung 23-mal. 33 Sekunden vor dem Ende traf SGA aus gut sieben Metern über Sam Merrill zum 115:112, Ajay Mitchell (20) machte an der Linie alles klar. Bei Cleveland glänzte Rookie Meleek Thomas bei seinem ersten Start mit 17 Punkten. Schon am Mittwoch gibt es das Rückspiel in Oklahoma City."
+      ]
+    },
+    {
+      "team": "SAC",
+      "kicker": "Kings · Erlösung",
+      "title": "Null ist Geschichte",
+      "body": [
+        "Nach Brooklyn am Sonntag hat nun auch das letzte sieglose Team gewonnen: Die <strong>Sacramento Kings</strong> setzten sich 115:100 in Dallas durch. Rookie <strong>Darius Acuff Jr.</strong> erzielte 25 Punkte und 6 Assists, Malik Monk kam von der Bank auf 24 Punkte, Zach LaVine traf fünf von neun Dreiern und kam auf 23.",
+        "Den Unterschied machte die Bank: 46 Punkte, fast 60 Prozent Trefferquote. Leaky Black glänzte mit vier Steals. Für Dallas ist die Heimpleite gegen das bisherige Schlusslicht ein Dämpfer – die Mavericks stehen bei 4-3 und reisen als Nächstes nach San Antonio."
+      ]
+    },
+    {
+      "team": "GSW",
+      "kicker": "Warriors · Hitzige Nacht",
+      "title": "Curry ist zurück, Green muss gehen",
+      "body": [
+        "Nach einem Spiel Schonpause meldete sich <strong>Stephen Curry</strong> mit 34 Punkten, 7 Assists und 11 von 12 Freiwürfen zurück – Golden State gewann 116:113 gegen Phoenix und hat nach dem 0-3-Start nun fünfmal in Serie gewonnen. Charles Bassey überraschte mit 19 Punkten (Karrierebestwert), Lendeborg legte 16 nach.",
+        "Ruhig war der Abend nicht: <strong>Draymond Green</strong> flog Anfang des dritten Viertels nach zwei Technischen Fouls, nachdem er sich mit Khaman Maluach und Dillon Brooks angelegt hatte. Auch Miles Bridges kassierte ein Technisches. Devin Booker (26) foulte 58 Sekunden vor Schluss aus. Die Suns führten zur Pause noch 57:51, ehe ein 12:0-Lauf der Warriors die Wende brachte."
+      ]
+    }
+  ],
+  "europe": [
+    {
+      "flag": "🇦🇹",
+      "player": "Jakob Pöltl",
+      "team": "TOR",
+      "stat": "Ausfall · Schulter-Bursitis",
+      "text": "Der Wiener verpasste mit einer Schleimbeutelentzündung in der linken Schulter das zweite Spiel in Folge, ein Rückkehrdatum gibt es nicht. Toronto half sich mit Collin Murray-Boyles als kleinem Center – und gewann trotzdem. Nächster Termin: Nacht auf Donnerstag, 03:00 Uhr, in Denver."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Franz Wagner",
+      "team": "ORL",
+      "stat": "24 Pkt · 6 Ast · 3 Reb",
+      "text": "Die Antwort auf den 5-von-20-Abend gegen Boston: 10 von 18 aus dem Feld, Teambestwert. Gegen Washington reichte es trotzdem nicht, Orlando ist zu Hause weiter ohne Sieg."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Tristan da Silva",
+      "team": "ORL",
+      "stat": "Dreier im Schlussviertel",
+      "text": "Da Silva brachte Orlando mit einem Dreier und einem Step-back-Jumper zu Beginn des vierten Viertels noch einmal heran – die Wende blieb aus."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Isaiah Hartenstein",
+      "team": "OKC",
+      "stat": "11 Reb in 14 Min",
+      "text": "Kurze Einsatzzeit, große Wirkung am Brett beim Thunder-Sieg in Cleveland."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Moritz Wagner",
+      "team": "BKN",
+      "stat": "Derby-Niederlage",
+      "text": "Wagner punktete früh im ersten Viertel, gegen die Knicks verloren die Nets aber erneut – Derbypleite Nummer 15 in Serie."
+    },
+    {
+      "flag": "🇸🇮",
+      "player": "Luka Dončić",
+      "team": "LAL",
+      "stat": "42 Pkt · 13 Ast · 7 Reb",
+      "text": "14 von 24 aus dem Feld, Saisonbestwert bei den Assists – das vierte 40-Punkte-Spiel in den letzten fünf Partien."
+    },
+    {
+      "flag": "🇷🇸",
+      "player": "Nikola Jokić",
+      "team": "DEN",
+      "stat": "26 Pkt · 9 Reb · 8 Ast",
+      "text": "Knapp am Triple-Double vorbei – und Denver verspielte gegen Portland eine 14-Punkte-Führung."
+    },
+    {
+      "flag": "🇭🇷",
+      "player": "Karlo Matković",
+      "team": "NOP",
+      "stat": "25 Pkt · Sieg n. V.",
+      "text": "Der Kroate teilte sich mit Zion Williamson die Topscorer-Rolle beim Ende der Memphis-Serie, sein Dreier zum 124:115 schien schon die Entscheidung."
+    },
+    {
+      "flag": "🇫🇮",
+      "player": "Lauri Markkanen",
+      "team": "UTA",
+      "stat": "22 Pkt · 8 Reb",
+      "text": "Bester Werfer auf dem Feld in San Antonio – Utah verlor trotzdem zum fünften Mal in Folge."
+    },
+    {
+      "flag": "🇫🇷",
+      "player": "Victor Wembanyama",
+      "team": "SAS",
+      "stat": "12 Pkt · 11 Reb · 3 Blk",
+      "text": "Ein ruhigerer Abend für den Franzosen, die Spurs gewannen dafür im Kollektiv – fünfter Sieg in Serie."
+    }
+  ],
+  "explainer": {
+    "title": "Warum heute Nacht kein Ball fliegt",
+    "body": [
+      "Wer heute Nacht den League Pass öffnet, findet: nichts. Die NBA hat den <strong>Dienstag, 3. November</strong>, bewusst spielfrei gelassen – in den USA ist Wahltag, die Midterm Elections stehen an. Dafür war am Montag die ganze Liga im Einsatz: Alle 30 Teams spielten, 15 Partien an einem Abend.",
+      "Die Idee dahinter: Spieler, Trainer, Mitarbeiter und Fans sollen an diesem Tag Zeit haben, ihre Stimme abzugeben, statt zwischen Wahllokal und Arena entscheiden zu müssen. Die Liga plant den Wahltag deshalb gezielt spielfrei ein.",
+      "<strong>Was bedeutet das sportlich?</strong> Für viele Teams ist es ein willkommener Ruhetag nach einem dichten Saisonstart. Boston, Toronto und Brooklyn etwa hatten am Sonntag und Montag ein Back-to-back – also zwei Spiele an aufeinanderfolgenden Tagen. Verletzte wie Jakob Pöltl gewinnen einen zusätzlichen Tag Erholung.",
+      "In der Nacht auf Donnerstag geht es dann mit 14 Spielen weiter, darunter das Ost-Gipfeltreffen Philadelphia gegen Detroit und das schnelle Wiedersehen von Cleveland und Oklahoma City."
+    ]
+  },
+  "news": [
+    {"team": "TOR", "text": "<strong>Jakob Pöltl</strong> fehlt mit einer Schleimbeutelentzündung (Bursitis) in der linken Schulter – das zweite Spiel in Folge, keine Prognose für die Rückkehr."
+    },
+    {"team": "GSW", "text": "<strong>Draymond Green</strong> wurde gegen Phoenix nach zwei Technischen Fouls im dritten Viertel ausgeschlossen."
+    },
+    {"team": "PHI", "text": "<strong>Joel Embiid</strong> wurde nach 25 Minuten zur Belastungssteuerung herausgenommen; die Sixers stehen bei 7-1."
+    },
+    {"team": "IND", "text": "Die <strong>Pacers</strong> hatten in Atlanta nur sechs einsatzfähige Spieler – und verloren nur knapp mit 104:108."
+    },
+    {"team": "CHA", "text": "<strong>Coby White</strong> gab nach sieben Spielen Pause (Wade) sein Saisondebüt für Charlotte: 7 Punkte in knapp 16 Minuten."
+    },
+    {"team": "CLE", "text": "Cleveland musste gegen OKC auf <strong>Peyton Watson</strong> (Oberschenkel) und <strong>Jaylon Tyson</strong> (Knöchel) verzichten."
+    },
+    {"team": "CHI", "text": "<strong>Dominick Barlow</strong> lässt eine Stressreaktion im unteren Rücken am Dienstag von einem Spezialisten untersuchen."
+    }
+  ],
+  "standings_note": "Stand nach der Nacht auf Dienstag (sortiert nach Siegquote)",
+  "standings": {
+    "east": [
+      ["PHI", 7, 1],
+      ["DET", 6, 1],
+      ["BOS", 5, 2],
+      ["CLE", 4, 3],
+      ["TOR", 4, 3],
+      ["WAS", 4, 3],
+      ["ATL", 4, 4],
+      ["NYK", 3, 4],
+      ["CHA", 3, 5],
+      ["ORL", 2, 5],
+      ["MIA", 2, 5],
+      ["IND", 2, 6],
+      ["MIL", 1, 6],
+      ["CHI", 1, 6],
+      ["BKN", 1, 6]
+    ],
+    "west": [
+      ["HOU", 7, 1],
+      ["MEM", 6, 1],
+      ["POR", 5, 1],
+      ["LAL", 6, 2],
+      ["OKC", 5, 2],
+      ["SAS", 5, 2],
+      ["MIN", 5, 3],
+      ["GSW", 5, 3],
+      ["DAL", 4, 3],
+      ["DEN", 3, 3],
+      ["NOP", 3, 4],
+      ["PHX", 1, 4],
+      ["LAC", 1, 6],
+      ["UTA", 1, 6],
+      ["SAC", 1, 6]
+    ]
+  },
+  "upcoming": [
+    {
+      "label": "Heute Nacht – Nacht auf Mittwoch: spielfrei (US-Wahltag)",
+      "games": []
+    },
+    {
+      "label": "Nacht auf Donnerstag (14 Spiele)",
+      "games": [
+        {"time": "01:00", "away": "PHI", "home": "DET", "featured": true, "note": "<strong>Spiel des Tages:</strong> Die beiden besten Teams des Ostens, 7-1 gegen 6-1."},
+        {"time": "01:00", "away": "ATL", "home": "WAS"},
+        {"time": "01:30", "away": "MIL", "home": "BOS"},
+        {"time": "01:30", "away": "CHA", "home": "BKN"},
+        {"time": "01:30", "away": "CHI", "home": "NYK"},
+        {"time": "02:00", "away": "IND", "home": "MEM", "note": "Memphis' erste Chance auf Wiedergutmachung."},
+        {"time": "02:00", "away": "UTA", "home": "NOP"},
+        {"time": "02:00", "away": "CLE", "home": "OKC", "note": "Rückspiel zwei Tage nach dem Krimi."},
+        {"time": "02:30", "away": "MIN", "home": "HOU"},
+        {"time": "03:00", "away": "TOR", "home": "DEN", "note": "Spielt Pöltl wieder?"},
+        {"time": "03:00", "away": "POR", "home": "PHX", "note": "Portland auswärts noch makellos."},
+        {"time": "03:30", "away": "DAL", "home": "SAS"},
+        {"time": "04:00", "away": "LAL", "home": "SAC"},
+        {"time": "04:30", "away": "MIA", "home": "LAC"}
+      ]
+    },
+    {
+      "label": "Nacht auf Freitag (Auswahl)",
+      "games": [
+        {"time": "03:00", "away": "ORL", "home": "PHX", "note": "Franz Wagner und da Silva in Arizona."},
+        {"time": "04:00", "away": "MIA", "home": "GSW"}
+      ]
+    }
+  ],
+  "goodtoknow": [
+    {"big": "6", "title": "Rekord eingestellt, nicht gebrochen", "text": "Mit sechs Siegen zum Start hatte Memphis den Klubrekord egalisiert – Nummer sieben blieb aus."},
+    {"big": "25/30", "title": "Freiwurf-Marathon", "text": "Pelicans-Rookie Jeremiah Fears stand 30-mal an der Linie und traf 25 Versuche."},
+    {"big": "35", "title": "Würfe von SGA", "text": "So viele Feldwurfversuche nahm Gilgeous-Alexander in Cleveland – Karrierehöchstwert und Saisonrekord der Liga."},
+    {"big": "23", "title": "Führungswechsel", "text": "So oft wechselte die Führung zwischen OKC und Cleveland, dazu kamen zehn Gleichstände."},
+    {"big": "15", "title": "Dreier vor der Pause", "text": "Atlanta traf gegen Indiana 15 Dreier in einer Hälfte und stellte damit den Klubrekord ein."},
+    {"big": "0", "title": "Sieglose Teams", "text": "Nach den ersten Siegen von Brooklyn und Sacramento hat jedes Team der Liga mindestens einmal gewonnen."}
+  ],
+  "links": [
+    {"title": "Pelicans beenden die Memphis-Serie", "src": "WXSM / AP", "url": "https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/"},
+    {"title": "SGAs 43 in Cleveland", "src": "The Sports Leader", "url": "https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/"},
+    {"title": "Dončić gegen Miami", "src": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html"},
+    {"title": "Warriors – Suns: drei Technische", "src": "TSN / AP", "url": "https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/"},
+    {"title": "3 Takeaways: Raptors-Comeback bei den Clippers", "src": "SI / All Raptors", "url": "https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers"},
+    {"title": "Warum der Kings-Sieg kein Zufall war", "src": "SI / Kings On SI", "url": "https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke"},
+    {"title": "Alle Highlights der Nacht", "src": "YouTube · NBA", "url": "https://www.youtube.com/@NBA/videos", "note": "Offizieller NBA-Kanal."},
+    {"title": "Ganze Spiele im Replay", "src": "NBA League Pass", "url": "https://www.nba.com/watch/league-pass-stream", "note": "Euer League Pass Premium: alle Spiele der Nacht auf Abruf."}
+  ],
+  "glossary": [
+    {"term": "Overtime", "text": "Verlängerung von fünf Minuten bei Gleichstand nach 48 Minuten – Memphis verlor die erste der Saison."},
+    {"term": "Technisches Foul", "text": "Strafe für Unsportlichkeit, etwa Proteste oder Rangeleien; zwei davon bedeuten den Ausschluss – wie bei Draymond Green."},
+    {"term": "Foul-out", "text": "Nach dem sechsten persönlichen Foul muss ein Spieler das Feld endgültig verlassen – so erging es Devin Booker."},
+    {"term": "Load Management", "text": "Gezielte Schonung eines Spielers zur Belastungssteuerung, auch ohne akute Verletzung – siehe Embiid."},
+    {"term": "Bursitis", "text": "Entzündung eines Schleimbeutels, der Gelenke polstert – Pöltls aktuelles Schulterproblem."}
+  ],
+  "sources": [
+    {"title": "ESPN: Scoreboard 2. November 2026", "url": "https://www.espn.com/nba/scoreboard"},
+    {"title": "WXSM/AP: Pelicans – Grizzlies", "url": "https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/"},
+    {"title": "The Sports Leader: Thunder – Cavaliers", "url": "https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/"},
+    {"title": "The Ticket: Pistons – Hornets", "url": "https://www.theticket.com/2026/11/02/sharp-shooting-pistons-overwhelm-hornets-in-easy-win/"},
+    {"title": "Yahoo: Hawks – Pacers", "url": "https://sports.yahoo.com/articles/hawks-escape-six-man-pacers-034921573.html"},
+    {"title": "VAVEL: Hawks – Pacers", "url": "https://www.vavel.com/en-us/nba/2026/11/02/1277807-atlanta-hawks-vs-indiana-pacers-live-score-updates-nba.html"},
+    {"title": "VAVEL: Nets – Knicks", "url": "https://www.vavel.com/en-us/nba/2026/11/02/1277759-brooklyn-nets-vs-new-york-knicks-live-score-nba.html"},
+    {"title": "CBS Sports: Nets – Knicks", "url": "https://www.cbssports.com/nba/gametracker/recap/NBA_20261102_BKN@NY/"},
+    {"title": "VAVEL: Wizards – Magic", "url": "https://www.vavel.com/en-us/nba/2026/11/02/1277808-washington-wizards-vs-orlando-magic-live-score-updates-nba.html"},
+    {"title": "NBC Sports: Franz Wagner", "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-02/franz-wagner-has-24-3-6-line-in-loss-to-wizards"},
+    {"title": "Metro Philadelphia: Sixers – Bulls", "url": "https://metrophiladelphia.com/stories/sixers-bulls-defensive-switch-second-half,161573"},
+    {"title": "SI: Kings – Mavericks", "url": "https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke"},
+    {"title": "VAVEL: Bucks – Timberwolves", "url": "https://www.vavel.com/en-us/nba/2026/11/02/1277763-milwaukee-bucks-vs-minnesota-timberwolves-live-score-nba.html"},
+    {"title": "VAVEL/NBC Sports Boston: Celtics – Rockets", "url": "https://www.vavel.com/en-us/nba/2026/11/02/1277767-boston-celtics-vs-houston-rockets-live-score-nba.html"},
+    {"title": "KSAT/AP: Jazz – Spurs", "url": "https://www.ksat.com/sports/2026/11/03/harper-wembanyama-lead-spurs-past-jazz-119-97-extend-winning-streak-to-5-games/"},
+    {"title": "The Sports Leader: Blazers – Nuggets", "url": "https://www.thesportsleader.com/2026/11/02/blazers-storm-back-to-beat-nuggets-remain-perfect-on-the-road/"},
+    {"title": "TSN/AP: Suns – Warriors", "url": "https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/"},
+    {"title": "SI: Raptors – Clippers", "url": "https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers"},
+    {"title": "CBS Sports: Pöltl fehlt erneut", "url": "https://www.cbssports.com/fantasy/basketball/news/raptors-jakob-poeltl-missing-second-straight-game-monday/"},
+    {"title": "Yahoo: Lakers – Heat", "url": "https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html"},
+    {"title": "ESPN: NBA-Spielplan", "url": "https://www.espn.com/nba/schedule"},
+    {"title": "Yahoo: Keine NBA-Spiele am Wahltag", "url": "https://sports.yahoo.com/articles/nba-schedule-includes-no-games-105626282.html"},
+    {"title": "COURTSIDE Nr. 3: Tabelle Nacht auf Montag", "url": "https://courtside.hobiger.cc"}
+  ]
+}
