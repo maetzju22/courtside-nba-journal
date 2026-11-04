@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-04",
+  "issue_no": 5,
+  "weekday": "Mittwoch",
+  "date_long": "4. November 2026",
+  "edition_label": "Mittwochsausgabe · Ruhetag-Edition",
+  "tagline": "Eine Nacht ohne Basketball – dafür alles, was ihr für die 14 Spiele heute Nacht wissen müsst.",
+  "period": "Nacht auf Mittwoch",
+  "minute": [
+    "<strong>Stille Nacht:</strong> Wegen des US-Wahltags gab es keine einzige Partie – die Tabelle ist exakt so wie gestern.",
+    "<strong>Pöltl-Hoffnung:</strong> Der Wiener wurde für das Spiel in Denver auf „questionable“ hochgestuft – nach zwei Ausfällen mit Schulter-Bursitis.",
+    "<strong>Gipfel im Osten:</strong> Philadelphia (7-1) gastiert um 01:00 Uhr in Detroit (6-1) – das Spiel des Tages.",
+    "<strong>Rückspiel in OKC:</strong> Cleveland reist zwei Tage nach dem 112:117-Krimi nach Oklahoma City, wieder ohne Tyson und Watson.",
+    "<strong>Tatum fraglich:</strong> Boston führt seinen Superstar gegen Milwaukee mit „Rest“ als fraglich.",
+    "<strong>Volles Programm:</strong> 14 Spiele heute Nacht, nur Orlando und Golden State haben frei – dafür sind beide in der Nacht auf Freitag dran.",
+    "<strong>Zeitumstellung erledigt:</strong> Seit die USA am 1. November zurückgestellt haben, liegt Wien wieder sechs Stunden vor der Ostküste."
+  ],
+  "rewatch": null,
+  "lead": {
+    "kicker": "76ers – Pistons · Vorschau",
+    "title": "Der Osten bittet zum Gipfel",
+    "teams": ["PHI", "DET"],
+    "teaser": "Nach dem spielfreien Wahltag treffen heute Nacht die zwei besten Teams der Eastern Conference aufeinander: Philadelphia mit 7-1 in Detroit, das bei 6-1 steht.",
+    "body": [
+      "Wer gestern Nacht den League Pass geöffnet hat, sah nur leere Spielpläne: Die NBA hatte den <strong>US-Wahltag</strong> bewusst freigehalten. Der Vorteil für uns: Heute Nacht geht es mit <strong>14 Partien</strong> umso dichter weiter – und gleich die erste ist die beste. Um <strong>01:00 Uhr</strong> Wiener Zeit empfangen die <strong>Detroit Pistons</strong> die <strong>Philadelphia 76ers</strong>, live bei ESPN.",
+      "Die Ausgangslage könnte kaum besser sein. Philadelphia steht bei <strong>7-1</strong> und hat sich mit dem 126:107 gegen Chicago am Montag an die Spitze des Ostens gesetzt. Tyrese Maxey erzielte dabei 26 Punkte, 15 davon im Schlussviertel; Joel Embiid wurde nach 25 Minuten geschont – ein Hinweis darauf, wie vorsichtig die Sixers mit ihrem Center umgehen. Mit dem freien Dienstag dazwischen sollte er heute ausgeruht sein.",
+      "Detroit kommt mit <strong>6-1</strong> und viel Selbstvertrauen: Beim 124:91 in Charlotte legte Cade Cunningham 33 Punkte und 7 Assists auf, Duncan Robinson traf sechs Dreier. Einen Schützen müssen die Pistons heute aber ersetzen: <strong>Isaiah Joe</strong> fällt laut Verletzungsliste mit Hüftproblemen aus.",
+      "Warum das Spiel mehr ist als nur ein Novembertermin: Direkte Duelle unter Konkurrenten zählen am Saisonende beim <strong>Tiebreaker</strong>, also wenn zwei Teams dieselbe Bilanz haben. Und es ist das erste Kräftemessen der beiden Teams, die in den ersten zwei Saisonwochen im Osten das Tempo vorgeben.",
+      "Die Einordnung: Ein Sieg Detroits würde den Osten wieder zusammenschieben, ein Sixers-Erfolg brächte ihnen zwei Spiele Vorsprung auf den direkten Verfolger. Boston (5-2), das gegen Milwaukee möglicherweise ohne Jayson Tatum antritt, schaut dabei genau hin."
+    ]
+  },
+  "sidebar": [
+    {
+      "title": "Die Nacht in 30 Sekunden",
+      "items": [
+        "<strong>0 Spiele</strong> – Wahltag in den USA.",
+        "<strong>Tabelle unverändert:</strong> PHI und HOU vorne, je 7-1.",
+        "<strong>Pöltl</strong> auf „questionable“ hochgestuft.",
+        "<strong>14 Spiele</strong> heute Nacht, ab 01:00 Uhr.",
+        "<strong>Nur 2 Spiele</strong> in der Nacht auf Freitag."
+      ]
+    },
+    {
+      "title": "Auf wen ihr heute achten solltet",
+      "items": [
+        "<strong>Jakob Pöltl</strong> (TOR): Comeback gegen Jokić?",
+        "<strong>Shai Gilgeous-Alexander</strong> (OKC): nach 43 Punkten in Cleveland nun das Rückspiel daheim.",
+        "<strong>Ty Jerome</strong> (MEM): 40 Punkte zuletzt – jetzt gegen Indiana.",
+        "<strong>Luka Dončić</strong> (LAL): vier 40-Punkte-Spiele in fünf Partien, heute in Sacramento."
+      ]
+    }
+  ],
+  "games": [],
+  "stories": [
+    {
+      "team": "TOR",
+      "kicker": "Raptors · Rückkehr?",
+      "title": "Pöltl klopft an",
+      "body": [
+        "Zwei Spiele hat <strong>Jakob Pöltl</strong> mit einer Schleimbeutelentzündung in der linken Schulter verpasst, nun wurde er für das Gastspiel in Denver (03:00 Uhr) auf <strong>„questionable“</strong> hochgestuft. Das heißt: Ein Einsatz ist möglich, aber nicht fix – Toronto will die Schulter vor der Partie noch einmal begutachten.",
+        "Bisher kommt der Wiener in fünf Spielen auf 4,6 Punkte, 5,8 Rebounds und 20,2 Minuten. Die Raptors haben ohne ihn zuletzt in Los Angeles gewonnen, gegen <strong>Nikola Jokić</strong> wäre ein gelernter Center aber Gold wert. Ebenfalls weiterhin nicht dabei: Rookie-Center Nate Bittle (Fuß)."
+      ]
+    },
+    {
+      "team": "OKC",
+      "kicker": "Thunder – Cavaliers · Rückspiel",
+      "title": "Zweiter Akt nach 48 Stunden",
+      "body": [
+        "Am Montag wechselte die Führung zwischen Oklahoma City und Cleveland 23-mal, am Ende entschied <strong>Gilgeous-Alexander</strong> mit 43 Punkten. Heute um 02:00 Uhr gibt es das Wiedersehen, diesmal in Oklahoma City.",
+        "Personell bleibt es auf beiden Seiten dünn: Cleveland muss erneut auf <strong>Jaylon Tyson</strong> (Knöchel) und <strong>Peyton Watson</strong> (Oberschenkel) verzichten. Bei den Thunder fehlen neben den Langzeitverletzten weiterhin Nikola Topić (Rücken) und Thomas Sorber (Knie), für beide wird eine Rückkehr frühestens um den 13. November erwartet."
+      ]
+    },
+    {
+      "team": "MEM",
+      "kicker": "Grizzlies · Nach dem Ende der Serie",
+      "title": "Wie reagiert Memphis?",
+      "body": [
+        "Sechs Siege, dann das 134:135 nach Verlängerung gegen New Orleans: Die <strong>Grizzlies</strong> haben ihren ersten Kratzer. Heute um 02:00 Uhr kommt Indiana (2-6), das in Atlanta zuletzt mit nur sechs einsatzfähigen Spielern knapp verlor.",
+        "Auf dem Papier eine Pflichtaufgabe – genau solche Spiele zeigen aber, ob ein Rekordstart Substanz hat. Die Pelicans, die Memphis gestoppt haben, empfangen zur gleichen Zeit Utah, das ohne Jusuf Nurkić (Fuß) anreist."
+      ]
+    }
+  ],
+  "europe": [
+    {
+      "flag": "🇦🇹",
+      "player": "Jakob Pöltl",
+      "team": "TOR",
+      "stat": "Questionable · Schulter",
+      "text": "Nach zwei Ausfällen wegen Schulter-Bursitis hochgestuft – die Entscheidung fällt kurz vor dem Spiel in Denver, Tip-off um 03:00 Uhr Wiener Zeit."
+    },
+    {
+      "flag": "🇷🇸",
+      "player": "Nikola Jokić",
+      "team": "DEN",
+      "stat": "Gegner der Raptors",
+      "text": "Zuletzt 26 Punkte, 9 Rebounds und 8 Assists bei der Niederlage gegen Portland – heute wartet möglicherweise das Duell mit Pöltl."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Franz Wagner &amp; Tristan da Silva",
+      "team": "ORL",
+      "stat": "Heute frei",
+      "text": "Orlando gehört zu den zwei Teams ohne Spiel heute Nacht. Weiter geht es in der Nacht auf Freitag um 03:00 Uhr in Phoenix."
+    },
+    {
+      "flag": "🇫🇷",
+      "player": "Victor Wembanyama",
+      "team": "SAS",
+      "stat": "Heute live bei ESPN",
+      "text": "Die Spurs haben fünfmal in Serie gewonnen und empfangen um 03:30 Uhr Dallas – die Mavericks ohne Max Christie (Hüfte)."
+    }
+  ],
+  "explainer": {
+    "title": "Probable, questionable, out: So liest man den Injury Report",
+    "body": [
+      "Heute taucht ein Wort besonders oft auf: <strong>„questionable“</strong>. Pöltl ist es, Jayson Tatum ist es, Hawks-Forward Jalen Johnson ebenso. Dahinter steckt der offizielle <strong>Injury Report</strong> der NBA, eine Verletzungsliste, die jedes Team vor seinen Spielen veröffentlichen und laufend aktualisieren muss.",
+      "Die Stufen sind einfach: <strong>Probable</strong> heißt, der Spieler wird sehr wahrscheinlich spielen – wie Hornets-Rookie Kon Knueppel heute gegen Brooklyn. <strong>Questionable</strong> ist der echte Wackelkandidat, die Entscheidung fällt oft erst beim Aufwärmen. <strong>Doubtful</strong> bedeutet, dass ein Einsatz unwahrscheinlich ist, und <strong>Out</strong> ist eindeutig.",
+      "Daneben liest man oft <strong>„day-to-day“</strong>: Das ist keine offizielle Stufe des Spielberichts, sondern eine Einschätzung, dass die Verletzung von Tag zu Tag neu bewertet wird – also keine lange Pause droht. Wer dagegen ein <strong>geschätztes Rückkehrdatum</strong> hat, etwa Nurkić, Topić und Sorber um den 13. November, fällt sicher länger aus.",
+      "Und was bedeutet „Rest“ bei Tatum? Das ist eine geplante Schonung, keine Verletzung. Die Liga beobachtet das genau: Seit der Einführung der <strong>Player Participation Policy</strong> riskieren Teams Strafen, wenn sie gesunde Stars zu oft oder in den falschen Spielen pausieren lassen.",
+      "Unser Tipp: Für Pöltl lohnt sich kurz nach 02:30 Uhr ein Blick auf die Aufstellung – dann wissen Frühaufsteher beim ersten Kaffee schon mehr."
+    ]
+  },
+  "news": [
+    {"team": "TOR", "text": "<strong>Jakob Pöltl</strong> (linke Schulter, Bursitis) wurde für Mittwoch in Denver auf „questionable“ hochgestuft; Nate Bittle (Fuß) fehlt weiter."},
+    {"team": "BOS", "text": "<strong>Jayson Tatum</strong> ist gegen Milwaukee als fraglich gelistet – Grund: Schonung."},
+    {"team": "ATL", "text": "<strong>Jalen Johnson</strong> (Knöchel) ist in Washington fraglich, <strong>Jock Landale</strong> (Hüfte) fällt aus."},
+    {"team": "CLE", "text": "<strong>Jaylon Tyson</strong> (Knöchel) und <strong>Peyton Watson</strong> (Oberschenkel) verpassen auch das Rückspiel in Oklahoma City."},
+    {"team": "DET", "text": "<strong>Isaiah Joe</strong> (Hüfte) fehlt im Topspiel gegen Philadelphia."},
+    {"team": "UTA", "text": "<strong>Jusuf Nurkić</strong> (Fuß) ist out, eine Rückkehr wird um den 13. November erwartet."},
+    {"team": "WAS", "text": "<strong>Reece Beekman</strong> (Schultereckgelenk) wird erst in rund drei Wochen neu beurteilt."},
+    {"team": "CHA", "text": "Rookie <strong>Kon Knueppel</strong> (Oberschenkel) ist für das Spiel in Brooklyn als „probable“ gelistet."}
+  ],
+  "standings_note": "Stand nach der Nacht auf Dienstag – in der Nacht auf Mittwoch wurde nicht gespielt (sortiert nach Siegquote)",
+  "standings": {
+    "east": [
+      ["PHI", 7, 1],
+      ["DET", 6, 1],
+      ["BOS", 5, 2],
+      ["CLE", 4, 3],
+      ["TOR", 4, 3],
+      ["WAS", 4, 3],
+      ["ATL", 4, 4],
+      ["NYK", 3, 4],
+      ["CHA", 3, 5],
+      ["ORL", 2, 5],
+      ["MIA", 2, 5],
+      ["IND", 2, 6],
+      ["MIL", 1, 6],
+      ["CHI", 1, 6],
+      ["BKN", 1, 6]
+    ],
+    "west": [
+      ["HOU", 7, 1],
+      ["MEM", 6, 1],
+      ["POR", 5, 1],
+      ["LAL", 6, 2],
+      ["OKC", 5, 2],
+      ["SAS", 5, 2],
+      ["MIN", 5, 3],
+      ["GSW", 5, 3],
+      ["DAL", 4, 3],
+      ["DEN", 3, 3],
+      ["NOP", 3, 4],
+      ["PHX", 1, 4],
+      ["LAC", 1, 6],
+      ["UTA", 1, 6],
+      ["SAC", 1, 6]
+    ]
+  },
+  "upcoming": [
+    {
+      "label": "Heute Nacht – Nacht auf Donnerstag (14 Spiele)",
+      "games": [
+        {"time": "01:00", "away": "PHI", "home": "DET", "featured": true, "note": "<strong>Spiel des Tages:</strong> Die beiden besten Teams des Ostens, 7-1 gegen 6-1 – live bei ESPN."},
+        {"time": "01:00", "away": "ATL", "home": "WAS", "note": "Jalen Johnson fraglich."},
+        {"time": "01:30", "away": "CHA", "home": "BKN"},
+        {"time": "01:30", "away": "CHI", "home": "NYK"},
+        {"time": "01:30", "away": "MIL", "home": "BOS", "note": "Tatum fraglich (Schonung)."},
+        {"time": "02:00", "away": "CLE", "home": "OKC", "note": "Rückspiel zwei Tage nach dem Krimi."},
+        {"time": "02:00", "away": "IND", "home": "MEM", "note": "Erstes Spiel nach dem Ende der Memphis-Serie."},
+        {"time": "02:00", "away": "UTA", "home": "NOP"},
+        {"time": "02:30", "away": "MIN", "home": "HOU"},
+        {"time": "03:00", "away": "POR", "home": "PHX", "note": "Portland auswärts noch makellos."},
+        {"time": "03:00", "away": "TOR", "home": "DEN", "note": "Spielt Pöltl wieder?"},
+        {"time": "03:30", "away": "DAL", "home": "SAS", "note": "Wembanyama live bei ESPN."},
+        {"time": "04:00", "away": "LAL", "home": "SAC"},
+        {"time": "04:30", "away": "MIA", "home": "LAC"}
+      ]
+    },
+    {
+      "label": "Nacht auf Freitag (2 Spiele)",
+      "games": [
+        {"time": "03:00", "away": "ORL", "home": "PHX", "note": "Franz Wagner und da Silva in Arizona."},
+        {"time": "04:00", "away": "MIA", "home": "GSW", "note": "Miami im Back-to-back nach dem Clippers-Spiel."}
+      ]
+    }
+  ],
+  "goodtoknow": [
+    {"big": "0", "title": "Spiele am Wahltag", "text": "Die NBA ließ den Dienstag komplett spielfrei – am Montag davor waren dafür alle 30 Teams im Einsatz."},
+    {"big": "14", "title": "Spiele heute Nacht", "text": "Nur Orlando und Golden State haben frei, alle anderen 28 Teams stehen auf dem Parkett."},
+    {"big": "2", "title": "Spiele am Donnerstag", "text": "Auf den vollen Mittwoch folgt eine ruhige Nacht auf Freitag mit nur zwei Partien."},
+    {"big": "+6", "title": "Stunden Zeitunterschied", "text": "Seit die USA am 1. November die Uhren zurückgestellt haben, liegt Wien wieder sechs Stunden vor New York."},
+    {"big": "20,2", "title": "Minuten pro Spiel", "text": "So lange stand Pöltl in seinen fünf Saisonspielen im Schnitt auf dem Feld."},
+    {"big": "7-1", "title": "Doppelspitze", "text": "Philadelphia im Osten und Houston im Westen teilen sich die beste Bilanz der Liga."}
+  ],
+  "links": [
+    {"title": "Pöltl vor dem Denver-Spiel hochgestuft", "src": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/raptors-encouraging-jakob-poeltl-injury-024359798.html"},
+    {"title": "Pöltl questionable für Mittwoch", "src": "NBC Sports", "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-03/jakob-poeltl-shoulder-questionable-wednesday"},
+    {"title": "Aktuelle Verletzungsliste aller Teams", "src": "ESPN", "url": "https://www.espn.com/nba/injuries"},
+    {"title": "Alle Highlights", "src": "YouTube · NBA", "url": "https://www.youtube.com/@NBA/videos", "note": "Offizieller NBA-Kanal – ab morgen früh mit den Clips der 14 Spiele."},
+    {"title": "Ganze Spiele im Replay", "src": "NBA League Pass", "url": "https://www.nba.com/watch/league-pass-stream", "note": "Euer League Pass Premium: alle Spiele auf Abruf."}
+  ],
+  "glossary": [
+    {"term": "Injury Report", "text": "Offizielle Verletzungsliste, die jedes Team vor Spielen veröffentlichen muss."},
+    {"term": "Questionable", "text": "Einsatz offen, Entscheidung oft erst kurz vor dem Spiel – aktuell Pöltls Status."},
+    {"term": "Probable / Doubtful", "text": "Wahrscheinlicher Einsatz bzw. unwahrscheinlicher Einsatz."},
+    {"term": "Day-to-day", "text": "Verletzung wird täglich neu bewertet, eine längere Pause ist nicht absehbar."},
+    {"term": "Tiebreaker", "text": "Regel, die bei Bilanzgleichheit über die Platzierung entscheidet – zuerst zählt der direkte Vergleich."}
+  ],
+  "sources": [
+    {"title": "Yahoo Sports: Pöltl-Update vor Nuggets – Raptors", "url": "https://sports.yahoo.com/articles/raptors-encouraging-jakob-poeltl-injury-024359798.html"},
+    {"title": "NBC Sports: Pöltl questionable", "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-03/jakob-poeltl-shoulder-questionable-wednesday"},
+    {"title": "ESPN: NBA-Verletzungsliste", "url": "https://www.espn.com/nba/injuries"},
+    {"title": "Land of Basketball: Spielplan 4. November 2026", "url": "https://www.landofbasketball.com/nba_daily_summary/20261104.htm"},
+    {"title": "Land of Basketball: Spielplan 5. November 2026", "url": "https://www.landofbasketball.com/nba_daily_summary/20261105.htm"},
+    {"title": "Stats Crew: Bilanzen 2026-27", "url": "https://www.statscrew.com/basketball/l-nba/y-2026"},
+    {"title": "COURTSIDE Nr. 4: Ergebnisse und Tabelle Nacht auf Dienstag", "url": "https://courtside.hobiger.cc"}
+  ]
+}
