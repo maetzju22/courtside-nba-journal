@@ -1,0 +1,751 @@
+{
+  "date": "2026-11-05",
+  "issue_no": 6,
+  "weekday": "Donnerstag",
+  "date_long": "5. November 2026",
+  "edition_label": "Donnerstagsausgabe",
+  "period": "Nacht auf Donnerstag",
+  "tagline": "52 Punkte, 24 Rebounds, 8 Blocks: Wembanyama schreibt Geschichte – und Pöltl ist zurück.",
+  "minute": [
+    "<strong>Wemby-Wahnsinn:</strong> Victor Wembanyama führt San Antonio mit 52 Punkten, 24 Rebounds und 8 Blocks zum 112:111 gegen Dallas – zwei Karrierebestwerte in einer Nacht.",
+    "<strong>Gipfel an Philly:</strong> Die 76ers gewinnen das Ost-Topspiel in Detroit 112:106 und stehen bei 8-1 allein an der Spitze.",
+    "<strong>Pöltl zurück:</strong> Der Wiener spielte nach zwei Ausfällen 19 Minuten (8 Punkte, 5 Rebounds), Toronto ging in Denver aber 109:128 unter.",
+    "<strong>Luka im Jordan-Modus:</strong> 40 Punkte in Sacramento, 308 Zähler in acht Spielen – so viel wie seit Michael Jordan 1988/89 niemand.",
+    "<strong>Memphis wackelt:</strong> Nach der Serie von sechs Siegen nun die zweite Pleite in Folge, 103:107 gegen Indiana.",
+    "<strong>Portland makellos auswärts:</strong> 132:119 in Phoenix, 5-0 auf fremdem Parkett und mit 6-1 die beste Quote des Westens.",
+    "<strong>Ruhige Nacht:</strong> Heute nur zwei Spiele – Franz Wagner und Tristan da Silva mit Orlando um 03:00 Uhr in Phoenix."
+  ],
+  "rewatch": {
+    "away": "DAL",
+    "home": "SAS",
+    "why": "Wenn ihr nur ein Spiel nachholen wollt, dann dieses: Ein Spurs-Center liefert eine Halbzeit, wie es sie seit Jahrzehnten nicht gab, Cooper Flagg und Kyrie Irving halten dagegen, und die Partie kippt mehrmals hin und her. Spannung bis in die letzten Sekunden – schaut es ohne Blick auf den Spielstand."
+  },
+  "lead": {
+    "kicker": "Mavericks – Spurs 111:112",
+    "title": "Wembanyama sprengt die Skala",
+    "teams": [
+      "SAS",
+      "DAL"
+    ],
+    "teaser": "52 Punkte, 24 Rebounds, 8 Blocks und der entscheidende Freiwurf: Victor Wembanyama hat gegen Dallas das beste Spiel seiner Karriere abgeliefert – und San Antonio den sechsten Sieg in Serie beschert.",
+    "body": [
+      "Manche Statistikzeilen liest man zweimal, um sicherzugehen. <strong>52 Punkte, 24 Rebounds, 8 Blocks</strong> – das ist die Bilanz von <strong>Victor Wembanyama</strong> beim 112:111 der Spurs gegen die Dallas Mavericks. Sowohl die Punkte als auch die Rebounds sind neue Karrierebestwerte für den Franzosen.",
+      "Schon zur Pause war das Spiel ein Fall für die Geschichtsbücher: 29 Punkte, 15 Rebounds und 5 Blocks in nicht einmal 17 Minuten Einsatzzeit, dazu 15 von 15 Freiwürfen. Laut Field Level Media hat in den letzten 30 Spielzeiten niemand in einer Halbzeit mindestens 25 Punkte, 10 Rebounds und 5 Blocks gesammelt.",
+      "Leicht wurde es trotzdem nicht. San Antonio führte Anfang des dritten Viertels mit 19 Punkten, doch Dallas kam zurück und ging durch einen Dreier von P.J. Washington sogar 103:100 in Führung. Naji Marshall glich 1:41 Minuten vor Schluss zum 111:111 aus – dann stand Wembanyama an der Linie und traf 24 Sekunden vor dem Ende zum Sieg. Kyrie Irving (29 Punkte) vergab mit einem schwierigen Wurf aus der Drehung die letzte Chance.",
+      "Bei den Spurs halfen Dylan Harper (21) und Stephon Castle (17), bei Dallas kam Jungstar <strong>Cooper Flagg</strong> auf 19 Punkte und 10 Rebounds. Für die Mavericks ist es die zweite Niederlage in Folge, sie fallen auf 4-4.",
+      "Die Einordnung: Mit sechs Siegen am Stück und 6-2 sind die Spurs nun mittendrin im dichten Spitzenfeld des Westens. Und Wembanyama hat früh in der Saison die Visitenkarte für das Rennen um den MVP-Titel (wertvollster Spieler der Saison) abgegeben – mit einem Spiel, über das man im April noch reden wird."
+    ]
+  },
+  "sidebar": [
+    {
+      "title": "Die Nacht in 30 Sekunden",
+      "items": [
+        "<strong>14 Spiele</strong>, ein Overtime-Krimi in New Orleans.",
+        "<strong>PHI 8-1</strong> – allein vorne im Osten.",
+        "<strong>POR 6-1</strong> – beste Quote im Westen.",
+        "<strong>Pöltl</strong> nach Schulterpause wieder dabei.",
+        "<strong>Knicks</strong> zerlegen Chicago mit 30 Punkten Differenz."
+      ]
+    },
+    {
+      "title": "Spieler der Nacht",
+      "items": [
+        "<strong>Victor Wembanyama</strong> (SAS): 52 Punkte, 24 Rebounds, 8 Blocks – beides Karrierebestwerte, dazu der Siegfreiwurf.",
+        "<strong>Shai Gilgeous-Alexander</strong> (OKC): 42 Punkte und 8 Assists im Rückspiel gegen Cleveland.",
+        "<strong>Luka Dončić</strong> (LAL): 40 Punkte, sechstes Spiel in Folge mit mindestens 35.",
+        "<strong>Keyonte George</strong> (UTA): 39 Punkte – und trotzdem verloren."
+      ]
+    }
+  ],
+  "games": [
+    {
+      "tag": "Topspiel Ost",
+      "away": "PHI",
+      "home": "DET",
+      "away_score": 112,
+      "home_score": 106,
+      "away_record": "8-1",
+      "home_record": "6-2",
+      "line": "<strong>Jaylen Brown</strong> 30, Joel Embiid 26, Tyrese Maxey 19, LeBron James 13/10/8 – <strong>Duncan Robinson</strong> 27, Cade Cunningham 26.",
+      "links": [
+        {
+          "label": "Flashscore-Roundup",
+          "url": "https://www.flashscore.com/news/nba-roundup-76ers-continue-to-roll-celtics-hold-off-bucks-comeback/Cr6fbMC7/"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "ATL",
+      "home": "WAS",
+      "away_score": 120,
+      "home_score": 105,
+      "away_record": "5-4",
+      "home_record": "4-4",
+      "line": "<strong>Nickeil Alexander-Walker</strong> 26 (6 Dreier), Okongwu 14/16 – <strong>Anthony Davis</strong> 26/10, Kyshawn George 25, Trae Young 18.",
+      "links": [
+        {
+          "label": "Video-Recap",
+          "url": "https://www.nba.com/watch/video/game-recap-hawks-120-wizards-105?plsrc=nba&collection=2026-27-game-recaps"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "CHA",
+      "home": "BKN",
+      "away_score": 104,
+      "home_score": 114,
+      "away_record": "3-6",
+      "home_record": "2-6",
+      "line": "<strong>Naz Reid</strong> 28, Grayson Allen 22 – <strong>Michael Porter Jr.</strong> 26/10, Julius Randle 22, Mikel Brown Jr. 18.",
+      "links": [
+        {
+          "label": "Recap",
+          "url": "https://www.yardbarker.com/nba/articles/nets_top_hornets_114104_for_second_win_of_season/s1_17668_44517914"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "CHI",
+      "home": "NYK",
+      "away_score": 105,
+      "home_score": 135,
+      "away_record": "1-7",
+      "home_record": "4-4",
+      "line": "<strong>Jalen Brunson</strong> 33 (5 Dreier), O.G. Anunoby 18, Karl-Anthony Towns 17 – Knicks führten zwischenzeitlich mit 44.",
+      "links": [
+        {
+          "label": "Flashscore-Roundup",
+          "url": "https://www.flashscore.com/news/nba-roundup-76ers-continue-to-roll-celtics-hold-off-bucks-comeback/Cr6fbMC7/"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "MIL",
+      "home": "BOS",
+      "away_score": 102,
+      "home_score": 109,
+      "away_record": "1-7",
+      "home_record": "6-2",
+      "line": "<strong>Paul George</strong> 25, Derrick White 24 – Milwaukee mit 38 Punkten im dritten Viertel kurz in Führung.",
+      "links": [
+        {
+          "label": "ESPN-Recap",
+          "url": "https://www.espn.com/nba/recap?gameId=401909924"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "CLE",
+      "home": "OKC",
+      "away_score": 116,
+      "home_score": 124,
+      "away_record": "4-4",
+      "home_record": "6-2",
+      "line": "<strong>Shai Gilgeous-Alexander</strong> 42/8 Ast, Ajay Mitchell 23, Bennett Stirtz 16 – <strong>Donovan Mitchell</strong> 27, Harden 19, Mobley 16/10.",
+      "links": [
+        {
+          "label": "ESPN-Recap",
+          "url": "https://www.espn.com/nba/recap?gameId=401909929"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "IND",
+      "home": "MEM",
+      "away_score": 107,
+      "home_score": 103,
+      "away_record": "3-6",
+      "home_record": "6-2",
+      "line": "<strong>Andrew Nembhard</strong> 22, Pascal Siakam 20, Aaron Nesmith 16 – <strong>Cedric Coward</strong> 23, Ty Jerome 23, Zach Edey 11/13.",
+      "links": [
+        {
+          "label": "Recap",
+          "url": "https://www.thesportsleader.com/2026/11/04/pacers-make-clutch-plays-down-stretch-to-edge-grizzlies/"
+        }
+      ]
+    },
+    {
+      "tag": "n. V.",
+      "away": "UTA",
+      "home": "NOP",
+      "away_score": 113,
+      "home_score": 120,
+      "away_record": "1-7",
+      "home_record": "4-4",
+      "line": "<strong>Zion Williamson</strong> 23, Saddiq Bey 22 (8 in der Verlängerung), Queen 20, Murray 20 – <strong>Keyonte George</strong> 39, Lauri Markkanen 21.",
+      "links": [
+        {
+          "label": "Recap",
+          "url": "https://www.yardbarker.com/nba/articles/saddiq_beys_overtime_surge_propels_pelicans_past_jazz/s1_17045_44518008"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "MIN",
+      "home": "HOU",
+      "away_score": 117,
+      "home_score": 107,
+      "away_record": "6-3",
+      "home_record": "7-2",
+      "line": "<strong>Ayo Dosunmu</strong> 21, LaMelo Ball 20, Bones Hyland 19 – <strong>Kevin Durant</strong> 21, VanVleet 18, Şengün 17/12/10.",
+      "links": [
+        {
+          "label": "ESPN-Recap",
+          "url": "https://www.espn.com/nba/recap?gameId=401909930"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "POR",
+      "home": "PHX",
+      "away_score": 132,
+      "home_score": 119,
+      "away_record": "6-1",
+      "home_record": "1-5",
+      "line": "<strong>Damian Lillard</strong> 25, Clingan 24/11, Avdija 21/8/12 – <strong>Devin Booker</strong> 33, Jalen Green 22.",
+      "links": [
+        {
+          "label": "Lillard-Highlights",
+          "url": "https://www.nba.com/blazers/videos/damian-lillard-highlights-25-points-5-assists-trail-blazers-132-suns-119-nov-4-2026"
+        }
+      ]
+    },
+    {
+      "tag": "Pöltl-Spiel",
+      "away": "TOR",
+      "home": "DEN",
+      "away_score": 109,
+      "home_score": 128,
+      "away_record": "4-4",
+      "home_record": "4-3",
+      "line": "<strong>RJ Barrett</strong> 22, Barnes 17/6/6, Pöltl 8/5 – <strong>Nikola Jokić</strong> 32/10/11, Bryce Hopkins 18, Gordon 17.",
+      "links": [
+        {
+          "label": "ESPN-Highlights",
+          "url": "https://www.espn.com/nba/video/_/gameId/401909931"
+        }
+      ]
+    },
+    {
+      "tag": "Spiel der Nacht",
+      "away": "DAL",
+      "home": "SAS",
+      "away_score": 111,
+      "home_score": 112,
+      "away_record": "4-4",
+      "home_record": "6-2",
+      "line": "<strong>Victor Wembanyama</strong> 52/24, 8 Blocks, Harper 21, Castle 17 – <strong>Kyrie Irving</strong> 29, Marshall 22, Washington 21/10, Flagg 19/10.",
+      "links": [
+        {
+          "label": "Recap",
+          "url": "https://fieldlevelmedia.com/nba/victor-wembanyama-pours-in-52-as-spurs-edge-mavericks/"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "LAL",
+      "home": "SAC",
+      "away_score": 116,
+      "home_score": 103,
+      "away_record": "7-2",
+      "home_record": "1-7",
+      "line": "<strong>Luka Dončić</strong> 40/9/7, Austin Reaves 21 – <strong>Darius Acuff Jr.</strong> 22/12 Ast, LaVine 21, Sabonis 16/17.",
+      "links": [
+        {
+          "label": "ESPN-Recap",
+          "url": "https://www.espn.com/nba/recap/_/gameId/401909934"
+        }
+      ]
+    },
+    {
+      "tag": "",
+      "away": "MIA",
+      "home": "LAC",
+      "away_score": 117,
+      "home_score": 116,
+      "away_record": "3-5",
+      "home_record": "1-7",
+      "line": "Ein-Punkt-Krimi zum Abschluss der Nacht – detaillierte Statistiken lagen bei Redaktionsschluss noch nicht vor.",
+      "links": [
+        {
+          "label": "VAVEL",
+          "url": "https://www.vavel.com/en-us/nba/2026/11/04/1278117-los-angeles-clippers-vs-miami-heat-live-score-nba.html"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "team": "PHI",
+      "kicker": "Pistons – 76ers 106:112",
+      "title": "Philly gewinnt den Gipfel",
+      "body": [
+        "Das Spitzenspiel des Ostens hielt, was es versprach – zumindest bis zur Pause. Danach zogen die <strong>76ers</strong> auf bis zu 18 Punkte davon und retteten den Vorsprung über eine späte Detroit-Aufholjagd ins Ziel. Bemerkenswert: Alle fünf Starter punkteten zweistellig, angeführt von <strong>Jaylen Brown</strong> (30) und <strong>Joel Embiid</strong> (26).",
+        "Brown gab nach dem Spiel zu, sich an die neuen Mitspieler noch zu gewöhnen – mit 8-1 lässt sich das gut aushalten. Detroit (6-2) bekam von Duncan Robinson (27) und Cade Cunningham (26) viel, aber nicht genug. Für den <strong>Tiebreaker</strong> am Saisonende hat Philadelphia nun den ersten Punkt im direkten Vergleich."
+      ]
+    },
+    {
+      "team": "LAL",
+      "kicker": "Lakers · Rekordjagd",
+      "title": "Dončić und die 300er-Marke",
+      "body": [
+        "Das 116:103 in Sacramento war das sechste Spiel in Folge, in dem <strong>Luka Dončić</strong> mindestens 35 Punkte erzielte. Diesmal: 40 Punkte, 9 Rebounds, 7 Assists, dazu 12 von 13 Freiwürfen. Nach acht Einsätzen steht er bei <strong>308 Punkten</strong> – laut ESPN hat seit Michael Jordan 1988/89 niemand die 300 so früh geknackt.",
+        "Unschöne Randnotiz: Im dritten Viertel warf ein Zuschauer einen Ball in Richtung Schiedsrichterin Chelisa Painter, Dončić zeigte auf den Mann, der Sicherheitsdienst brachte ihn aus der Halle. Die Lakers (7-2) empfangen in der Nacht auf Samstag Portland."
+      ]
+    },
+    {
+      "team": "MEM",
+      "kicker": "Grizzlies · Delle nach dem Hoch",
+      "title": "Memphis verliert den Faden",
+      "body": [
+        "Vor einer Woche noch 6-0, jetzt zwei Niederlagen am Stück: Gegen Indiana führte Memphis 6:17 Minuten vor Schluss mit 91:86, dann folgte ein 2:11-Lauf der Pacers. Aaron Nesmiths Eckendreier kurz vor dem Ende entschied das 107:103 – Indianas erster Sieg in Memphis nach fünf Pleiten dort.",
+        "Das Problem ist hausgemacht: 12 Ballverluste allein in der ersten Hälfte, die Indiana in 16 Punkte ummünzte. Cedric Coward und Ty Jerome kamen je auf 23 Punkte. Die Pacers beendeten damit eine Serie von fünf Niederlagen – und das ohne Tyrese Haliburton und T.J. McConnell (beide Oberschenkel)."
+      ]
+    }
+  ],
+  "europe": [
+    {
+      "flag": "🇦🇹",
+      "player": "Jakob Pöltl",
+      "team": "TOR",
+      "stat": "8 Pkt · 5 Reb · 1 Ast · 18:46 Min.",
+      "text": "Comeback nach zwei Spielen Pause wegen der Schleimbeutelentzündung in der linken Schulter, diesmal von der Bank. Das 109:128 in Denver konnte er nicht verhindern – das dritte Viertel ging 15:41 verloren. Weiter geht es in der Nacht auf Samstag in Milwaukee, ein Spiel des NBA Cups."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Franz Wagner &amp; Tristan da Silva",
+      "team": "ORL",
+      "stat": "Heute 03:00 Uhr",
+      "text": "Orlando hatte gestern frei und tritt heute Nacht in Phoenix an – gegen ein Suns-Team, das viermal in Folge verloren hat."
+    },
+    {
+      "flag": "🇫🇷",
+      "player": "Victor Wembanyama",
+      "team": "SAS",
+      "stat": "52 Pkt · 24 Reb · 8 Blk",
+      "text": "Zwei Karrierebestwerte, der Siegfreiwurf und eine historische erste Halbzeit – mehr dazu im Aufmacher."
+    },
+    {
+      "flag": "🇸🇮",
+      "player": "Luka Dončić",
+      "team": "LAL",
+      "stat": "40 Pkt · 9 Reb · 7 Ast",
+      "text": "Sechstes 35-Punkte-Spiel in Serie, 308 Punkte nach acht Spielen."
+    },
+    {
+      "flag": "🇷🇸",
+      "player": "Nikola Jokić",
+      "team": "DEN",
+      "stat": "32 Pkt · 10 Reb · 11 Ast",
+      "text": "Dritter Triple-Double der Saison, der 201. seiner Karriere – bei 13 von 19 aus dem Feld und gegen Pöltl."
+    },
+    {
+      "flag": "🇹🇷",
+      "player": "Alperen Şengün",
+      "team": "HOU",
+      "stat": "17 Pkt · 12 Reb · 10 Ast",
+      "text": "Der 13. Triple-Double seiner Karriere, doch Houston verlor gegen Minnesota mit 107:117."
+    },
+    {
+      "flag": "🇫🇮",
+      "player": "Lauri Markkanen",
+      "team": "UTA",
+      "stat": "21 Pkt",
+      "text": "Starke Zahlen, bitteres Ende: Utah verspielte in New Orleans einen Vorsprung und verlor nach Verlängerung – die sechste Niederlage in Serie."
+    },
+    {
+      "flag": "🇭🇷",
+      "player": "Ivica Zubac",
+      "team": "IND",
+      "stat": "Rückkehr",
+      "text": "Der Kroate war bei Indianas Sieg in Memphis nach Verletzungspause wieder dabei."
+    }
+  ],
+  "explainer": {
+    "title": "Wie viel ist ein Block wert? Die Statistik, die lange niemand zählte",
+    "body": [
+      "Wembanyamas acht Blocks gingen neben den 52 Punkten fast unter. Dabei ist der <strong>Block</strong> – der regelkonforme Abwehrversuch, der einen Wurf am Weg zum Korb stoppt – eine der jüngeren offiziellen Statistiken der NBA. Erst ab der Saison 1973/74 wurde er überhaupt erfasst. Legenden wie Bill Russell oder Wilt Chamberlain haben also nie eine offizielle Block-Zahl bekommen.",
+      "Warum ist das wichtig? Weil ein Block mehr ist als ein Punkt, der nicht fällt. Ein Center, der regelmäßig blockt, verändert das ganze Spiel des Gegners: Guards ziehen seltener zum Korb, werfen lieber von außen oder legen den Ball ab. Diese <strong>Rim Protection</strong> (Schutz des Korbs) taucht in keinem Boxscore auf, ist aber für Trainer oft wertvoller als die Blocks selbst.",
+      "Deshalb schaut man heute auf zusätzliche Werte: wie oft Gegner in der Nähe eines Verteidigers werfen und mit welcher Quote sie treffen. Wembanyama ist dabei seit seiner Rookie-Saison ein Ausreißer, weil er mit seiner Spannweite Würfe erreicht, die für andere Center unerreichbar wären.",
+      "Ein Spiel mit 50 Punkten und vielen Blocks ist deshalb so selten, weil beides normalerweise unterschiedliche Spielertypen verlangt: den Scorer, der Würfe nimmt, und den Ringbeschützer, der in der Zone wartet. Wer beides in einer Nacht kann, verschiebt die Vorstellung davon, was ein Center ist."
+    ]
+  },
+  "news": [
+    {
+      "team": "TOR",
+      "text": "<strong>Jakob Pöltl</strong> ist nach seiner Schulter-Bursitis zurück und spielte in Denver knapp 19 Minuten."
+    },
+    {
+      "team": "CHA",
+      "text": "Rookie <strong>Kon Knueppel</strong> feierte sein Saisondebüt, musste aber schon im ersten Viertel mit Schmerzen im linken Bein raus."
+    },
+    {
+      "team": "IND",
+      "text": "<strong>Tyrese Haliburton</strong> und <strong>T.J. McConnell</strong> fehlten in Memphis mit Oberschenkelproblemen; Obi Toppin kehrte zurück."
+    },
+    {
+      "team": "PHX",
+      "text": "<strong>Devin Booker</strong> wurde von einem Schlag am Kopf getroffen, kehrte zurück und foulte zum zweiten Mal in Serie aus – Phoenix verlor das vierte Spiel in Folge."
+    },
+    {
+      "team": "SAC",
+      "text": "Ein Zuschauer warf beim Kings-Heimspiel einen Ball nach Schiedsrichterin <strong>Chelisa Painter</strong> und wurde aus der Halle gebracht."
+    },
+    {
+      "team": "OKC",
+      "text": "Die Thunder stehen bei 3-2, seit drei Starter langfristig ausfallen – und schlugen Cleveland binnen drei Tagen zweimal."
+    },
+    {
+      "team": "POR",
+      "text": "Portland ist mit 6-1 so gut gestartet wie seit 1999/2000 nicht mehr und auswärts noch ungeschlagen."
+    },
+    {
+      "team": "NYK",
+      "text": "Die <strong>Knicks</strong> feierten mit dem 135:105 gegen Chicago ihren höchsten Saisonsieg."
+    }
+  ],
+  "standings_note": "Stand nach der Nacht auf Donnerstag (sortiert nach Siegquote)",
+  "standings": {
+    "east": [
+      [
+        "PHI",
+        8,
+        1
+      ],
+      [
+        "BOS",
+        6,
+        2
+      ],
+      [
+        "DET",
+        6,
+        2
+      ],
+      [
+        "ATL",
+        5,
+        4
+      ],
+      [
+        "CLE",
+        4,
+        4
+      ],
+      [
+        "TOR",
+        4,
+        4
+      ],
+      [
+        "WAS",
+        4,
+        4
+      ],
+      [
+        "NYK",
+        4,
+        4
+      ],
+      [
+        "MIA",
+        3,
+        5
+      ],
+      [
+        "CHA",
+        3,
+        6
+      ],
+      [
+        "IND",
+        3,
+        6
+      ],
+      [
+        "ORL",
+        2,
+        5
+      ],
+      [
+        "BKN",
+        2,
+        6
+      ],
+      [
+        "CHI",
+        1,
+        7
+      ],
+      [
+        "MIL",
+        1,
+        7
+      ]
+    ],
+    "west": [
+      [
+        "POR",
+        6,
+        1
+      ],
+      [
+        "HOU",
+        7,
+        2
+      ],
+      [
+        "LAL",
+        7,
+        2
+      ],
+      [
+        "OKC",
+        6,
+        2
+      ],
+      [
+        "MEM",
+        6,
+        2
+      ],
+      [
+        "SAS",
+        6,
+        2
+      ],
+      [
+        "MIN",
+        6,
+        3
+      ],
+      [
+        "GSW",
+        5,
+        3
+      ],
+      [
+        "DEN",
+        4,
+        3
+      ],
+      [
+        "DAL",
+        4,
+        4
+      ],
+      [
+        "NOP",
+        4,
+        4
+      ],
+      [
+        "PHX",
+        1,
+        5
+      ],
+      [
+        "LAC",
+        1,
+        7
+      ],
+      [
+        "UTA",
+        1,
+        7
+      ],
+      [
+        "SAC",
+        1,
+        7
+      ]
+    ]
+  },
+  "upcoming": [
+    {
+      "label": "Heute Nacht – Nacht auf Freitag (2 Spiele)",
+      "games": [
+        {
+          "time": "03:00",
+          "away": "ORL",
+          "home": "PHX",
+          "featured": true,
+          "note": "<strong>Spiel des Tages:</strong> Franz Wagner und Tristan da Silva gegen Suns, die viermal in Folge verloren haben."
+        },
+        {
+          "time": "04:00",
+          "away": "MIA",
+          "home": "GSW",
+          "note": "Miami im Back-to-back nach dem Krimi bei den Clippers."
+        }
+      ]
+    }
+  ],
+  "goodtoknow": [
+    {
+      "big": "52",
+      "title": "Punkte Wembanyama",
+      "text": "Neuer Karrierebestwert – dazu 24 Rebounds, ebenfalls Bestwert, und 8 Blocks."
+    },
+    {
+      "big": "30",
+      "title": "Jahre ohne Vergleich",
+      "text": "So lange hat niemand in einer Halbzeit 25 Punkte, 10 Rebounds und 5 Blocks gesammelt."
+    },
+    {
+      "big": "308",
+      "title": "Punkte in 8 Spielen",
+      "text": "Luka Dončić ist der Erste seit Michael Jordan 1988/89, der so früh über 300 kommt."
+    },
+    {
+      "big": "201",
+      "title": "Triple-Doubles",
+      "text": "So viele hat Nikola Jokić nach dem Sieg gegen Toronto in seiner Karriere gesammelt."
+    },
+    {
+      "big": "41:15",
+      "title": "Drittes Viertel",
+      "text": "Mit diesem Lauf entschied Denver das Spiel gegen Pöltls Raptors nach der Pause."
+    },
+    {
+      "big": "14:0",
+      "title": "Overtime-Lauf",
+      "text": "Mit diesem Schlussspurt drehte New Orleans die Verlängerung gegen Utah."
+    }
+  ],
+  "links": [
+    {
+      "title": "Wembanyamas 52-Punkte-Spiel",
+      "src": "Field Level Media",
+      "url": "https://fieldlevelmedia.com/nba/victor-wembanyama-pours-in-52-as-spurs-edge-mavericks/"
+    },
+    {
+      "title": "Raptors – Nuggets Highlights",
+      "src": "ESPN",
+      "url": "https://www.espn.com/nba/video/_/gameId/401909931"
+    },
+    {
+      "title": "Pöltl bei Comeback in Denver",
+      "src": "Südtirol News",
+      "url": "https://www.suedtirolnews.it/sport/poeltl-bei-toronto-niederlage-in-denver-zurueck-auf-parkett"
+    },
+    {
+      "title": "Video-Recap Hawks – Wizards",
+      "src": "NBA.com",
+      "url": "https://www.nba.com/watch/video/game-recap-hawks-120-wizards-105?plsrc=nba&collection=2026-27-game-recaps"
+    },
+    {
+      "title": "Alle Highlights",
+      "src": "YouTube · NBA",
+      "url": "https://www.youtube.com/@NBA/videos",
+      "note": "Offizieller NBA-Kanal mit den Clips aller 14 Spiele."
+    },
+    {
+      "title": "Ganze Spiele im Replay",
+      "src": "NBA League Pass",
+      "url": "https://www.nba.com/watch/league-pass-stream",
+      "note": "Für den Re-Watch-Tipp: Mavericks – Spurs."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Block",
+      "text": "Regelkonformes Abwehren eines gegnerischen Wurfs. Offiziell erst seit 1973/74 gezählt."
+    },
+    {
+      "term": "Rim Protection",
+      "text": "Schutz des Korbs: wie gut ein Verteidiger Würfe in Korbnähe verhindert oder erschwert."
+    },
+    {
+      "term": "Triple-Double",
+      "text": "Zweistellige Werte in drei Statistik-Kategorien, meist Punkte, Rebounds und Assists."
+    },
+    {
+      "term": "Back-to-back",
+      "text": "Zwei Spiele an zwei aufeinanderfolgenden Tagen – wie heute für Miami."
+    },
+    {
+      "term": "NBA Cup",
+      "text": "Turnier innerhalb der regulären Saison mit Gruppenphase im November; Toronto spielt am Freitag in Milwaukee ein Cup-Spiel."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Field Level Media: Wembanyama 52 Punkte",
+      "url": "https://fieldlevelmedia.com/nba/victor-wembanyama-pours-in-52-as-spurs-edge-mavericks/"
+    },
+    {
+      "title": "Flashscore: NBA-Roundup 76ers, Celtics, Knicks",
+      "url": "https://www.flashscore.com/news/nba-roundup-76ers-continue-to-roll-celtics-hold-off-bucks-comeback/Cr6fbMC7/"
+    },
+    {
+      "title": "ESPN: Recap Thunder – Cavaliers",
+      "url": "https://www.espn.com/nba/recap?gameId=401909929"
+    },
+    {
+      "title": "ESPN: Recap Lakers – Kings",
+      "url": "https://www.espn.com/nba/recap/_/gameId/401909934"
+    },
+    {
+      "title": "ESPN: Recap Celtics – Bucks",
+      "url": "https://www.espn.com/nba/recap?gameId=401909924"
+    },
+    {
+      "title": "ESPN: Recap Nets – Hornets",
+      "url": "https://www.espn.com/nba/recap?gameId=401909925"
+    },
+    {
+      "title": "ESPN: Recap Hawks – Wizards",
+      "url": "https://www.espn.com/nba/recap/_/gameId/401909923"
+    },
+    {
+      "title": "Field Level Media: Timberwolves – Rockets",
+      "url": "https://fieldlevelmedia.com/nba/lamelo-ball-ayo-dosunmu-propel-timberwolves-past-rockets/"
+    },
+    {
+      "title": "The Ticket: Blazers – Suns",
+      "url": "https://www.theticket.com/2026/11/04/damian-lillard-blazers-stay-hot-on-road-keep-suns-reeling/"
+    },
+    {
+      "title": "The Sports Leader: Pacers – Grizzlies",
+      "url": "https://www.thesportsleader.com/2026/11/04/pacers-make-clutch-plays-down-stretch-to-edge-grizzlies/"
+    },
+    {
+      "title": "Yardbarker: Pelicans – Jazz",
+      "url": "https://www.yardbarker.com/nba/articles/saddiq_beys_overtime_surge_propels_pelicans_past_jazz/s1_17045_44518008"
+    },
+    {
+      "title": "Yardbarker: Nets – Hornets",
+      "url": "https://www.yardbarker.com/nba/articles/nets_top_hornets_114104_for_second_win_of_season/s1_17668_44517914"
+    },
+    {
+      "title": "Yardbarker: Hawks – Wizards",
+      "url": "https://www.yardbarker.com/nba/articles/hawks_beat_wizards_120105_behind_alexander_walkers_26_points/s1_17668_44517793"
+    },
+    {
+      "title": "Durango Herald (AP): Nuggets – Raptors",
+      "url": "https://www.durangoherald.com/articles/associated-press/jokic-scores-32-in-3rd-triple-double-this-season-as-nuggets-roll-to-128-109-win-over-raptors"
+    },
+    {
+      "title": "Südtirol News: Pöltl zurück",
+      "url": "https://www.suedtirolnews.it/sport/poeltl-bei-toronto-niederlage-in-denver-zurueck-auf-parkett"
+    },
+    {
+      "title": "VAVEL: Clippers – Heat",
+      "url": "https://www.vavel.com/en-us/nba/2026/11/04/1278117-los-angeles-clippers-vs-miami-heat-live-score-nba.html"
+    },
+    {
+      "title": "Land of Basketball: Spielplan 5. November 2026",
+      "url": "https://www.landofbasketball.com/nba_daily_summary/20261105.htm"
+    }
+  ]
+}
