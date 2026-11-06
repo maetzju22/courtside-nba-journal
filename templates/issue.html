@@ -16,18 +16,19 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
 </script>
 </head>
 <body>
-<div class="wrap">
-  <div class="topbar">
+<div class="topbar">
+  <div class="wrap topbar-in">
     <nav>
-      <a href="{{ base }}" class="home" aria-label="Startseite">{% include "_logo_small.html" %}</a><a href="#ergebnisse">Ergebnisse</a><a href="#europa">Europa-Ecke</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="{{ base }}archiv/">Archiv</a>
+      <a href="{{ base }}" class="home" aria-label="Startseite">{% include "_logo_small.html" %}</a>{% if i.week %}<a href="#woche">Woche</a>{% endif %}<a href="#kurz">Kurz</a>{% if i.games %}<a href="#ergebnisse">Ergebnisse</a>{% endif %}<a href="#europa">Europa</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="{{ base }}archiv/">Archiv</a>
     </nav>
-    <div style="display:flex;gap:8px">
-      <button class="tbtn tbtn-min" data-minute>⏱ 1 Minute</button>
+    <div class="tools">
       <button class="tbtn" id="spoilerBtn" aria-pressed="false" title="Ergebnisse verdecken, um Spiele erst im League Pass zu schauen">Spoiler-Schutz</button>
-      <button class="tbtn" id="themeBtn" title="Hell/Dunkel">◐</button>
+      <button class="tbtn tbtn-ico" id="themeBtn" title="Hell/Dunkel" aria-label="Hell/Dunkel umschalten">◐</button>
     </div>
   </div>
+</div>
 
+<div class="wrap">
   <div class="hardwood"></div>
   <header class="masthead">
     <div class="kicker">Das deutschsprachige NBA-Journal</div>
@@ -37,21 +38,59 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   <div class="dateline">
     <span>{{ i.weekday }}, {{ i.date_long }}</span>
     <span>{{ i.edition_label }}</span>
-    <span>Ausgabe Nr. {{ i.issue_no }} · Lesezeit ca. {{ i._minutes }} Min.</span>
+    <span>Nr. {{ i.issue_no }} · {{ i._minutes }} Min. Lesezeit</span>
   </div>
 
+  {% if i.week %}
+  <section class="card week" id="woche">
+    <div class="card-h"><span class="pill pill-blue">Die Woche in 1 Minute</span><span class="meta">{{ i.week.range }}</span></div>
+    <ol class="brief spoil">{% for m in i.week['items'] %}<li>{{ m|safe }}</li>{% endfor %}</ol>
+    {% if i.week.hot or i.week.cold %}
+    <div class="trend spoil">
+      {% if i.week.hot %}<div><span class="tlabel up">▲ Heiß</span>{% for t in i.week.hot %}<span class="tchip"><img src="{{ logo(t.team) }}" alt="" width="20" height="20">{{ tname(t.team, true) }} <b>{{ t.note }}</b></span>{% endfor %}</div>{% endif %}
+      {% if i.week.cold %}<div><span class="tlabel down">▼ Kalt</span>{% for t in i.week.cold %}<span class="tchip"><img src="{{ logo(t.team) }}" alt="" width="20" height="20">{{ tname(t.team, true) }} <b>{{ t.note }}</b></span>{% endfor %}</div>{% endif %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
   {% if i.minute %}
-  <button class="minute-cta" data-minute>
-    <span class="clock" aria-hidden="true">⏱</span>
-    <span><strong>Keine Zeit? Alles in 1 Minute</strong><small>Die Nacht kompakt: Ergebnisse, Storys, News &amp; Spiel des Tages</small></span>
-    <span class="arr" aria-hidden="true">→</span>
-  </button>
-  {% include "_minute.html" %}
+  <section class="card brief-card" id="kurz">
+    <div class="card-h"><span class="pill">⏱ Alles in 1 Minute</span><span class="meta">{{ i.period }}</span></div>
+    <ol class="brief spoil">{% for m in i.minute %}<li>{{ m|safe }}</li>{% endfor %}</ol>
+    {% for d in i.upcoming[:1] %}{% for g in d.games if g.featured %}
+    <div class="next"><span>Spiel des Tages · {{ g.time }} Uhr</span><strong><img src="{{ logo(g.away) }}" alt="" width="22" height="22">{{ tname(g.away, true) }} @ {{ tname(g.home, true) }}<img src="{{ logo(g.home) }}" alt="" width="22" height="22"></strong></div>
+    {% endfor %}{% endfor %}
+  </section>
+  {% endif %}
+
+  {% if i.games %}
+  <section class="sec" id="ergebnisse">
+    <h2 class="sec-h">Ergebnisse · {{ i.period }}<span class="count">{{ i.games|length }} {{ 'Spiel' if i.games|length == 1 else 'Spiele' }}</span></h2>
+    <div class="spoil-note">Spoiler-Schutz aktiv – Ergebnisse und Spielberichte sind verdeckt.</div>
+    <div class="scores">
+      {% for g in i.games %}
+      {% set aw = g.away_score > g.home_score %}
+      <details class="game">
+        <summary>
+          {% if g.tag %}<span class="tag">{{ g.tag }}</span>{% endif %}
+          <span class="row {{ '' if aw else 'l' }}"><img src="{{ logo(g.away) }}" alt=""><span class="tn">{{ tname(g.away, true) }}<span class="rec spoil">{{ g.away_record }}</span></span><span class="pts">{{ g.away_score }}</span></span>
+          <span class="row {{ 'l' if aw else '' }}"><img src="{{ logo(g.home) }}" alt=""><span class="tn">{{ tname(g.home, true) }}<span class="rec spoil">{{ g.home_record }}</span></span><span class="pts">{{ g.home_score }}</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil">{{ g.line|safe }}</div>
+          {% if g.links %}<div class="glinks">{% for l in g.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</div>{% endif %}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+    <div class="hint">Antippen für Topscorer &amp; Links</div>
+  </section>
   {% endif %}
 
   {% if i.rewatch %}
   <details class="rewatch">
-    <summary><span class="badge">Re-Watch-Tipp</span><span class="rw-t">Spoilerfrei · {{ i.rewatch.away }} @ {{ i.rewatch.home }}</span><span class="rw-arr" aria-hidden="true">▾</span></summary>
+    <summary><span class="badge">Re-Watch-Tipp</span><span class="rw-t">Spoilerfrei · {{ tname(i.rewatch.away, true) }} @ {{ tname(i.rewatch.home, true) }}</span><span class="rw-arr" aria-hidden="true">▾</span></summary>
     <div class="rw-body">
       <div class="logos"><img src="{{ logo(i.rewatch.away) }}" alt="{{ tname(i.rewatch.away) }}"> @ <img src="{{ logo(i.rewatch.home) }}" alt="{{ tname(i.rewatch.home) }}"></div>
       <p>{{ i.rewatch.why }} <em>Tipp: Oben „Spoiler-Schutz“ aktivieren, dann bleiben alle Ergebnisse verdeckt.</em></p>
@@ -63,49 +102,34 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
     <article class="lead spoil">
       <div class="kick">{{ i.lead.kicker }}</div>
       <h2>{{ i.lead.title }}</h2>
-      {% if i.lead.teams %}<div class="lead-logos">{% for t in i.lead.teams %}<img src="{{ logo(t) }}" alt="{{ tname(t) }}">{% endfor %}</div>{% endif %}
-      <p class="teaser">{{ i.lead.teaser }}</p>
-      <div class="body">{% for p in i.lead.body %}<p>{{ p|safe }}</p>{% endfor %}</div>
+      <p class="teaser">{% if i.lead.teams %}<span class="lead-logos">{% for t in i.lead.teams %}<img src="{{ logo(t) }}" alt="{{ tname(t) }}">{% endfor %}</span>{% endif %}{{ i.lead.teaser }}</p>
+      <div class="body">{% for p in i.lead.body[:2] %}<p>{{ p|safe }}</p>{% endfor %}</div>
+      {% if i.lead.body|length > 2 %}
+      <details class="more"><summary>Weiterlesen</summary><div class="body">{% for p in i.lead.body[2:] %}<p>{{ p|safe }}</p>{% endfor %}</div></details>
+      {% endif %}
     </article>
-    <aside class="side">
-      {% for b in i.sidebar %}
+    {% if i.sidebar %}
+    <aside class="side spoil">
+      {% for b in i.sidebar if b.title != 'Die Nacht in 30 Sekunden' %}
       <div class="box">
         <h4>{{ b.title }}</h4>
         <ul>{% for li in b['items'] %}<li>{{ li|safe }}</li>{% endfor %}</ul>
       </div>
       {% endfor %}
     </aside>
+    {% endif %}
   </div>
-
-  {% if i.games %}
-  <section class="sec" id="ergebnisse">
-    <h2 class="sec-h">Ergebnisse · {{ i.period }}</h2>
-    <div class="spoil-note">Spoiler-Schutz aktiv – Ergebnisse und Spielberichte sind verdeckt.</div>
-    <div class="scores">
-      {% for g in i.games %}
-      {% set aw = g.away_score > g.home_score %}
-      <div class="game">
-        <div class="tag">{{ g.tag }}</div>
-        <div class="row {{ '' if aw else 'l' }}"><img src="{{ logo(g.away) }}" alt=""><span>{{ tname(g.away, true) }}<span class="rec spoil">{{ g.away_record }}</span></span><span class="pts">{{ g.away_score }}</span></div>
-        <div class="row {{ 'l' if aw else '' }}"><img src="{{ logo(g.home) }}" alt=""><span>{{ tname(g.home, true) }}<span class="rec spoil">{{ g.home_record }}</span></span><span class="pts">{{ g.home_score }}</span></div>
-        <div class="star spoil">{{ g.line|safe }}</div>
-        <div class="glinks">{% for l in g.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</div>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
 
   {% if i.stories %}
   <section class="sec spoil">
     <h2 class="sec-h">Die Geschichten der Nacht</h2>
     <div class="stories">
       {% for s in i.stories %}
-      <article class="story">
-        {% if s.team %}<img class="logo-s" src="{{ logo(s.team) }}" alt="{{ tname(s.team) }}">{% endif %}
-        <div class="kick">{{ s.kicker }}</div>
+      <article class="story card">
+        <div class="story-h">{% if s.team %}<img src="{{ logo(s.team) }}" alt="{{ tname(s.team) }}" width="30" height="30">{% endif %}<div class="kick">{{ s.kicker }}</div></div>
         <h3>{{ s.title }}</h3>
-        {% for p in s.body %}<p>{{ p|safe }}</p>{% endfor %}
+        <p>{{ s.body[0]|safe }}</p>
+        {% if s.body|length > 1 %}<details class="more"><summary>Mehr</summary>{% for p in s.body[1:] %}<p>{{ p|safe }}</p>{% endfor %}</details>{% endif %}
       </article>
       {% endfor %}
     </div>
@@ -117,10 +141,12 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
     <h2 class="sec-h">Europa-Ecke</h2>
     <div class="europe">
       {% for e in i.europe %}
-      <div class="eu">
-        <div class="who"><span>{{ e.flag }}</span><span>{{ e.player }}</span><img src="{{ logo(e.team) }}" alt="{{ tname(e.team) }}"></div>
-        <div class="stat">{{ e.stat }}</div>
-        <p>{{ e.text|safe }}</p>
+      <div class="eu {{ 'eu-top' if loop.first else '' }}">
+        <span class="flag">{{ e.flag }}</span>
+        <div class="eu-main">
+          <div class="who"><b>{{ e.player|safe }}</b><img src="{{ logo(e.team) }}" alt="{{ tname(e.team) }}" width="20" height="20"><span class="stat">{{ e.stat }}</span></div>
+          <p>{{ e.text|safe }}</p>
+        </div>
       </div>
       {% endfor %}
     </div>
@@ -131,100 +157,115 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   <section class="sec">
     <h2 class="sec-h">Power Ranking der Woche</h2>
     <ol class="pr">
-      {% for r in i.power_ranking %}
-      <li><span class="rk">{{ loop.index }}</span><img src="{{ logo(r.team) }}" alt=""><span><b>{{ tname(r.team) }}</b> {% if r.move %}<span style="font-family:var(--cond);color:var(--muted)">({{ r.move }})</span>{% endif %}<br>{{ r.text }}</span></li>
+      {% for r in i.power_ranking[:10] %}
+      <li><span class="rk">{{ loop.index }}</span><img src="{{ logo(r.team) }}" alt=""><span><b>{{ tname(r.team) }}</b>{% if r.move %} <span class="mv">{{ r.move }}</span>{% endif %}<br>{{ r.text }}</span></li>
       {% endfor %}
     </ol>
+    {% if i.power_ranking|length > 10 %}
+    <details class="more"><summary>Plätze 11–{{ i.power_ranking|length }}</summary>
+      <ol class="pr" start="11">
+      {% for r in i.power_ranking[10:] %}
+      <li><span class="rk">{{ loop.index + 10 }}</span><img src="{{ logo(r.team) }}" alt=""><span><b>{{ tname(r.team) }}</b>{% if r.move %} <span class="mv">{{ r.move }}</span>{% endif %}<br>{{ r.text }}</span></li>
+      {% endfor %}
+      </ol>
+    </details>
+    {% endif %}
   </section>
   {% endif %}
 
   <section class="sec cols">
-    <div class="explain">
-      <h2 class="sec-h">Einordnung</h2>
-      <h3>{{ i.explainer.title }}</h3>
-      {% for p in i.explainer.body %}<p>{{ p|safe }}</p>{% endfor %}
-    </div>
     <div>
       <h2 class="sec-h">News-Ticker</h2>
       <ul class="news">
-        {% for n in i.news %}<li><img src="{{ logo(n.team) }}" alt="{{ tname(n.team) }}"><span>{{ n.text|safe }}</span></li>{% endfor %}
+        {% for n in i.news %}<li><img src="{{ logo(n.team) }}" alt="{{ tname(n.team) }}" width="26" height="26"><span>{{ n.text|safe }}</span></li>{% endfor %}
       </ul>
+    </div>
+    <div id="vorschau">
+      <h2 class="sec-h">Vorschau · Wiener Zeit</h2>
+      {% for d in i.upcoming %}
+      <details class="upday" {{ 'open' if loop.first else '' }}>
+        <summary>{{ d.label }}<span class="count">{{ d.games|length }}</span></summary>
+        {% for g in d.games %}
+        <div class="up {{ 'feat' if g.featured else '' }}">
+          <span class="time">{{ g.time }}</span>
+          <span class="m"><img src="{{ logo(g.away) }}" alt="">{{ tname(g.away, true) }} <i>@</i> <img src="{{ logo(g.home) }}" alt="">{{ tname(g.home, true) }}</span>
+          {% if g.note %}<span class="note">{{ g.note|safe }}</span>{% endif %}
+        </div>
+        {% endfor %}
+      </details>
+      {% endfor %}
     </div>
   </section>
 
   <section class="sec" id="tabelle">
-    <h2 class="sec-h">Tabellen · {{ i.standings_note }}</h2>
+    <h2 class="sec-h">Tabelle<span class="count">{{ i.standings_note }}</span></h2>
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="east">Osten</button><button role="tab" aria-selected="false" data-tab="west">Westen</button>
+    </div>
     <div class="standings spoil">
-      {% for conf, rows in [("Eastern Conference", i.standings.east), ("Western Conference", i.standings.west)] %}
-      <table class="st">
+      {% for key, conf, rows in [("east", "Eastern Conference", i.standings.east), ("west", "Western Conference", i.standings.west)] %}
+      <table class="st" data-conf="{{ key }}">
         <caption>{{ conf }}</caption>
         <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
         <tbody>
         {% for r in rows %}
-          <tr class="{{ 'cut6' if loop.index==6 else ('cut10' if loop.index==10 else '') }}"><td class="n">{{ loop.index }}</td><td class="t"><img src="{{ logo(r[0]) }}" alt="">{{ tname(r[0], true) }}</td><td>{{ r[1] }}</td><td>{{ r[2] }}</td><td>{{ '%.3f'|format(r[1]/(r[1]+r[2]) if (r[1]+r[2]) else 0) }}</td></tr>
+          <tr class="{{ 'cut6' if loop.index==6 else ('cut10' if loop.index==10 else '') }}"><td class="n">{{ loop.index }}</td><td class="t"><img src="{{ logo(r[0]) }}" alt="">{{ tname(r[0], true) }}</td><td>{{ r[1] }}</td><td>{{ r[2] }}</td><td>{{ ('%.3f'|format(r[1]/(r[1]+r[2]) if (r[1]+r[2]) else 0))|replace('0.', '.', 1) }}</td></tr>
         {% endfor %}
         </tbody>
       </table>
       {% endfor %}
     </div>
-    <div class="legend">Durchgezogene Linie: Platz 1–6 = fix in den Playoffs · gestrichelt: Platz 7–10 = Play-In-Turnier</div>
+    <div class="legend">Linie: Platz 1–6 fix in den Playoffs · gestrichelt: 7–10 Play-In</div>
   </section>
 
-  <section class="sec" id="vorschau">
-    <h2 class="sec-h">Vorschau · alle Zeiten Wiener Zeit</h2>
-    <div class="updays">
-      {% for d in i.upcoming %}
-      <div class="upday">
-        <h4>{{ d.label }}</h4>
-        {% for g in d.games %}
-        <div class="up {{ 'feat' if g.featured else '' }}">
-          <span class="time">{{ g.time }}</span>
-          <span class="m"><img src="{{ logo(g.away) }}" alt="">{{ tname(g.away, true) }} @ <img src="{{ logo(g.home) }}" alt="">{{ tname(g.home, true) }}</span>
-          {% if g.note %}<span class="note">{{ g.note|safe }}</span>{% endif %}
-        </div>
-        {% endfor %}
-      </div>
+  {% if i.explainer %}
+  <section class="sec">
+    <details class="card explain">
+      <summary><span class="pill pill-blue">Einordnung</span><h3>{{ i.explainer.title }}</h3><span class="ex-teaser">{{ i.explainer.body[0]|safe }}</span><span class="ex-more">Ganz lesen ▾</span></summary>
+      {% for p in i.explainer.body[1:] %}<p>{{ p|safe }}</p>{% endfor %}
+    </details>
+  </section>
+  {% endif %}
+
+  {% if i.goodtoknow %}
+  <section class="sec">
+    <h2 class="sec-h">Good to know</h2>
+    <div class="gtk spoil">
+      {% for g in i.goodtoknow %}
+      <div class="gtk-item"><div class="n">{{ g.big }}</div><h5>{{ g.title }}</h5><p>{{ g.text|safe }}</p></div>
       {% endfor %}
     </div>
   </section>
-
-  <section class="sec">
-    <div class="gtk">
-      <div class="gtk-grid">
-        {% for g in i.goodtoknow %}
-        <div class="gtk-item"><div class="n">{{ g.big }}</div><h5>{{ g.title }}</h5><p>{{ g.text|safe }}</p></div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
+  {% endif %}
 
   <section class="sec cols">
-    <div>
-      <h2 class="sec-h">Highlights &amp; Material</h2>
+    <details class="card extra">
+      <summary>Highlights &amp; Material<span class="count">{{ i.links|length }}</span></summary>
       <ul class="links">
-        {% for l in i.links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a><span class="src">{{ l.src }}</span>{% if l.note %}<br><span style="color:var(--ink-2)">{{ l.note }}</span>{% endif %}</li>{% endfor %}
+        {% for l in i.links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a><span class="src">{{ l.src }}</span>{% if l.note %}<br><span class="lnote">{{ l.note }}</span>{% endif %}</li>{% endfor %}
       </ul>
-    </div>
-    <div>
-      <h2 class="sec-h">Kleines NBA-Glossar</h2>
+    </details>
+    <details class="card extra">
+      <summary>Kleines NBA-Glossar<span class="count">{{ i.glossary|length }}</span></summary>
       <dl class="gloss">
         {% for g in i.glossary %}<dt>{{ g.term }}</dt><dd>{{ g.text|safe }}</dd>{% endfor %}
       </dl>
-    </div>
+    </details>
   </section>
 
   <div class="hardwood"></div>
   <footer>
     <div class="pager">
-      <span>{% if prev %}<a href="{{ base }}ausgabe/{{ prev }}/">← Vorherige Ausgabe</a>{% endif %}</span>
+      <span>{% if prev %}<a href="{{ base }}ausgabe/{{ prev }}/">← Vorherige</a>{% endif %}</span>
       <a href="{{ base }}archiv/">Archiv</a>
-      <span>{% if next %}<a href="{{ base }}ausgabe/{{ next }}/">Nächste Ausgabe →</a>{% endif %}</span>
+      <span>{% if next %}<a href="{{ base }}ausgabe/{{ next }}/">Nächste →</a>{% endif %}</span>
     </div>
-    <p>COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Recherchiert und geschrieben von Claude für eine Runde basketballverrückter Freunde.</p>
-    <div class="srcs"><strong>Quellen dieser Ausgabe:</strong> {% for s in i.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{{ ' · ' if not loop.last }}{% endfor %}</div>
+    <p class="ai-note"><span class="pill pill-ghost">KI-generiert</span> COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Alle Texte werden von einer KI (Claude) auf Basis der unten verlinkten Quellen recherchiert und geschrieben – für eine Runde basketballverrückter Freunde. Fehler sind möglich; maßgeblich sind die Originalquellen.</p>
+    <details class="srcs"><summary>Quellen dieser Ausgabe ({{ i.sources|length }})</summary>{% for s in i.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a>{{ ' · ' if not loop.last }}{% endfor %}</details>
     {% include "_legal.html" %}
   </footer>
 </div>
+{% include "_minute.html" %}
 <script>
 (function(){
   var b=document.body, sb=document.getElementById('spoilerBtn'), tb=document.getElementById('themeBtn');
@@ -236,6 +277,10 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
     if(!cur){cur=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}
     var n=cur==='dark'?'light':'dark'; r.setAttribute('data-theme',n); try{localStorage.setItem('cs-theme',n)}catch(e){}
   });
+  var tabs=document.querySelectorAll('[data-tab]'), st=document.querySelector('.standings');
+  function tab(k){tabs.forEach(function(t){t.setAttribute('aria-selected',t.dataset.tab===k?'true':'false')});st.setAttribute('data-show',k)}
+  tabs.forEach(function(t){t.addEventListener('click',function(){tab(t.dataset.tab)})});
+  if(st) tab('east');
 })();
 </script>
 {% include "_pwa_popup.html" %}

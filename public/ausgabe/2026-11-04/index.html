@@ -18,14 +18,14 @@
 <meta name="apple-mobile-web-app-title" content="Courtside">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="../../fonts.css?v=1">
-<link rel="stylesheet" href="../../style.css?v=3cda8d3e">
+<link rel="stylesheet" href="../../style.css?v=c0513c0b">
 <script>
 try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
 </script>
 </head>
 <body>
-<div class="wrap">
-  <div class="topbar">
+<div class="topbar">
+  <div class="wrap topbar-in">
     <nav>
       <a href="../../" class="home" aria-label="Startseite"><svg class="mark-s" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:22px;height:22px;vertical-align:-6px">
   <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
@@ -35,15 +35,16 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   </g>
   <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#1c1a16" stroke-width="20"/>
   <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#f5efe3" stroke-width="13"/>
-</svg></a><a href="#ergebnisse">Ergebnisse</a><a href="#europa">Europa-Ecke</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="../../archiv/">Archiv</a>
+</svg></a><a href="#kurz">Kurz</a><a href="#europa">Europa</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="../../archiv/">Archiv</a>
     </nav>
-    <div style="display:flex;gap:8px">
-      <button class="tbtn tbtn-min" data-minute>⏱ 1 Minute</button>
+    <div class="tools">
       <button class="tbtn" id="spoilerBtn" aria-pressed="false" title="Ergebnisse verdecken, um Spiele erst im League Pass zu schauen">Spoiler-Schutz</button>
-      <button class="tbtn" id="themeBtn" title="Hell/Dunkel">◐</button>
+      <button class="tbtn tbtn-ico" id="themeBtn" title="Hell/Dunkel" aria-label="Hell/Dunkel umschalten">◐</button>
     </div>
   </div>
+</div>
 
+<div class="wrap">
   <div class="hardwood"></div>
   <header class="masthead">
     <div class="kicker">Das deutschsprachige NBA-Journal</div>
@@ -61,16 +62,390 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   <div class="dateline">
     <span>Mittwoch, 4. November 2026</span>
     <span>Mittwochsausgabe · Ruhetag-Edition</span>
-    <span>Ausgabe Nr. 5 · Lesezeit ca. 7 Min.</span>
+    <span>Nr. 5 · 7 Min. Lesezeit</span>
   </div>
 
   
-  <button class="minute-cta" data-minute>
-    <span class="clock" aria-hidden="true">⏱</span>
-    <span><strong>Keine Zeit? Alles in 1 Minute</strong><small>Die Nacht kompakt: Ergebnisse, Storys, News &amp; Spiel des Tages</small></span>
-    <span class="arr" aria-hidden="true">→</span>
-  </button>
-  <dialog id="minute" class="minute" aria-labelledby="minute-t">
+
+  
+  <section class="card brief-card" id="kurz">
+    <div class="card-h"><span class="pill">⏱ Alles in 1 Minute</span><span class="meta">Nacht auf Mittwoch</span></div>
+    <ol class="brief spoil"><li><strong>Stille Nacht:</strong> Wegen des US-Wahltags gab es keine einzige Partie – die Tabelle ist exakt so wie gestern.</li><li><strong>Pöltl-Hoffnung:</strong> Der Wiener wurde für das Spiel in Denver auf „questionable“ hochgestuft – nach zwei Ausfällen mit Schulter-Bursitis.</li><li><strong>Gipfel im Osten:</strong> Philadelphia (7-1) gastiert um 01:00 Uhr in Detroit (6-1) – das Spiel des Tages.</li><li><strong>Rückspiel in OKC:</strong> Cleveland reist zwei Tage nach dem 112:117-Krimi nach Oklahoma City, wieder ohne Tyson und Watson.</li><li><strong>Tatum fraglich:</strong> Boston führt seinen Superstar gegen Milwaukee mit „Rest“ als fraglich.</li><li><strong>Volles Programm:</strong> 14 Spiele heute Nacht, nur Orlando und Golden State haben frei – dafür sind beide in der Nacht auf Freitag dran.</li><li><strong>Zeitumstellung erledigt:</strong> Seit die USA am 1. November zurückgestellt haben, liegt Wien wieder sechs Stunden vor der Ostküste.</li></ol>
+    
+    <div class="next"><span>Spiel des Tages · 01:00 Uhr</span><strong><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="" width="22" height="22">76ers @ Pistons<img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="" width="22" height="22"></strong></div>
+    
+  </section>
+  
+
+  
+
+  
+
+  <div class="lead-grid">
+    <article class="lead spoil">
+      <div class="kick">76ers – Pistons · Vorschau</div>
+      <h2>Der Osten bittet zum Gipfel</h2>
+      <p class="teaser"><span class="lead-logos"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="Philadelphia 76ers"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="Detroit Pistons"></span>Nach dem spielfreien Wahltag treffen heute Nacht die zwei besten Teams der Eastern Conference aufeinander: Philadelphia mit 7-1 in Detroit, das bei 6-1 steht.</p>
+      <div class="body"><p>Wer gestern Nacht den League Pass geöffnet hat, sah nur leere Spielpläne: Die NBA hatte den <strong>US-Wahltag</strong> bewusst freigehalten. Der Vorteil für uns: Heute Nacht geht es mit <strong>14 Partien</strong> umso dichter weiter – und gleich die erste ist die beste. Um <strong>01:00 Uhr</strong> Wiener Zeit empfangen die <strong>Detroit Pistons</strong> die <strong>Philadelphia 76ers</strong>, live bei ESPN.</p><p>Die Ausgangslage könnte kaum besser sein. Philadelphia steht bei <strong>7-1</strong> und hat sich mit dem 126:107 gegen Chicago am Montag an die Spitze des Ostens gesetzt. Tyrese Maxey erzielte dabei 26 Punkte, 15 davon im Schlussviertel; Joel Embiid wurde nach 25 Minuten geschont – ein Hinweis darauf, wie vorsichtig die Sixers mit ihrem Center umgehen. Mit dem freien Dienstag dazwischen sollte er heute ausgeruht sein.</p></div>
+      
+      <details class="more"><summary>Weiterlesen</summary><div class="body"><p>Detroit kommt mit <strong>6-1</strong> und viel Selbstvertrauen: Beim 124:91 in Charlotte legte Cade Cunningham 33 Punkte und 7 Assists auf, Duncan Robinson traf sechs Dreier. Einen Schützen müssen die Pistons heute aber ersetzen: <strong>Isaiah Joe</strong> fällt laut Verletzungsliste mit Hüftproblemen aus.</p><p>Warum das Spiel mehr ist als nur ein Novembertermin: Direkte Duelle unter Konkurrenten zählen am Saisonende beim <strong>Tiebreaker</strong>, also wenn zwei Teams dieselbe Bilanz haben. Und es ist das erste Kräftemessen der beiden Teams, die in den ersten zwei Saisonwochen im Osten das Tempo vorgeben.</p><p>Die Einordnung: Ein Sieg Detroits würde den Osten wieder zusammenschieben, ein Sixers-Erfolg brächte ihnen zwei Spiele Vorsprung auf den direkten Verfolger. Boston (5-2), das gegen Milwaukee möglicherweise ohne Jayson Tatum antritt, schaut dabei genau hin.</p></div></details>
+      
+    </article>
+    
+    <aside class="side spoil">
+      
+      <div class="box">
+        <h4>Auf wen ihr heute achten solltet</h4>
+        <ul><li><strong>Jakob Pöltl</strong> (TOR): Comeback gegen Jokić?</li><li><strong>Shai Gilgeous-Alexander</strong> (OKC): nach 43 Punkten in Cleveland nun das Rückspiel daheim.</li><li><strong>Ty Jerome</strong> (MEM): 40 Punkte zuletzt – jetzt gegen Indiana.</li><li><strong>Luka Dončić</strong> (LAL): vier 40-Punkte-Spiele in fünf Partien, heute in Sacramento.</li></ul>
+      </div>
+      
+    </aside>
+    
+  </div>
+
+  
+  <section class="sec spoil">
+    <h2 class="sec-h">Die Geschichten der Nacht</h2>
+    <div class="stories">
+      
+      <article class="story card">
+        <div class="story-h"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors" width="30" height="30"><div class="kick">Raptors · Rückkehr?</div></div>
+        <h3>Pöltl klopft an</h3>
+        <p>Zwei Spiele hat <strong>Jakob Pöltl</strong> mit einer Schleimbeutelentzündung in der linken Schulter verpasst, nun wurde er für das Gastspiel in Denver (03:00 Uhr) auf <strong>„questionable“</strong> hochgestuft. Das heißt: Ein Einsatz ist möglich, aber nicht fix – Toronto will die Schulter vor der Partie noch einmal begutachten.</p>
+        <details class="more"><summary>Mehr</summary><p>Bisher kommt der Wiener in fünf Spielen auf 4,6 Punkte, 5,8 Rebounds und 20,2 Minuten. Die Raptors haben ohne ihn zuletzt in Los Angeles gewonnen, gegen <strong>Nikola Jokić</strong> wäre ein gelernter Center aber Gold wert. Ebenfalls weiterhin nicht dabei: Rookie-Center Nate Bittle (Fuß).</p></details>
+      </article>
+      
+      <article class="story card">
+        <div class="story-h"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="Oklahoma City Thunder" width="30" height="30"><div class="kick">Thunder – Cavaliers · Rückspiel</div></div>
+        <h3>Zweiter Akt nach 48 Stunden</h3>
+        <p>Am Montag wechselte die Führung zwischen Oklahoma City und Cleveland 23-mal, am Ende entschied <strong>Gilgeous-Alexander</strong> mit 43 Punkten. Heute um 02:00 Uhr gibt es das Wiedersehen, diesmal in Oklahoma City.</p>
+        <details class="more"><summary>Mehr</summary><p>Personell bleibt es auf beiden Seiten dünn: Cleveland muss erneut auf <strong>Jaylon Tyson</strong> (Knöchel) und <strong>Peyton Watson</strong> (Oberschenkel) verzichten. Bei den Thunder fehlen neben den Langzeitverletzten weiterhin Nikola Topić (Rücken) und Thomas Sorber (Knie), für beide wird eine Rückkehr frühestens um den 13. November erwartet.</p></details>
+      </article>
+      
+      <article class="story card">
+        <div class="story-h"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="Memphis Grizzlies" width="30" height="30"><div class="kick">Grizzlies · Nach dem Ende der Serie</div></div>
+        <h3>Wie reagiert Memphis?</h3>
+        <p>Sechs Siege, dann das 134:135 nach Verlängerung gegen New Orleans: Die <strong>Grizzlies</strong> haben ihren ersten Kratzer. Heute um 02:00 Uhr kommt Indiana (2-6), das in Atlanta zuletzt mit nur sechs einsatzfähigen Spielern knapp verlor.</p>
+        <details class="more"><summary>Mehr</summary><p>Auf dem Papier eine Pflichtaufgabe – genau solche Spiele zeigen aber, ob ein Rekordstart Substanz hat. Die Pelicans, die Memphis gestoppt haben, empfangen zur gleichen Zeit Utah, das ohne Jusuf Nurkić (Fuß) anreist.</p></details>
+      </article>
+      
+    </div>
+  </section>
+  
+
+  
+  <section class="sec spoil" id="europa">
+    <h2 class="sec-h">Europa-Ecke</h2>
+    <div class="europe">
+      
+      <div class="eu eu-top">
+        <span class="flag">🇦🇹</span>
+        <div class="eu-main">
+          <div class="who"><b>Jakob Pöltl</b><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors" width="20" height="20"><span class="stat">Questionable · Schulter</span></div>
+          <p>Nach zwei Ausfällen wegen Schulter-Bursitis hochgestuft – die Entscheidung fällt kurz vor dem Spiel in Denver, Tip-off um 03:00 Uhr Wiener Zeit.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇷🇸</span>
+        <div class="eu-main">
+          <div class="who"><b>Nikola Jokić</b><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="Denver Nuggets" width="20" height="20"><span class="stat">Gegner der Raptors</span></div>
+          <p>Zuletzt 26 Punkte, 9 Rebounds und 8 Assists bei der Niederlage gegen Portland – heute wartet möglicherweise das Duell mit Pöltl.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇩🇪</span>
+        <div class="eu-main">
+          <div class="who"><b>Franz Wagner &amp; Tristan da Silva</b><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="Orlando Magic" width="20" height="20"><span class="stat">Heute frei</span></div>
+          <p>Orlando gehört zu den zwei Teams ohne Spiel heute Nacht. Weiter geht es in der Nacht auf Freitag um 03:00 Uhr in Phoenix.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇫🇷</span>
+        <div class="eu-main">
+          <div class="who"><b>Victor Wembanyama</b><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="San Antonio Spurs" width="20" height="20"><span class="stat">Heute live bei ESPN</span></div>
+          <p>Die Spurs haben fünfmal in Serie gewonnen und empfangen um 03:30 Uhr Dallas – die Mavericks ohne Max Christie (Hüfte).</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  
+
+  <section class="sec cols">
+    <div>
+      <h2 class="sec-h">News-Ticker</h2>
+      <ul class="news">
+        <li><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors" width="26" height="26"><span><strong>Jakob Pöltl</strong> (linke Schulter, Bursitis) wurde für Mittwoch in Denver auf „questionable“ hochgestuft; Nate Bittle (Fuß) fehlt weiter.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="Boston Celtics" width="26" height="26"><span><strong>Jayson Tatum</strong> ist gegen Milwaukee als fraglich gelistet – Grund: Schonung.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="Atlanta Hawks" width="26" height="26"><span><strong>Jalen Johnson</strong> (Knöchel) ist in Washington fraglich, <strong>Jock Landale</strong> (Hüfte) fällt aus.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="Cleveland Cavaliers" width="26" height="26"><span><strong>Jaylon Tyson</strong> (Knöchel) und <strong>Peyton Watson</strong> (Oberschenkel) verpassen auch das Rückspiel in Oklahoma City.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="Detroit Pistons" width="26" height="26"><span><strong>Isaiah Joe</strong> (Hüfte) fehlt im Topspiel gegen Philadelphia.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="Utah Jazz" width="26" height="26"><span><strong>Jusuf Nurkić</strong> (Fuß) ist out, eine Rückkehr wird um den 13. November erwartet.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="Washington Wizards" width="26" height="26"><span><strong>Reece Beekman</strong> (Schultereckgelenk) wird erst in rund drei Wochen neu beurteilt.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="Charlotte Hornets" width="26" height="26"><span>Rookie <strong>Kon Knueppel</strong> (Oberschenkel) ist für das Spiel in Brooklyn als „probable“ gelistet.</span></li>
+      </ul>
+    </div>
+    <div id="vorschau">
+      <h2 class="sec-h">Vorschau · Wiener Zeit</h2>
+      
+      <details class="upday" open>
+        <summary>Heute Nacht – Nacht auf Donnerstag (14 Spiele)<span class="count">14</span></summary>
+        
+        <div class="up feat">
+          <span class="time">01:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</span>
+          <span class="note"><strong>Spiel des Tages:</strong> Die beiden besten Teams des Ostens, 7-1 gegen 6-1 – live bei ESPN.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</span>
+          <span class="note">Jalen Johnson fraglich.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</span>
+          <span class="note">Tatum fraglich (Schonung).</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</span>
+          <span class="note">Rückspiel zwei Tage nach dem Krimi.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</span>
+          <span class="note">Erstes Spiel nach dem Ende der Memphis-Serie.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">03:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</span>
+          <span class="note">Portland auswärts noch makellos.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">03:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</span>
+          <span class="note">Spielt Pöltl wieder?</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">03:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</span>
+          <span class="note">Wembanyama live bei ESPN.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</span>
+          
+        </div>
+        
+      </details>
+      
+      <details class="upday" >
+        <summary>Nacht auf Freitag (2 Spiele)<span class="count">2</span></summary>
+        
+        <div class="up ">
+          <span class="time">03:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</span>
+          <span class="note">Franz Wagner und da Silva in Arizona.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</span>
+          <span class="note">Miami im Back-to-back nach dem Clippers-Spiel.</span>
+        </div>
+        
+      </details>
+      
+    </div>
+  </section>
+
+  <section class="sec" id="tabelle">
+    <h2 class="sec-h">Tabelle<span class="count">Stand nach der Nacht auf Dienstag – in der Nacht auf Mittwoch wurde nicht gespielt (sortiert nach Siegquote)</span></h2>
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="east">Osten</button><button role="tab" aria-selected="false" data-tab="west">Westen</button>
+    </div>
+    <div class="standings spoil">
+      
+      <table class="st" data-conf="east">
+        <caption>Eastern Conference</caption>
+        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
+        <tbody>
+        
+          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers</td><td>7</td><td>1</td><td>.875</td></tr>
+        
+          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</td><td>6</td><td>1</td><td>.857</td></tr>
+        
+          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</td><td>5</td><td>2</td><td>.714</td></tr>
+        
+          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers</td><td>4</td><td>3</td><td>.571</td></tr>
+        
+          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors</td><td>4</td><td>3</td><td>.571</td></tr>
+        
+          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</td><td>4</td><td>3</td><td>.571</td></tr>
+        
+          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks</td><td>4</td><td>4</td><td>.500</td></tr>
+        
+          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</td><td>3</td><td>4</td><td>.429</td></tr>
+        
+          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets</td><td>3</td><td>5</td><td>.375</td></tr>
+        
+          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic</td><td>2</td><td>5</td><td>.286</td></tr>
+        
+          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat</td><td>2</td><td>5</td><td>.286</td></tr>
+        
+          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers</td><td>2</td><td>6</td><td>.250</td></tr>
+        
+          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+        </tbody>
+      </table>
+      
+      <table class="st" data-conf="west">
+        <caption>Western Conference</caption>
+        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
+        <tbody>
+        
+          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</td><td>7</td><td>1</td><td>.875</td></tr>
+        
+          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</td><td>6</td><td>1</td><td>.857</td></tr>
+        
+          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers</td><td>5</td><td>1</td><td>.833</td></tr>
+        
+          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers</td><td>6</td><td>2</td><td>.750</td></tr>
+        
+          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</td><td>5</td><td>2</td><td>.714</td></tr>
+        
+          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</td><td>5</td><td>2</td><td>.714</td></tr>
+        
+          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves</td><td>5</td><td>3</td><td>.625</td></tr>
+        
+          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</td><td>5</td><td>3</td><td>.625</td></tr>
+        
+          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks</td><td>4</td><td>3</td><td>.571</td></tr>
+        
+          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</td><td>3</td><td>3</td><td>.500</td></tr>
+        
+          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</td><td>3</td><td>4</td><td>.429</td></tr>
+        
+          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</td><td>1</td><td>4</td><td>.200</td></tr>
+        
+          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+        </tbody>
+      </table>
+      
+    </div>
+    <div class="legend">Linie: Platz 1–6 fix in den Playoffs · gestrichelt: 7–10 Play-In</div>
+  </section>
+
+  
+  <section class="sec">
+    <details class="card explain">
+      <summary><span class="pill pill-blue">Einordnung</span><h3>Probable, questionable, out: So liest man den Injury Report</h3><span class="ex-teaser">Heute taucht ein Wort besonders oft auf: <strong>„questionable“</strong>. Pöltl ist es, Jayson Tatum ist es, Hawks-Forward Jalen Johnson ebenso. Dahinter steckt der offizielle <strong>Injury Report</strong> der NBA, eine Verletzungsliste, die jedes Team vor seinen Spielen veröffentlichen und laufend aktualisieren muss.</span><span class="ex-more">Ganz lesen ▾</span></summary>
+      <p>Die Stufen sind einfach: <strong>Probable</strong> heißt, der Spieler wird sehr wahrscheinlich spielen – wie Hornets-Rookie Kon Knueppel heute gegen Brooklyn. <strong>Questionable</strong> ist der echte Wackelkandidat, die Entscheidung fällt oft erst beim Aufwärmen. <strong>Doubtful</strong> bedeutet, dass ein Einsatz unwahrscheinlich ist, und <strong>Out</strong> ist eindeutig.</p><p>Daneben liest man oft <strong>„day-to-day“</strong>: Das ist keine offizielle Stufe des Spielberichts, sondern eine Einschätzung, dass die Verletzung von Tag zu Tag neu bewertet wird – also keine lange Pause droht. Wer dagegen ein <strong>geschätztes Rückkehrdatum</strong> hat, etwa Nurkić, Topić und Sorber um den 13. November, fällt sicher länger aus.</p><p>Und was bedeutet „Rest“ bei Tatum? Das ist eine geplante Schonung, keine Verletzung. Die Liga beobachtet das genau: Seit der Einführung der <strong>Player Participation Policy</strong> riskieren Teams Strafen, wenn sie gesunde Stars zu oft oder in den falschen Spielen pausieren lassen.</p><p>Unser Tipp: Für Pöltl lohnt sich kurz nach 02:30 Uhr ein Blick auf die Aufstellung – dann wissen Frühaufsteher beim ersten Kaffee schon mehr.</p>
+    </details>
+  </section>
+  
+
+  
+  <section class="sec">
+    <h2 class="sec-h">Good to know</h2>
+    <div class="gtk spoil">
+      
+      <div class="gtk-item"><div class="n">0</div><h5>Spiele am Wahltag</h5><p>Die NBA ließ den Dienstag komplett spielfrei – am Montag davor waren dafür alle 30 Teams im Einsatz.</p></div>
+      
+      <div class="gtk-item"><div class="n">14</div><h5>Spiele heute Nacht</h5><p>Nur Orlando und Golden State haben frei, alle anderen 28 Teams stehen auf dem Parkett.</p></div>
+      
+      <div class="gtk-item"><div class="n">2</div><h5>Spiele am Donnerstag</h5><p>Auf den vollen Mittwoch folgt eine ruhige Nacht auf Freitag mit nur zwei Partien.</p></div>
+      
+      <div class="gtk-item"><div class="n">+6</div><h5>Stunden Zeitunterschied</h5><p>Seit die USA am 1. November die Uhren zurückgestellt haben, liegt Wien wieder sechs Stunden vor New York.</p></div>
+      
+      <div class="gtk-item"><div class="n">20,2</div><h5>Minuten pro Spiel</h5><p>So lange stand Pöltl in seinen fünf Saisonspielen im Schnitt auf dem Feld.</p></div>
+      
+      <div class="gtk-item"><div class="n">7-1</div><h5>Doppelspitze</h5><p>Philadelphia im Osten und Houston im Westen teilen sich die beste Bilanz der Liga.</p></div>
+      
+    </div>
+  </section>
+  
+
+  <section class="sec cols">
+    <details class="card extra">
+      <summary>Highlights &amp; Material<span class="count">5</span></summary>
+      <ul class="links">
+        <li><a href="https://sports.yahoo.com/articles/raptors-encouraging-jakob-poeltl-injury-024359798.html" target="_blank" rel="noopener">Pöltl vor dem Denver-Spiel hochgestuft</a><span class="src">Yahoo Sports</span></li><li><a href="https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-03/jakob-poeltl-shoulder-questionable-wednesday" target="_blank" rel="noopener">Pöltl questionable für Mittwoch</a><span class="src">NBC Sports</span></li><li><a href="https://www.espn.com/nba/injuries" target="_blank" rel="noopener">Aktuelle Verletzungsliste aller Teams</a><span class="src">ESPN</span></li><li><a href="https://www.youtube.com/@NBA/videos" target="_blank" rel="noopener">Alle Highlights</a><span class="src">YouTube · NBA</span><br><span class="lnote">Offizieller NBA-Kanal – ab morgen früh mit den Clips der 14 Spiele.</span></li><li><a href="https://www.nba.com/watch/league-pass-stream" target="_blank" rel="noopener">Ganze Spiele im Replay</a><span class="src">NBA League Pass</span><br><span class="lnote">Euer League Pass Premium: alle Spiele auf Abruf.</span></li>
+      </ul>
+    </details>
+    <details class="card extra">
+      <summary>Kleines NBA-Glossar<span class="count">5</span></summary>
+      <dl class="gloss">
+        <dt>Injury Report</dt><dd>Offizielle Verletzungsliste, die jedes Team vor Spielen veröffentlichen muss.</dd><dt>Questionable</dt><dd>Einsatz offen, Entscheidung oft erst kurz vor dem Spiel – aktuell Pöltls Status.</dd><dt>Probable / Doubtful</dt><dd>Wahrscheinlicher Einsatz bzw. unwahrscheinlicher Einsatz.</dd><dt>Day-to-day</dt><dd>Verletzung wird täglich neu bewertet, eine längere Pause ist nicht absehbar.</dd><dt>Tiebreaker</dt><dd>Regel, die bei Bilanzgleichheit über die Platzierung entscheidet – zuerst zählt der direkte Vergleich.</dd>
+      </dl>
+    </details>
+  </section>
+
+  <div class="hardwood"></div>
+  <footer>
+    <div class="pager">
+      <span><a href="../../ausgabe/2026-11-03/">← Vorherige</a></span>
+      <a href="../../archiv/">Archiv</a>
+      <span><a href="../../ausgabe/2026-11-05/">Nächste →</a></span>
+    </div>
+    <p class="ai-note"><span class="pill pill-ghost">KI-generiert</span> COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Alle Texte werden von einer KI (Claude) auf Basis der unten verlinkten Quellen recherchiert und geschrieben – für eine Runde basketballverrückter Freunde. Fehler sind möglich; maßgeblich sind die Originalquellen.</p>
+    <details class="srcs"><summary>Quellen dieser Ausgabe (7)</summary><a href="https://sports.yahoo.com/articles/raptors-encouraging-jakob-poeltl-injury-024359798.html" target="_blank" rel="noopener">Yahoo Sports: Pöltl-Update vor Nuggets – Raptors</a> · <a href="https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-03/jakob-poeltl-shoulder-questionable-wednesday" target="_blank" rel="noopener">NBC Sports: Pöltl questionable</a> · <a href="https://www.espn.com/nba/injuries" target="_blank" rel="noopener">ESPN: NBA-Verletzungsliste</a> · <a href="https://www.landofbasketball.com/nba_daily_summary/20261104.htm" target="_blank" rel="noopener">Land of Basketball: Spielplan 4. November 2026</a> · <a href="https://www.landofbasketball.com/nba_daily_summary/20261105.htm" target="_blank" rel="noopener">Land of Basketball: Spielplan 5. November 2026</a> · <a href="https://www.statscrew.com/basketball/l-nba/y-2026" target="_blank" rel="noopener">Stats Crew: Bilanzen 2026-27</a> · <a href="https://courtside.hobiger.cc" target="_blank" rel="noopener">COURTSIDE Nr. 4: Ergebnisse und Tabelle Nacht auf Dienstag</a></details>
+    <details class="legal"><summary>Rechtliches &amp; Datenschutz</summary>
+  <p><strong>Privates, nichtkommerzielles Projekt.</strong> COURTSIDE ist ein rein privates Hobbyprojekt für einen persönlichen Freundeskreis. Es verfolgt keinerlei Erwerbszweck, enthält keine Werbung, keine Affiliate- oder Sponsoring-Links und keine bezahlten Inhalte und erzielt keine Einnahmen. COURTSIDE steht in keiner Verbindung zur NBA, ihren Teams oder Partnern und ist kein offizielles NBA-Produkt. Team-Namen und -Logos sind Marken der jeweiligen Inhaber und werden ausschließlich zur Kennzeichnung der Teams verwendet.</p>
+  <p><strong>Haftung.</strong> Die Inhalte dienen allein der Information und Unterhaltung. Sie werden sorgfältig recherchiert, eine Gewähr für Richtigkeit, Vollständigkeit und Aktualität wird jedoch nicht übernommen. Es handelt sich nicht um Wett- oder Anlageempfehlungen. Für Inhalte verlinkter externer Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
+  <p><strong>Datenschutz.</strong> Der Betreiber von COURTSIDE erhebt, speichert und verarbeitet keine personenbezogenen Daten. Es gibt keine Cookies, kein Tracking, keine Analyse- oder Werbedienste, keine Registrierung, keine Formulare und keine Kommentarfunktion. Persönliche Anzeigeeinstellungen (Hell/Dunkel, Spoiler-Schutz, Homescreen-Hinweis) werden nur lokal in Ihrem Browser (localStorage) abgelegt, nie übermittelt und lassen sich jederzeit über die Browsereinstellungen löschen.
+  Technisch bedingt gilt: Die Seite wird bei Netlify gehostet; beim Aufruf verarbeitet der Hoster die für die Auslieferung und Absicherung notwendigen Verbindungsdaten (z.&nbsp;B. IP-Adresse, Zeitpunkt, angefragte Seite) in Server-Protokollen (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO). Schriftarten werden direkt von dieser Seite ausgeliefert, es besteht keine Verbindung zu Google. Lediglich die Team-Logos werden vom Server der NBA (cdn.nba.com) geladen; dabei wird Ihre IP-Adresse technisch notwendig an diesen Anbieter übermittelt. Der Betreiber hat auf diese Daten keinen Zugriff und wertet sie nicht aus.</p>
+  <p><strong>KI-Transparenz.</strong> Sämtliche Texte von COURTSIDE werden automatisiert mit dem KI-System Claude (Anthropic) erstellt und vor der Veröffentlichung nicht von einem Menschen redigiert. Zahlen und Ergebnisse stammen aus den jeweils verlinkten Quellen; maßgeblich sind die Originalquellen.</p>
+</details>
+  </footer>
+</div>
+<dialog id="minute" class="minute" aria-labelledby="minute-t">
   <div class="minute-head">
     <span class="mh-brand"><svg class="mark-s" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:22px;height:22px;vertical-align:-6px">
   <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
@@ -105,363 +480,6 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   if(location.hash==='#1minute') open();
 })();
 </script>
-  
-
-  
-
-  <div class="lead-grid">
-    <article class="lead spoil">
-      <div class="kick">76ers – Pistons · Vorschau</div>
-      <h2>Der Osten bittet zum Gipfel</h2>
-      <div class="lead-logos"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="Philadelphia 76ers"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="Detroit Pistons"></div>
-      <p class="teaser">Nach dem spielfreien Wahltag treffen heute Nacht die zwei besten Teams der Eastern Conference aufeinander: Philadelphia mit 7-1 in Detroit, das bei 6-1 steht.</p>
-      <div class="body"><p>Wer gestern Nacht den League Pass geöffnet hat, sah nur leere Spielpläne: Die NBA hatte den <strong>US-Wahltag</strong> bewusst freigehalten. Der Vorteil für uns: Heute Nacht geht es mit <strong>14 Partien</strong> umso dichter weiter – und gleich die erste ist die beste. Um <strong>01:00 Uhr</strong> Wiener Zeit empfangen die <strong>Detroit Pistons</strong> die <strong>Philadelphia 76ers</strong>, live bei ESPN.</p><p>Die Ausgangslage könnte kaum besser sein. Philadelphia steht bei <strong>7-1</strong> und hat sich mit dem 126:107 gegen Chicago am Montag an die Spitze des Ostens gesetzt. Tyrese Maxey erzielte dabei 26 Punkte, 15 davon im Schlussviertel; Joel Embiid wurde nach 25 Minuten geschont – ein Hinweis darauf, wie vorsichtig die Sixers mit ihrem Center umgehen. Mit dem freien Dienstag dazwischen sollte er heute ausgeruht sein.</p><p>Detroit kommt mit <strong>6-1</strong> und viel Selbstvertrauen: Beim 124:91 in Charlotte legte Cade Cunningham 33 Punkte und 7 Assists auf, Duncan Robinson traf sechs Dreier. Einen Schützen müssen die Pistons heute aber ersetzen: <strong>Isaiah Joe</strong> fällt laut Verletzungsliste mit Hüftproblemen aus.</p><p>Warum das Spiel mehr ist als nur ein Novembertermin: Direkte Duelle unter Konkurrenten zählen am Saisonende beim <strong>Tiebreaker</strong>, also wenn zwei Teams dieselbe Bilanz haben. Und es ist das erste Kräftemessen der beiden Teams, die in den ersten zwei Saisonwochen im Osten das Tempo vorgeben.</p><p>Die Einordnung: Ein Sieg Detroits würde den Osten wieder zusammenschieben, ein Sixers-Erfolg brächte ihnen zwei Spiele Vorsprung auf den direkten Verfolger. Boston (5-2), das gegen Milwaukee möglicherweise ohne Jayson Tatum antritt, schaut dabei genau hin.</p></div>
-    </article>
-    <aside class="side">
-      
-      <div class="box">
-        <h4>Die Nacht in 30 Sekunden</h4>
-        <ul><li><strong>0 Spiele</strong> – Wahltag in den USA.</li><li><strong>Tabelle unverändert:</strong> PHI und HOU vorne, je 7-1.</li><li><strong>Pöltl</strong> auf „questionable“ hochgestuft.</li><li><strong>14 Spiele</strong> heute Nacht, ab 01:00 Uhr.</li><li><strong>Nur 2 Spiele</strong> in der Nacht auf Freitag.</li></ul>
-      </div>
-      
-      <div class="box">
-        <h4>Auf wen ihr heute achten solltet</h4>
-        <ul><li><strong>Jakob Pöltl</strong> (TOR): Comeback gegen Jokić?</li><li><strong>Shai Gilgeous-Alexander</strong> (OKC): nach 43 Punkten in Cleveland nun das Rückspiel daheim.</li><li><strong>Ty Jerome</strong> (MEM): 40 Punkte zuletzt – jetzt gegen Indiana.</li><li><strong>Luka Dončić</strong> (LAL): vier 40-Punkte-Spiele in fünf Partien, heute in Sacramento.</li></ul>
-      </div>
-      
-    </aside>
-  </div>
-
-  
-
-  
-  <section class="sec spoil">
-    <h2 class="sec-h">Die Geschichten der Nacht</h2>
-    <div class="stories">
-      
-      <article class="story">
-        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors">
-        <div class="kick">Raptors · Rückkehr?</div>
-        <h3>Pöltl klopft an</h3>
-        <p>Zwei Spiele hat <strong>Jakob Pöltl</strong> mit einer Schleimbeutelentzündung in der linken Schulter verpasst, nun wurde er für das Gastspiel in Denver (03:00 Uhr) auf <strong>„questionable“</strong> hochgestuft. Das heißt: Ein Einsatz ist möglich, aber nicht fix – Toronto will die Schulter vor der Partie noch einmal begutachten.</p><p>Bisher kommt der Wiener in fünf Spielen auf 4,6 Punkte, 5,8 Rebounds und 20,2 Minuten. Die Raptors haben ohne ihn zuletzt in Los Angeles gewonnen, gegen <strong>Nikola Jokić</strong> wäre ein gelernter Center aber Gold wert. Ebenfalls weiterhin nicht dabei: Rookie-Center Nate Bittle (Fuß).</p>
-      </article>
-      
-      <article class="story">
-        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="Oklahoma City Thunder">
-        <div class="kick">Thunder – Cavaliers · Rückspiel</div>
-        <h3>Zweiter Akt nach 48 Stunden</h3>
-        <p>Am Montag wechselte die Führung zwischen Oklahoma City und Cleveland 23-mal, am Ende entschied <strong>Gilgeous-Alexander</strong> mit 43 Punkten. Heute um 02:00 Uhr gibt es das Wiedersehen, diesmal in Oklahoma City.</p><p>Personell bleibt es auf beiden Seiten dünn: Cleveland muss erneut auf <strong>Jaylon Tyson</strong> (Knöchel) und <strong>Peyton Watson</strong> (Oberschenkel) verzichten. Bei den Thunder fehlen neben den Langzeitverletzten weiterhin Nikola Topić (Rücken) und Thomas Sorber (Knie), für beide wird eine Rückkehr frühestens um den 13. November erwartet.</p>
-      </article>
-      
-      <article class="story">
-        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="Memphis Grizzlies">
-        <div class="kick">Grizzlies · Nach dem Ende der Serie</div>
-        <h3>Wie reagiert Memphis?</h3>
-        <p>Sechs Siege, dann das 134:135 nach Verlängerung gegen New Orleans: Die <strong>Grizzlies</strong> haben ihren ersten Kratzer. Heute um 02:00 Uhr kommt Indiana (2-6), das in Atlanta zuletzt mit nur sechs einsatzfähigen Spielern knapp verlor.</p><p>Auf dem Papier eine Pflichtaufgabe – genau solche Spiele zeigen aber, ob ein Rekordstart Substanz hat. Die Pelicans, die Memphis gestoppt haben, empfangen zur gleichen Zeit Utah, das ohne Jusuf Nurkić (Fuß) anreist.</p>
-      </article>
-      
-    </div>
-  </section>
-  
-
-  
-  <section class="sec spoil" id="europa">
-    <h2 class="sec-h">Europa-Ecke</h2>
-    <div class="europe">
-      
-      <div class="eu">
-        <div class="who"><span>🇦🇹</span><span>Jakob Pöltl</span><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors"></div>
-        <div class="stat">Questionable · Schulter</div>
-        <p>Nach zwei Ausfällen wegen Schulter-Bursitis hochgestuft – die Entscheidung fällt kurz vor dem Spiel in Denver, Tip-off um 03:00 Uhr Wiener Zeit.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇷🇸</span><span>Nikola Jokić</span><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="Denver Nuggets"></div>
-        <div class="stat">Gegner der Raptors</div>
-        <p>Zuletzt 26 Punkte, 9 Rebounds und 8 Assists bei der Niederlage gegen Portland – heute wartet möglicherweise das Duell mit Pöltl.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇩🇪</span><span>Franz Wagner &amp;amp; Tristan da Silva</span><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="Orlando Magic"></div>
-        <div class="stat">Heute frei</div>
-        <p>Orlando gehört zu den zwei Teams ohne Spiel heute Nacht. Weiter geht es in der Nacht auf Freitag um 03:00 Uhr in Phoenix.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇫🇷</span><span>Victor Wembanyama</span><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="San Antonio Spurs"></div>
-        <div class="stat">Heute live bei ESPN</div>
-        <p>Die Spurs haben fünfmal in Serie gewonnen und empfangen um 03:30 Uhr Dallas – die Mavericks ohne Max Christie (Hüfte).</p>
-      </div>
-      
-    </div>
-  </section>
-  
-
-  
-
-  <section class="sec cols">
-    <div class="explain">
-      <h2 class="sec-h">Einordnung</h2>
-      <h3>Probable, questionable, out: So liest man den Injury Report</h3>
-      <p>Heute taucht ein Wort besonders oft auf: <strong>„questionable“</strong>. Pöltl ist es, Jayson Tatum ist es, Hawks-Forward Jalen Johnson ebenso. Dahinter steckt der offizielle <strong>Injury Report</strong> der NBA, eine Verletzungsliste, die jedes Team vor seinen Spielen veröffentlichen und laufend aktualisieren muss.</p><p>Die Stufen sind einfach: <strong>Probable</strong> heißt, der Spieler wird sehr wahrscheinlich spielen – wie Hornets-Rookie Kon Knueppel heute gegen Brooklyn. <strong>Questionable</strong> ist der echte Wackelkandidat, die Entscheidung fällt oft erst beim Aufwärmen. <strong>Doubtful</strong> bedeutet, dass ein Einsatz unwahrscheinlich ist, und <strong>Out</strong> ist eindeutig.</p><p>Daneben liest man oft <strong>„day-to-day“</strong>: Das ist keine offizielle Stufe des Spielberichts, sondern eine Einschätzung, dass die Verletzung von Tag zu Tag neu bewertet wird – also keine lange Pause droht. Wer dagegen ein <strong>geschätztes Rückkehrdatum</strong> hat, etwa Nurkić, Topić und Sorber um den 13. November, fällt sicher länger aus.</p><p>Und was bedeutet „Rest“ bei Tatum? Das ist eine geplante Schonung, keine Verletzung. Die Liga beobachtet das genau: Seit der Einführung der <strong>Player Participation Policy</strong> riskieren Teams Strafen, wenn sie gesunde Stars zu oft oder in den falschen Spielen pausieren lassen.</p><p>Unser Tipp: Für Pöltl lohnt sich kurz nach 02:30 Uhr ein Blick auf die Aufstellung – dann wissen Frühaufsteher beim ersten Kaffee schon mehr.</p>
-    </div>
-    <div>
-      <h2 class="sec-h">News-Ticker</h2>
-      <ul class="news">
-        <li><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors"><span><strong>Jakob Pöltl</strong> (linke Schulter, Bursitis) wurde für Mittwoch in Denver auf „questionable“ hochgestuft; Nate Bittle (Fuß) fehlt weiter.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="Boston Celtics"><span><strong>Jayson Tatum</strong> ist gegen Milwaukee als fraglich gelistet – Grund: Schonung.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="Atlanta Hawks"><span><strong>Jalen Johnson</strong> (Knöchel) ist in Washington fraglich, <strong>Jock Landale</strong> (Hüfte) fällt aus.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="Cleveland Cavaliers"><span><strong>Jaylon Tyson</strong> (Knöchel) und <strong>Peyton Watson</strong> (Oberschenkel) verpassen auch das Rückspiel in Oklahoma City.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="Detroit Pistons"><span><strong>Isaiah Joe</strong> (Hüfte) fehlt im Topspiel gegen Philadelphia.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="Utah Jazz"><span><strong>Jusuf Nurkić</strong> (Fuß) ist out, eine Rückkehr wird um den 13. November erwartet.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="Washington Wizards"><span><strong>Reece Beekman</strong> (Schultereckgelenk) wird erst in rund drei Wochen neu beurteilt.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="Charlotte Hornets"><span>Rookie <strong>Kon Knueppel</strong> (Oberschenkel) ist für das Spiel in Brooklyn als „probable“ gelistet.</span></li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="sec" id="tabelle">
-    <h2 class="sec-h">Tabellen · Stand nach der Nacht auf Dienstag – in der Nacht auf Mittwoch wurde nicht gespielt (sortiert nach Siegquote)</h2>
-    <div class="standings spoil">
-      
-      <table class="st">
-        <caption>Eastern Conference</caption>
-        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
-        <tbody>
-        
-          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers</td><td>7</td><td>1</td><td>0.875</td></tr>
-        
-          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</td><td>6</td><td>1</td><td>0.857</td></tr>
-        
-          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</td><td>5</td><td>2</td><td>0.714</td></tr>
-        
-          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers</td><td>4</td><td>3</td><td>0.571</td></tr>
-        
-          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors</td><td>4</td><td>3</td><td>0.571</td></tr>
-        
-          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</td><td>4</td><td>3</td><td>0.571</td></tr>
-        
-          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks</td><td>4</td><td>4</td><td>0.500</td></tr>
-        
-          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</td><td>3</td><td>4</td><td>0.429</td></tr>
-        
-          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets</td><td>3</td><td>5</td><td>0.375</td></tr>
-        
-          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic</td><td>2</td><td>5</td><td>0.286</td></tr>
-        
-          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat</td><td>2</td><td>5</td><td>0.286</td></tr>
-        
-          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers</td><td>2</td><td>6</td><td>0.250</td></tr>
-        
-          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-        </tbody>
-      </table>
-      
-      <table class="st">
-        <caption>Western Conference</caption>
-        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
-        <tbody>
-        
-          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</td><td>7</td><td>1</td><td>0.875</td></tr>
-        
-          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</td><td>6</td><td>1</td><td>0.857</td></tr>
-        
-          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers</td><td>5</td><td>1</td><td>0.833</td></tr>
-        
-          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers</td><td>6</td><td>2</td><td>0.750</td></tr>
-        
-          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</td><td>5</td><td>2</td><td>0.714</td></tr>
-        
-          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</td><td>5</td><td>2</td><td>0.714</td></tr>
-        
-          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves</td><td>5</td><td>3</td><td>0.625</td></tr>
-        
-          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</td><td>5</td><td>3</td><td>0.625</td></tr>
-        
-          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks</td><td>4</td><td>3</td><td>0.571</td></tr>
-        
-          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</td><td>3</td><td>3</td><td>0.500</td></tr>
-        
-          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</td><td>3</td><td>4</td><td>0.429</td></tr>
-        
-          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</td><td>1</td><td>4</td><td>0.200</td></tr>
-        
-          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-        </tbody>
-      </table>
-      
-    </div>
-    <div class="legend">Durchgezogene Linie: Platz 1–6 = fix in den Playoffs · gestrichelt: Platz 7–10 = Play-In-Turnier</div>
-  </section>
-
-  <section class="sec" id="vorschau">
-    <h2 class="sec-h">Vorschau · alle Zeiten Wiener Zeit</h2>
-    <div class="updays">
-      
-      <div class="upday">
-        <h4>Heute Nacht – Nacht auf Donnerstag (14 Spiele)</h4>
-        
-        <div class="up feat">
-          <span class="time">01:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers @ <img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</span>
-          <span class="note"><strong>Spiel des Tages:</strong> Die beiden besten Teams des Ostens, 7-1 gegen 6-1 – live bei ESPN.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">01:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks @ <img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</span>
-          <span class="note">Jalen Johnson fraglich.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">01:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets @ <img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">01:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls @ <img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">01:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks @ <img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</span>
-          <span class="note">Tatum fraglich (Schonung).</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">02:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers @ <img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</span>
-          <span class="note">Rückspiel zwei Tage nach dem Krimi.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">02:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers @ <img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</span>
-          <span class="note">Erstes Spiel nach dem Ende der Memphis-Serie.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">02:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz @ <img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">02:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves @ <img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">03:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers @ <img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</span>
-          <span class="note">Portland auswärts noch makellos.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">03:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors @ <img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</span>
-          <span class="note">Spielt Pöltl wieder?</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">03:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks @ <img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</span>
-          <span class="note">Wembanyama live bei ESPN.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">04:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers @ <img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">04:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat @ <img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</span>
-          
-        </div>
-        
-      </div>
-      
-      <div class="upday">
-        <h4>Nacht auf Freitag (2 Spiele)</h4>
-        
-        <div class="up ">
-          <span class="time">03:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic @ <img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</span>
-          <span class="note">Franz Wagner und da Silva in Arizona.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">04:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat @ <img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</span>
-          <span class="note">Miami im Back-to-back nach dem Clippers-Spiel.</span>
-        </div>
-        
-      </div>
-      
-    </div>
-  </section>
-
-  <section class="sec">
-    <div class="gtk">
-      <div class="gtk-grid">
-        
-        <div class="gtk-item"><div class="n">0</div><h5>Spiele am Wahltag</h5><p>Die NBA ließ den Dienstag komplett spielfrei – am Montag davor waren dafür alle 30 Teams im Einsatz.</p></div>
-        
-        <div class="gtk-item"><div class="n">14</div><h5>Spiele heute Nacht</h5><p>Nur Orlando und Golden State haben frei, alle anderen 28 Teams stehen auf dem Parkett.</p></div>
-        
-        <div class="gtk-item"><div class="n">2</div><h5>Spiele am Donnerstag</h5><p>Auf den vollen Mittwoch folgt eine ruhige Nacht auf Freitag mit nur zwei Partien.</p></div>
-        
-        <div class="gtk-item"><div class="n">+6</div><h5>Stunden Zeitunterschied</h5><p>Seit die USA am 1. November die Uhren zurückgestellt haben, liegt Wien wieder sechs Stunden vor New York.</p></div>
-        
-        <div class="gtk-item"><div class="n">20,2</div><h5>Minuten pro Spiel</h5><p>So lange stand Pöltl in seinen fünf Saisonspielen im Schnitt auf dem Feld.</p></div>
-        
-        <div class="gtk-item"><div class="n">7-1</div><h5>Doppelspitze</h5><p>Philadelphia im Osten und Houston im Westen teilen sich die beste Bilanz der Liga.</p></div>
-        
-      </div>
-    </div>
-  </section>
-
-  <section class="sec cols">
-    <div>
-      <h2 class="sec-h">Highlights &amp; Material</h2>
-      <ul class="links">
-        <li><a href="https://sports.yahoo.com/articles/raptors-encouraging-jakob-poeltl-injury-024359798.html" target="_blank" rel="noopener">Pöltl vor dem Denver-Spiel hochgestuft</a><span class="src">Yahoo Sports</span></li><li><a href="https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-03/jakob-poeltl-shoulder-questionable-wednesday" target="_blank" rel="noopener">Pöltl questionable für Mittwoch</a><span class="src">NBC Sports</span></li><li><a href="https://www.espn.com/nba/injuries" target="_blank" rel="noopener">Aktuelle Verletzungsliste aller Teams</a><span class="src">ESPN</span></li><li><a href="https://www.youtube.com/@NBA/videos" target="_blank" rel="noopener">Alle Highlights</a><span class="src">YouTube · NBA</span><br><span style="color:var(--ink-2)">Offizieller NBA-Kanal – ab morgen früh mit den Clips der 14 Spiele.</span></li><li><a href="https://www.nba.com/watch/league-pass-stream" target="_blank" rel="noopener">Ganze Spiele im Replay</a><span class="src">NBA League Pass</span><br><span style="color:var(--ink-2)">Euer League Pass Premium: alle Spiele auf Abruf.</span></li>
-      </ul>
-    </div>
-    <div>
-      <h2 class="sec-h">Kleines NBA-Glossar</h2>
-      <dl class="gloss">
-        <dt>Injury Report</dt><dd>Offizielle Verletzungsliste, die jedes Team vor Spielen veröffentlichen muss.</dd><dt>Questionable</dt><dd>Einsatz offen, Entscheidung oft erst kurz vor dem Spiel – aktuell Pöltls Status.</dd><dt>Probable / Doubtful</dt><dd>Wahrscheinlicher Einsatz bzw. unwahrscheinlicher Einsatz.</dd><dt>Day-to-day</dt><dd>Verletzung wird täglich neu bewertet, eine längere Pause ist nicht absehbar.</dd><dt>Tiebreaker</dt><dd>Regel, die bei Bilanzgleichheit über die Platzierung entscheidet – zuerst zählt der direkte Vergleich.</dd>
-      </dl>
-    </div>
-  </section>
-
-  <div class="hardwood"></div>
-  <footer>
-    <div class="pager">
-      <span><a href="../../ausgabe/2026-11-03/">← Vorherige Ausgabe</a></span>
-      <a href="../../archiv/">Archiv</a>
-      <span><a href="../../ausgabe/2026-11-05/">Nächste Ausgabe →</a></span>
-    </div>
-    <p>COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Recherchiert und geschrieben von Claude für eine Runde basketballverrückter Freunde.</p>
-    <div class="srcs"><strong>Quellen dieser Ausgabe:</strong> <a href="https://sports.yahoo.com/articles/raptors-encouraging-jakob-poeltl-injury-024359798.html" target="_blank" rel="noopener">Yahoo Sports: Pöltl-Update vor Nuggets – Raptors</a> · <a href="https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-03/jakob-poeltl-shoulder-questionable-wednesday" target="_blank" rel="noopener">NBC Sports: Pöltl questionable</a> · <a href="https://www.espn.com/nba/injuries" target="_blank" rel="noopener">ESPN: NBA-Verletzungsliste</a> · <a href="https://www.landofbasketball.com/nba_daily_summary/20261104.htm" target="_blank" rel="noopener">Land of Basketball: Spielplan 4. November 2026</a> · <a href="https://www.landofbasketball.com/nba_daily_summary/20261105.htm" target="_blank" rel="noopener">Land of Basketball: Spielplan 5. November 2026</a> · <a href="https://www.statscrew.com/basketball/l-nba/y-2026" target="_blank" rel="noopener">Stats Crew: Bilanzen 2026-27</a> · <a href="https://courtside.hobiger.cc" target="_blank" rel="noopener">COURTSIDE Nr. 4: Ergebnisse und Tabelle Nacht auf Dienstag</a></div>
-    <div class="legal">
-  <p><strong>Privates, nichtkommerzielles Projekt.</strong> COURTSIDE ist ein rein privates Hobbyprojekt für einen persönlichen Freundeskreis. Es verfolgt keinerlei Erwerbszweck, enthält keine Werbung, keine Affiliate- oder Sponsoring-Links und keine bezahlten Inhalte und erzielt keine Einnahmen. COURTSIDE steht in keiner Verbindung zur NBA, ihren Teams oder Partnern und ist kein offizielles NBA-Produkt. Team-Namen und -Logos sind Marken der jeweiligen Inhaber und werden ausschließlich zur Kennzeichnung der Teams verwendet.</p>
-  <p><strong>Haftung.</strong> Die Inhalte dienen allein der Information und Unterhaltung. Sie werden sorgfältig recherchiert, eine Gewähr für Richtigkeit, Vollständigkeit und Aktualität wird jedoch nicht übernommen. Es handelt sich nicht um Wett- oder Anlageempfehlungen. Für Inhalte verlinkter externer Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
-  <p><strong>Datenschutz.</strong> Der Betreiber von COURTSIDE erhebt, speichert und verarbeitet keine personenbezogenen Daten. Es gibt keine Cookies, kein Tracking, keine Analyse- oder Werbedienste, keine Registrierung, keine Formulare und keine Kommentarfunktion. Persönliche Anzeigeeinstellungen (Hell/Dunkel, Spoiler-Schutz, Homescreen-Hinweis) werden nur lokal in Ihrem Browser (localStorage) abgelegt, nie übermittelt und lassen sich jederzeit über die Browsereinstellungen löschen.
-  Technisch bedingt gilt: Die Seite wird bei Netlify gehostet; beim Aufruf verarbeitet der Hoster die für die Auslieferung und Absicherung notwendigen Verbindungsdaten (z.&nbsp;B. IP-Adresse, Zeitpunkt, angefragte Seite) in Server-Protokollen (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO). Schriftarten werden direkt von dieser Seite ausgeliefert, es besteht keine Verbindung zu Google. Lediglich die Team-Logos werden vom Server der NBA (cdn.nba.com) geladen; dabei wird Ihre IP-Adresse technisch notwendig an diesen Anbieter übermittelt. Der Betreiber hat auf diese Daten keinen Zugriff und wertet sie nicht aus.</p>
-</div>
-  </footer>
-</div>
 <script>
 (function(){
   var b=document.body, sb=document.getElementById('spoilerBtn'), tb=document.getElementById('themeBtn');
@@ -473,6 +491,10 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
     if(!cur){cur=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}
     var n=cur==='dark'?'light':'dark'; r.setAttribute('data-theme',n); try{localStorage.setItem('cs-theme',n)}catch(e){}
   });
+  var tabs=document.querySelectorAll('[data-tab]'), st=document.querySelector('.standings');
+  function tab(k){tabs.forEach(function(t){t.setAttribute('aria-selected',t.dataset.tab===k?'true':'false')});st.setAttribute('data-show',k)}
+  tabs.forEach(function(t){t.addEventListener('click',function(){tab(t.dataset.tab)})});
+  if(st) tab('east');
 })();
 </script>
 <div id="a2hs" class="a2hs" role="dialog" aria-labelledby="a2hs-t" hidden>

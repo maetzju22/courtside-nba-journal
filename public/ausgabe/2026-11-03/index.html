@@ -18,14 +18,14 @@
 <meta name="apple-mobile-web-app-title" content="Courtside">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="../../fonts.css?v=1">
-<link rel="stylesheet" href="../../style.css?v=3cda8d3e">
+<link rel="stylesheet" href="../../style.css?v=c0513c0b">
 <script>
 try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
 </script>
 </head>
 <body>
-<div class="wrap">
-  <div class="topbar">
+<div class="topbar">
+  <div class="wrap topbar-in">
     <nav>
       <a href="../../" class="home" aria-label="Startseite"><svg class="mark-s" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:22px;height:22px;vertical-align:-6px">
   <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
@@ -35,15 +35,16 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   </g>
   <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#1c1a16" stroke-width="20"/>
   <path d="M68.4 31.6A26 26 0 1 0 68.4 68.4" fill="none" stroke="#f5efe3" stroke-width="13"/>
-</svg></a><a href="#ergebnisse">Ergebnisse</a><a href="#europa">Europa-Ecke</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="../../archiv/">Archiv</a>
+</svg></a><a href="#kurz">Kurz</a><a href="#ergebnisse">Ergebnisse</a><a href="#europa">Europa</a><a href="#tabelle">Tabelle</a><a href="#vorschau">Vorschau</a><a href="../../archiv/">Archiv</a>
     </nav>
-    <div style="display:flex;gap:8px">
-      <button class="tbtn tbtn-min" data-minute>⏱ 1 Minute</button>
+    <div class="tools">
       <button class="tbtn" id="spoilerBtn" aria-pressed="false" title="Ergebnisse verdecken, um Spiele erst im League Pass zu schauen">Spoiler-Schutz</button>
-      <button class="tbtn" id="themeBtn" title="Hell/Dunkel">◐</button>
+      <button class="tbtn tbtn-ico" id="themeBtn" title="Hell/Dunkel" aria-label="Hell/Dunkel umschalten">◐</button>
     </div>
   </div>
+</div>
 
+<div class="wrap">
   <div class="hardwood"></div>
   <header class="masthead">
     <div class="kicker">Das deutschsprachige NBA-Journal</div>
@@ -61,16 +62,653 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   <div class="dateline">
     <span>Dienstag, 3. November 2026</span>
     <span>Dienstagsausgabe</span>
-    <span>Ausgabe Nr. 4 · Lesezeit ca. 10 Min.</span>
+    <span>Nr. 4 · 10 Min. Lesezeit</span>
   </div>
 
   
-  <button class="minute-cta" data-minute>
-    <span class="clock" aria-hidden="true">⏱</span>
-    <span><strong>Keine Zeit? Alles in 1 Minute</strong><small>Die Nacht kompakt: Ergebnisse, Storys, News &amp; Spiel des Tages</small></span>
-    <span class="arr" aria-hidden="true">→</span>
-  </button>
-  <dialog id="minute" class="minute" aria-labelledby="minute-t">
+
+  
+  <section class="card brief-card" id="kurz">
+    <div class="card-h"><span class="pill">⏱ Alles in 1 Minute</span><span class="meta">Nacht auf Dienstag</span></div>
+    <ol class="brief spoil"><li><strong>Memphis ist nicht mehr makellos:</strong> New Orleans gewinnt 135:134 nach Verlängerung in Memphis – trotz 40 Punkten von Ty Jerome ist das 7-0 geplatzt.</li><li><strong>Shai übernimmt:</strong> Gilgeous-Alexander trifft mit 43 Punkten und dem entscheidenden Dreier 33 Sekunden vor Schluss zum 117:112 in Cleveland – erster Thunder-Sieg nach der Verletzungsserie.</li><li><strong>Kein siegloses Team mehr:</strong> Sacramento gewinnt 115:100 in Dallas, Rookie Darius Acuff Jr. erzielt 25 Punkte.</li><li><strong>Pöltl fehlt erneut:</strong> Schleimbeutelentzündung in der linken Schulter – Toronto dreht trotzdem ein 16-Punkte-Minus bei den Clippers zum 125:118.</li><li><strong>Houston stoppt Boston:</strong> 109:93 im Topduell, die Celtics-Serie endet bei fünf Siegen; Houston und Philadelphia (126:107 gegen Chicago) stehen jetzt bei 7-1.</li><li><strong>Dončić bleibt heiß:</strong> 42 Punkte und 13 Assists beim 138:117 gegen Miami und Giannis – das vierte 40-Punkte-Spiel in fünf Partien.</li><li><strong>Franz Wagner mit 24</strong>, aber Orlando verliert 94:103 gegen Washington und Anthony Davis.</li><li><strong>Heute Nacht Pause:</strong> Wegen der US-Wahl ist der Dienstag spielfrei – in der Nacht auf Donnerstag geht es mit 14 Spielen weiter.</li></ol>
+    
+  </section>
+  
+
+  
+  <section class="sec" id="ergebnisse">
+    <h2 class="sec-h">Ergebnisse · Nacht auf Dienstag<span class="count">15 Spiele</span></h2>
+    <div class="spoil-note">Spoiler-Schutz aktiv – Ergebnisse und Spielberichte sind verdeckt.</div>
+    <div class="scores">
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">West</span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt=""><span class="tn">Pelicans<span class="rec spoil">3-4</span></span><span class="pts">135</span></span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt=""><span class="tn">Grizzlies<span class="rec spoil">6-1</span></span><span class="pts">134</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>n. V.</b> · Williamson 25/11, Matković 25, Queen 20/7/5, Murphy III &amp; Bey je 18 · <b>Jerome 40</b>, Boozer 18/9/5.</div>
+          <div class="glinks"><a href="https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/boxscore/_/gameId/401909914" target="_blank" rel="noopener">Boxscore ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Interconf.</span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt=""><span class="tn">Thunder<span class="rec spoil">5-2</span></span><span class="pts">117</span></span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt=""><span class="tn">Cavaliers<span class="rec spoil">4-3</span></span><span class="pts">112</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Gilgeous-Alexander 43</b> (Saisonbestwert), A. Mitchell 20, Hartenstein 11 Reb · Thomas 17, D. Mitchell 17/11 Ast, Mobley 16.</div>
+          <div class="glinks"><a href="https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap?gameId=401909907" target="_blank" rel="noopener">Spielseite ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Ost</span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt=""><span class="tn">Pistons<span class="rec spoil">6-1</span></span><span class="pts">124</span></span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt=""><span class="tn">Hornets<span class="rec spoil">3-5</span></span><span class="pts">91</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Cunningham 33/7 Ast</b>, D. Robinson 24 (6 Dreier), A. Thompson 14 · Miller 17, Reid 13 – vierte Hornets-Pleite in Serie.</div>
+          <div class="glinks"><a href="https://www.theticket.com/2026/11/02/sharp-shooting-pistons-overwhelm-hornets-in-easy-win/" target="_blank" rel="noopener">Bericht ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Ost</span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt=""><span class="tn">Hawks<span class="rec spoil">4-4</span></span><span class="pts">108</span></span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt=""><span class="tn">Pacers<span class="rec spoil">2-6</span></span><span class="pts">104</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Alexander-Walker 34</b>, 15 Hawks-Dreier in Hälfte eins (Klubrekord egalisiert) · Indiana mit nur sechs einsatzfähigen Spielern.</div>
+          <div class="glinks"><a href="https://sports.yahoo.com/articles/hawks-escape-six-man-pacers-034921573.html" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.vavel.com/en-us/nba/2026/11/02/1277807-atlanta-hawks-vs-indiana-pacers-live-score-updates-nba.html" target="_blank" rel="noopener">Ticker ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Ost</span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt=""><span class="tn">Nets<span class="rec spoil">1-6</span></span><span class="pts">90</span></span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt=""><span class="tn">Knicks<span class="rec spoil">3-4</span></span><span class="pts">103</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil">Knicks entscheiden das Derby im Schlussviertel, angetrieben von Hart und Anunoby · 15. Derbysieg in Folge gegen Brooklyn.</div>
+          <div class="glinks"><a href="https://www.espn.com/nba/recap/_/gameId/401909910" target="_blank" rel="noopener">Spielseite ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Ost</span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt=""><span class="tn">Wizards<span class="rec spoil">4-3</span></span><span class="pts">103</span></span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt=""><span class="tn">Magic<span class="rec spoil">2-5</span></span><span class="pts">94</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>A. Davis 27</b>, Young, Dybantsa · F. Wagner 24/6 Ast (10/18 FG), Bane – Orlando zu Hause weiter sieglos.</div>
+          <div class="glinks"><a href="https://www.espn.com/nba/recap/_/gameId/401909911" target="_blank" rel="noopener">Spielseite ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Ost</span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt=""><span class="tn">Bulls<span class="rec spoil">1-6</span></span><span class="pts">107</span></span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt=""><span class="tn">76ers<span class="rec spoil">7-1</span></span><span class="pts">126</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Maxey 26</b> (15 im 4. Viertel), J. Brown 25/11, Edgecombe 21 (Saisonbestwert) · Embiid nach 25 Minuten geschont.</div>
+          <div class="glinks"><a href="https://metrophiladelphia.com/stories/sixers-bulls-defensive-switch-second-half,161573" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap?gameId=401909912" target="_blank" rel="noopener">Spielseite ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">West</span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt=""><span class="tn">Kings<span class="rec spoil">1-6</span></span><span class="pts">115</span></span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt=""><span class="tn">Mavericks<span class="rec spoil">4-3</span></span><span class="pts">100</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Acuff Jr. 25/6 Ast</b>, Monk 24/7 Ast, LaVine 23 · 46 Kings-Bankpunkte – erster Saisonsieg.</div>
+          <div class="glinks"><a href="https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke" target="_blank" rel="noopener">Analyse ↗</a><a href="https://www.espn.com/nba/recap/_/gameId/401909913" target="_blank" rel="noopener">Spielseite ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Interconf.</span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt=""><span class="tn">Bucks<span class="rec spoil">1-6</span></span><span class="pts">100</span></span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt=""><span class="tn">Timberwolves<span class="rec spoil">5-3</span></span><span class="pts">112</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Ball 34</b> (6 Dreier), Dosunmu 19/12/8 · Herro 21, Jaquez Jr. 19/8.</div>
+          <div class="glinks"><a href="https://www.espn.com/nba/recap/_/gameId/401909915" target="_blank" rel="noopener">Spielseite ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Interconf.</span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt=""><span class="tn">Celtics<span class="rec spoil">5-2</span></span><span class="pts">93</span></span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt=""><span class="tn">Rockets<span class="rec spoil">7-1</span></span><span class="pts">109</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Şengün</b> führt Houston an · Boston im Back-to-back ohne Paul George, mit schwacher Quote – Serie endet bei fünf.</div>
+          <div class="glinks"><a href="https://www.vavel.com/en-us/nba/2026/11/02/1277767-boston-celtics-vs-houston-rockets-live-score-nba.html" target="_blank" rel="noopener">Ticker ↗</a><a href="https://www.espn.com/nba/boxscore/_/gameId/401909916" target="_blank" rel="noopener">Boxscore ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">West</span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt=""><span class="tn">Jazz<span class="rec spoil">1-6</span></span><span class="pts">97</span></span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt=""><span class="tn">Spurs<span class="rec spoil">5-2</span></span><span class="pts">119</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Harper 17</b>, Castle 16, K. Johnson 15, Wembanyama 12/11/3 Blk · Markkanen 22/8, Peterson 14.</div>
+          <div class="glinks"><a href="https://www.ksat.com/sports/2026/11/03/harper-wembanyama-lead-spurs-past-jazz-119-97-extend-winning-streak-to-5-games/" target="_blank" rel="noopener">Bericht ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">West</span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt=""><span class="tn">Trail Blazers<span class="rec spoil">5-1</span></span><span class="pts">118</span></span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt=""><span class="tn">Nuggets<span class="rec spoil">3-3</span></span><span class="pts">110</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Avdija 28</b>, Lillard 20, Clingan 17/18, Holiday 17/10 Ast · Murray 35, Jokić 26/9/8.</div>
+          <div class="glinks"><a href="https://www.thesportsleader.com/2026/11/02/blazers-storm-back-to-beat-nuggets-remain-perfect-on-the-road/" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap/_/gameId/401909918" target="_blank" rel="noopener">Spielseite ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">West</span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt=""><span class="tn">Suns<span class="rec spoil">1-4</span></span><span class="pts">113</span></span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt=""><span class="tn">Warriors<span class="rec spoil">5-3</span></span><span class="pts">116</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Curry 34/7 Ast</b>, Podziemski 20, Bassey 19 (Karrierebestwert) · Booker 26 (Foul-out), Bridges 21 – Green ausgeschlossen.</div>
+          <div class="glinks"><a href="https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/" target="_blank" rel="noopener">Bericht ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Interconf.</span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt=""><span class="tn">Raptors<span class="rec spoil">4-3</span></span><span class="pts">125</span></span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt=""><span class="tn">Clippers<span class="rec spoil">1-6</span></span><span class="pts">118</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil">Toronto dreht ein 16-Punkte-Minus, erst in den letzten zwei Minuten erstmals vorne · ohne Pöltl &amp; Leonard – Clippers sechste Pleite in Serie.</div>
+          <div class="glinks"><a href="https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers" target="_blank" rel="noopener">Analyse ↗</a><a href="https://www.espn.com/nba/boxscore/_/gameId/401909920" target="_blank" rel="noopener">Boxscore ↗</a></div>
+        </div>
+      </details>
+      
+      
+      <details class="game">
+        <summary>
+          <span class="tag">Interconf.</span>
+          <span class="row l"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt=""><span class="tn">Heat<span class="rec spoil">2-5</span></span><span class="pts">117</span></span>
+          <span class="row "><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt=""><span class="tn">Lakers<span class="rec spoil">6-2</span></span><span class="pts">138</span></span>
+        </summary>
+        <div class="gbody">
+          <div class="star spoil"><b>Dončić 42/7/13</b>, Reaves 27, Kessler 15/15, Mamukelashvili 15 · Lakers mit Saisonbestwert und 57 % aus dem Feld.</div>
+          <div class="glinks"><a href="https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap?gameId=401909921" target="_blank" rel="noopener">Spielseite ↗</a></div>
+        </div>
+      </details>
+      
+    </div>
+    <div class="hint">Antippen für Topscorer &amp; Links</div>
+  </section>
+  
+
+  
+  <details class="rewatch">
+    <summary><span class="badge">Re-Watch-Tipp</span><span class="rw-t">Spoilerfrei · Thunder @ Cavaliers</span><span class="rw-arr" aria-hidden="true">▾</span></summary>
+    <div class="rw-body">
+      <div class="logos"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="Oklahoma City Thunder"> @ <img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="Cleveland Cavaliers"></div>
+      <p>Zwei Teams, die sich letzte Saison bis in die Conference Finals gespielt haben, und ein Spiel, das nie zur Ruhe kommt: über 20 Führungswechsel, ein Schlussviertel als Pingpong-Match. Dazu ein Superstar, der so viele Würfe nimmt wie selten zuvor in seiner Karriere, und ein Rookie, der bei seiner ersten Startaufstellung keine Scheu zeigt. Ideal, wenn ihr 48 Minuten Spannung bis zur letzten Minute wollt. <em>Tipp: Oben „Spoiler-Schutz“ aktivieren, dann bleiben alle Ergebnisse verdeckt.</em></p>
+    </div>
+  </details>
+  
+
+  <div class="lead-grid">
+    <article class="lead spoil">
+      <div class="kick">Pelicans – Grizzlies · West</div>
+      <h2>Die Serie reißt bei sechs – New Orleans stoppt Memphis</h2>
+      <p class="teaser"><span class="lead-logos"><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="New Orleans Pelicans"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="Memphis Grizzlies"></span>Der Rekordstart ist dahin: Die Grizzlies verlieren nach Verlängerung 134:135 gegen New Orleans, obwohl Ty Jerome mit 40 Punkten fast im Alleingang die Wende schafft.</p>
+      <div class="body"><p>Sieben Siege zum Auftakt hätte es in der Geschichte der <strong>Memphis Grizzlies</strong> noch nie gegeben. Mit sechs hatte das Team den Klubrekord bereits egalisiert, gegen die bis dahin enttäuschenden Pelicans sollte am Montag der nächste Schritt folgen. Es kam anders: <strong>135:134 nach Verlängerung</strong> für New Orleans – und Memphis steht nach der ersten Saisonniederlage bei 6-1.</p><p>Die Pelicans führten das gesamte Schlussviertel lang, 2:36 Minuten vor dem Ende traf <strong>Karlo Matković</strong> per Dreier zum 124:115. Dann begann die <strong>Ty-Jerome-Show</strong>: Der Guard erzielte neun Punkte in Serie, ein 9:0-Lauf rettete Memphis in die Overtime. Auch dort war Jerome kaum zu halten, acht der zehn Grizzlies-Punkte gingen auf sein Konto. Am Ende standen <strong>40 Punkte</strong> neben seinem Namen – mehr als jeder andere Spieler auf dem Feld.</p></div>
+      
+      <details class="more"><summary>Weiterlesen</summary><div class="body"><p>Entschieden wurde die Partie in der letzten Minute durch Hartnäckigkeit. Zion Williamson vergab beim Stand von minus eins einen Wurf, Saddiq Bey holte den Rebound, Rookie <strong>Jeremiah Fears</strong> spitzelte den Ball frei, sicherte ihn und wurde beim Wurf gefoult. Zwei Freiwürfe, Führung. Jeromes letzter Versuch prallte ab. Fears stand an diesem Abend übrigens 30-mal an der Linie und traf 25 – eine Quote, die bei so vielen Versuchen bemerkenswert ist.</p><p>Bei New Orleans teilten sich <strong>Williamson</strong> (25 Punkte, 11 Rebounds, davon neun Punkte in der Verlängerung) und der Kroate <strong>Matković</strong> (25) die Topscorer-Rolle, Derik Queen kam von der Bank auf 20 Punkte, 7 Rebounds und 5 Assists. Trey Murphy III und Bey steuerten je 18 bei. Bei Memphis lieferte Rookie Cameron Boozer 18 Punkte, 9 Rebounds und 5 Assists.</p><p>Die Einordnung: Für Memphis ist die Niederlage ein Schönheitsfehler, mehr nicht – das Team bleibt Zweiter im Westen, nur Houston (7-1) hat eine bessere Quote. Spannender ist die Kurve der Pelicans: Nach 0-4 haben sie nun dreimal in Folge gewonnen und stehen bei 3-4. In der Nacht auf Donnerstag empfängt New Orleans Utah, Memphis hat Indiana zu Gast.</p></div></details>
+      
+    </article>
+    
+    <aside class="side spoil">
+      
+      <div class="box">
+        <h4>Spieler der Nacht</h4>
+        <ul><li><strong>Shai Gilgeous-Alexander</strong> (OKC): 43 Punkte, Siegtreffer in Cleveland.</li><li><strong>Luka Dončić</strong> (LAL): 42 Punkte, 13 Assists, 7 Rebounds.</li><li><strong>Ty Jerome</strong> (MEM): 40 Punkte – trotz Niederlage.</li><li><strong>LaMelo Ball</strong> (MIN): 34 Punkte, 6 Dreier gegen Milwaukee.</li></ul>
+      </div>
+      
+    </aside>
+    
+  </div>
+
+  
+  <section class="sec spoil">
+    <h2 class="sec-h">Die Geschichten der Nacht</h2>
+    <div class="stories">
+      
+      <article class="story card">
+        <div class="story-h"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="Oklahoma City Thunder" width="30" height="30"><div class="kick">Thunder · Antwort</div></div>
+        <h3>35 Würfe, 43 Punkte, ein Sieg</h3>
+        <p>Drei Auswärtsspiele seit den schweren Verletzungen von Chet Holmgren, Jalen Williams und Cason Wallace – die ersten zwei gingen verloren. In Cleveland nahm <strong>Shai Gilgeous-Alexander</strong> die Sache selbst in die Hand: 43 Punkte, Saisonbestwert, und das bei 35 Wurfversuchen, so vielen wie nie zuvor in seiner Karriere.</p>
+        <details class="more"><summary>Mehr</summary><p>Das Schlussviertel war ein Schlagabtausch mit acht Gleichständen und acht Führungswechseln, im ganzen Spiel wechselte die Führung 23-mal. 33 Sekunden vor dem Ende traf SGA aus gut sieben Metern über Sam Merrill zum 115:112, Ajay Mitchell (20) machte an der Linie alles klar. Bei Cleveland glänzte Rookie Meleek Thomas bei seinem ersten Start mit 17 Punkten. Schon am Mittwoch gibt es das Rückspiel in Oklahoma City.</p></details>
+      </article>
+      
+      <article class="story card">
+        <div class="story-h"><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="Sacramento Kings" width="30" height="30"><div class="kick">Kings · Erlösung</div></div>
+        <h3>Null ist Geschichte</h3>
+        <p>Nach Brooklyn am Sonntag hat nun auch das letzte sieglose Team gewonnen: Die <strong>Sacramento Kings</strong> setzten sich 115:100 in Dallas durch. Rookie <strong>Darius Acuff Jr.</strong> erzielte 25 Punkte und 6 Assists, Malik Monk kam von der Bank auf 24 Punkte, Zach LaVine traf fünf von neun Dreiern und kam auf 23.</p>
+        <details class="more"><summary>Mehr</summary><p>Den Unterschied machte die Bank: 46 Punkte, fast 60 Prozent Trefferquote. Leaky Black glänzte mit vier Steals. Für Dallas ist die Heimpleite gegen das bisherige Schlusslicht ein Dämpfer – die Mavericks stehen bei 4-3 und reisen als Nächstes nach San Antonio.</p></details>
+      </article>
+      
+      <article class="story card">
+        <div class="story-h"><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="Golden State Warriors" width="30" height="30"><div class="kick">Warriors · Hitzige Nacht</div></div>
+        <h3>Curry ist zurück, Green muss gehen</h3>
+        <p>Nach einem Spiel Schonpause meldete sich <strong>Stephen Curry</strong> mit 34 Punkten, 7 Assists und 11 von 12 Freiwürfen zurück – Golden State gewann 116:113 gegen Phoenix und hat nach dem 0-3-Start nun fünfmal in Serie gewonnen. Charles Bassey überraschte mit 19 Punkten (Karrierebestwert), Lendeborg legte 16 nach.</p>
+        <details class="more"><summary>Mehr</summary><p>Ruhig war der Abend nicht: <strong>Draymond Green</strong> flog Anfang des dritten Viertels nach zwei Technischen Fouls, nachdem er sich mit Khaman Maluach und Dillon Brooks angelegt hatte. Auch Miles Bridges kassierte ein Technisches. Devin Booker (26) foulte 58 Sekunden vor Schluss aus. Die Suns führten zur Pause noch 57:51, ehe ein 12:0-Lauf der Warriors die Wende brachte.</p></details>
+      </article>
+      
+    </div>
+  </section>
+  
+
+  
+  <section class="sec spoil" id="europa">
+    <h2 class="sec-h">Europa-Ecke</h2>
+    <div class="europe">
+      
+      <div class="eu eu-top">
+        <span class="flag">🇦🇹</span>
+        <div class="eu-main">
+          <div class="who"><b>Jakob Pöltl</b><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors" width="20" height="20"><span class="stat">Ausfall · Schulter-Bursitis</span></div>
+          <p>Der Wiener verpasste mit einer Schleimbeutelentzündung in der linken Schulter das zweite Spiel in Folge, ein Rückkehrdatum gibt es nicht. Toronto half sich mit Collin Murray-Boyles als kleinem Center – und gewann trotzdem. Nächster Termin: Nacht auf Donnerstag, 03:00 Uhr, in Denver.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇩🇪</span>
+        <div class="eu-main">
+          <div class="who"><b>Franz Wagner</b><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="Orlando Magic" width="20" height="20"><span class="stat">24 Pkt · 6 Ast · 3 Reb</span></div>
+          <p>Die Antwort auf den 5-von-20-Abend gegen Boston: 10 von 18 aus dem Feld, Teambestwert. Gegen Washington reichte es trotzdem nicht, Orlando ist zu Hause weiter ohne Sieg.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇩🇪</span>
+        <div class="eu-main">
+          <div class="who"><b>Tristan da Silva</b><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="Orlando Magic" width="20" height="20"><span class="stat">Dreier im Schlussviertel</span></div>
+          <p>Da Silva brachte Orlando mit einem Dreier und einem Step-back-Jumper zu Beginn des vierten Viertels noch einmal heran – die Wende blieb aus.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇩🇪</span>
+        <div class="eu-main">
+          <div class="who"><b>Isaiah Hartenstein</b><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="Oklahoma City Thunder" width="20" height="20"><span class="stat">11 Reb in 14 Min</span></div>
+          <p>Kurze Einsatzzeit, große Wirkung am Brett beim Thunder-Sieg in Cleveland.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇩🇪</span>
+        <div class="eu-main">
+          <div class="who"><b>Moritz Wagner</b><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="Brooklyn Nets" width="20" height="20"><span class="stat">Derby-Niederlage</span></div>
+          <p>Wagner punktete früh im ersten Viertel, gegen die Knicks verloren die Nets aber erneut – Derbypleite Nummer 15 in Serie.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇸🇮</span>
+        <div class="eu-main">
+          <div class="who"><b>Luka Dončić</b><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="Los Angeles Lakers" width="20" height="20"><span class="stat">42 Pkt · 13 Ast · 7 Reb</span></div>
+          <p>14 von 24 aus dem Feld, Saisonbestwert bei den Assists – das vierte 40-Punkte-Spiel in den letzten fünf Partien.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇷🇸</span>
+        <div class="eu-main">
+          <div class="who"><b>Nikola Jokić</b><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="Denver Nuggets" width="20" height="20"><span class="stat">26 Pkt · 9 Reb · 8 Ast</span></div>
+          <p>Knapp am Triple-Double vorbei – und Denver verspielte gegen Portland eine 14-Punkte-Führung.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇭🇷</span>
+        <div class="eu-main">
+          <div class="who"><b>Karlo Matković</b><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="New Orleans Pelicans" width="20" height="20"><span class="stat">25 Pkt · Sieg n. V.</span></div>
+          <p>Der Kroate teilte sich mit Zion Williamson die Topscorer-Rolle beim Ende der Memphis-Serie, sein Dreier zum 124:115 schien schon die Entscheidung.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇫🇮</span>
+        <div class="eu-main">
+          <div class="who"><b>Lauri Markkanen</b><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="Utah Jazz" width="20" height="20"><span class="stat">22 Pkt · 8 Reb</span></div>
+          <p>Bester Werfer auf dem Feld in San Antonio – Utah verlor trotzdem zum fünften Mal in Folge.</p>
+        </div>
+      </div>
+      
+      <div class="eu ">
+        <span class="flag">🇫🇷</span>
+        <div class="eu-main">
+          <div class="who"><b>Victor Wembanyama</b><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="San Antonio Spurs" width="20" height="20"><span class="stat">12 Pkt · 11 Reb · 3 Blk</span></div>
+          <p>Ein ruhigerer Abend für den Franzosen, die Spurs gewannen dafür im Kollektiv – fünfter Sieg in Serie.</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  
+
+  <section class="sec cols">
+    <div>
+      <h2 class="sec-h">News-Ticker</h2>
+      <ul class="news">
+        <li><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors" width="26" height="26"><span><strong>Jakob Pöltl</strong> fehlt mit einer Schleimbeutelentzündung (Bursitis) in der linken Schulter – das zweite Spiel in Folge, keine Prognose für die Rückkehr.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="Golden State Warriors" width="26" height="26"><span><strong>Draymond Green</strong> wurde gegen Phoenix nach zwei Technischen Fouls im dritten Viertel ausgeschlossen.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="Philadelphia 76ers" width="26" height="26"><span><strong>Joel Embiid</strong> wurde nach 25 Minuten zur Belastungssteuerung herausgenommen; die Sixers stehen bei 7-1.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="Indiana Pacers" width="26" height="26"><span>Die <strong>Pacers</strong> hatten in Atlanta nur sechs einsatzfähige Spieler – und verloren nur knapp mit 104:108.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="Charlotte Hornets" width="26" height="26"><span><strong>Coby White</strong> gab nach sieben Spielen Pause (Wade) sein Saisondebüt für Charlotte: 7 Punkte in knapp 16 Minuten.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="Cleveland Cavaliers" width="26" height="26"><span>Cleveland musste gegen OKC auf <strong>Peyton Watson</strong> (Oberschenkel) und <strong>Jaylon Tyson</strong> (Knöchel) verzichten.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="Chicago Bulls" width="26" height="26"><span><strong>Dominick Barlow</strong> lässt eine Stressreaktion im unteren Rücken am Dienstag von einem Spezialisten untersuchen.</span></li>
+      </ul>
+    </div>
+    <div id="vorschau">
+      <h2 class="sec-h">Vorschau · Wiener Zeit</h2>
+      
+      <details class="upday" open>
+        <summary>Heute Nacht – Nacht auf Mittwoch: spielfrei (US-Wahltag)<span class="count">0</span></summary>
+        
+      </details>
+      
+      <details class="upday" >
+        <summary>Nacht auf Donnerstag (14 Spiele)<span class="count">14</span></summary>
+        
+        <div class="up feat">
+          <span class="time">01:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</span>
+          <span class="note"><strong>Spiel des Tages:</strong> Die beiden besten Teams des Ostens, 7-1 gegen 6-1.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">01:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</span>
+          <span class="note">Memphis' erste Chance auf Wiedergutmachung.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</span>
+          <span class="note">Rückspiel zwei Tage nach dem Krimi.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">02:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">03:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</span>
+          <span class="note">Spielt Pöltl wieder?</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">03:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</span>
+          <span class="note">Portland auswärts noch makellos.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">03:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</span>
+          
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:30</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</span>
+          
+        </div>
+        
+      </details>
+      
+      <details class="upday" >
+        <summary>Nacht auf Freitag (Auswahl)<span class="count">2</span></summary>
+        
+        <div class="up ">
+          <span class="time">03:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</span>
+          <span class="note">Franz Wagner und da Silva in Arizona.</span>
+        </div>
+        
+        <div class="up ">
+          <span class="time">04:00</span>
+          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat <i>@</i> <img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</span>
+          
+        </div>
+        
+      </details>
+      
+    </div>
+  </section>
+
+  <section class="sec" id="tabelle">
+    <h2 class="sec-h">Tabelle<span class="count">Stand nach der Nacht auf Dienstag (sortiert nach Siegquote)</span></h2>
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-tab="east">Osten</button><button role="tab" aria-selected="false" data-tab="west">Westen</button>
+    </div>
+    <div class="standings spoil">
+      
+      <table class="st" data-conf="east">
+        <caption>Eastern Conference</caption>
+        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
+        <tbody>
+        
+          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers</td><td>7</td><td>1</td><td>.875</td></tr>
+        
+          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</td><td>6</td><td>1</td><td>.857</td></tr>
+        
+          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</td><td>5</td><td>2</td><td>.714</td></tr>
+        
+          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers</td><td>4</td><td>3</td><td>.571</td></tr>
+        
+          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors</td><td>4</td><td>3</td><td>.571</td></tr>
+        
+          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</td><td>4</td><td>3</td><td>.571</td></tr>
+        
+          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks</td><td>4</td><td>4</td><td>.500</td></tr>
+        
+          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</td><td>3</td><td>4</td><td>.429</td></tr>
+        
+          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets</td><td>3</td><td>5</td><td>.375</td></tr>
+        
+          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic</td><td>2</td><td>5</td><td>.286</td></tr>
+        
+          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat</td><td>2</td><td>5</td><td>.286</td></tr>
+        
+          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers</td><td>2</td><td>6</td><td>.250</td></tr>
+        
+          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+        </tbody>
+      </table>
+      
+      <table class="st" data-conf="west">
+        <caption>Western Conference</caption>
+        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
+        <tbody>
+        
+          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</td><td>7</td><td>1</td><td>.875</td></tr>
+        
+          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</td><td>6</td><td>1</td><td>.857</td></tr>
+        
+          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers</td><td>5</td><td>1</td><td>.833</td></tr>
+        
+          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers</td><td>6</td><td>2</td><td>.750</td></tr>
+        
+          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</td><td>5</td><td>2</td><td>.714</td></tr>
+        
+          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</td><td>5</td><td>2</td><td>.714</td></tr>
+        
+          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves</td><td>5</td><td>3</td><td>.625</td></tr>
+        
+          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</td><td>5</td><td>3</td><td>.625</td></tr>
+        
+          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks</td><td>4</td><td>3</td><td>.571</td></tr>
+        
+          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</td><td>3</td><td>3</td><td>.500</td></tr>
+        
+          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</td><td>3</td><td>4</td><td>.429</td></tr>
+        
+          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</td><td>1</td><td>4</td><td>.200</td></tr>
+        
+          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</td><td>1</td><td>6</td><td>.143</td></tr>
+        
+        </tbody>
+      </table>
+      
+    </div>
+    <div class="legend">Linie: Platz 1–6 fix in den Playoffs · gestrichelt: 7–10 Play-In</div>
+  </section>
+
+  
+  <section class="sec">
+    <details class="card explain">
+      <summary><span class="pill pill-blue">Einordnung</span><h3>Warum heute Nacht kein Ball fliegt</h3><span class="ex-teaser">Wer heute Nacht den League Pass öffnet, findet: nichts. Die NBA hat den <strong>Dienstag, 3. November</strong>, bewusst spielfrei gelassen – in den USA ist Wahltag, die Midterm Elections stehen an. Dafür war am Montag die ganze Liga im Einsatz: Alle 30 Teams spielten, 15 Partien an einem Abend.</span><span class="ex-more">Ganz lesen ▾</span></summary>
+      <p>Die Idee dahinter: Spieler, Trainer, Mitarbeiter und Fans sollen an diesem Tag Zeit haben, ihre Stimme abzugeben, statt zwischen Wahllokal und Arena entscheiden zu müssen. Die Liga plant den Wahltag deshalb gezielt spielfrei ein.</p><p><strong>Was bedeutet das sportlich?</strong> Für viele Teams ist es ein willkommener Ruhetag nach einem dichten Saisonstart. Boston, Toronto und Brooklyn etwa hatten am Sonntag und Montag ein Back-to-back – also zwei Spiele an aufeinanderfolgenden Tagen. Verletzte wie Jakob Pöltl gewinnen einen zusätzlichen Tag Erholung.</p><p>In der Nacht auf Donnerstag geht es dann mit 14 Spielen weiter, darunter das Ost-Gipfeltreffen Philadelphia gegen Detroit und das schnelle Wiedersehen von Cleveland und Oklahoma City.</p>
+    </details>
+  </section>
+  
+
+  
+  <section class="sec">
+    <h2 class="sec-h">Good to know</h2>
+    <div class="gtk spoil">
+      
+      <div class="gtk-item"><div class="n">6</div><h5>Rekord eingestellt, nicht gebrochen</h5><p>Mit sechs Siegen zum Start hatte Memphis den Klubrekord egalisiert – Nummer sieben blieb aus.</p></div>
+      
+      <div class="gtk-item"><div class="n">25/30</div><h5>Freiwurf-Marathon</h5><p>Pelicans-Rookie Jeremiah Fears stand 30-mal an der Linie und traf 25 Versuche.</p></div>
+      
+      <div class="gtk-item"><div class="n">35</div><h5>Würfe von SGA</h5><p>So viele Feldwurfversuche nahm Gilgeous-Alexander in Cleveland – Karrierehöchstwert und Saisonrekord der Liga.</p></div>
+      
+      <div class="gtk-item"><div class="n">23</div><h5>Führungswechsel</h5><p>So oft wechselte die Führung zwischen OKC und Cleveland, dazu kamen zehn Gleichstände.</p></div>
+      
+      <div class="gtk-item"><div class="n">15</div><h5>Dreier vor der Pause</h5><p>Atlanta traf gegen Indiana 15 Dreier in einer Hälfte und stellte damit den Klubrekord ein.</p></div>
+      
+      <div class="gtk-item"><div class="n">0</div><h5>Sieglose Teams</h5><p>Nach den ersten Siegen von Brooklyn und Sacramento hat jedes Team der Liga mindestens einmal gewonnen.</p></div>
+      
+    </div>
+  </section>
+  
+
+  <section class="sec cols">
+    <details class="card extra">
+      <summary>Highlights &amp; Material<span class="count">8</span></summary>
+      <ul class="links">
+        <li><a href="https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/" target="_blank" rel="noopener">Pelicans beenden die Memphis-Serie</a><span class="src">WXSM / AP</span></li><li><a href="https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/" target="_blank" rel="noopener">SGAs 43 in Cleveland</a><span class="src">The Sports Leader</span></li><li><a href="https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html" target="_blank" rel="noopener">Dončić gegen Miami</a><span class="src">Yahoo Sports</span></li><li><a href="https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/" target="_blank" rel="noopener">Warriors – Suns: drei Technische</a><span class="src">TSN / AP</span></li><li><a href="https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers" target="_blank" rel="noopener">3 Takeaways: Raptors-Comeback bei den Clippers</a><span class="src">SI / All Raptors</span></li><li><a href="https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke" target="_blank" rel="noopener">Warum der Kings-Sieg kein Zufall war</a><span class="src">SI / Kings On SI</span></li><li><a href="https://www.youtube.com/@NBA/videos" target="_blank" rel="noopener">Alle Highlights der Nacht</a><span class="src">YouTube · NBA</span><br><span class="lnote">Offizieller NBA-Kanal.</span></li><li><a href="https://www.nba.com/watch/league-pass-stream" target="_blank" rel="noopener">Ganze Spiele im Replay</a><span class="src">NBA League Pass</span><br><span class="lnote">Euer League Pass Premium: alle Spiele der Nacht auf Abruf.</span></li>
+      </ul>
+    </details>
+    <details class="card extra">
+      <summary>Kleines NBA-Glossar<span class="count">5</span></summary>
+      <dl class="gloss">
+        <dt>Overtime</dt><dd>Verlängerung von fünf Minuten bei Gleichstand nach 48 Minuten – Memphis verlor die erste der Saison.</dd><dt>Technisches Foul</dt><dd>Strafe für Unsportlichkeit, etwa Proteste oder Rangeleien; zwei davon bedeuten den Ausschluss – wie bei Draymond Green.</dd><dt>Foul-out</dt><dd>Nach dem sechsten persönlichen Foul muss ein Spieler das Feld endgültig verlassen – so erging es Devin Booker.</dd><dt>Load Management</dt><dd>Gezielte Schonung eines Spielers zur Belastungssteuerung, auch ohne akute Verletzung – siehe Embiid.</dd><dt>Bursitis</dt><dd>Entzündung eines Schleimbeutels, der Gelenke polstert – Pöltls aktuelles Schulterproblem.</dd>
+      </dl>
+    </details>
+  </section>
+
+  <div class="hardwood"></div>
+  <footer>
+    <div class="pager">
+      <span><a href="../../ausgabe/2026-11-02/">← Vorherige</a></span>
+      <a href="../../archiv/">Archiv</a>
+      <span><a href="../../ausgabe/2026-11-04/">Nächste →</a></span>
+    </div>
+    <p class="ai-note"><span class="pill pill-ghost">KI-generiert</span> COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Alle Texte werden von einer KI (Claude) auf Basis der unten verlinkten Quellen recherchiert und geschrieben – für eine Runde basketballverrückter Freunde. Fehler sind möglich; maßgeblich sind die Originalquellen.</p>
+    <details class="srcs"><summary>Quellen dieser Ausgabe (23)</summary><a href="https://www.espn.com/nba/scoreboard" target="_blank" rel="noopener">ESPN: Scoreboard 2. November 2026</a> · <a href="https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/" target="_blank" rel="noopener">WXSM/AP: Pelicans – Grizzlies</a> · <a href="https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/" target="_blank" rel="noopener">The Sports Leader: Thunder – Cavaliers</a> · <a href="https://www.theticket.com/2026/11/02/sharp-shooting-pistons-overwhelm-hornets-in-easy-win/" target="_blank" rel="noopener">The Ticket: Pistons – Hornets</a> · <a href="https://sports.yahoo.com/articles/hawks-escape-six-man-pacers-034921573.html" target="_blank" rel="noopener">Yahoo: Hawks – Pacers</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277807-atlanta-hawks-vs-indiana-pacers-live-score-updates-nba.html" target="_blank" rel="noopener">VAVEL: Hawks – Pacers</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277759-brooklyn-nets-vs-new-york-knicks-live-score-nba.html" target="_blank" rel="noopener">VAVEL: Nets – Knicks</a> · <a href="https://www.cbssports.com/nba/gametracker/recap/NBA_20261102_BKN@NY/" target="_blank" rel="noopener">CBS Sports: Nets – Knicks</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277808-washington-wizards-vs-orlando-magic-live-score-updates-nba.html" target="_blank" rel="noopener">VAVEL: Wizards – Magic</a> · <a href="https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-02/franz-wagner-has-24-3-6-line-in-loss-to-wizards" target="_blank" rel="noopener">NBC Sports: Franz Wagner</a> · <a href="https://metrophiladelphia.com/stories/sixers-bulls-defensive-switch-second-half,161573" target="_blank" rel="noopener">Metro Philadelphia: Sixers – Bulls</a> · <a href="https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke" target="_blank" rel="noopener">SI: Kings – Mavericks</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277763-milwaukee-bucks-vs-minnesota-timberwolves-live-score-nba.html" target="_blank" rel="noopener">VAVEL: Bucks – Timberwolves</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277767-boston-celtics-vs-houston-rockets-live-score-nba.html" target="_blank" rel="noopener">VAVEL/NBC Sports Boston: Celtics – Rockets</a> · <a href="https://www.ksat.com/sports/2026/11/03/harper-wembanyama-lead-spurs-past-jazz-119-97-extend-winning-streak-to-5-games/" target="_blank" rel="noopener">KSAT/AP: Jazz – Spurs</a> · <a href="https://www.thesportsleader.com/2026/11/02/blazers-storm-back-to-beat-nuggets-remain-perfect-on-the-road/" target="_blank" rel="noopener">The Sports Leader: Blazers – Nuggets</a> · <a href="https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/" target="_blank" rel="noopener">TSN/AP: Suns – Warriors</a> · <a href="https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers" target="_blank" rel="noopener">SI: Raptors – Clippers</a> · <a href="https://www.cbssports.com/fantasy/basketball/news/raptors-jakob-poeltl-missing-second-straight-game-monday/" target="_blank" rel="noopener">CBS Sports: Pöltl fehlt erneut</a> · <a href="https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html" target="_blank" rel="noopener">Yahoo: Lakers – Heat</a> · <a href="https://www.espn.com/nba/schedule" target="_blank" rel="noopener">ESPN: NBA-Spielplan</a> · <a href="https://sports.yahoo.com/articles/nba-schedule-includes-no-games-105626282.html" target="_blank" rel="noopener">Yahoo: Keine NBA-Spiele am Wahltag</a> · <a href="https://courtside.hobiger.cc" target="_blank" rel="noopener">COURTSIDE Nr. 3: Tabelle Nacht auf Montag</a></details>
+    <details class="legal"><summary>Rechtliches &amp; Datenschutz</summary>
+  <p><strong>Privates, nichtkommerzielles Projekt.</strong> COURTSIDE ist ein rein privates Hobbyprojekt für einen persönlichen Freundeskreis. Es verfolgt keinerlei Erwerbszweck, enthält keine Werbung, keine Affiliate- oder Sponsoring-Links und keine bezahlten Inhalte und erzielt keine Einnahmen. COURTSIDE steht in keiner Verbindung zur NBA, ihren Teams oder Partnern und ist kein offizielles NBA-Produkt. Team-Namen und -Logos sind Marken der jeweiligen Inhaber und werden ausschließlich zur Kennzeichnung der Teams verwendet.</p>
+  <p><strong>Haftung.</strong> Die Inhalte dienen allein der Information und Unterhaltung. Sie werden sorgfältig recherchiert, eine Gewähr für Richtigkeit, Vollständigkeit und Aktualität wird jedoch nicht übernommen. Es handelt sich nicht um Wett- oder Anlageempfehlungen. Für Inhalte verlinkter externer Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
+  <p><strong>Datenschutz.</strong> Der Betreiber von COURTSIDE erhebt, speichert und verarbeitet keine personenbezogenen Daten. Es gibt keine Cookies, kein Tracking, keine Analyse- oder Werbedienste, keine Registrierung, keine Formulare und keine Kommentarfunktion. Persönliche Anzeigeeinstellungen (Hell/Dunkel, Spoiler-Schutz, Homescreen-Hinweis) werden nur lokal in Ihrem Browser (localStorage) abgelegt, nie übermittelt und lassen sich jederzeit über die Browsereinstellungen löschen.
+  Technisch bedingt gilt: Die Seite wird bei Netlify gehostet; beim Aufruf verarbeitet der Hoster die für die Auslieferung und Absicherung notwendigen Verbindungsdaten (z.&nbsp;B. IP-Adresse, Zeitpunkt, angefragte Seite) in Server-Protokollen (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO). Schriftarten werden direkt von dieser Seite ausgeliefert, es besteht keine Verbindung zu Google. Lediglich die Team-Logos werden vom Server der NBA (cdn.nba.com) geladen; dabei wird Ihre IP-Adresse technisch notwendig an diesen Anbieter übermittelt. Der Betreiber hat auf diese Daten keinen Zugriff und wertet sie nicht aus.</p>
+  <p><strong>KI-Transparenz.</strong> Sämtliche Texte von COURTSIDE werden automatisiert mit dem KI-System Claude (Anthropic) erstellt und vor der Veröffentlichung nicht von einem Menschen redigiert. Zahlen und Ergebnisse stammen aus den jeweils verlinkten Quellen; maßgeblich sind die Originalquellen.</p>
+</details>
+  </footer>
+</div>
+<dialog id="minute" class="minute" aria-labelledby="minute-t">
   <div class="minute-head">
     <span class="mh-brand"><svg class="mark-s" viewBox="0 0 100 100" aria-hidden="true" style="display:inline-block;width:22px;height:22px;vertical-align:-6px">
   <circle cx="50" cy="50" r="46" fill="#e0662a" stroke="#1c1a16" stroke-width="4"/>
@@ -138,555 +776,6 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
   if(location.hash==='#1minute') open();
 })();
 </script>
-  
-
-  
-  <details class="rewatch">
-    <summary><span class="badge">Re-Watch-Tipp</span><span class="rw-t">Spoilerfrei · OKC @ CLE</span><span class="rw-arr" aria-hidden="true">▾</span></summary>
-    <div class="rw-body">
-      <div class="logos"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="Oklahoma City Thunder"> @ <img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="Cleveland Cavaliers"></div>
-      <p>Zwei Teams, die sich letzte Saison bis in die Conference Finals gespielt haben, und ein Spiel, das nie zur Ruhe kommt: über 20 Führungswechsel, ein Schlussviertel als Pingpong-Match. Dazu ein Superstar, der so viele Würfe nimmt wie selten zuvor in seiner Karriere, und ein Rookie, der bei seiner ersten Startaufstellung keine Scheu zeigt. Ideal, wenn ihr 48 Minuten Spannung bis zur letzten Minute wollt. <em>Tipp: Oben „Spoiler-Schutz“ aktivieren, dann bleiben alle Ergebnisse verdeckt.</em></p>
-    </div>
-  </details>
-  
-
-  <div class="lead-grid">
-    <article class="lead spoil">
-      <div class="kick">Pelicans – Grizzlies · West</div>
-      <h2>Die Serie reißt bei sechs – New Orleans stoppt Memphis</h2>
-      <div class="lead-logos"><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="New Orleans Pelicans"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="Memphis Grizzlies"></div>
-      <p class="teaser">Der Rekordstart ist dahin: Die Grizzlies verlieren nach Verlängerung 134:135 gegen New Orleans, obwohl Ty Jerome mit 40 Punkten fast im Alleingang die Wende schafft.</p>
-      <div class="body"><p>Sieben Siege zum Auftakt hätte es in der Geschichte der <strong>Memphis Grizzlies</strong> noch nie gegeben. Mit sechs hatte das Team den Klubrekord bereits egalisiert, gegen die bis dahin enttäuschenden Pelicans sollte am Montag der nächste Schritt folgen. Es kam anders: <strong>135:134 nach Verlängerung</strong> für New Orleans – und Memphis steht nach der ersten Saisonniederlage bei 6-1.</p><p>Die Pelicans führten das gesamte Schlussviertel lang, 2:36 Minuten vor dem Ende traf <strong>Karlo Matković</strong> per Dreier zum 124:115. Dann begann die <strong>Ty-Jerome-Show</strong>: Der Guard erzielte neun Punkte in Serie, ein 9:0-Lauf rettete Memphis in die Overtime. Auch dort war Jerome kaum zu halten, acht der zehn Grizzlies-Punkte gingen auf sein Konto. Am Ende standen <strong>40 Punkte</strong> neben seinem Namen – mehr als jeder andere Spieler auf dem Feld.</p><p>Entschieden wurde die Partie in der letzten Minute durch Hartnäckigkeit. Zion Williamson vergab beim Stand von minus eins einen Wurf, Saddiq Bey holte den Rebound, Rookie <strong>Jeremiah Fears</strong> spitzelte den Ball frei, sicherte ihn und wurde beim Wurf gefoult. Zwei Freiwürfe, Führung. Jeromes letzter Versuch prallte ab. Fears stand an diesem Abend übrigens 30-mal an der Linie und traf 25 – eine Quote, die bei so vielen Versuchen bemerkenswert ist.</p><p>Bei New Orleans teilten sich <strong>Williamson</strong> (25 Punkte, 11 Rebounds, davon neun Punkte in der Verlängerung) und der Kroate <strong>Matković</strong> (25) die Topscorer-Rolle, Derik Queen kam von der Bank auf 20 Punkte, 7 Rebounds und 5 Assists. Trey Murphy III und Bey steuerten je 18 bei. Bei Memphis lieferte Rookie Cameron Boozer 18 Punkte, 9 Rebounds und 5 Assists.</p><p>Die Einordnung: Für Memphis ist die Niederlage ein Schönheitsfehler, mehr nicht – das Team bleibt Zweiter im Westen, nur Houston (7-1) hat eine bessere Quote. Spannender ist die Kurve der Pelicans: Nach 0-4 haben sie nun dreimal in Folge gewonnen und stehen bei 3-4. In der Nacht auf Donnerstag empfängt New Orleans Utah, Memphis hat Indiana zu Gast.</p></div>
-    </article>
-    <aside class="side">
-      
-      <div class="box">
-        <h4>Die Nacht in 30 Sekunden</h4>
-        <ul><li><strong>15 Spiele</strong> – alle 30 Teams waren im Einsatz.</li><li><strong>Memphis</strong> kassiert die erste Niederlage, nach Verlängerung.</li><li><strong>Sacramento</strong> gewinnt endlich – kein Team ist mehr sieglos.</li><li><strong>Gilgeous-Alexander</strong> mit Saisonbestwert 43.</li><li><strong>Houston und Philadelphia</strong> jetzt 7-1.</li><li><strong>Pöltl</strong> fehlt das zweite Spiel in Folge.</li></ul>
-      </div>
-      
-      <div class="box">
-        <h4>Spieler der Nacht</h4>
-        <ul><li><strong>Shai Gilgeous-Alexander</strong> (OKC): 43 Punkte, Siegtreffer in Cleveland.</li><li><strong>Luka Dončić</strong> (LAL): 42 Punkte, 13 Assists, 7 Rebounds.</li><li><strong>Ty Jerome</strong> (MEM): 40 Punkte – trotz Niederlage.</li><li><strong>LaMelo Ball</strong> (MIN): 34 Punkte, 6 Dreier gegen Milwaukee.</li></ul>
-      </div>
-      
-    </aside>
-  </div>
-
-  
-  <section class="sec" id="ergebnisse">
-    <h2 class="sec-h">Ergebnisse · Nacht auf Dienstag</h2>
-    <div class="spoil-note">Spoiler-Schutz aktiv – Ergebnisse und Spielberichte sind verdeckt.</div>
-    <div class="scores">
-      
-      
-      <div class="game">
-        <div class="tag">West</div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt=""><span>Pelicans<span class="rec spoil">3-4</span></span><span class="pts">135</span></div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt=""><span>Grizzlies<span class="rec spoil">6-1</span></span><span class="pts">134</span></div>
-        <div class="star spoil"><b>n. V.</b> · Williamson 25/11, Matković 25, Queen 20/7/5, Murphy III &amp; Bey je 18 · <b>Jerome 40</b>, Boozer 18/9/5.</div>
-        <div class="glinks"><a href="https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/boxscore/_/gameId/401909914" target="_blank" rel="noopener">Boxscore ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Interconf.</div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt=""><span>Thunder<span class="rec spoil">5-2</span></span><span class="pts">117</span></div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt=""><span>Cavaliers<span class="rec spoil">4-3</span></span><span class="pts">112</span></div>
-        <div class="star spoil"><b>Gilgeous-Alexander 43</b> (Saisonbestwert), A. Mitchell 20, Hartenstein 11 Reb · Thomas 17, D. Mitchell 17/11 Ast, Mobley 16.</div>
-        <div class="glinks"><a href="https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap?gameId=401909907" target="_blank" rel="noopener">Spielseite ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Ost</div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt=""><span>Pistons<span class="rec spoil">6-1</span></span><span class="pts">124</span></div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt=""><span>Hornets<span class="rec spoil">3-5</span></span><span class="pts">91</span></div>
-        <div class="star spoil"><b>Cunningham 33/7 Ast</b>, D. Robinson 24 (6 Dreier), A. Thompson 14 · Miller 17, Reid 13 – vierte Hornets-Pleite in Serie.</div>
-        <div class="glinks"><a href="https://www.theticket.com/2026/11/02/sharp-shooting-pistons-overwhelm-hornets-in-easy-win/" target="_blank" rel="noopener">Bericht ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Ost</div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt=""><span>Hawks<span class="rec spoil">4-4</span></span><span class="pts">108</span></div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt=""><span>Pacers<span class="rec spoil">2-6</span></span><span class="pts">104</span></div>
-        <div class="star spoil"><b>Alexander-Walker 34</b>, 15 Hawks-Dreier in Hälfte eins (Klubrekord egalisiert) · Indiana mit nur sechs einsatzfähigen Spielern.</div>
-        <div class="glinks"><a href="https://sports.yahoo.com/articles/hawks-escape-six-man-pacers-034921573.html" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.vavel.com/en-us/nba/2026/11/02/1277807-atlanta-hawks-vs-indiana-pacers-live-score-updates-nba.html" target="_blank" rel="noopener">Ticker ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Ost</div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt=""><span>Nets<span class="rec spoil">1-6</span></span><span class="pts">90</span></div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt=""><span>Knicks<span class="rec spoil">3-4</span></span><span class="pts">103</span></div>
-        <div class="star spoil">Knicks entscheiden das Derby im Schlussviertel, angetrieben von Hart und Anunoby · 15. Derbysieg in Folge gegen Brooklyn.</div>
-        <div class="glinks"><a href="https://www.espn.com/nba/recap/_/gameId/401909910" target="_blank" rel="noopener">Spielseite ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Ost</div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt=""><span>Wizards<span class="rec spoil">4-3</span></span><span class="pts">103</span></div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt=""><span>Magic<span class="rec spoil">2-5</span></span><span class="pts">94</span></div>
-        <div class="star spoil"><b>A. Davis 27</b>, Young, Dybantsa · F. Wagner 24/6 Ast (10/18 FG), Bane – Orlando zu Hause weiter sieglos.</div>
-        <div class="glinks"><a href="https://www.espn.com/nba/recap/_/gameId/401909911" target="_blank" rel="noopener">Spielseite ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Ost</div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt=""><span>Bulls<span class="rec spoil">1-6</span></span><span class="pts">107</span></div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt=""><span>76ers<span class="rec spoil">7-1</span></span><span class="pts">126</span></div>
-        <div class="star spoil"><b>Maxey 26</b> (15 im 4. Viertel), J. Brown 25/11, Edgecombe 21 (Saisonbestwert) · Embiid nach 25 Minuten geschont.</div>
-        <div class="glinks"><a href="https://metrophiladelphia.com/stories/sixers-bulls-defensive-switch-second-half,161573" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap?gameId=401909912" target="_blank" rel="noopener">Spielseite ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">West</div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt=""><span>Kings<span class="rec spoil">1-6</span></span><span class="pts">115</span></div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt=""><span>Mavericks<span class="rec spoil">4-3</span></span><span class="pts">100</span></div>
-        <div class="star spoil"><b>Acuff Jr. 25/6 Ast</b>, Monk 24/7 Ast, LaVine 23 · 46 Kings-Bankpunkte – erster Saisonsieg.</div>
-        <div class="glinks"><a href="https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke" target="_blank" rel="noopener">Analyse ↗</a><a href="https://www.espn.com/nba/recap/_/gameId/401909913" target="_blank" rel="noopener">Spielseite ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Interconf.</div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt=""><span>Bucks<span class="rec spoil">1-6</span></span><span class="pts">100</span></div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt=""><span>Timberwolves<span class="rec spoil">5-3</span></span><span class="pts">112</span></div>
-        <div class="star spoil"><b>Ball 34</b> (6 Dreier), Dosunmu 19/12/8 · Herro 21, Jaquez Jr. 19/8.</div>
-        <div class="glinks"><a href="https://www.espn.com/nba/recap/_/gameId/401909915" target="_blank" rel="noopener">Spielseite ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Interconf.</div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt=""><span>Celtics<span class="rec spoil">5-2</span></span><span class="pts">93</span></div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt=""><span>Rockets<span class="rec spoil">7-1</span></span><span class="pts">109</span></div>
-        <div class="star spoil"><b>Şengün</b> führt Houston an · Boston im Back-to-back ohne Paul George, mit schwacher Quote – Serie endet bei fünf.</div>
-        <div class="glinks"><a href="https://www.vavel.com/en-us/nba/2026/11/02/1277767-boston-celtics-vs-houston-rockets-live-score-nba.html" target="_blank" rel="noopener">Ticker ↗</a><a href="https://www.espn.com/nba/boxscore/_/gameId/401909916" target="_blank" rel="noopener">Boxscore ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">West</div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt=""><span>Jazz<span class="rec spoil">1-6</span></span><span class="pts">97</span></div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt=""><span>Spurs<span class="rec spoil">5-2</span></span><span class="pts">119</span></div>
-        <div class="star spoil"><b>Harper 17</b>, Castle 16, K. Johnson 15, Wembanyama 12/11/3 Blk · Markkanen 22/8, Peterson 14.</div>
-        <div class="glinks"><a href="https://www.ksat.com/sports/2026/11/03/harper-wembanyama-lead-spurs-past-jazz-119-97-extend-winning-streak-to-5-games/" target="_blank" rel="noopener">Bericht ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">West</div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt=""><span>Trail Blazers<span class="rec spoil">5-1</span></span><span class="pts">118</span></div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt=""><span>Nuggets<span class="rec spoil">3-3</span></span><span class="pts">110</span></div>
-        <div class="star spoil"><b>Avdija 28</b>, Lillard 20, Clingan 17/18, Holiday 17/10 Ast · Murray 35, Jokić 26/9/8.</div>
-        <div class="glinks"><a href="https://www.thesportsleader.com/2026/11/02/blazers-storm-back-to-beat-nuggets-remain-perfect-on-the-road/" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap/_/gameId/401909918" target="_blank" rel="noopener">Spielseite ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">West</div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt=""><span>Suns<span class="rec spoil">1-4</span></span><span class="pts">113</span></div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt=""><span>Warriors<span class="rec spoil">5-3</span></span><span class="pts">116</span></div>
-        <div class="star spoil"><b>Curry 34/7 Ast</b>, Podziemski 20, Bassey 19 (Karrierebestwert) · Booker 26 (Foul-out), Bridges 21 – Green ausgeschlossen.</div>
-        <div class="glinks"><a href="https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/" target="_blank" rel="noopener">Bericht ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Interconf.</div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt=""><span>Raptors<span class="rec spoil">4-3</span></span><span class="pts">125</span></div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt=""><span>Clippers<span class="rec spoil">1-6</span></span><span class="pts">118</span></div>
-        <div class="star spoil">Toronto dreht ein 16-Punkte-Minus, erst in den letzten zwei Minuten erstmals vorne · ohne Pöltl &amp; Leonard – Clippers sechste Pleite in Serie.</div>
-        <div class="glinks"><a href="https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers" target="_blank" rel="noopener">Analyse ↗</a><a href="https://www.espn.com/nba/boxscore/_/gameId/401909920" target="_blank" rel="noopener">Boxscore ↗</a></div>
-      </div>
-      
-      
-      <div class="game">
-        <div class="tag">Interconf.</div>
-        <div class="row l"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt=""><span>Heat<span class="rec spoil">2-5</span></span><span class="pts">117</span></div>
-        <div class="row "><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt=""><span>Lakers<span class="rec spoil">6-2</span></span><span class="pts">138</span></div>
-        <div class="star spoil"><b>Dončić 42/7/13</b>, Reaves 27, Kessler 15/15, Mamukelashvili 15 · Lakers mit Saisonbestwert und 57 % aus dem Feld.</div>
-        <div class="glinks"><a href="https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html" target="_blank" rel="noopener">Bericht ↗</a><a href="https://www.espn.com/nba/recap?gameId=401909921" target="_blank" rel="noopener">Spielseite ↗</a></div>
-      </div>
-      
-    </div>
-  </section>
-  
-
-  
-  <section class="sec spoil">
-    <h2 class="sec-h">Die Geschichten der Nacht</h2>
-    <div class="stories">
-      
-      <article class="story">
-        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="Oklahoma City Thunder">
-        <div class="kick">Thunder · Antwort</div>
-        <h3>35 Würfe, 43 Punkte, ein Sieg</h3>
-        <p>Drei Auswärtsspiele seit den schweren Verletzungen von Chet Holmgren, Jalen Williams und Cason Wallace – die ersten zwei gingen verloren. In Cleveland nahm <strong>Shai Gilgeous-Alexander</strong> die Sache selbst in die Hand: 43 Punkte, Saisonbestwert, und das bei 35 Wurfversuchen, so vielen wie nie zuvor in seiner Karriere.</p><p>Das Schlussviertel war ein Schlagabtausch mit acht Gleichständen und acht Führungswechseln, im ganzen Spiel wechselte die Führung 23-mal. 33 Sekunden vor dem Ende traf SGA aus gut sieben Metern über Sam Merrill zum 115:112, Ajay Mitchell (20) machte an der Linie alles klar. Bei Cleveland glänzte Rookie Meleek Thomas bei seinem ersten Start mit 17 Punkten. Schon am Mittwoch gibt es das Rückspiel in Oklahoma City.</p>
-      </article>
-      
-      <article class="story">
-        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="Sacramento Kings">
-        <div class="kick">Kings · Erlösung</div>
-        <h3>Null ist Geschichte</h3>
-        <p>Nach Brooklyn am Sonntag hat nun auch das letzte sieglose Team gewonnen: Die <strong>Sacramento Kings</strong> setzten sich 115:100 in Dallas durch. Rookie <strong>Darius Acuff Jr.</strong> erzielte 25 Punkte und 6 Assists, Malik Monk kam von der Bank auf 24 Punkte, Zach LaVine traf fünf von neun Dreiern und kam auf 23.</p><p>Den Unterschied machte die Bank: 46 Punkte, fast 60 Prozent Trefferquote. Leaky Black glänzte mit vier Steals. Für Dallas ist die Heimpleite gegen das bisherige Schlusslicht ein Dämpfer – die Mavericks stehen bei 4-3 und reisen als Nächstes nach San Antonio.</p>
-      </article>
-      
-      <article class="story">
-        <img class="logo-s" src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="Golden State Warriors">
-        <div class="kick">Warriors · Hitzige Nacht</div>
-        <h3>Curry ist zurück, Green muss gehen</h3>
-        <p>Nach einem Spiel Schonpause meldete sich <strong>Stephen Curry</strong> mit 34 Punkten, 7 Assists und 11 von 12 Freiwürfen zurück – Golden State gewann 116:113 gegen Phoenix und hat nach dem 0-3-Start nun fünfmal in Serie gewonnen. Charles Bassey überraschte mit 19 Punkten (Karrierebestwert), Lendeborg legte 16 nach.</p><p>Ruhig war der Abend nicht: <strong>Draymond Green</strong> flog Anfang des dritten Viertels nach zwei Technischen Fouls, nachdem er sich mit Khaman Maluach und Dillon Brooks angelegt hatte. Auch Miles Bridges kassierte ein Technisches. Devin Booker (26) foulte 58 Sekunden vor Schluss aus. Die Suns führten zur Pause noch 57:51, ehe ein 12:0-Lauf der Warriors die Wende brachte.</p>
-      </article>
-      
-    </div>
-  </section>
-  
-
-  
-  <section class="sec spoil" id="europa">
-    <h2 class="sec-h">Europa-Ecke</h2>
-    <div class="europe">
-      
-      <div class="eu">
-        <div class="who"><span>🇦🇹</span><span>Jakob Pöltl</span><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors"></div>
-        <div class="stat">Ausfall · Schulter-Bursitis</div>
-        <p>Der Wiener verpasste mit einer Schleimbeutelentzündung in der linken Schulter das zweite Spiel in Folge, ein Rückkehrdatum gibt es nicht. Toronto half sich mit Collin Murray-Boyles als kleinem Center – und gewann trotzdem. Nächster Termin: Nacht auf Donnerstag, 03:00 Uhr, in Denver.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇩🇪</span><span>Franz Wagner</span><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="Orlando Magic"></div>
-        <div class="stat">24 Pkt · 6 Ast · 3 Reb</div>
-        <p>Die Antwort auf den 5-von-20-Abend gegen Boston: 10 von 18 aus dem Feld, Teambestwert. Gegen Washington reichte es trotzdem nicht, Orlando ist zu Hause weiter ohne Sieg.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇩🇪</span><span>Tristan da Silva</span><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="Orlando Magic"></div>
-        <div class="stat">Dreier im Schlussviertel</div>
-        <p>Da Silva brachte Orlando mit einem Dreier und einem Step-back-Jumper zu Beginn des vierten Viertels noch einmal heran – die Wende blieb aus.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇩🇪</span><span>Isaiah Hartenstein</span><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="Oklahoma City Thunder"></div>
-        <div class="stat">11 Reb in 14 Min</div>
-        <p>Kurze Einsatzzeit, große Wirkung am Brett beim Thunder-Sieg in Cleveland.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇩🇪</span><span>Moritz Wagner</span><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="Brooklyn Nets"></div>
-        <div class="stat">Derby-Niederlage</div>
-        <p>Wagner punktete früh im ersten Viertel, gegen die Knicks verloren die Nets aber erneut – Derbypleite Nummer 15 in Serie.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇸🇮</span><span>Luka Dončić</span><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="Los Angeles Lakers"></div>
-        <div class="stat">42 Pkt · 13 Ast · 7 Reb</div>
-        <p>14 von 24 aus dem Feld, Saisonbestwert bei den Assists – das vierte 40-Punkte-Spiel in den letzten fünf Partien.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇷🇸</span><span>Nikola Jokić</span><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="Denver Nuggets"></div>
-        <div class="stat">26 Pkt · 9 Reb · 8 Ast</div>
-        <p>Knapp am Triple-Double vorbei – und Denver verspielte gegen Portland eine 14-Punkte-Führung.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇭🇷</span><span>Karlo Matković</span><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="New Orleans Pelicans"></div>
-        <div class="stat">25 Pkt · Sieg n. V.</div>
-        <p>Der Kroate teilte sich mit Zion Williamson die Topscorer-Rolle beim Ende der Memphis-Serie, sein Dreier zum 124:115 schien schon die Entscheidung.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇫🇮</span><span>Lauri Markkanen</span><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="Utah Jazz"></div>
-        <div class="stat">22 Pkt · 8 Reb</div>
-        <p>Bester Werfer auf dem Feld in San Antonio – Utah verlor trotzdem zum fünften Mal in Folge.</p>
-      </div>
-      
-      <div class="eu">
-        <div class="who"><span>🇫🇷</span><span>Victor Wembanyama</span><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="San Antonio Spurs"></div>
-        <div class="stat">12 Pkt · 11 Reb · 3 Blk</div>
-        <p>Ein ruhigerer Abend für den Franzosen, die Spurs gewannen dafür im Kollektiv – fünfter Sieg in Serie.</p>
-      </div>
-      
-    </div>
-  </section>
-  
-
-  
-
-  <section class="sec cols">
-    <div class="explain">
-      <h2 class="sec-h">Einordnung</h2>
-      <h3>Warum heute Nacht kein Ball fliegt</h3>
-      <p>Wer heute Nacht den League Pass öffnet, findet: nichts. Die NBA hat den <strong>Dienstag, 3. November</strong>, bewusst spielfrei gelassen – in den USA ist Wahltag, die Midterm Elections stehen an. Dafür war am Montag die ganze Liga im Einsatz: Alle 30 Teams spielten, 15 Partien an einem Abend.</p><p>Die Idee dahinter: Spieler, Trainer, Mitarbeiter und Fans sollen an diesem Tag Zeit haben, ihre Stimme abzugeben, statt zwischen Wahllokal und Arena entscheiden zu müssen. Die Liga plant den Wahltag deshalb gezielt spielfrei ein.</p><p><strong>Was bedeutet das sportlich?</strong> Für viele Teams ist es ein willkommener Ruhetag nach einem dichten Saisonstart. Boston, Toronto und Brooklyn etwa hatten am Sonntag und Montag ein Back-to-back – also zwei Spiele an aufeinanderfolgenden Tagen. Verletzte wie Jakob Pöltl gewinnen einen zusätzlichen Tag Erholung.</p><p>In der Nacht auf Donnerstag geht es dann mit 14 Spielen weiter, darunter das Ost-Gipfeltreffen Philadelphia gegen Detroit und das schnelle Wiedersehen von Cleveland und Oklahoma City.</p>
-    </div>
-    <div>
-      <h2 class="sec-h">News-Ticker</h2>
-      <ul class="news">
-        <li><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="Toronto Raptors"><span><strong>Jakob Pöltl</strong> fehlt mit einer Schleimbeutelentzündung (Bursitis) in der linken Schulter – das zweite Spiel in Folge, keine Prognose für die Rückkehr.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="Golden State Warriors"><span><strong>Draymond Green</strong> wurde gegen Phoenix nach zwei Technischen Fouls im dritten Viertel ausgeschlossen.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="Philadelphia 76ers"><span><strong>Joel Embiid</strong> wurde nach 25 Minuten zur Belastungssteuerung herausgenommen; die Sixers stehen bei 7-1.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="Indiana Pacers"><span>Die <strong>Pacers</strong> hatten in Atlanta nur sechs einsatzfähige Spieler – und verloren nur knapp mit 104:108.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="Charlotte Hornets"><span><strong>Coby White</strong> gab nach sieben Spielen Pause (Wade) sein Saisondebüt für Charlotte: 7 Punkte in knapp 16 Minuten.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="Cleveland Cavaliers"><span>Cleveland musste gegen OKC auf <strong>Peyton Watson</strong> (Oberschenkel) und <strong>Jaylon Tyson</strong> (Knöchel) verzichten.</span></li><li><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="Chicago Bulls"><span><strong>Dominick Barlow</strong> lässt eine Stressreaktion im unteren Rücken am Dienstag von einem Spezialisten untersuchen.</span></li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="sec" id="tabelle">
-    <h2 class="sec-h">Tabellen · Stand nach der Nacht auf Dienstag (sortiert nach Siegquote)</h2>
-    <div class="standings spoil">
-      
-      <table class="st">
-        <caption>Eastern Conference</caption>
-        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
-        <tbody>
-        
-          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers</td><td>7</td><td>1</td><td>0.875</td></tr>
-        
-          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</td><td>6</td><td>1</td><td>0.857</td></tr>
-        
-          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</td><td>5</td><td>2</td><td>0.714</td></tr>
-        
-          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers</td><td>4</td><td>3</td><td>0.571</td></tr>
-        
-          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors</td><td>4</td><td>3</td><td>0.571</td></tr>
-        
-          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</td><td>4</td><td>3</td><td>0.571</td></tr>
-        
-          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks</td><td>4</td><td>4</td><td>0.500</td></tr>
-        
-          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</td><td>3</td><td>4</td><td>0.429</td></tr>
-        
-          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets</td><td>3</td><td>5</td><td>0.375</td></tr>
-        
-          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic</td><td>2</td><td>5</td><td>0.286</td></tr>
-        
-          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat</td><td>2</td><td>5</td><td>0.286</td></tr>
-        
-          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers</td><td>2</td><td>6</td><td>0.250</td></tr>
-        
-          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-        </tbody>
-      </table>
-      
-      <table class="st">
-        <caption>Western Conference</caption>
-        <thead><tr><th>#</th><th>Team</th><th>S</th><th>N</th><th>%</th></tr></thead>
-        <tbody>
-        
-          <tr class=""><td class="n">1</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</td><td>7</td><td>1</td><td>0.875</td></tr>
-        
-          <tr class=""><td class="n">2</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</td><td>6</td><td>1</td><td>0.857</td></tr>
-        
-          <tr class=""><td class="n">3</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers</td><td>5</td><td>1</td><td>0.833</td></tr>
-        
-          <tr class=""><td class="n">4</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers</td><td>6</td><td>2</td><td>0.750</td></tr>
-        
-          <tr class=""><td class="n">5</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</td><td>5</td><td>2</td><td>0.714</td></tr>
-        
-          <tr class="cut6"><td class="n">6</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</td><td>5</td><td>2</td><td>0.714</td></tr>
-        
-          <tr class=""><td class="n">7</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves</td><td>5</td><td>3</td><td>0.625</td></tr>
-        
-          <tr class=""><td class="n">8</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</td><td>5</td><td>3</td><td>0.625</td></tr>
-        
-          <tr class=""><td class="n">9</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks</td><td>4</td><td>3</td><td>0.571</td></tr>
-        
-          <tr class="cut10"><td class="n">10</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</td><td>3</td><td>3</td><td>0.500</td></tr>
-        
-          <tr class=""><td class="n">11</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</td><td>3</td><td>4</td><td>0.429</td></tr>
-        
-          <tr class=""><td class="n">12</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</td><td>1</td><td>4</td><td>0.200</td></tr>
-        
-          <tr class=""><td class="n">13</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-          <tr class=""><td class="n">14</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-          <tr class=""><td class="n">15</td><td class="t"><img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</td><td>1</td><td>6</td><td>0.143</td></tr>
-        
-        </tbody>
-      </table>
-      
-    </div>
-    <div class="legend">Durchgezogene Linie: Platz 1–6 = fix in den Playoffs · gestrichelt: Platz 7–10 = Play-In-Turnier</div>
-  </section>
-
-  <section class="sec" id="vorschau">
-    <h2 class="sec-h">Vorschau · alle Zeiten Wiener Zeit</h2>
-    <div class="updays">
-      
-      <div class="upday">
-        <h4>Heute Nacht – Nacht auf Mittwoch: spielfrei (US-Wahltag)</h4>
-        
-      </div>
-      
-      <div class="upday">
-        <h4>Nacht auf Donnerstag (14 Spiele)</h4>
-        
-        <div class="up feat">
-          <span class="time">01:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg" alt="">76ers @ <img src="https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg" alt="">Pistons</span>
-          <span class="note"><strong>Spiel des Tages:</strong> Die beiden besten Teams des Ostens, 7-1 gegen 6-1.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">01:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg" alt="">Hawks @ <img src="https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg" alt="">Wizards</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">01:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg" alt="">Bucks @ <img src="https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg" alt="">Celtics</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">01:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg" alt="">Hornets @ <img src="https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg" alt="">Nets</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">01:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg" alt="">Bulls @ <img src="https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg" alt="">Knicks</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">02:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg" alt="">Pacers @ <img src="https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg" alt="">Grizzlies</span>
-          <span class="note">Memphis' erste Chance auf Wiedergutmachung.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">02:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg" alt="">Jazz @ <img src="https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg" alt="">Pelicans</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">02:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg" alt="">Cavaliers @ <img src="https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg" alt="">Thunder</span>
-          <span class="note">Rückspiel zwei Tage nach dem Krimi.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">02:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg" alt="">Timberwolves @ <img src="https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg" alt="">Rockets</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">03:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg" alt="">Raptors @ <img src="https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg" alt="">Nuggets</span>
-          <span class="note">Spielt Pöltl wieder?</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">03:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg" alt="">Trail Blazers @ <img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</span>
-          <span class="note">Portland auswärts noch makellos.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">03:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg" alt="">Mavericks @ <img src="https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg" alt="">Spurs</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">04:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg" alt="">Lakers @ <img src="https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg" alt="">Kings</span>
-          
-        </div>
-        
-        <div class="up ">
-          <span class="time">04:30</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat @ <img src="https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg" alt="">Clippers</span>
-          
-        </div>
-        
-      </div>
-      
-      <div class="upday">
-        <h4>Nacht auf Freitag (Auswahl)</h4>
-        
-        <div class="up ">
-          <span class="time">03:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg" alt="">Magic @ <img src="https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg" alt="">Suns</span>
-          <span class="note">Franz Wagner und da Silva in Arizona.</span>
-        </div>
-        
-        <div class="up ">
-          <span class="time">04:00</span>
-          <span class="m"><img src="https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg" alt="">Heat @ <img src="https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg" alt="">Warriors</span>
-          
-        </div>
-        
-      </div>
-      
-    </div>
-  </section>
-
-  <section class="sec">
-    <div class="gtk">
-      <div class="gtk-grid">
-        
-        <div class="gtk-item"><div class="n">6</div><h5>Rekord eingestellt, nicht gebrochen</h5><p>Mit sechs Siegen zum Start hatte Memphis den Klubrekord egalisiert – Nummer sieben blieb aus.</p></div>
-        
-        <div class="gtk-item"><div class="n">25/30</div><h5>Freiwurf-Marathon</h5><p>Pelicans-Rookie Jeremiah Fears stand 30-mal an der Linie und traf 25 Versuche.</p></div>
-        
-        <div class="gtk-item"><div class="n">35</div><h5>Würfe von SGA</h5><p>So viele Feldwurfversuche nahm Gilgeous-Alexander in Cleveland – Karrierehöchstwert und Saisonrekord der Liga.</p></div>
-        
-        <div class="gtk-item"><div class="n">23</div><h5>Führungswechsel</h5><p>So oft wechselte die Führung zwischen OKC und Cleveland, dazu kamen zehn Gleichstände.</p></div>
-        
-        <div class="gtk-item"><div class="n">15</div><h5>Dreier vor der Pause</h5><p>Atlanta traf gegen Indiana 15 Dreier in einer Hälfte und stellte damit den Klubrekord ein.</p></div>
-        
-        <div class="gtk-item"><div class="n">0</div><h5>Sieglose Teams</h5><p>Nach den ersten Siegen von Brooklyn und Sacramento hat jedes Team der Liga mindestens einmal gewonnen.</p></div>
-        
-      </div>
-    </div>
-  </section>
-
-  <section class="sec cols">
-    <div>
-      <h2 class="sec-h">Highlights &amp; Material</h2>
-      <ul class="links">
-        <li><a href="https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/" target="_blank" rel="noopener">Pelicans beenden die Memphis-Serie</a><span class="src">WXSM / AP</span></li><li><a href="https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/" target="_blank" rel="noopener">SGAs 43 in Cleveland</a><span class="src">The Sports Leader</span></li><li><a href="https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html" target="_blank" rel="noopener">Dončić gegen Miami</a><span class="src">Yahoo Sports</span></li><li><a href="https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/" target="_blank" rel="noopener">Warriors – Suns: drei Technische</a><span class="src">TSN / AP</span></li><li><a href="https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers" target="_blank" rel="noopener">3 Takeaways: Raptors-Comeback bei den Clippers</a><span class="src">SI / All Raptors</span></li><li><a href="https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke" target="_blank" rel="noopener">Warum der Kings-Sieg kein Zufall war</a><span class="src">SI / Kings On SI</span></li><li><a href="https://www.youtube.com/@NBA/videos" target="_blank" rel="noopener">Alle Highlights der Nacht</a><span class="src">YouTube · NBA</span><br><span style="color:var(--ink-2)">Offizieller NBA-Kanal.</span></li><li><a href="https://www.nba.com/watch/league-pass-stream" target="_blank" rel="noopener">Ganze Spiele im Replay</a><span class="src">NBA League Pass</span><br><span style="color:var(--ink-2)">Euer League Pass Premium: alle Spiele der Nacht auf Abruf.</span></li>
-      </ul>
-    </div>
-    <div>
-      <h2 class="sec-h">Kleines NBA-Glossar</h2>
-      <dl class="gloss">
-        <dt>Overtime</dt><dd>Verlängerung von fünf Minuten bei Gleichstand nach 48 Minuten – Memphis verlor die erste der Saison.</dd><dt>Technisches Foul</dt><dd>Strafe für Unsportlichkeit, etwa Proteste oder Rangeleien; zwei davon bedeuten den Ausschluss – wie bei Draymond Green.</dd><dt>Foul-out</dt><dd>Nach dem sechsten persönlichen Foul muss ein Spieler das Feld endgültig verlassen – so erging es Devin Booker.</dd><dt>Load Management</dt><dd>Gezielte Schonung eines Spielers zur Belastungssteuerung, auch ohne akute Verletzung – siehe Embiid.</dd><dt>Bursitis</dt><dd>Entzündung eines Schleimbeutels, der Gelenke polstert – Pöltls aktuelles Schulterproblem.</dd>
-      </dl>
-    </div>
-  </section>
-
-  <div class="hardwood"></div>
-  <footer>
-    <div class="pager">
-      <span><a href="../../ausgabe/2026-11-02/">← Vorherige Ausgabe</a></span>
-      <a href="../../archiv/">Archiv</a>
-      <span><a href="../../ausgabe/2026-11-04/">Nächste Ausgabe →</a></span>
-    </div>
-    <p>COURTSIDE erscheint täglich um 8:00 Uhr Wiener Zeit. Recherchiert und geschrieben von Claude für eine Runde basketballverrückter Freunde.</p>
-    <div class="srcs"><strong>Quellen dieser Ausgabe:</strong> <a href="https://www.espn.com/nba/scoreboard" target="_blank" rel="noopener">ESPN: Scoreboard 2. November 2026</a> · <a href="https://www.640wxsm.com/2026/11/02/pelicans-hand-grizzlies-their-first-loss-with-ot-victory/" target="_blank" rel="noopener">WXSM/AP: Pelicans – Grizzlies</a> · <a href="https://www.thesportsleader.com/2026/11/02/shai-gilgeous-alexander-scores-43-lifts-thunder-past-cavaliers/" target="_blank" rel="noopener">The Sports Leader: Thunder – Cavaliers</a> · <a href="https://www.theticket.com/2026/11/02/sharp-shooting-pistons-overwhelm-hornets-in-easy-win/" target="_blank" rel="noopener">The Ticket: Pistons – Hornets</a> · <a href="https://sports.yahoo.com/articles/hawks-escape-six-man-pacers-034921573.html" target="_blank" rel="noopener">Yahoo: Hawks – Pacers</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277807-atlanta-hawks-vs-indiana-pacers-live-score-updates-nba.html" target="_blank" rel="noopener">VAVEL: Hawks – Pacers</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277759-brooklyn-nets-vs-new-york-knicks-live-score-nba.html" target="_blank" rel="noopener">VAVEL: Nets – Knicks</a> · <a href="https://www.cbssports.com/nba/gametracker/recap/NBA_20261102_BKN@NY/" target="_blank" rel="noopener">CBS Sports: Nets – Knicks</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277808-washington-wizards-vs-orlando-magic-live-score-updates-nba.html" target="_blank" rel="noopener">VAVEL: Wizards – Magic</a> · <a href="https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-02/franz-wagner-has-24-3-6-line-in-loss-to-wizards" target="_blank" rel="noopener">NBC Sports: Franz Wagner</a> · <a href="https://metrophiladelphia.com/stories/sixers-bulls-defensive-switch-second-half,161573" target="_blank" rel="noopener">Metro Philadelphia: Sixers – Bulls</a> · <a href="https://www.si.com/nba/kings/onsi/why-the-kings-first-win-of-the-year-over-mavericks-wasn-t-a-fluke" target="_blank" rel="noopener">SI: Kings – Mavericks</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277763-milwaukee-bucks-vs-minnesota-timberwolves-live-score-nba.html" target="_blank" rel="noopener">VAVEL: Bucks – Timberwolves</a> · <a href="https://www.vavel.com/en-us/nba/2026/11/02/1277767-boston-celtics-vs-houston-rockets-live-score-nba.html" target="_blank" rel="noopener">VAVEL/NBC Sports Boston: Celtics – Rockets</a> · <a href="https://www.ksat.com/sports/2026/11/03/harper-wembanyama-lead-spurs-past-jazz-119-97-extend-winning-streak-to-5-games/" target="_blank" rel="noopener">KSAT/AP: Jazz – Spurs</a> · <a href="https://www.thesportsleader.com/2026/11/02/blazers-storm-back-to-beat-nuggets-remain-perfect-on-the-road/" target="_blank" rel="noopener">The Sports Leader: Blazers – Nuggets</a> · <a href="https://www.tsn.ca/nba/article/curry-warriors-hold-off-suns-in-testy-game-with-three-technicals/" target="_blank" rel="noopener">TSN/AP: Suns – Warriors</a> · <a href="https://www.si.com/nba/raptors/onsi/3-takeaways-in-raptors-comeback-win-vs-clippers" target="_blank" rel="noopener">SI: Raptors – Clippers</a> · <a href="https://www.cbssports.com/fantasy/basketball/news/raptors-jakob-poeltl-missing-second-straight-game-monday/" target="_blank" rel="noopener">CBS Sports: Pöltl fehlt erneut</a> · <a href="https://sports.yahoo.com/articles/luka-don-continues-historic-start-054118556.html" target="_blank" rel="noopener">Yahoo: Lakers – Heat</a> · <a href="https://www.espn.com/nba/schedule" target="_blank" rel="noopener">ESPN: NBA-Spielplan</a> · <a href="https://sports.yahoo.com/articles/nba-schedule-includes-no-games-105626282.html" target="_blank" rel="noopener">Yahoo: Keine NBA-Spiele am Wahltag</a> · <a href="https://courtside.hobiger.cc" target="_blank" rel="noopener">COURTSIDE Nr. 3: Tabelle Nacht auf Montag</a></div>
-    <div class="legal">
-  <p><strong>Privates, nichtkommerzielles Projekt.</strong> COURTSIDE ist ein rein privates Hobbyprojekt für einen persönlichen Freundeskreis. Es verfolgt keinerlei Erwerbszweck, enthält keine Werbung, keine Affiliate- oder Sponsoring-Links und keine bezahlten Inhalte und erzielt keine Einnahmen. COURTSIDE steht in keiner Verbindung zur NBA, ihren Teams oder Partnern und ist kein offizielles NBA-Produkt. Team-Namen und -Logos sind Marken der jeweiligen Inhaber und werden ausschließlich zur Kennzeichnung der Teams verwendet.</p>
-  <p><strong>Haftung.</strong> Die Inhalte dienen allein der Information und Unterhaltung. Sie werden sorgfältig recherchiert, eine Gewähr für Richtigkeit, Vollständigkeit und Aktualität wird jedoch nicht übernommen. Es handelt sich nicht um Wett- oder Anlageempfehlungen. Für Inhalte verlinkter externer Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
-  <p><strong>Datenschutz.</strong> Der Betreiber von COURTSIDE erhebt, speichert und verarbeitet keine personenbezogenen Daten. Es gibt keine Cookies, kein Tracking, keine Analyse- oder Werbedienste, keine Registrierung, keine Formulare und keine Kommentarfunktion. Persönliche Anzeigeeinstellungen (Hell/Dunkel, Spoiler-Schutz, Homescreen-Hinweis) werden nur lokal in Ihrem Browser (localStorage) abgelegt, nie übermittelt und lassen sich jederzeit über die Browsereinstellungen löschen.
-  Technisch bedingt gilt: Die Seite wird bei Netlify gehostet; beim Aufruf verarbeitet der Hoster die für die Auslieferung und Absicherung notwendigen Verbindungsdaten (z.&nbsp;B. IP-Adresse, Zeitpunkt, angefragte Seite) in Server-Protokollen (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO). Schriftarten werden direkt von dieser Seite ausgeliefert, es besteht keine Verbindung zu Google. Lediglich die Team-Logos werden vom Server der NBA (cdn.nba.com) geladen; dabei wird Ihre IP-Adresse technisch notwendig an diesen Anbieter übermittelt. Der Betreiber hat auf diese Daten keinen Zugriff und wertet sie nicht aus.</p>
-</div>
-  </footer>
-</div>
 <script>
 (function(){
   var b=document.body, sb=document.getElementById('spoilerBtn'), tb=document.getElementById('themeBtn');
@@ -698,6 +787,10 @@ try{var t=localStorage.getItem('cs-theme');if(t)document.documentElement.setAttr
     if(!cur){cur=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}
     var n=cur==='dark'?'light':'dark'; r.setAttribute('data-theme',n); try{localStorage.setItem('cs-theme',n)}catch(e){}
   });
+  var tabs=document.querySelectorAll('[data-tab]'), st=document.querySelector('.standings');
+  function tab(k){tabs.forEach(function(t){t.setAttribute('aria-selected',t.dataset.tab===k?'true':'false')});st.setAttribute('data-show',k)}
+  tabs.forEach(function(t){t.addEventListener('click',function(){tab(t.dataset.tab)})});
+  if(st) tab('east');
 })();
 </script>
 <div id="a2hs" class="a2hs" role="dialog" aria-labelledby="a2hs-t" hidden>

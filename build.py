@@ -69,7 +69,7 @@ def words(issue):
             for i in x: walk(i)
         elif isinstance(x, dict):
             for k, v in x.items():
-                if k not in ("url", "away", "home", "team", "standings", "minute"):
+                if k not in ("url", "away", "home", "team", "standings", "minute", "week"):
                     walk(v)
     walk(issue)
     return n
