@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-06",
+  "issue_no": 7,
+  "weekday": "Freitag",
+  "date_long": "6. November 2026",
+  "edition_label": "Freitagsausgabe",
+  "period": "Nacht auf Freitag",
+  "tagline": "Curry zündet nach der Pause, Golden State gewinnt zum sechsten Mal in Serie – und heute Nacht ruft der NBA Cup, mit Pöltl in Milwaukee.",
+  "minute": [
+    "<strong>Warriors in Fahrt:</strong> 120:100 gegen Miami, sechster Sieg in Folge nach dem 0-3-Start – Stephen Curry mit 29 Punkten, 22 davon nach der Pause.",
+    "<strong>Giannis gebremst:</strong> Antetokounmpo kam für die Heat auf 20 Punkte und 14 Rebounds, nach der Pause aber nur noch auf 4 Zähler.",
+    "<strong>Suns-Serie gerissen:</strong> Phoenix beendet mit dem 117:104 gegen Orlando eine Pleitenserie von vier Spielen, Devin Booker trifft 30 Punkte.",
+    "<strong>Wagner verteilt:</strong> Franz Wagner mit 15 Punkten und 15 Assists, Tristan da Silva mit 18 – doch 25 Ballverluste kosten Orlando das Spiel.",
+    "<strong>Magic im Tief:</strong> Dritte Niederlage in Folge, 2-6 und wieder ohne Paolo Banchero und Jalen Suggs.",
+    "<strong>Cup-Nacht:</strong> Heute neun Spiele im NBA Cup, darunter Pöltl mit Toronto in Milwaukee um 02:00 Uhr.",
+    "<strong>Spitzenspiel des Ostens:</strong> Tabellenführer Philadelphia gastiert um 01:30 Uhr in Cleveland."
+  ],
+  "rewatch": {
+    "away": "MIA",
+    "home": "GSW",
+    "why": "Zwei Teams mit Formkurve nach oben, Giannis Antetokounmpo im Heat-Trikot gegen Draymond Green, dazu ein Stephen Curry, der zwischen den Halbzeiten offenbar den Schalter sucht. Wer sehen will, wie viel ein Halbzeitwechsel in der Defensive ausmachen kann, schaut sich vor allem das dritte Viertel genau an."
+  },
+  "lead": {
+    "kicker": "Heat – Warriors 100:120",
+    "title": "Curry dreht die zweite Halbzeit auf",
+    "teams": ["GSW", "MIA"],
+    "teaser": "Nach dem Fehlstart mit drei Niederlagen haben die Warriors seither nicht mehr verloren: Das 120:100 gegen Miami war Sieg Nummer sechs am Stück – angetrieben von einem Stephen Curry, der erst nach der Pause richtig loslegte.",
+    "body": [
+      "Zur Pause sah es noch nach einem engen Abend aus. Dann kam das dritte Viertel, und die <strong>Golden State Warriors</strong> eröffneten es mit einem <strong>18:3-Lauf</strong>, an dem <strong>Stephen Curry</strong> allein 11 Punkte beteiligt war. Danach kam Miami nie wieder näher als zehn Punkte heran.",
+      "Curry beendete den Abend mit 29 Punkten bei 9 von 19 aus dem Feld und sechs Dreiern – 22 seiner Zähler erzielte er nach dem Seitenwechsel. Als das Spiel entschieden war, durfte er sich auf der Bank ausruhen. Draymond Green verteilte 11 Assists und war vor allem in der Defensive der Mann, der den Ton angab.",
+      "Denn der Plan gegen <strong>Giannis Antetokounmpo</strong> ging auf: Der Grieche kam auf 20 Punkte und 14 Rebounds, doch 16 seiner Punkte hatte er schon vor der Pause gesammelt. Danach schnürten die Warriors die Zone zu. Bester Heat-Werfer wurde Davion Mitchell (22 Punkte, 4 Dreier, 8 Assists), Bam Adebayo kam auf 18 Punkte und 10 Rebounds. Klay Thompson, bei seinem Ex-Klub zu Gast, traf nur 3 von 10 Würfen und kam auf 11 Punkte.",
+      "Auffällig war die Tiefe der Warriors: Die Bank steuerte <strong>53 Punkte</strong> bei. Yaxel Lendeborg glänzte mit 17 Punkten, 8 Rebounds, 6 Assists und 3 Steals, Georges Niang traf für 13. Miami wiederum spielte im Back-to-back – also am zweiten Abend in Folge –, nachdem es tags zuvor in Los Angeles einen Krimi gegen die Clippers gewonnen hatte.",
+      "Die Einordnung: Mit 6-3 sind die Warriors mitten im dichten Verfolgerfeld des Westens angekommen. Miami (3-6) muss nach vier Siegen aus fünf Spielen einen Rückschlag hinnehmen – die Reise an die Westküste ist noch nicht vorbei. Golden State empfängt in der Nacht auf Sonntag die Orlando Magic."
+    ]
+  },
+  "sidebar": [
+    {
+      "title": "Die Nacht in 30 Sekunden",
+      "items": [
+        "<strong>2 Spiele</strong>, zwei klare Heimsiege.",
+        "<strong>GSW 6-3</strong> – sechs Siege in Serie.",
+        "<strong>PHX</strong> beendet eine Serie von vier Pleiten.",
+        "<strong>ORL</strong> mit 25 Ballverlusten, dritte Niederlage in Folge.",
+        "<strong>Heute:</strong> neun Cup-Spiele."
+      ]
+    },
+    {
+      "title": "Spieler der Nacht",
+      "items": [
+        "<strong>Stephen Curry</strong> (GSW): 29 Punkte, 6 Dreier, 22 Punkte nach der Pause.",
+        "<strong>Devin Booker</strong> (PHX): 30 Punkte, Saisonbestwert mit 4 Dreiern.",
+        "<strong>Wendell Carter Jr.</strong> (ORL): 27 Punkte und 13 Rebounds in der Niederlage.",
+        "<strong>Franz Wagner</strong> (ORL): 15 Punkte, 8 Rebounds, 15 Assists."
+      ]
+    }
+  ],
+  "games": [
+    {
+      "tag": "Wagner-Spiel",
+      "away": "ORL",
+      "home": "PHX",
+      "away_score": 104,
+      "home_score": 117,
+      "away_record": "2-6",
+      "home_record": "2-5",
+      "line": "<strong>Wendell Carter Jr.</strong> 27/13, da Silva 18, F. Wagner 15/8/15 Ast, Bane 15 – <strong>Devin Booker</strong> 30, Dillon Brooks 24, Miles Bridges 18/13.",
+      "links": [
+        {"label": "Recap", "url": "https://www.953thescore.com/2026/11/05/devin-booker-sharp-shooting-suns-overpower-magic/"},
+        {"label": "VAVEL", "url": "https://www.vavel.com/en-us/nba/2026/11/05/1278163-magic-vs-suns-live-score-nba-regular-season.html"}
+      ]
+    },
+    {
+      "tag": "Spiel der Nacht",
+      "away": "MIA",
+      "home": "GSW",
+      "away_score": 100,
+      "home_score": 120,
+      "away_record": "3-6",
+      "home_record": "6-3",
+      "line": "<strong>Davion Mitchell</strong> 22, Giannis Antetokounmpo 20/14, Adebayo 18/10 – <strong>Stephen Curry</strong> 29 (6 Dreier), Lendeborg 17/8/6, Green 11 Ast.",
+      "links": [
+        {"label": "Recap", "url": "https://www.thesportsleader.com/2026/11/05/stephen-curry-29-warriors-handle-heat-for-sixth-straight-win/"},
+        {"label": "Boxscore", "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261105_MIA@GS/"}
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "team": "PHX",
+      "kicker": "Magic – Suns 104:117",
+      "title": "Phoenix findet den Notausgang",
+      "body": [
+        "Vier Niederlagen in Folge, zuletzt zweimal ausgefoult – Devin Booker hatte eine unruhige Woche hinter sich. Gegen Orlando lieferte er 30 Punkte und traf vier Dreier, so viele wie noch nie in dieser Saison. Dillon Brooks (24) und Miles Bridges (18 Punkte, Saisonbestwert von 13 Rebounds) halfen kräftig mit.",
+        "Trainerseitig gab es die erste Umstellung der Saison: Oso Ighodaro startete statt Khaman Maluach als Center. Phoenix traf 17 von 34 Dreiern, die Bank kam auf 37 Punkte, und im dritten Viertel zogen die Suns mit einem 29:16 auf 96:73 davon. Die Führung wuchs später auf 30 Punkte – so hoch wie noch nie in dieser Saison."
+      ]
+    },
+    {
+      "team": "ORL",
+      "kicker": "Magic · Ballverlust-Krise",
+      "title": "25 Geschenke sind zu viele",
+      "body": [
+        "Statistisch hatte Orlando eigentlich gute Karten: 48:33 Rebounds zugunsten der Magic. Doch <strong>25 Ballverluste</strong> – zwölf davon schon vor der Pause – verwandelte Phoenix in 36 Punkte. Da hilft auch eine Rebound-Dominanz nichts.",
+        "Für die deutsche Fraktion gab es Lichtblicke: <strong>Tristan da Silva</strong> kam auf 18 Punkte, <strong>Franz Wagner</strong> spielte mit 15 Assists den Spielmacher. Ohne Paolo Banchero und Jalen Suggs (Knöchel, viertes Spiel in Folge) fehlt aber Substanz. Mit 2-6 steht Orlando im Osten weit hinten – und die Westküsten-Tour geht in der Nacht auf Sonntag in San Francisco weiter."
+      ]
+    },
+    {
+      "team": "TOR",
+      "kicker": "NBA Cup · Gruppe Ost A",
+      "title": "Pöltl und die Cup-Nacht in Milwaukee",
+      "body": [
+        "Heute ist Cup-Abend: Neun Spiele zählen doppelt, nämlich für die normale Tabelle und für die Gruppenphase des <strong>NBA Cups</strong>. Toronto trifft um 02:00 Uhr Wiener Zeit in Milwaukee auf Bucks, die mit 1-7 im Keller des Ostens stehen.",
+        "Für <strong>Jakob Pöltl</strong> ist es das zweite Spiel nach seiner Schulterpause – in Denver kam er zuletzt knapp 19 Minuten von der Bank. Die Raptors (4-4) liegen in der Gruppe Ost A mit Detroit, Orlando, Milwaukee und Brooklyn. Gegen den Tabellenletzten ist ein Sieg Pflicht, wenn man im Rennen um das Viertelfinale bleiben will."
+      ]
+    }
+  ],
+  "europe": [
+    {
+      "flag": "🇦🇹",
+      "player": "Jakob Pöltl",
+      "team": "TOR",
+      "stat": "Heute 02:00 Uhr",
+      "text": "Toronto hatte frei. Heute Nacht wartet das Cup-Spiel in Milwaukee – das zweite Spiel des Wieners nach der Schulter-Bursitis."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Franz Wagner",
+      "team": "ORL",
+      "stat": "15 Pkt · 8 Reb · 15 Ast",
+      "text": "Als Spielmacher stark, doch das Team leistete sich 25 Ballverluste. Orlando verlor in Phoenix 104:117."
+    },
+    {
+      "flag": "🇩🇪",
+      "player": "Tristan da Silva",
+      "team": "ORL",
+      "stat": "18 Pkt",
+      "text": "Zweitbester Werfer der Magic hinter Wendell Carter Jr. – eine der wenigen guten Nachrichten des Abends."
+    },
+    {
+      "flag": "🇬🇷",
+      "player": "Giannis Antetokounmpo",
+      "team": "MIA",
+      "stat": "20 Pkt · 14 Reb",
+      "text": "16 Punkte in der ersten Hälfte, danach von Draymond Green und Co. weitgehend kaltgestellt."
+    },
+    {
+      "flag": "🇸🇪",
+      "player": "Pelle Larsson",
+      "team": "MIA",
+      "stat": "13 Pkt",
+      "text": "Der Schwede punktete zweistellig, konnte die klare Niederlage in San Francisco aber nicht verhindern."
+    }
+  ],
+  "explainer": {
+    "title": "Cup-Freitag: Warum heute jedes Spiel zweimal zählt",
+    "body": [
+      "Der <strong>NBA Cup</strong> ist ein Turnier mitten in der regulären Saison. Die 30 Teams sind in sechs Fünfergruppen eingeteilt, drei pro Conference. Jedes Team bestreitet vier Gruppenspiele, und diese finden an festen Cup-Abenden statt – im November meist freitags. Heute ist so ein Abend.",
+      "Jedes Cup-Spiel zählt ganz normal für die Saisonbilanz. Zusätzlich fließt es in die Gruppentabelle ein. Ins Viertelfinale kommen die sechs Gruppensieger und pro Conference der Gruppenzweite mit der besten Bilanz, die sogenannte <strong>Wildcard</strong>.",
+      "Weil bei vier Spielen oft mehrere Teams gleichauf liegen, zählt bei Gleichstand nach dem direkten Vergleich die <strong>Punktedifferenz</strong>. Deshalb sieht man in Cup-Spielen manchmal, dass Teams auch bei klarer Führung bis zur letzten Sekunde Vollgas geben – jeder Punkt Abstand kann am Ende das Weiterkommen entscheiden.",
+      "Die K.-o.-Runde folgt im Dezember, das Finale ist das einzige Cup-Spiel, das nicht in die normale Saisonbilanz eingeht. Für Spieler gibt es zudem Preisgeld – ein Anreiz, der gerade bei Rotationsspielern mit kleineren Verträgen spürbar ist."
+    ]
+  },
+  "news": [
+    {"team": "GSW", "text": "Die <strong>Warriors</strong> haben seit ihrem 0-3-Start nicht mehr verloren – sechs Siege in Serie."},
+    {"team": "PHX", "text": "Phoenix startete erstmals in dieser Saison mit einer anderen Aufstellung: <strong>Oso Ighodaro</strong> ersetzte Khaman Maluach als Center."},
+    {"team": "ORL", "text": "<strong>Paolo Banchero</strong> fehlte erneut, <strong>Jalen Suggs</strong> verpasste das vierte Spiel in Folge (Knöchel). Anthony Black kehrte zurück."},
+    {"team": "MIA", "text": "Miami war im Back-to-back unterwegs: Tags zuvor hatte <strong>Klay Thompson</strong> den Sieg bei den Clippers mit einem Dreier in letzter Sekunde gesichert."},
+    {"team": "PHX", "text": "Die Suns gingen vor dem Spiel als schlechtestes Rebound-Team der Liga in die Partie – und verloren auch gegen Orlando das Rebound-Duell klar (33:48), gewannen aber trotzdem."},
+    {"team": "TOR", "text": "Toronto spielt heute in Milwaukee das zweite Gruppenspiel im NBA Cup."}
+  ],
+  "standings_note": "Stand nach der Nacht auf Freitag (sortiert nach Siegquote)",
+  "standings": {
+    "east": [
+      ["PHI", 8, 1], ["BOS", 6, 2], ["DET", 6, 2], ["ATL", 5, 4], ["CLE", 4, 4],
+      ["TOR", 4, 4], ["WAS", 4, 4], ["NYK", 4, 4], ["MIA", 3, 6], ["CHA", 3, 6],
+      ["IND", 3, 6], ["BKN", 2, 6], ["ORL", 2, 6], ["CHI", 1, 7], ["MIL", 1, 7]
+    ],
+    "west": [
+      ["POR", 6, 1], ["HOU", 7, 2], ["LAL", 7, 2], ["OKC", 6, 2], ["MEM", 6, 2],
+      ["SAS", 6, 2], ["MIN", 6, 3], ["GSW", 6, 3], ["DEN", 4, 3], ["DAL", 4, 4],
+      ["NOP", 4, 4], ["PHX", 2, 5], ["LAC", 1, 7], ["UTA", 1, 7], ["SAC", 1, 7]
+    ]
+  },
+  "upcoming": [
+    {
+      "label": "Heute Nacht – Nacht auf Samstag (9 Cup-Spiele)",
+      "games": [
+        {"time": "01:00", "away": "WAS", "home": "ATL", "note": "Cup-Gruppe Ost C."},
+        {"time": "01:00", "away": "BOS", "home": "CHA"},
+        {"time": "01:30", "away": "PHI", "home": "CLE", "note": "Tabellenführer Philadelphia (8-1) in Cleveland."},
+        {"time": "02:00", "away": "TOR", "home": "MIL", "featured": true, "note": "<strong>Spiel des Tages:</strong> Pöltl und die Raptors beim Ost-Schlusslicht – Cup-Gruppe Ost A."},
+        {"time": "02:00", "away": "UTA", "home": "DAL"},
+        {"time": "02:00", "away": "OKC", "home": "MEM", "note": "Zwei 6-2-Teams im direkten Duell."},
+        {"time": "02:00", "away": "MIN", "home": "NOP"},
+        {"time": "04:00", "away": "POR", "home": "LAL", "note": "Dončić gegen den Westen-Spitzenreiter."},
+        {"time": "04:00", "away": "SAS", "home": "SAC", "note": "Wembanyama nach seinem 52-Punkte-Abend."}
+      ]
+    },
+    {
+      "label": "Morgen – Nacht auf Sonntag",
+      "games": [
+        {"time": "23:00", "away": "DEN", "home": "IND", "note": "Nachmittagsspiel auf neutralem Parkett."},
+        {"time": "01:30", "away": "BKN", "home": "ATL"},
+        {"time": "02:00", "away": "NYK", "home": "CLE"},
+        {"time": "02:00", "away": "WAS", "home": "OKC"},
+        {"time": "02:30", "away": "ORL", "home": "GSW", "note": "Wagner und da Silva bei den heißen Warriors."},
+        {"time": "03:00", "away": "HOU", "home": "PHX"},
+        {"time": "04:00", "away": "SAS", "home": "POR"}
+      ]
+    }
+  ],
+  "goodtoknow": [
+    {"big": "6", "title": "Siege in Serie", "text": "So lange sind die Warriors nach ihrem 0-3-Start inzwischen ungeschlagen."},
+    {"big": "18:3", "title": "Lauf nach der Pause", "text": "Damit entschied Golden State das Spiel gegen Miami zu Beginn des dritten Viertels."},
+    {"big": "53", "title": "Bankpunkte", "text": "So viele Punkte steuerten die Warriors-Reservisten gegen Miami bei."},
+    {"big": "25", "title": "Ballverluste", "text": "Orlando verlor in Phoenix den Ball 25-mal, die Suns machten daraus 36 Punkte."},
+    {"big": "15", "title": "Assists Wagner", "text": "Franz Wagner als Spielmacher – dazu 15 Punkte und 8 Rebounds."},
+    {"big": "30", "title": "Punkte Vorsprung", "text": "Höchste Führung der Suns in dieser Saison, die alte Marke lag bei 17."}
+  ],
+  "links": [
+    {"title": "Curry führt Warriors zum sechsten Sieg", "src": "The Sports Leader", "url": "https://www.thesportsleader.com/2026/11/05/stephen-curry-29-warriors-handle-heat-for-sixth-straight-win/"},
+    {"title": "Booker und die Suns-Dreier", "src": "95.3 The Score", "url": "https://www.953thescore.com/2026/11/05/devin-booker-sharp-shooting-suns-overpower-magic/"},
+    {"title": "Warriors – Heat Boxscore", "src": "CBS Sports", "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261105_MIA@GS/"},
+    {"title": "Alle Highlights", "src": "YouTube · NBA", "url": "https://www.youtube.com/@NBA/videos", "note": "Offizieller NBA-Kanal mit den Clips beider Spiele."},
+    {"title": "Ganze Spiele im Replay", "src": "NBA League Pass", "url": "https://www.nba.com/watch/league-pass-stream", "note": "Für den Re-Watch-Tipp: Heat – Warriors."}
+  ],
+  "glossary": [
+    {"term": "Wildcard", "text": "Im NBA Cup: der beste Gruppenzweite jeder Conference, der zusätzlich ins Viertelfinale einzieht."},
+    {"term": "Punktedifferenz", "text": "Erzielte minus kassierte Punkte – im Cup ein wichtiges Kriterium bei Gleichstand."},
+    {"term": "Bankpunkte", "text": "Punkte der Spieler, die nicht in der Startaufstellung standen."},
+    {"term": "Ballverlust (Turnover)", "text": "Ballbesitz geht ohne Wurf an den Gegner verloren, etwa durch Fehlpass oder Schrittfehler."},
+    {"term": "Back-to-back", "text": "Zwei Spiele an zwei aufeinanderfolgenden Tagen – wie für Miami diese Woche."}
+  ],
+  "sources": [
+    {"title": "The Sports Leader: Warriors – Heat", "url": "https://www.thesportsleader.com/2026/11/05/stephen-curry-29-warriors-handle-heat-for-sixth-straight-win/"},
+    {"title": "Yahoo Sports: Warriors schlagen Heat 120:100", "url": "https://sports.yahoo.com/articles/warriors-beats-heat-120-100-055114333.html"},
+    {"title": "CBS Sports: Boxscore Heat – Warriors", "url": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261105_MIA@GS/"},
+    {"title": "95.3 The Score: Suns – Magic", "url": "https://www.953thescore.com/2026/11/05/devin-booker-sharp-shooting-suns-overpower-magic/"},
+    {"title": "VAVEL: Magic – Suns", "url": "https://www.vavel.com/en-us/nba/2026/11/05/1278163-magic-vs-suns-live-score-nba-regular-season.html"},
+    {"title": "FOX Sports: NBA-Cup-Spielplan 2026", "url": "https://www.foxsports.com/stories/nba/2026-nba-cup-schedule-group-play-knockout-rounds-championship"},
+    {"title": "Probetrics: NBA-Spiele 7. November 2026", "url": "https://www.probetrics.com/nba/2026-11-07"}
+  ]
+}
