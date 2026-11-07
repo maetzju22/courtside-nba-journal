@@ -1,0 +1,251 @@
+{
+  "date": "2026-11-07",
+  "issue_no": 8,
+  "weekday": "Samstag",
+  "date_long": "7. November 2026",
+  "edition_label": "Wochenend-Ausgabe",
+  "period": "Nacht auf Samstag",
+  "tagline": "Dončić wirft 53 und schreibt Lakers-Geschichte, Pöltl liefert im Cup ein Double-Double – und Cleveland stoppt den Ost-Spitzenreiter.",
+  "minute": [
+    "<strong>Luka im Rausch:</strong> 53 Punkte beim 124:118 gegen Portland – das vierte 40-Punkte-Spiel in Serie, die Lakers stehen mit 8-2 an der Spitze des Westens.",
+    "<strong>Pöltl im Schlussviertel:</strong> 19 Punkte und 11 Rebounds, 11 davon bzw. 7 im letzten Viertel – Toronto dreht in Milwaukee einen 15-Punkte-Rückstand.",
+    "<strong>Sixers ausgebremst:</strong> Cleveland gewinnt 119:95 gegen Philadelphia, Joel Embiid bleibt ohne Feldkorb (0 von 9).",
+    "<strong>Karriere-Nacht:</strong> Ajay Mitchell trifft 35 Punkte, OKC demontiert Memphis 128:97 – der 16. Sieg in Folge gegen die Grizzlies.",
+    "<strong>Trae kehrt heim:</strong> Young macht bei seiner Rückkehr nach Atlanta 23 Punkte und 10 Assists, die Hawks gewinnen trotzdem 139:132.",
+    "<strong>Wemby wieder:</strong> 30 Punkte und 14 Rebounds beim 124:109 in Sacramento, San Antonio steht bei 7-2.",
+    "<strong>Porziņģis hört auf:</strong> Der Lette kündigt an, sich aus gesundheitlichen Gründen vom Basketball zurückzuziehen.",
+    "<strong>Heute Nacht:</strong> Sieben Spiele, Wagner und da Silva gastieren um 02:30 Uhr bei den Warriors."
+  ],
+  "rewatch": {
+    "away": "POR",
+    "home": "LAL",
+    "why": "Zwei Teams aus der Spitzengruppe des Westens, ein Revanche-Motiv aus dem Oktober und ein Luka Dončić in der heißesten Phase seiner Lakers-Zeit. Das Spiel hat mehrere Stimmungswechsel – wer Momentum-Basketball mag, kommt hier voll auf seine Kosten. Unbedingt bis zur Halbzeitsirene dranbleiben."
+  },
+  "lead": {
+    "kicker": "Trail Blazers – Lakers 118:124",
+    "title": "53 Punkte und ein Platz neben Kobe",
+    "teams": ["LAL", "POR"],
+    "teaser": "Luka Dončić hat schon wieder die 40er-Marke gesprengt – diesmal sogar die 50er. Mit 53 Punkten trug er die Lakers zu einem 124:118 gegen Portland und zum vierten Sieg in Folge.",
+    "body": [
+      "Der Abend begann holprig: Die ersten fünf Dreier des Slowenen gingen daneben, im zweiten Viertel lagen die Lakers mit 16 Punkten hinten. Dann versenkte Dončić mit der Halbzeitsirene einen Wurf aus rund 18 Metern – und im dritten Viertel legte er allein 20 Punkte auf. Ein 17:0-Lauf drehte die Partie, Anfang des vierten Viertels führte L.A. plötzlich mit 16.",
+      "Portland gab nicht auf und kam bis auf vier Punkte heran, ehe Dončić und Austin Reaves (25) in den letzten Sekunden zehn Punkte nachlegten. Walker Kessler steuerte 16 Punkte und 12 Rebounds bei. Bei den Blazers kamen Deni Avdija (22 Punkte, 11 Assists, 9 Rebounds) und Damian Lillard (22) am weitesten.",
+      "Die Zahlen sind absurd: Es war Dončićs elftes 50-Punkte-Spiel der Karriere, das vierte im Lakers-Trikot und sein sechstes 40er-Spiel der Saison. Vier 40er in Folge haben bei den Lakers vor ihm nur Elgin Baylor, Kobe Bryant und George Mikan geschafft. Nach neun Spielen steht er bei 361 Punkten – im Schnitt also gut 40 pro Abend.",
+      "Für die Tabelle heißt das: Mit 8-2 übernehmen die Lakers die Spitze im Westen, die Niederlage vom 27. Oktober gegen Portland ist gerächt. Weiter geht's in der Nacht auf Montag in Detroit."
+    ]
+  },
+  "sidebar": [
+    {
+      "title": "Spieler der Nacht",
+      "items": [
+        "<strong>Luka Dončić</strong> (LAL): 53 Punkte, 5 Rebounds, 5 Assists – 20 davon im dritten Viertel.",
+        "<strong>Ajay Mitchell</strong> (OKC): 35 Punkte, Karrierebestwert beim Kantersieg in Memphis.",
+        "<strong>Jayson Tatum</strong> (BOS): 34 Punkte, 9 Assists, 8 Rebounds – 18 schon im ersten Viertel.",
+        "<strong>Jakob Pöltl</strong> (TOR): 19 Punkte, 11 Rebounds, entscheidend im Schlussviertel."
+      ]
+    }
+  ],
+  "games": [
+    {
+      "tag": "Trae-Rückkehr",
+      "away": "WAS", "home": "ATL",
+      "away_score": 132, "home_score": 139,
+      "away_record": "4-5", "home_record": "6-4",
+      "line": "<strong>Kyshawn George</strong> 33, Young 23/10 Ast, Tre Johnson 23 – <strong>Alexander-Walker</strong> 28, Dort 25, Okongwu 22.",
+      "links": [{"label": "Recap", "url": "https://abcnews.com/Sports/wireStory/alexander-walkers-28-points-lead-hawks-past-wizards-137933482"}]
+    },
+    {
+      "tag": "Kantersieg",
+      "away": "BOS", "home": "CHA",
+      "away_score": 119, "home_score": 80,
+      "away_record": "7-2", "home_record": "3-7",
+      "line": "<strong>Jayson Tatum</strong> 34/8/9, Derrick White 18 – Naz Reid 14, Brandon Miller 8 (verletzt raus).",
+      "links": [{"label": "Recap", "url": "https://abcnews.com/Sports/wireStory/jayson-tatum-scores-34-celtics-demolish-hornets-119-137933370"}]
+    },
+    {
+      "tag": "Ost-Gipfel",
+      "away": "PHI", "home": "CLE",
+      "away_score": 95, "home_score": 119,
+      "away_record": "8-2", "home_record": "5-4",
+      "line": "Jaylen Brown 20, Edgecombe 19, Maxey 17 – <strong>Donovan Mitchell</strong> 23/7/8, Mobley 22, Harden 17.",
+      "links": [{"label": "Recap", "url": "https://www.espn.com/nba/recap/_/gameId/401909289"}]
+    },
+    {
+      "tag": "Pöltl-Spiel",
+      "away": "TOR", "home": "MIL",
+      "away_score": 121, "home_score": 107,
+      "away_record": "5-4", "home_record": "1-8",
+      "line": "<strong>Alijah Martin</strong> 27, Barrett 27, <strong>Pöltl 19/11</strong>, Shead 10/16 Ast – Herro 23/10 Ast, Burries 21/11.",
+      "links": [
+        {"label": "Recap", "url": "https://www.sportsradioharrisburg.com/2026/11/06/raptors-come-back-to-beat-bucks-in-nba-cup-game/"},
+        {"label": "Video", "url": "https://www.tsn.ca/nba/video/2026/11/07/nba-raptors-121-bucks-107/"}
+      ]
+    },
+    {
+      "tag": "Rebound-Show",
+      "away": "UTA", "home": "DAL",
+      "away_score": 100, "home_score": 112,
+      "away_record": "1-8", "home_record": "5-4",
+      "line": "Markkanen 24 (8 Dreier), Peterson 21 – <strong>P.J. Washington</strong> 26, Flagg 21/10/7, Morez Johnson Jr. 13/17.",
+      "links": [{"label": "Recap", "url": "https://www.yardbarker.com/nba/articles/pj_washington_cooper_flagg_propel_mavericks_past_jazz/s1_17045_44527040"}]
+    },
+    {
+      "tag": "Karriere-Nacht",
+      "away": "OKC", "home": "MEM",
+      "away_score": 128, "home_score": 97,
+      "away_record": "7-2", "home_record": "6-3",
+      "line": "<strong>Ajay Mitchell</strong> 35, Gilgeous-Alexander 28, McCain 21 – Ty Jerome 21, Edey 14, Boozer 8/12.",
+      "links": [
+        {"label": "Recap", "url": "https://abcnews.com/Sports/wireStory/ajay-mitchell-scores-career-high-35-points-thunder-137934640"},
+        {"label": "Video", "url": "https://www.tsn.ca/nba/video/2026/11/07/nba-thunder-128-grizzlies-97/"}
+      ]
+    },
+    {
+      "tag": "Ohne Edwards",
+      "away": "MIN", "home": "NOP",
+      "away_score": 115, "home_score": 109,
+      "away_record": "7-3", "home_record": "4-5",
+      "line": "<strong>Ayo Dosunmu</strong> 26, McDaniels 23, Ball 22/8 Ast – Fears 24, Bey 17, Williamson 13.",
+      "links": [
+        {"label": "Recap", "url": "https://abcnews.com/Sports/wireStory/ayo-dosunmu-scores-26-points-timberwolves-top-pelicans-137935113"},
+        {"label": "Video", "url": "https://www.nba.com/watch/video/game-recap-timberwolves-115-pelicans-109-nov-6?plsrc=nba&collection=2026-27-game-recaps"}
+      ]
+    },
+    {
+      "tag": "Spiel der Nacht",
+      "away": "POR", "home": "LAL",
+      "away_score": 118, "home_score": 124,
+      "away_record": "6-2", "home_record": "8-2",
+      "line": "Avdija 22/9/11, Lillard 22 – <strong>Luka Dončić</strong> 53, Reaves 25, Kessler 16/12.",
+      "links": [
+        {"label": "Recap", "url": "https://www.news4jax.com/sports/2026/11/07/luka-doncic-scores-53-in-another-spectacular-offensive-game-carrying-lakers-past-blazers-124-118/"},
+        {"label": "Blazers-Sicht", "url": "https://www.blazersedge.com/gameday-coverage/118048/portland-trail-blazers-los-angeles-lakers-final-score-boxscore-luka-doncic-recap"}
+      ]
+    },
+    {
+      "tag": "Wemby-Abend",
+      "away": "SAS", "home": "SAC",
+      "away_score": 124, "home_score": 109,
+      "away_record": "7-2", "home_record": "1-8",
+      "line": "<strong>Wembanyama</strong> 30/14, Castle, Vassell, Harper je 19 – Acuff Jr. 22/8 Ast, Sabonis 17/12.",
+      "links": [
+        {"label": "Recap", "url": "https://www.ksat.com/sports/2026/11/07/wembanyamas-30-points-14-rebounds-power-spurs-to-a-124-109-win-over-the-kings/"},
+        {"label": "Analyse", "url": "https://www.nbcsportsbayarea.com/nba/sacramento-kings/victor-wembanyama-spurs-darius-acuff-analysis/1977668/"}
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "team": "TOR",
+      "kicker": "Raptors – Bucks 121:107",
+      "title": "Pöltl übernimmt, als es zählt",
+      "body": [
+        "Lange sah es nach einem zähen Abend in Milwaukee aus: Die Bucks führten zwischenzeitlich mit 15, zur Pause stand es 60:51. Dann drehte Toronto auf, Allen Graves brachte die Raptors mit einem Korbleger nach einem 9:0-Lauf Ende des dritten Viertels endgültig in Front. Im Schlussviertel war es <strong>Jakob Pöltl</strong>, der mit 11 Punkten und 7 Rebounds den Deckel draufmachte – am Ende standen 19 Punkte und 11 Rebounds.",
+        "Bemerkenswert ist, wer sonst lieferte: Alijah Martin kam von der Bank auf 27 Punkte (Karrierebestwert), Jamal Shead verteilte 16 Assists, ebenfalls persönlicher Rekord. Und das ohne Kawhi Leonard, Scottie Barnes und Immanuel Quickley. Toronto steht bei 5-4 und hat den ersten Cup-Sieg der Saison, Milwaukee hat fünfmal in Serie verloren."
+      ]
+    },
+    {
+      "team": "OKC",
+      "kicker": "Thunder – Grizzlies 128:97",
+      "title": "Mitchell stiehlt Shai die Show",
+      "body": [
+        "Ein Duell zweier 6-2-Teams war angekündigt, eine Lehrstunde wurde es. <strong>Ajay Mitchell</strong> warf 35 Punkte, so viele wie nie zuvor, Shai Gilgeous-Alexander begnügte sich mit 28. OKC traf 55 Prozent aus dem Feld, erzwang 18 Ballverluste und machte daraus 30 Punkte. Memphis traf in der ersten Hälfte nur 5 von 26 Dreiern.",
+        "Zur Halbzeit stand es schon deutlich, nach einem 12:0-Lauf im dritten Viertel betrug der Vorsprung 32 Punkte. Es ist der 16. Thunder-Sieg in Folge gegen die Grizzlies – inklusive des Playoff-Sweeps von 2025. Für Memphis eine Ernüchterung nach dem starken Saisonstart."
+      ]
+    },
+    {
+      "team": "ATL",
+      "kicker": "Wizards – Hawks 132:139",
+      "title": "Heimkehr ohne Happy End",
+      "body": [
+        "Siebeneinhalb Jahre war <strong>Trae Young</strong> das Gesicht der Hawks, jetzt kam er im Wizards-Trikot zurück. Er lieferte 23 Punkte und 10 Assists, leistete sich aber auch acht Ballverluste – Saisonhöchstwert, auch dank Dyson Daniels, der ihn meist verteidigte und nebenbei 13 Punkte und 12 Assists sammelte.",
+        "Atlanta erzielte 139 Punkte, so viele wie noch nie in dieser Saison. Nickeil Alexander-Walker (28), Lu Dort (25) und Onyeka Okongwu (22) trugen die Hawks, die ohne Jalen Johnson spielten. Bei Washington fehlte Anthony Davis mit einer Knöchelverstauchung; Kyshawn George hielt mit 33 Punkten dagegen. Dritter Sieg in Folge für Atlanta."
+      ]
+    }
+  ],
+  "europe": [
+    {"flag": "🇦🇹", "player": "Jakob Pöltl", "team": "TOR", "stat": "19 Pkt · 11 Reb", "text": "Der Wiener war im Schlussviertel der Turm in der Brandung – 11 Punkte und 7 Rebounds allein im letzten Abschnitt."},
+    {"flag": "🇩🇪", "player": "Franz Wagner & Tristan da Silva", "team": "ORL", "stat": "Heute 02:30 Uhr", "text": "Orlando hatte frei, heute Nacht wartet das Gastspiel bei den Warriors in San Francisco."},
+    {"flag": "🇸🇮", "player": "Luka Dončić", "team": "LAL", "stat": "53 Pkt · 5 Reb · 5 Ast", "text": "Viertes 40er-Spiel in Folge – damit steht er in einer Reihe mit Baylor, Bryant und Mikan."},
+    {"flag": "🇫🇷", "player": "Victor Wembanyama", "team": "SAS", "stat": "30 Pkt · 14 Reb", "text": "Siebtes Double-Double der Saison, im zweiten Viertel mit zwölf Punkten am Stück."},
+    {"flag": "🇫🇮", "player": "Lauri Markkanen", "team": "UTA", "stat": "24 Pkt · 8 Dreier", "text": "Der Finne traf 8 von 15 Distanzwürfen, Utah verlor trotzdem zum siebten Mal in Serie."},
+    {"flag": "🇱🇹", "player": "Domantas Sabonis", "team": "SAC", "stat": "17 Pkt · 12 Reb", "text": "Double-Double des Litauers, gegen die Spurs-Lawine aber chancenlos."}
+  ],
+  "explainer": {
+    "title": "Zweite Chancen: Warum Offensivrebounds Spiele kippen",
+    "body": [
+      "Utah traf in Dallas 15 Dreier, die Mavericks nur 9 – und trotzdem gewann Dallas klar. Der Grund steckt in einer unscheinbaren Statistik: den <strong>Offensivrebounds</strong>. Wer seinen eigenen Fehlwurf zurückholt, bekommt einen neuen Angriff geschenkt.",
+      "Rookie Morez Johnson Jr. holte allein zehn Offensivrebounds (17 insgesamt), Dallas gewann das Rebound-Duell 63:45. Daraus wurden <strong>Second-Chance-Punkte</strong>: 20:5 für die Mavs. Dazu erzwang Dallas 21 Ballverluste – Utah hatte also schlicht viel weniger Würfe.",
+      "Die Faustregel: Treffsicherheit ist nur die halbe Rechnung. Die andere Hälfte ist, wie viele Würfe man überhaupt nimmt. Wer Ballverluste vermeidet und am Brett nachsetzt, kann auch an einem schlechten Wurfabend gewinnen – eine Lektion, die Orlando in Phoenix gerade in umgekehrter Richtung gelernt hat."
+    ]
+  },
+  "news": [
+    {"team": "CHA", "text": "<strong>Brandon Miller</strong> verließ das Spiel gegen Boston im zweiten Viertel mit Leistenproblemen, <strong>Kon Knueppel</strong> fällt nach erneuter Oberschenkelverletzung ohne Zeitplan aus."},
+    {"team": "MIN", "text": "Minnesota gewann in New Orleans ohne <strong>Anthony Edwards</strong> und Donte DiVincenzo – und ist im Cup weiter ungeschlagen."},
+    {"team": "CLE", "text": "<strong>LeBron James</strong> kam beim Sieg gegen die Sixers nur auf 8 Punkte (3 von 12) und 6 Ballverluste. Center Jarrett Allen fehlte mit einer Knieprellung."},
+    {"team": "NOP", "text": "<strong>Zion Williamson</strong> erzielte nur 13 Punkte, Saisontiefstwert – die Siegesserie der Pelicans endet nach vier Spielen."},
+    {"team": "SAC", "text": "Die Kings haben vier Heimspiele in Folge verloren und stehen bei 1-8."}
+  ],
+  "standings_note": "Stand nach der Nacht auf Samstag (sortiert nach Siegquote)",
+  "standings": {
+    "east": [
+      ["PHI", 8, 2], ["BOS", 7, 2], ["DET", 6, 2], ["ATL", 6, 4], ["CLE", 5, 4],
+      ["TOR", 5, 4], ["NYK", 4, 4], ["WAS", 4, 5], ["MIA", 3, 6], ["IND", 3, 6],
+      ["CHA", 3, 7], ["BKN", 2, 6], ["ORL", 2, 6], ["CHI", 1, 7], ["MIL", 1, 8]
+    ],
+    "west": [
+      ["LAL", 8, 2], ["HOU", 7, 2], ["OKC", 7, 2], ["SAS", 7, 2], ["POR", 6, 2],
+      ["MIN", 7, 3], ["MEM", 6, 3], ["GSW", 6, 3], ["DEN", 4, 3], ["DAL", 5, 4],
+      ["NOP", 4, 5], ["PHX", 2, 5], ["LAC", 1, 7], ["UTA", 1, 8], ["SAC", 1, 8]
+    ]
+  },
+  "upcoming": [
+    {
+      "label": "Heute Nacht – Nacht auf Sonntag",
+      "games": [
+        {"time": "23:00", "away": "DEN", "home": "IND", "note": "Frühes Spiel zur Wiener Abendzeit."},
+        {"time": "01:30", "away": "BKN", "home": "ATL", "note": "Die Hawks nach drei Siegen in Serie."},
+        {"time": "02:00", "away": "NYK", "home": "CLE"},
+        {"time": "02:00", "away": "WAS", "home": "OKC", "note": "Trae Young beim Thunder (7-2)."},
+        {"time": "02:30", "away": "ORL", "home": "GSW", "featured": true, "note": "<strong>Spiel des Tages:</strong> Franz Wagner und da Silva bei den Warriors, die sechsmal in Serie gewonnen haben."},
+        {"time": "03:00", "away": "HOU", "home": "PHX"},
+        {"time": "04:00", "away": "SAS", "home": "POR", "note": "Spurs im Back-to-back nach dem Sieg in Sacramento."}
+      ]
+    }
+  ],
+  "goodtoknow": [
+    {"big": "53", "title": "Punkte Dončić", "text": "Sein elftes 50-Punkte-Spiel der Karriere, das vierte für die Lakers."},
+    {"big": "40,1", "title": "Punkte im Schnitt", "text": "361 Punkte nach neun Spielen – Dončić liegt über der 40er-Marke."},
+    {"big": "16", "title": "Siege in Folge", "text": "So lange hat Oklahoma City nicht mehr gegen Memphis verloren."},
+    {"big": "42", "title": "Punkte Vorsprung", "text": "Höchste Führung der Celtics in Charlotte, Ende des dritten Viertels."},
+    {"big": "0/9", "title": "Embiid aus dem Feld", "text": "Seine 6 Punkte gegen Cleveland kamen ausschließlich von der Freiwurflinie."}
+  ],
+  "links": [
+    {"title": "Dončić wirft 53 gegen Portland", "src": "AP via News4JAX", "url": "https://www.news4jax.com/sports/2026/11/07/luka-doncic-scores-53-in-another-spectacular-offensive-game-carrying-lakers-past-blazers-124-118/"},
+    {"title": "Raptors – Bucks im Video", "src": "TSN", "url": "https://www.tsn.ca/nba/video/2026/11/07/nba-raptors-121-bucks-107/"},
+    {"title": "Thunder – Grizzlies im Video", "src": "TSN", "url": "https://www.tsn.ca/nba/video/2026/11/07/nba-thunder-128-grizzlies-97/"},
+    {"title": "NBA-Cup-Liveblog der Nacht", "src": "NBA.com", "url": "https://www.nba.com/news/emirates-nba-cup-2026-live-updates-nov-6"},
+    {"title": "Ganze Spiele im Replay", "src": "NBA League Pass", "url": "https://www.nba.com/watch/league-pass-stream", "note": "Für den Re-Watch-Tipp: Trail Blazers – Lakers."}
+  ],
+  "glossary": [
+    {"term": "Offensivrebound", "text": "Rebound nach einem Fehlwurf der eigenen Mannschaft – bringt einen neuen Angriff."},
+    {"term": "Second-Chance-Punkte", "text": "Punkte, die nach einem Offensivrebound im selben Angriff entstehen."},
+    {"term": "Double-Double", "text": "Zweistellige Werte in zwei Statistik-Kategorien, etwa Punkte und Rebounds."},
+    {"term": "Buzzer-Beater", "text": "Wurf, der mit dem Ertönen der Sirene am Viertel- oder Spielende noch zählt."}
+  ],
+  "sources": [
+    {"title": "AP/News4JAX: Dončić 53, Lakers schlagen Blazers", "url": "https://www.news4jax.com/sports/2026/11/07/luka-doncic-scores-53-in-another-spectacular-offensive-game-carrying-lakers-past-blazers-124-118/"},
+    {"title": "NBA.com: NBA-Cup-Liveblog 6. November", "url": "https://www.nba.com/news/emirates-nba-cup-2026-live-updates-nov-6"},
+    {"title": "Yahoo Sports: NBA-Cup-Nacht im Überblick", "url": "https://sports.yahoo.com/nba/breaking-news/article/nba-cup-2026-luka-doncics-53-point-night-leads-lakers-comeback-win-cavaliers-snap-sixers-5-game-winning-streak-060524958.html"},
+    {"title": "ESPN: Cavaliers – 76ers Recap", "url": "https://www.espn.com/nba/recap/_/gameId/401909289"},
+    {"title": "Sports Radio Harrisburg: Raptors – Bucks", "url": "https://www.sportsradioharrisburg.com/2026/11/06/raptors-come-back-to-beat-bucks-in-nba-cup-game/"},
+    {"title": "ABC News: Thunder – Grizzlies", "url": "https://abcnews.com/Sports/wireStory/ajay-mitchell-scores-career-high-35-points-thunder-137934640"},
+    {"title": "ABC News: Celtics – Hornets", "url": "https://abcnews.com/Sports/wireStory/jayson-tatum-scores-34-celtics-demolish-hornets-119-137933370"},
+    {"title": "ABC News: Hawks – Wizards", "url": "https://abcnews.com/Sports/wireStory/alexander-walkers-28-points-lead-hawks-past-wizards-137933482"},
+    {"title": "ABC News: Timberwolves – Pelicans", "url": "https://abcnews.com/Sports/wireStory/ayo-dosunmu-scores-26-points-timberwolves-top-pelicans-137935113"},
+    {"title": "Yardbarker: Mavericks – Jazz", "url": "https://www.yardbarker.com/nba/articles/pj_washington_cooper_flagg_propel_mavericks_past_jazz/s1_17045_44527040"},
+    {"title": "KSAT: Spurs – Kings", "url": "https://www.ksat.com/sports/2026/11/07/wembanyamas-30-points-14-rebounds-power-spurs-to-a-124-109-win-over-the-kings/"},
+    {"title": "CBS Sports: Scoreboard 6. November", "url": "https://www.cbssports.com/nba/scoreboard/"},
+    {"title": "VAVEL: Timberwolves – Pelicans (Verletzungen)", "url": "https://www.vavel.com/en-us/nba/2026/11/06/1278289-timberwolves-vs-pelicans-live-score-updates-nba-cup.html"},
+    {"title": "Probetrics: NBA-Spiele 7. November 2026", "url": "https://www.probetrics.com/nba/2026-11-07"}
+  ]
+}
